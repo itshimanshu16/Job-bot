@@ -76,7 +76,7 @@ fetch:
 llm:
   enabled: true
   base_url: https://generativelanguage.googleapis.com/v1beta/openai
-  model: gemini-flash-latest      # any model name your provider lists
+  model: gemini-3.8-flash      # gemini-3.8-flash or gemini-flash-latest
   api_key_env: LLM_API_KEY
   max_jobs_per_run: 40            # only the top jobs are sent; each job is scored once and cached
   weight: 0.5                     # 0 = ignore AI score, 1 = use only the AI score
