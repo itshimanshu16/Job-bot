@@ -234,6 +234,75 @@ def test_llm_without_key_is_skipped_with_note(cfg, monkeypatch):
     assert any("LLM_API_KEY" in n for n in r.notes)
 
 
+def test_llm_fallback_on_503(monkeypatch):
+    from jobradar.llm import LLMScorer
+
+    monkeypatch.setenv("LLM_API_KEY", "test-key")
+    posted_models = []
+
+    class MockResponse:
+        def __init__(self, status_code, json_data, text=""):
+            self.status_code = status_code
+            self._json = json_data
+            self.text = text
+
+        def json(self):
+            return self._json
+
+    def mock_post(url, headers, json, timeout):
+        model = json["model"]
+        posted_models.append(model)
+        if model == "gemini-2.5-flash":
+            return MockResponse(503, {}, "This model is currently experiencing high demand.")
+        return MockResponse(200, {"choices": [{"message": {"content": '{"score": 85, "reason": "strong match", "resume": "test.pdf"}'}}]})
+
+    monkeypatch.setattr("requests.post", mock_post)
+    scorer = LLMScorer({
+        "enabled": True,
+        "model": "gemini-2.5-flash",
+        "fallback_models": ["gemini-2.0-flash", "gemini-1.5-flash"],
+        "max_retries": 1,
+    })
+    j = job(title="Dev", company="Acme")
+    track = {"label": "Software", "resumes": [{"file": "test.pdf", "use_for": "dev"}]}
+    res = scorer.score(j, track=track)
+    assert res == (85, "strong match", "test.pdf")
+    assert "gemini-2.5-flash" in posted_models
+    assert "gemini-2.0-flash" in posted_models
+    assert scorer.active_model == "gemini-2.0-flash"
+
+
+def test_llm_fallback_on_timeout(monkeypatch):
+    import requests
+    from jobradar.llm import LLMScorer
+
+    monkeypatch.setenv("LLM_API_KEY", "test-key")
+    posted_models = []
+
+    def mock_post(url, headers, json, timeout):
+        model = json["model"]
+        posted_models.append(model)
+        if model == "gemini-2.5-flash":
+            raise requests.exceptions.ReadTimeout("Timeout")
+        return type("Resp", (), {
+            "status_code": 200,
+            "json": lambda self: {"choices": [{"message": {"content": '{"score": 92, "reason": "fit", "resume": "r.pdf"}'}}]},
+        })()
+
+    monkeypatch.setattr("requests.post", mock_post)
+    scorer = LLMScorer({
+        "enabled": True,
+        "model": "gemini-2.5-flash",
+        "fallback_models": ["gemini-1.5-flash"],
+        "max_retries": 1,
+    })
+    j = job(title="Dev", company="Acme")
+    track = {"label": "Software", "resumes": [{"file": "r.pdf", "use_for": "dev"}]}
+    res = scorer.score(j, track=track)
+    assert res == (92, "fit", "r.pdf")
+    assert "gemini-1.5-flash" in posted_models
+
+
 # ── report ──────────────────────────────────────────────────────────────────
 
 def test_report_files_written(cfg):

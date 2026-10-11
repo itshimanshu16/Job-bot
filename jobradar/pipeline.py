@@ -162,6 +162,7 @@ def rank(jobs: list[Job], cfg: dict, store: SeenStore, now: datetime) -> tuple[l
     if scorer.ready:
         kept.sort(key=lambda j: j.score, reverse=True)
         budget = int(llm_cfg.get("max_jobs_per_run", 40))
+        max_failures = int(llm_cfg.get("max_failures", 5))
         failures = 0
         for j in kept:
             cached = store.llm_cache(j.uid, track_id=j.track)
@@ -171,7 +172,7 @@ def rank(jobs: list[Job], cfg: dict, store: SeenStore, now: datetime) -> tuple[l
                     j.resume = cached["resume"]
                     j.resume_reason = f"AI pick: {cached['reason']}"
                 continue
-            if budget <= 0 or failures >= 3:
+            if budget <= 0 or failures >= max_failures:
                 continue
             budget -= 1
             cur_track = tracks_by_id.get(j.track)

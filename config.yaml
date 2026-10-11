@@ -40,10 +40,17 @@ fetch:
 llm:
   enabled: true
   base_url: https://generativelanguage.googleapis.com/v1beta/openai
-  model: gemini-3.8-flash      # gemini-3.8-flash or gemini-flash-latest
+  model: gemini-2.5-flash
+  fallback_models:
+    - gemini-2.0-flash
+    - gemini-1.5-flash
+    - gemini-flash-latest
+    - gemini-2.5-pro
   api_key_env: LLM_API_KEY
   max_jobs_per_run: 40            # only the top jobs are sent; each job is scored once and cached
   weight: 0.5                     # 0 = ignore AI score, 1 = use only the AI score
+  timeout_seconds: 25             # fail fast on congested model servers
+  max_retries: 2                  # retries before switching to next fallback
 
 state:
   path: state/seen.json
