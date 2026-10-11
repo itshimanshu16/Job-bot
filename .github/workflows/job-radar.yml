@@ -1,0 +1,86 @@
+name: Job Radar
+
+on:
+  schedule:
+    - cron: "17 */4 * * *"     # every 4 hours (UTC), a few minutes past the hour to avoid the busy top of the hour
+  workflow_dispatch:            # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:                      # re-run when you change your search or the app
+      - config.yaml
+      - companies.yaml
+      - "web/src/**"
+      - "jobradar/**"
+
+permissions:
+  contents: write               # save the seen-jobs list and latest results back to the repo
+  pages: write                  # publish the site
+  id-token: write               # required by GitHub Pages deployment
+
+concurrency:
+  group: job-radar
+  cancel-in-progress: false
+
+jobs:
+  collect-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      # ── 1. Find jobs (Python) ────────────────────────────────
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install collector
+        run: pip install -r requirements.txt
+
+      - name: Find jobs
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python -m jobradar run
+
+      - name: Save results and seen-jobs list to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state web/public/data
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Job Radar update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      # ── 2. Build the website (React) ─────────────────────────
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install, test and build the app
+        working-directory: web
+        run: |
+          npm ci
+          npm test
+          npm run build
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: web/dist
+
+  deploy:
+    needs: collect-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

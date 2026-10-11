@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Companies to watch, grouped by the job board they use.
+#  The value is the company's "slug": the part after the board's domain in its job page URL.
+#
+#    boards.greenhouse.io/stripe            -> greenhouse: stripe
+#    job-boards.greenhouse.io/stripe        -> greenhouse: stripe
+#    jobs.lever.co/palantir                 -> lever: palantir
+#    jobs.ashbyhq.com/notion                -> ashby: notion
+#    careers.smartrecruiters.com/Visa       -> smartrecruiters: Visa     (case matters)
+#    apply.workable.com/acme                -> workable: acme
+#
+#  Don't know which board a company uses? Run:
+#    python -m jobradar detect https://company.com/careers
+#  Then check everything works with:
+#    python -m jobradar check
+#
+#  Companies on Workday, SuccessFactors, Naukri-only or their own custom site are not supported.
+# ─────────────────────────────────────────────────────────────────────────────
+
+greenhouse:
+  - stripe
+
+lever:
+  - palantir
+
+ashby:
+  - notion
+
+smartrecruiters: []
+
+workable: []
