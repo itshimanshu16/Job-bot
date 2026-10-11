@@ -6,18 +6,34 @@
 search:
   # Role names to look for. A job is kept only if its TITLE contains one of these.
   keywords:
-    - data analyst
+    # non-tech
     - business analyst
+    - data analyst
     - product analyst
+    - operations analyst
+    - strategy analyst
+    - supply chain analyst
+    - business operations
+    - founder's office
+    - associate consultant
+    # product / tech
+    - associate product manager
+    - apm
+    # mechanical
+    - graduate engineer trainee
+    - design engineer
+    - mechanical engineer
+    - manufacturing engineer
+    - production engineer
+    - quality engineer
+    - robotics engineer
+    - simulation engineer
 
   # Also keep jobs whose description (not title) mentions a keyword. Finds more, but noisier.
   search_description: false
 
   # Skills you have. Each one found in a job adds a few points to its match score.
-  skills:
-    - sql
-    - excel
-    - python
+  skills: [sql, excel, python, power bi, tableau, solidworks, ansys, gd&t, cad, fea, cfd, matlab]
 
   # Drop jobs whose title has any of these words.
   exclude_title: [senior, sr, sr., lead, principal, staff, manager, director, head of, vp, vice president, chief]
@@ -25,27 +41,26 @@ search:
   # Drop jobs whose description contains any of these phrases.
   exclude_text: [walk-in, walk in interview]
 
-  # Places you want. Empty list = anywhere in the world.
-  # Example:  locations: [india, bengaluru, bangalore, delhi, gurugram, noida, mumbai, pune, hyderabad]
-  locations: []
+  # Places you want.
+  locations: [india, bengaluru, bangalore, delhi, new delhi, gurugram, gurgaon, noida, mumbai, pune, hyderabad, chennai]
 
-  # Places to always skip, even if remote.  Example:  [united states, usa, us-remote]
+  # Places to always skip, even if remote.
   exclude_locations: []
 
   # Keep remote jobs even when their location isn't in your list.
-  include_remote: true
+  include_remote: false
 
   # Skip jobs asking for more years than this. Leave empty (null) to not filter on experience.
-  max_years_experience: 2
+  max_years_experience: 1
 
   # When a job doesn't say how much experience it needs: keep or drop.
   unknown_experience: keep
 
   # Ignore postings older than this many days.
-  max_age_days: 30
+  max_age_days: 21
 
   # Jobs scoring below this (0-100) are left out of the report.
-  min_score: 30
+  min_score: 35
 
 output:
   dir: web/public/data   # where the React app reads jobs.json from
@@ -58,15 +73,17 @@ fetch:
   timeout_seconds: 25
 
 # Optional: let an AI model re-rank the top jobs against a short description of you.
-# Works with any OpenAI-compatible API. The default points at Google Gemini, which has a free tier:
-# get a key at https://aistudio.google.com/apikey and store it as the secret / env var LLM_API_KEY.
 llm:
-  enabled: false
+  enabled: true
   base_url: https://generativelanguage.googleapis.com/v1beta/openai
   model: gemini-flash-latest      # any model name your provider lists
   api_key_env: LLM_API_KEY
   max_jobs_per_run: 40            # only the top jobs are sent; each job is scored once and cached
   weight: 0.5                     # 0 = ignore AI score, 1 = use only the AI score
   profile: |
-    Describe yourself in 3-6 lines: degree and graduation year, skills, the roles you want,
-    places you can work, and anything that makes a job a bad fit for you.
+    Final-year B.Tech Mechanical Engineering student graduating June 2027 (fresher, 2027 batch).
+    Targets: business/data/product/supply-chain analyst roles, founder's office and associate
+    product roles at startups, and mechanical design/manufacturing graduate engineer trainee roles.
+    Skills: SQL, Excel, Python, SolidWorks (GD&T), ANSYS FEA/CFD, MATLAB. Two internships:
+    product development (robot prototype) and research. Must be in India or remote within India.
+    Bad fit: needs 2+ years of experience, pure sales roles, walk-in drives.

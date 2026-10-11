@@ -18,14 +18,27 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 greenhouse:
+  - inmobi
+  - groww
+  - rubrik
+  - twilio
+  - okta
+  - coinbase
+  - deliveroo
   - stripe
 
 lever:
+  - zeta
   - palantir
 
 ashby:
   - notion
+  - cursor
+  - perplexity
+  - sentry
 
-smartrecruiters: []
+smartrecruiters:
+  - BoschGroup
+  - AveryDennison
 
 workable: []
