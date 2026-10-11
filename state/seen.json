@@ -10,5 +10,21 @@
  "greenhouse:stripe:8194291": {
   "first_seen": "2026-10-11T20:54:34+00:00",
   "last_seen": "2026-10-11T21:03:38+00:00"
+ },
+ "smartrecruiters:boschgroup:744000151354289": {
+  "first_seen": "2026-10-11T21:16:23+00:00",
+  "last_seen": "2026-10-11T21:16:23+00:00",
+  "llm": {
+   "reason": "The 'Specialist' designation indicates an experienced-level role unsuitable for a fresh graduate.",
+   "score": 25
+  }
+ },
+ "smartrecruiters:boschgroup:744000152329808": {
+  "first_seen": "2026-10-11T21:16:23+00:00",
+  "last_seen": "2026-10-11T21:16:23+00:00"
+ },
+ "smartrecruiters:boschgroup:744000152398558": {
+  "first_seen": "2026-10-11T21:16:23+00:00",
+  "last_seen": "2026-10-11T21:16:23+00:00"
  }
 }

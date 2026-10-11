@@ -1,15 +1,78 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-11T21:03:38+00:00",
+  "generated": "2026-10-11T21:16:23+00:00",
   "first_run": false,
-  "total_fetched": 1169,
-  "boards_ok": 3,
+  "total_fetched": 8101,
+  "boards_ok": 16,
   "boards": [
+   {
+    "source": "ashby",
+    "slug": "cursor",
+    "company": "Cursor",
+    "count": 137,
+    "error": ""
+   },
    {
     "source": "ashby",
     "slug": "notion",
     "company": "Notion",
+    "count": 132,
+    "error": ""
+   },
+   {
+    "source": "ashby",
+    "slug": "perplexity",
+    "company": "Perplexity",
+    "count": 132,
+    "error": ""
+   },
+   {
+    "source": "ashby",
+    "slug": "sentry",
+    "company": "Sentry",
+    "count": 46,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "coinbase",
+    "company": "Coinbase",
+    "count": 222,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "deliveroo",
+    "company": "Deliveroo ",
+    "count": 200,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "groww",
+    "company": "Groww",
+    "count": 9,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "inmobi",
+    "company": "InMobi ",
+    "count": 72,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "okta",
+    "company": "Okta",
+    "count": 378,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "rubrik",
+    "company": "Rubrik Job Board",
     "count": 132,
     "error": ""
    },
@@ -21,105 +84,154 @@
     "error": ""
    },
    {
+    "source": "greenhouse",
+    "slug": "twilio",
+    "company": "Twilio",
+    "count": 144,
+    "error": ""
+   },
+   {
     "source": "lever",
     "slug": "palantir",
     "company": "Palantir",
     "count": 309,
     "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "zeta",
+    "company": "Zeta",
+    "count": 24,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "AveryDennison",
+    "company": "Avery Dennison",
+    "count": 486,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "BoschGroup",
+    "company": "Bosch Group",
+    "count": 4950,
+    "error": ""
    }
   ],
   "drops": {
-   "role keywords not matched": 1161,
-   "older than max_age_days": 3,
-   "asks for more experience than max_years_experience": 1,
-   "excluded title word (e.g. senior/manager)": 1
+   "role keywords not matched": 7841,
+   "asks for more experience than max_years_experience": 3,
+   "excluded title word (e.g. senior/manager)": 64,
+   "location not wanted": 181,
+   "older than max_age_days": 9
   },
-  "notes": [],
+  "notes": [
+   "LLM API returned HTTP 503: [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again late"
+  ],
   "keywords": [
-   "data analyst",
    "business analyst",
-   "product analyst"
+   "data analyst",
+   "product analyst",
+   "operations analyst",
+   "strategy analyst",
+   "supply chain analyst",
+   "business operations",
+   "founder's office",
+   "associate consultant",
+   "associate product manager",
+   "apm",
+   "graduate engineer trainee",
+   "design engineer",
+   "mechanical engineer",
+   "manufacturing engineer",
+   "production engineer",
+   "quality engineer",
+   "robotics engineer",
+   "simulation engineer"
   ]
  },
  "jobs": [
   {
-   "uid": "greenhouse:stripe:8186442",
-   "source": "greenhouse",
-   "company": "Stripe",
-   "title": "Financial Data Analyst Intern, Technical Operations",
-   "url": "https://stripe.com/jobs/search?gh_jid=8186442",
-   "apply_url": "https://stripe.com/jobs/search?gh_jid=8186442",
-   "location": "Singapore",
-   "remote": null,
-   "posted": "2026-09-24T21:24:36+00:00",
-   "department": "8548 Payins - Eng",
-   "employment_type": "",
-   "seniority": "",
-   "score": 51,
+   "uid": "smartrecruiters:boschgroup:744000152398558",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Hardware Design Engineer",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152398558",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000152398558",
+   "location": "bengaluru, , India",
+   "remote": false,
+   "posted": "2026-09-29T11:59:36.711000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 55,
    "reasons": [
-    "title: data analyst",
-    "asks ≤2 yrs",
-    "skills: sql, python"
+    "title: design engineer",
+    "location: india",
+    "asks ≤1 yrs"
    ],
    "flags": [],
-   "min_years": 2,
+   "min_years": 1,
    "is_new": true,
-   "first_seen": "2026-10-11T20:54:34+00:00",
+   "first_seen": "2026-10-11T21:16:23+00:00",
    "llm_score": null,
    "llm_reason": "",
-   "snippet": "Who we are\nAbout Stripe\nStripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo"
+   "snippet": ""
   },
   {
-   "uid": "greenhouse:stripe:8194287",
-   "source": "greenhouse",
-   "company": "Stripe",
-   "title": "Data Analyst, Intern",
-   "url": "https://stripe.com/jobs/search?gh_jid=8194287",
-   "apply_url": "https://stripe.com/jobs/search?gh_jid=8194287",
-   "location": "Toronto",
-   "remote": null,
-   "posted": "2026-10-01T15:05:36+00:00",
-   "department": "5112 General University",
-   "employment_type": "",
-   "seniority": "",
-   "score": 43,
+   "uid": "smartrecruiters:boschgroup:744000152329808",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Quality Engineer",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152329808",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000152329808",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-09-29T06:00:00.642000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 55,
    "reasons": [
-    "title: data analyst",
-    "skills: sql"
+    "title: quality engineer",
+    "location: india",
+    "asks ≤1 yrs"
    ],
    "flags": [],
-   "min_years": null,
+   "min_years": 1,
    "is_new": true,
-   "first_seen": "2026-10-11T20:54:34+00:00",
+   "first_seen": "2026-10-11T21:16:23+00:00",
    "llm_score": null,
    "llm_reason": "",
-   "snippet": "Who we are\nAbout Stripe\nStripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo"
+   "snippet": ""
   },
   {
-   "uid": "greenhouse:stripe:8194291",
-   "source": "greenhouse",
-   "company": "Stripe",
-   "title": "Data Analyst, Intern",
-   "url": "https://stripe.com/jobs/search?gh_jid=8194291",
-   "apply_url": "https://stripe.com/jobs/search?gh_jid=8194291",
-   "location": "New York, Seattle, South San Francisco HQ",
-   "remote": null,
-   "posted": "2026-10-01T15:05:29+00:00",
-   "department": "5112 General University",
-   "employment_type": "",
-   "seniority": "",
-   "score": 43,
+   "uid": "smartrecruiters:boschgroup:744000151354289",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Mechanical Design Engineer (Specialist) - Design of a Servo Motor for Industrial application",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151354289",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000151354289",
+   "location": "bengaluru, , India",
+   "remote": false,
+   "posted": "2026-09-23T11:14:34.073000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 40,
    "reasons": [
-    "title: data analyst",
-    "skills: sql"
+    "title: design engineer",
+    "location: india",
+    "asks ≤1 yrs"
    ],
    "flags": [],
-   "min_years": null,
+   "min_years": 1,
    "is_new": true,
-   "first_seen": "2026-10-11T20:54:34+00:00",
-   "llm_score": null,
-   "llm_reason": "",
-   "snippet": "Who we are\nAbout Stripe\nStripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo"
+   "first_seen": "2026-10-11T21:16:23+00:00",
+   "llm_score": 25,
+   "llm_reason": "The 'Specialist' designation indicates an experienced-level role unsuitable for a fresh graduate.",
+   "snippet": ""
   }
  ]
 }
