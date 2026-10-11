@@ -1,0 +1,116 @@
+# Candidate data taken only from the 8 resumes. No contact details (repo is public).
+candidate:
+  degree: B.Tech in Mechanical Engineering
+  college: Delhi Technological University
+  graduation_year: 2027          # course 2023-2027
+  cgpa: 7.64                     # used only to flag postings with a higher CGPA cutoff; delete to turn that check off
+  class_12_percent: 85.6
+  class_10_percent: 86
+  max_years_experience: 1        # fresher; two internships only
+  internships:
+    - Business Analyst Intern, JEE Elevate (DTU-IIF incubated), New Delhi, Jun-Jul 2026
+    - Brand Management Intern, Asian Footwears Pvt. Ltd., New Delhi, Jul-Aug 2024
+  locations: [india, delhi, new delhi, delhi ncr, ncr, gurugram, gurgaon, noida, bengaluru, bangalore,
+              mumbai, pune, hyderabad, chennai, kolkata, ahmedabad, jaipur, lucknow]
+  include_remote: false          # "Remote - India" still matches via "india"; bare "Remote" is usually US-only
+
+tracks:
+  # ── Track 1 ─────────────────────────────────────────────────────────────
+  - id: software
+    label: Software / Full-stack
+    keywords: [software engineer, software developer, sde, full stack, full-stack, fullstack,
+               frontend, front-end, front end, backend, back-end, back end, web developer,
+               react developer, react.js, node.js developer, nodejs, javascript developer,
+               typescript developer, mern, next.js, associate software engineer,
+               software engineer trainee, trainee software engineer, programmer analyst,
+               associate engineer, ai engineer, genai engineer, llm engineer, automation engineer,
+               data engineer, analytics engineer, technology consultant]
+    skills: [javascript, typescript, react, react.js, next.js, node.js, express, express.js, mongodb,
+             firebase, firestore, sql, rest api, rest apis, webrtc, playwright, apify, tailwind,
+             git, c++, redis, bullmq, gemini, groq, llm, html, css, dsa, data structures]
+    profile: |
+      Final-year B.Tech Mechanical Engineering student (DTU, graduating 2027) who builds full-stack
+      web apps with TypeScript, React, Next.js, Node.js and Express, using MongoDB, Firebase and SQL.
+      Shipped 3 live products: a real-time debate platform (WebRTC, Firestore Elo matchmaking, Gemini
+      and Groq LLM integration, 50-100 concurrent users), a job-aggregation platform (Playwright/Apify
+      collectors, scheduled jobs, LLM-based dedup, Next.js dashboard), and a community voting platform
+      (React, Tailwind, Firebase Auth). Also a Business Analyst internship using SQL. Fresher roles only.
+    resumes:                       # first matching prefer_when wins; otherwise the default
+      - file: Tredence_New_Tech_1.pdf
+        use_for: Engineering roles that also touch data, SQL or analytics (data/analytics engineer,
+                 tech roles at analytics or consulting firms). Shows the SQL analyst internship.
+        prefer_when: [sql, data engineer, analytics engineer, analytics, data pipeline, etl, consulting,
+                      tredence, fractal, tiger analytics, latentview, mu sigma, exl, zs]
+      - file: HCLTech_Resume.pdf
+        use_for: IT services and large-company trainee / associate roles, and roles stressing AI/LLM
+                 integration or web data collection.
+        prefer_when: [trainee, associate software engineer, programmer analyst, graduate engineer trainee,
+                      hcl, tcs, infosys, wipro, cognizant, accenture, capgemini, tech mahindra, ltimindtree,
+                      genai, generative ai, llm, ai integration]
+      - file: HIMANSHU_FINAL_TECH.pdf
+        default: true
+        use_for: Pure SDE / full-stack / frontend / backend roles at product companies and startups
+                 (projects only, includes Redis + BullMQ).
+
+  # ── Track 2 ─────────────────────────────────────────────────────────────
+  - id: analyst
+    label: Analyst & Consulting
+    keywords: [business analyst, data analyst, product analyst, operations analyst, strategy analyst,
+               research analyst, market research, analytics associate, associate consultant,
+               consulting analyst, business consultant, decision analytics, insights analyst,
+               business intelligence, bi analyst, mis analyst, growth analyst, revenue analyst,
+               category analyst, pricing analyst, business operations, management trainee,
+               graduate trainee, brand management, junior analyst]
+    skills: [sql, excel, advanced excel, power bi, tableau, statistics, statistical analysis,
+             forecasting, time-series, cohort, segmentation, market research, competitive benchmarking,
+             root cause, pareto, hypothesis, data cleaning, data visualization, dashboard,
+             stakeholder, go-to-market, generative ai, prompt engineering, llm, chatgpt]
+    profile: |
+      Final-year B.Tech Mechanical Engineering student (DTU, graduating 2027, CGPA 7.64) targeting
+      analyst and consulting roles. Business Analyst Intern at JEE Elevate: SQL account-performance
+      review across 18 clients (10,000+ students), cohort analysis of 45,000+ test attempts, mentor
+      capacity modeling against forecast demand. Brand Management Intern at Asian Footwears: competitive
+      benchmarking of 6 players, market research on 12,000+ data points, strategy deck to leadership.
+      Projects: SQL demand forecasting on ~1M records with ABC-XYZ segmentation; SQL delivery-SLA root-cause
+      analysis on ~100k orders; automated market-intelligence pipeline with LLM extraction.
+      Tools: SQL, Advanced Excel, Power BI/Tableau, statistics, GenAI tools. Fresher roles only.
+    resumes:
+      - file: GEN_AI___NON_TECH_1.pdf
+        use_for: Analyst/consulting/research roles that mention AI, GenAI, LLMs or automation.
+        prefer_when: [genai, gen ai, generative ai, artificial intelligence, llm, prompt, automation,
+                      ai-enabled, ai tools, machine learning]
+      - file: icic_1.pdf
+        use_for: Banking, BFSI, fintech, insurance and payments roles.
+        prefer_when: [bank, banking, bfsi, fintech, financial services, lending, credit, loan, insurance,
+                      payments, wealth, nbfc, icici, hdfc, axis, kotak]
+      - file: Himanshu_Gautam_Trinity.pdf
+        use_for: Analytics consulting and life-sciences / pharma analytics firms (hypothesis-driven,
+                 cohort, forecasting language).
+        prefer_when: [consulting, associate consultant, decision analytics, life sciences, pharma,
+                      healthcare, biopharma, trinity, zs, axtria, iqvia, evalueserve, hypothesis]
+      - file: INTERN_ADDED_NON_TECH.pdf
+        default: true
+        use_for: General business analyst, operations, market research, brand and strategy roles.
+
+  # ── Track 3 ─────────────────────────────────────────────────────────────
+  - id: supply_chain
+    label: Supply Chain & Operations
+    keywords: [supply chain analyst, supply chain, demand planner, demand planning, inventory analyst,
+               inventory planner, planning analyst, supply planner, logistics analyst, operations analyst,
+               fulfillment, fulfilment, warehouse, procurement analyst, s&op, capacity planning,
+               network planning, last mile, delivery operations, operations associate]
+    skills: [sql, excel, advanced excel, forecasting, demand planning, time-series, capacity planning,
+             inventory, safety stock, service level, abc, xyz, segmentation, lead time, sla, on-time,
+             logistics, fulfillment, warehouse, root cause, pareto, headcount planning]
+    profile: |
+      Final-year B.Tech Mechanical Engineering student (DTU, graduating 2027) targeting supply chain
+      planning and analytics roles. Built an SQL demand-forecasting model on ~1M records across 4
+      warehouses (12-week holdout), translated forecasts into capacity across 5 stages with 1x-4x stress
+      tests, ABC-XYZ inventory segmentation with safety stock at 90/95/99% service levels; SQL delivery
+      lead-time and SLA diagnostic on ~100k e-commerce orders with Pareto root-cause analysis. Business
+      Analyst Intern modeling mentor capacity against forecast demand. Coursework: Operations & SCM.
+      Fresher roles only.
+    resumes:
+      - file: Supply_chain.pdf
+        default: true
+        use_for: All supply chain, planning, inventory, logistics and fulfillment roles.

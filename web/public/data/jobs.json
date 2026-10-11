@@ -1,237 +1,451 @@
 {
  "meta": {
-  "title": "Job Radar",
-  "generated": "2026-10-11T21:18:50+00:00",
-  "first_run": false,
-  "total_fetched": 8101,
-  "boards_ok": 16,
+  "title": "Job Radar (demo)",
+  "generated": "2026-10-11T21:53:17+00:00",
+  "first_run": true,
+  "total_fetched": 17,
+  "boards_ok": 5,
   "boards": [
    {
     "source": "ashby",
-    "slug": "cursor",
-    "company": "Cursor",
-    "count": 137,
-    "error": ""
-   },
-   {
-    "source": "ashby",
-    "slug": "notion",
-    "company": "Notion",
-    "count": 132,
-    "error": ""
-   },
-   {
-    "source": "ashby",
-    "slug": "perplexity",
-    "company": "Perplexity",
-    "count": 132,
-    "error": ""
-   },
-   {
-    "source": "ashby",
-    "slug": "sentry",
-    "company": "Sentry",
-    "count": 46,
+    "slug": "northwind-labs",
+    "company": "Northwind Labs",
+    "count": 2,
     "error": ""
    },
    {
     "source": "greenhouse",
-    "slug": "coinbase",
-    "company": "Coinbase",
-    "count": 222,
-    "error": ""
-   },
-   {
-    "source": "greenhouse",
-    "slug": "deliveroo",
-    "company": "Deliveroo ",
-    "count": 200,
-    "error": ""
-   },
-   {
-    "source": "greenhouse",
-    "slug": "groww",
-    "company": "Groww",
-    "count": 9,
-    "error": ""
-   },
-   {
-    "source": "greenhouse",
-    "slug": "inmobi",
-    "company": "InMobi ",
-    "count": 72,
-    "error": ""
-   },
-   {
-    "source": "greenhouse",
-    "slug": "okta",
-    "company": "Okta",
-    "count": 378,
-    "error": ""
-   },
-   {
-    "source": "greenhouse",
-    "slug": "rubrik",
-    "company": "Rubrik Job Board",
-    "count": 132,
-    "error": ""
-   },
-   {
-    "source": "greenhouse",
-    "slug": "stripe",
-    "company": "Stripe",
-    "count": 728,
-    "error": ""
-   },
-   {
-    "source": "greenhouse",
-    "slug": "twilio",
-    "company": "Twilio",
-    "count": 144,
+    "slug": "orbitpay",
+    "company": "OrbitPay",
+    "count": 8,
     "error": ""
    },
    {
     "source": "lever",
-    "slug": "palantir",
-    "company": "Palantir",
-    "count": 309,
-    "error": ""
-   },
-   {
-    "source": "lever",
-    "slug": "zeta",
-    "company": "Zeta",
-    "count": 24,
+    "slug": "kettle-foods",
+    "company": "Kettle Foods",
+    "count": 3,
     "error": ""
    },
    {
     "source": "smartrecruiters",
-    "slug": "AveryDennison",
-    "company": "Avery Dennison",
-    "count": 486,
+    "slug": "AcmeMotors",
+    "company": "Acme Motors",
+    "count": 2,
     "error": ""
    },
    {
-    "source": "smartrecruiters",
-    "slug": "BoschGroup",
-    "company": "Bosch Group",
-    "count": 4950,
+    "source": "workable",
+    "slug": "brightline-logistics",
+    "company": "Brightline Logistics",
+    "count": 2,
     "error": ""
    }
   ],
   "drops": {
-   "role keywords not matched": 7841,
-   "location not wanted": 181,
-   "asks for more experience than max_years_experience": 3,
-   "excluded title word (e.g. senior/manager)": 64,
-   "older than max_age_days": 9
+   "excluded title word (e.g. senior/manager)": 1,
+   "not open to the 2027 batch": 1,
+   "location not wanted": 1,
+   "role keywords not matched": 5,
+   "excluded phrase in description": 1,
+   "older than max_age_days": 1
   },
   "notes": [
-   "LLM API returned HTTP 503: [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again late"
+   "Demo data: these companies and jobs are made up, to show what the report looks like.",
+   "LLM enabled but environment variable LLM_API_KEY is not set; skipped."
   ],
   "keywords": [
+   "software engineer",
+   "software developer",
+   "sde",
+   "full stack",
+   "full-stack",
+   "fullstack",
+   "frontend",
+   "front-end",
+   "front end",
+   "backend",
+   "back-end",
+   "back end",
+   "web developer",
+   "react developer",
+   "react.js",
+   "node.js developer",
+   "nodejs",
+   "javascript developer",
+   "typescript developer",
+   "mern",
+   "next.js",
+   "associate software engineer",
+   "software engineer trainee",
+   "trainee software engineer",
+   "programmer analyst",
+   "associate engineer",
+   "ai engineer",
+   "genai engineer",
+   "llm engineer",
+   "automation engineer",
+   "data engineer",
+   "analytics engineer",
+   "technology consultant",
    "business analyst",
    "data analyst",
    "product analyst",
    "operations analyst",
    "strategy analyst",
-   "supply chain analyst",
-   "business operations",
-   "founder's office",
+   "research analyst",
+   "market research",
+   "analytics associate",
    "associate consultant",
-   "associate product manager",
-   "apm",
-   "graduate engineer trainee",
-   "design engineer",
-   "mechanical engineer",
-   "manufacturing engineer",
-   "production engineer",
-   "quality engineer",
-   "robotics engineer",
-   "simulation engineer"
-  ]
+   "consulting analyst",
+   "business consultant",
+   "decision analytics",
+   "insights analyst",
+   "business intelligence",
+   "bi analyst",
+   "mis analyst",
+   "growth analyst",
+   "revenue analyst",
+   "category analyst",
+   "pricing analyst",
+   "business operations",
+   "management trainee",
+   "graduate trainee",
+   "brand management",
+   "junior analyst",
+   "supply chain analyst",
+   "supply chain",
+   "demand planner",
+   "demand planning",
+   "inventory analyst",
+   "inventory planner",
+   "planning analyst",
+   "supply planner",
+   "logistics analyst",
+   "fulfillment",
+   "fulfilment",
+   "warehouse",
+   "procurement analyst",
+   "s&op",
+   "capacity planning",
+   "network planning",
+   "last mile",
+   "delivery operations",
+   "operations associate"
+  ],
+  "tracks": [
+   {
+    "id": "software",
+    "label": "Software / Full-stack",
+    "resumes": [
+     {
+      "file": "Tredence_New_Tech_1.pdf",
+      "use_for": "Engineering roles that also touch data, SQL or analytics (data/analytics engineer, tech roles at analytics or consulting firms). Shows the SQL analyst internship."
+     },
+     {
+      "file": "HCLTech_Resume.pdf",
+      "use_for": "IT services and large-company trainee / associate roles, and roles stressing AI/LLM integration or web data collection."
+     },
+     {
+      "file": "HIMANSHU_FINAL_TECH.pdf",
+      "use_for": "Pure SDE / full-stack / frontend / backend roles at product companies and startups (projects only, includes Redis + BullMQ)."
+     }
+    ]
+   },
+   {
+    "id": "analyst",
+    "label": "Analyst & Consulting",
+    "resumes": [
+     {
+      "file": "GEN_AI___NON_TECH_1.pdf",
+      "use_for": "Analyst/consulting/research roles that mention AI, GenAI, LLMs or automation."
+     },
+     {
+      "file": "icic_1.pdf",
+      "use_for": "Banking, BFSI, fintech, insurance and payments roles."
+     },
+     {
+      "file": "Himanshu_Gautam_Trinity.pdf",
+      "use_for": "Analytics consulting and life-sciences / pharma analytics firms (hypothesis-driven, cohort, forecasting language)."
+     },
+     {
+      "file": "INTERN_ADDED_NON_TECH.pdf",
+      "use_for": "General business analyst, operations, market research, brand and strategy roles."
+     }
+    ]
+   },
+   {
+    "id": "supply_chain",
+    "label": "Supply Chain & Operations",
+    "resumes": [
+     {
+      "file": "Supply_chain.pdf",
+      "use_for": "All supply chain, planning, inventory, logistics and fulfillment roles."
+     }
+    ]
+   }
+  ],
+  "candidate": {
+   "degree": "B.Tech in Mechanical Engineering",
+   "graduation_year": 2027,
+   "max_years_experience": 1
+  }
  },
  "jobs": [
   {
-   "uid": "smartrecruiters:boschgroup:744000152329808",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Quality Engineer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152329808",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000152329808",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-09-29T06:00:00.642000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 55,
+   "uid": "greenhouse:orbitpay:101",
+   "source": "greenhouse",
+   "company": "OrbitPay",
+   "title": "Business Analyst - Graduate Program",
+   "url": "https://example.com/orbitpay/101",
+   "apply_url": "https://example.com/orbitpay/101",
+   "location": "Bengaluru, India",
+   "remote": null,
+   "posted": "2026-10-10T21:53:17.418884+00:00",
+   "department": "Strategy",
+   "employment_type": "",
+   "seniority": "",
+   "score": 99,
    "reasons": [
-    "title: quality engineer",
+    "title: business analyst",
     "location: india",
-    "asks ≤1 yrs"
+    "posted in last 3 days",
+    "no experience required",
+    "open to 2027 batch",
+    "early-career role",
+    "skills: sql, excel, power bi"
    ],
    "flags": [],
-   "min_years": 1,
+   "min_years": 0,
    "is_new": true,
-   "first_seen": "2026-10-11T21:16:23+00:00",
+   "first_seen": "2026-10-11T21:53:17+00:00",
    "llm_score": null,
    "llm_reason": "",
-   "snippet": ""
+   "snippet": "Join our graduate program. 0-1 years of experience. Strong SQL and Excel; Power BI is a plus. 2026 batch and 2027 batch welcome.",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "INTERN_ADDED_NON_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "analyst": 99
+   }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000152398558",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Hardware Design Engineer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152398558",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000152398558",
-   "location": "bengaluru, , India",
+   "uid": "lever:kettle-foods:kf-1",
+   "source": "lever",
+   "company": "Kettle Foods",
+   "title": "Supply Chain Analyst",
+   "url": "https://example.com/kettle/kf-1",
+   "apply_url": "https://example.com/kettle/kf-1/apply",
+   "location": "Gurugram, India",
    "remote": false,
-   "posted": "2026-09-29T11:59:36.711000+00:00",
-   "department": "",
+   "posted": "2026-10-11T09:53:17.418000+00:00",
+   "department": "Operations",
    "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 45,
+   "seniority": "",
+   "score": 87,
    "reasons": [
-    "title: design engineer",
+    "title: supply chain analyst, supply chain",
     "location: india",
-    "asks ≤1 yrs"
+    "posted in last 3 days",
+    "mentions freshers",
+    "skills: sql, excel, warehouse"
    ],
    "flags": [],
-   "min_years": 1,
+   "min_years": null,
    "is_new": true,
-   "first_seen": "2026-10-11T21:16:23+00:00",
-   "llm_score": 35,
-   "llm_reason": "Hardware design roles typically require an electrical/electronics background rather than mechanical engineering, and no job details are provided to confirm fresher eligibility.",
-   "snippet": ""
+   "first_seen": "2026-10-11T21:53:17+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "Plan warehouse capacity and demand. Freshers welcome; we train you.\nWhat we look for\nSQL and Excel\nClear communication",
+   "track": "supply_chain",
+   "track_label": "Supply Chain & Operations",
+   "resume": "Supply_chain.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "supply_chain": 87
+   }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000151354289",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Mechanical Design Engineer (Specialist) - Design of a Servo Motor for Industrial application",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151354289",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000151354289",
-   "location": "bengaluru, , India",
-   "remote": false,
-   "posted": "2026-09-23T11:14:34.073000+00:00",
+   "uid": "greenhouse:orbitpay:107",
+   "source": "greenhouse",
+   "company": "OrbitPay",
+   "title": "Frontend Developer",
+   "url": "https://example.com/orbitpay/107",
+   "apply_url": "https://example.com/orbitpay/107",
+   "location": "Bengaluru, India",
+   "remote": null,
+   "posted": "2026-10-11T14:41:17.418884+00:00",
    "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
+   "employment_type": "",
+   "seniority": "",
+   "score": 79,
    "reasons": [
-    "title: design engineer",
+    "title: frontend",
     "location: india",
-    "asks ≤1 yrs"
+    "posted in last 3 days",
+    "no experience required",
+    "mentions 0-1 years",
+    "skills: typescript, react"
    ],
    "flags": [],
-   "min_years": 1,
+   "min_years": 0,
    "is_new": true,
-   "first_seen": "2026-10-11T21:16:23+00:00",
-   "llm_score": 25,
-   "llm_reason": "The 'Specialist' designation indicates an experienced-level role unsuitable for a fresh graduate.",
-   "snippet": ""
+   "first_seen": "2026-10-11T21:53:17+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "React and TypeScript developer for our core merchant dashboard. 0-1 years experience.",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "software": 79
+   }
+  },
+  {
+   "uid": "greenhouse:orbitpay:103",
+   "source": "greenhouse",
+   "company": "OrbitPay",
+   "title": "Business Analyst - Retail Banking",
+   "url": "https://example.com/orbitpay/103",
+   "apply_url": "https://example.com/orbitpay/103",
+   "location": "Bengaluru, India",
+   "remote": null,
+   "posted": "2026-10-11T09:53:17.418884+00:00",
+   "department": "",
+   "employment_type": "",
+   "seniority": "",
+   "score": 77,
+   "reasons": [
+    "title: business analyst",
+    "location: india",
+    "posted in last 3 days",
+    "mentions freshers",
+    "skills: sql, excel, cohort"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-11T21:53:17+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "Join retail banking analytics. Freshers welcome. Strong SQL, Excel, cohort analysis.",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "icic_1.pdf",
+   "resume_reason": "mentions banking",
+   "track_scores": {
+    "analyst": 77
+   }
+  },
+  {
+   "uid": "ashby:northwind-labs:nw-1",
+   "source": "ashby",
+   "company": "Northwind Labs",
+   "title": "Product Analyst",
+   "url": "https://example.com/northwind/nw-1",
+   "apply_url": "https://example.com/northwind/nw-1/apply",
+   "location": "Bengaluru",
+   "remote": false,
+   "posted": "2026-10-11T17:05:17.418884+00:00",
+   "department": "Product",
+   "employment_type": "Full time",
+   "seniority": "",
+   "score": 71,
+   "reasons": [
+    "title: product analyst",
+    "location: bengaluru",
+    "posted in last 3 days",
+    "mentions early career",
+    "skills: sql"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-11T21:53:17+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "Early career role. Own funnel metrics with SQL. Python helps.",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "INTERN_ADDED_NON_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "analyst": 71
+   }
+  },
+  {
+   "uid": "greenhouse:orbitpay:104",
+   "source": "greenhouse",
+   "company": "OrbitPay",
+   "title": "Business Analyst - GenAI Practice",
+   "url": "https://example.com/orbitpay/104",
+   "apply_url": "https://example.com/orbitpay/104",
+   "location": "Bengaluru, India",
+   "remote": null,
+   "posted": "2026-10-11T02:41:17.418884+00:00",
+   "department": "",
+   "employment_type": "",
+   "seniority": "",
+   "score": 66,
+   "reasons": [
+    "title: business analyst",
+    "location: india",
+    "posted in last 3 days",
+    "skills: sql, llm"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-11T21:53:17+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "Work on GenAI and LLM workflow automation for business operations. SQL and Python required.",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "GEN_AI___NON_TECH_1.pdf",
+   "resume_reason": "mentions genai",
+   "track_scores": {
+    "analyst": 66
+   }
+  },
+  {
+   "uid": "greenhouse:orbitpay:105",
+   "source": "greenhouse",
+   "company": "OrbitPay",
+   "title": "Business Analyst",
+   "url": "https://example.com/orbitpay/105",
+   "apply_url": "https://example.com/orbitpay/105",
+   "location": "Bengaluru, India",
+   "remote": null,
+   "posted": "2026-10-10T17:05:17.418884+00:00",
+   "department": "",
+   "employment_type": "",
+   "seniority": "",
+   "score": 51,
+   "reasons": [
+    "title: business analyst",
+    "location: india",
+    "posted in last 3 days",
+    "skills: sql, statistical analysis"
+   ],
+   "flags": [
+    "asks for CGPA 8.0+ (resume shows 7.64)"
+   ],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-11T21:53:17+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "Analytics role. Minimum CGPA 8.0 required. Strong SQL and statistical analysis.",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "INTERN_ADDED_NON_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "analyst": 51
+   }
   }
  ]
 }

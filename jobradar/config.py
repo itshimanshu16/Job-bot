@@ -66,12 +66,106 @@ def _merge(base: dict, override: dict) -> dict:
     return out
 
 
-def load_config(path: str | Path) -> dict:
+def load_profiles(path: str | Path) -> dict:
+    p = Path(path)
+    if not p.exists():
+        raise ConfigError(f"profiles file not found: {p}")
+    raw = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+    candidate = raw.get("candidate")
+    if not candidate or not isinstance(candidate, dict):
+        raise ConfigError(f"{p.name}: missing or invalid 'candidate' section")
+
+    tracks = raw.get("tracks")
+    if not tracks or not isinstance(tracks, list):
+        raise ConfigError(f"{p.name}: missing or invalid 'tracks' section")
+
+    clean_tracks: list[dict] = []
+    for idx, t in enumerate(tracks):
+        if not isinstance(t, dict):
+            raise ConfigError(f"{p.name}: track #{idx+1} is not a mapping")
+        for req in ("id", "label"):
+            if not t.get(req):
+                raise ConfigError(f"{p.name}: track #{idx+1} missing required field '{req}'")
+        keywords = [str(k).strip() for k in (t.get("keywords") or []) if str(k).strip()]
+        if not keywords:
+            raise ConfigError(f"{p.name}: track '{t.get('id')}' must have at least one keyword")
+
+        raw_resumes = t.get("resumes")
+        if not raw_resumes or not isinstance(raw_resumes, list):
+            raise ConfigError(f"{p.name}: track '{t.get('id')}' must have at least one resume")
+
+        defaults = [r for r in raw_resumes if r.get("default") is True]
+        if len(defaults) > 1:
+            raise ConfigError(f"{p.name}: track '{t.get('id')}' has multiple default resumes")
+        if len(defaults) == 0:
+            raw_resumes[0]["default"] = True
+
+        clean_resumes: list[dict] = []
+        for r in raw_resumes:
+            if not r.get("file"):
+                raise ConfigError(f"{p.name}: track '{t.get('id')}' has a resume without 'file'")
+            clean_resumes.append({
+                "file": str(r["file"]).strip(),
+                "use_for": str(r.get("use_for", "")).strip(),
+                "prefer_when": [str(x).strip() for x in (r.get("prefer_when") or []) if str(x).strip()],
+                "default": bool(r.get("default", False)),
+            })
+
+        clean_tracks.append({
+            "id": str(t["id"]).strip(),
+            "label": str(t["label"]).strip(),
+            "keywords": keywords,
+            "skills": [str(s).strip() for s in (t.get("skills") or []) if str(s).strip()],
+            "profile": str(t.get("profile", "")).strip(),
+            "resumes": clean_resumes,
+        })
+
+    return {
+        "candidate": candidate,
+        "tracks": clean_tracks,
+    }
+
+
+def load_config(path: str | Path, profiles_path: str | Path | None = None) -> dict:
     p = Path(path)
     if not p.exists():
         raise ConfigError(f"config file not found: {p}")
     raw = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
     cfg = _merge(DEFAULTS, raw)
+
+    # Check for profiles
+    prof_path: Path | None = None
+    if profiles_path:
+        prof_path = Path(profiles_path)
+    else:
+        candidate_prof = p.parent / "profiles.yaml"
+        if candidate_prof.exists():
+            prof_path = candidate_prof
+
+    if prof_path and prof_path.exists():
+        prof_data = load_profiles(prof_path)
+        cfg["candidate"] = prof_data["candidate"]
+        cfg["tracks"] = prof_data["tracks"]
+        all_keywords = []
+        all_skills = []
+        for t in cfg["tracks"]:
+            for k in t["keywords"]:
+                if k not in all_keywords:
+                    all_keywords.append(k)
+            for sk in t["skills"]:
+                if sk not in all_skills:
+                    all_skills.append(sk)
+        if not cfg["search"].get("keywords"):
+            cfg["search"]["keywords"] = all_keywords
+        if not cfg["search"].get("skills"):
+            cfg["search"]["skills"] = all_skills
+        if "locations" in cfg["candidate"] and not cfg["search"].get("locations"):
+            cfg["search"]["locations"] = [str(x) for x in cfg["candidate"]["locations"]]
+        if "max_years_experience" in cfg["candidate"] and cfg["search"].get("max_years_experience") is None:
+            cfg["search"]["max_years_experience"] = cfg["candidate"]["max_years_experience"]
+        if "include_remote" in cfg["candidate"]:
+            cfg["search"]["include_remote"] = cfg["candidate"]["include_remote"]
+
     s = cfg["search"]
     for key in ("keywords", "skills", "exclude_title", "exclude_text", "locations",
                 "exclude_locations", "fresher_terms"):

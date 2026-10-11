@@ -5,6 +5,7 @@ export interface View {
   query: string;
   company: string; // "" = all companies
   sort: Sort;
+  track?: string; // "all" or track id, default: "all"
 }
 
 export function inTab(job: Job, marks: Marks, tab: Tab): boolean {
@@ -21,10 +22,26 @@ export function inTab(job: Job, marks: Marks, tab: Tab): boolean {
   }
 }
 
-export function tabCounts(jobs: Job[], marks: Marks): Record<Tab, number> {
+export function tabCounts(jobs: Job[], marks: Marks, track = "all"): Record<Tab, number> {
   const counts: Record<Tab, number> = { review: 0, new: 0, applied: 0, hidden: 0 };
+  const filtered = track && track !== "all" ? jobs.filter((j) => j.track === track) : jobs;
+  for (const j of filtered) {
+    for (const t of Object.keys(counts) as Tab[]) {
+      if (inTab(j, marks, t)) counts[t]++;
+    }
+  }
+  return counts;
+}
+
+export function trackCounts(jobs: Job[], marks: Marks, tab: Tab): Record<string, number> {
+  const counts: Record<string, number> = { all: 0 };
   for (const j of jobs) {
-    for (const t of Object.keys(counts) as Tab[]) if (inTab(j, marks, t)) counts[t]++;
+    if (inTab(j, marks, tab)) {
+      counts.all++;
+      if (j.track) {
+        counts[j.track] = (counts[j.track] || 0) + 1;
+      }
+    }
   }
   return counts;
 }
@@ -32,13 +49,17 @@ export function tabCounts(jobs: Job[], marks: Marks): Record<Tab, number> {
 export function matchesQuery(job: Job, query: string): boolean {
   const q = query.trim().toLowerCase();
   if (!q) return true;
-  const hay = `${job.title} ${job.company} ${job.location} ${job.department}`.toLowerCase();
+  const hay = `${job.title} ${job.company} ${job.location} ${job.department} ${job.track_label || ""} ${job.resume || ""}`.toLowerCase();
   return q.split(/\s+/).every((word) => hay.includes(word));
 }
 
 export function visibleJobs(jobs: Job[], marks: Marks, view: View): Job[] {
   const rows = jobs.filter(
-    (j) => inTab(j, marks, view.tab) && matchesQuery(j, view.query) && (!view.company || j.company === view.company),
+    (j) =>
+      inTab(j, marks, view.tab) &&
+      matchesQuery(j, view.query) &&
+      (!view.company || j.company === view.company) &&
+      (!view.track || view.track === "all" || j.track === view.track),
   );
   if (view.tab === "applied") {
     return rows.sort((a, b) => (marks[b.uid]?.at ?? "").localeCompare(marks[a.uid]?.at ?? ""));
@@ -81,10 +102,17 @@ function csvCell(value: unknown): string {
 }
 
 export function appliedCsv(jobs: Job[], marks: Marks): string {
-  const header = ["applied_on", "title", "company", "location", "url"];
+  const header = ["applied_on", "title", "company", "location", "resume", "url"];
   const rows = jobs
     .filter((j) => marks[j.uid]?.status === "applied")
     .sort((a, b) => (marks[a.uid].at ?? "").localeCompare(marks[b.uid].at ?? ""))
-    .map((j) => [localDate(marks[j.uid].at), j.title, j.company, j.location, j.apply_url || j.url]);
+    .map((j) => [
+      localDate(marks[j.uid].at),
+      j.title,
+      j.company,
+      j.location,
+      marks[j.uid].resume || j.resume || "",
+      j.apply_url || j.url,
+    ]);
   return [header, ...rows].map((r) => r.map(csvCell).join(",")).join("\n") + "\n";
 }

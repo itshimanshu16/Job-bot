@@ -1,17 +1,30 @@
 from __future__ import annotations
 
+import copy
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 
-from .filters import Matcher
+from .filters import Matcher, pick_resume
 from .llm import LLMScorer
 from .models import Job
 from .sources import SOURCES
 from .state import SeenStore
 
 log = logging.getLogger("jobradar")
+
+DROP_ORDER = [
+    "below min_score",
+    "asks for more experience than max_years_experience",
+    "not open to the 2027 batch",
+    "location not wanted",
+    "older than max_age_days",
+    "excluded title word (e.g. senior/manager)",
+    "excluded phrase in description",
+    "experience not stated",
+    "role keywords not matched",
+]
 
 
 @dataclass
@@ -59,13 +72,81 @@ def fetch_all(companies: dict[str, list[str]], http, concurrency: int = 8) -> tu
     return jobs, boards
 
 
+def _best_drop_reason(reasons: list[str]) -> str:
+    if not reasons:
+        return "role keywords not matched"
+    for expected in DROP_ORDER:
+        if expected in reasons:
+            return expected
+    return reasons[0]
+
+
 def rank(jobs: list[Job], cfg: dict, store: SeenStore, now: datetime) -> tuple[list[Job], dict, list[str]]:
-    matcher = Matcher(cfg["search"], now=now)
     unique: dict[str, Job] = {}
     for j in jobs:
         unique.setdefault(j.uid, j)
 
-    kept = [j for j in unique.values() if matcher.evaluate(j)]
+    tracks = cfg.get("tracks", [])
+    candidate = cfg.get("candidate", {})
+    tracks_by_id = {t["id"]: t for t in tracks}
+    drops: dict[str, int] = {}
+    kept: list[Job] = []
+
+    if tracks:
+        for j in unique.values():
+            attempts: list[dict] = []
+            drop_reasons: list[str] = []
+            track_scores: dict[str, int] = {}
+
+            for track in tracks:
+                t_search = dict(cfg.get("search", {}))
+                t_search["keywords"] = track["keywords"]
+                t_search["skills"] = track.get("skills", [])
+                if "locations" in candidate:
+                    t_search["locations"] = candidate["locations"]
+                if "max_years_experience" in candidate:
+                    t_search["max_years_experience"] = candidate["max_years_experience"]
+                if "include_remote" in candidate:
+                    t_search["include_remote"] = candidate["include_remote"]
+                t_search["candidate_grad_year"] = candidate.get("graduation_year", 2027)
+                t_search["candidate_cgpa"] = candidate.get("cgpa", 7.64)
+                t_search["track_id"] = track["id"]
+
+                test_j = copy.copy(j)
+                matcher = Matcher(t_search, now=now)
+                passed = matcher.evaluate(test_j)
+                if passed:
+                    track_scores[track["id"]] = test_j.score
+                    attempts.append({
+                        "track": track,
+                        "score": test_j.score,
+                        "reasons": test_j.reasons,
+                        "flags": test_j.flags,
+                        "min_years": test_j.min_years,
+                    })
+                else:
+                    drop_reasons.append(matcher.last_drop_reason or "role keywords not matched")
+
+            if attempts:
+                # Keep track with highest score. In Python, max with stable key keeps earlier track on tie.
+                best = max(attempts, key=lambda a: a["score"])
+                win_track = best["track"]
+                j.score = best["score"]
+                j.reasons = best["reasons"]
+                j.flags = best["flags"]
+                j.min_years = best["min_years"]
+                j.track = win_track["id"]
+                j.track_label = win_track["label"]
+                j.track_scores = track_scores
+                j.resume, j.resume_reason = pick_resume(win_track, j)
+                kept.append(j)
+            else:
+                reason = _best_drop_reason(drop_reasons)
+                drops[reason] = drops.get(reason, 0) + 1
+    else:
+        matcher = Matcher(cfg["search"], now=now)
+        kept = [j for j in unique.values() if matcher.evaluate(j)]
+        drops = matcher.drops
 
     window = timedelta(hours=cfg["output"]["new_window_hours"])
     for j in kept:
@@ -76,27 +157,43 @@ def rank(jobs: list[Job], cfg: dict, store: SeenStore, now: datetime) -> tuple[l
             j.is_new = False
 
     notes: list[str] = []
-    llm_cfg = cfg["llm"]
+    llm_cfg = cfg.get("llm", {})
     scorer = LLMScorer(llm_cfg)
     if scorer.ready:
         kept.sort(key=lambda j: j.score, reverse=True)
-        budget = int(llm_cfg["max_jobs_per_run"])
+        budget = int(llm_cfg.get("max_jobs_per_run", 40))
         failures = 0
         for j in kept:
-            cached = store.llm_cache(j.uid)
+            cached = store.llm_cache(j.uid, track_id=j.track)
             if cached:
                 j.llm_score, j.llm_reason = cached["score"], cached["reason"]
+                if cached.get("resume"):
+                    j.resume = cached["resume"]
+                    j.resume_reason = f"AI pick: {cached['reason']}"
                 continue
             if budget <= 0 or failures >= 3:
                 continue
             budget -= 1
-            result = scorer.score(j)
-            if result is None:
+            cur_track = tracks_by_id.get(j.track)
+            try:
+                res = scorer.score(j, track=cur_track)
+            except TypeError:
+                res = scorer.score(j)
+            if res is None:
                 failures += 1
                 continue
-            j.llm_score, j.llm_reason = result
-            store.set_llm(j.uid, *result)
-        w = float(llm_cfg["weight"])
+            if len(res) == 3:
+                sc_val, reason_str, ai_res = res
+            else:
+                sc_val, reason_str = res[0], res[1]
+                ai_res = None
+            j.llm_score = sc_val
+            j.llm_reason = reason_str
+            if ai_res:
+                j.resume = ai_res
+                j.resume_reason = f"AI pick: {reason_str}"
+            store.set_llm(j.uid, sc_val, reason_str, resume=ai_res or "", track_id=j.track)
+        w = float(llm_cfg.get("weight", 0.5))
         for j in kept:
             if j.llm_score is not None:
                 j.score = round((1 - w) * j.score + w * j.llm_score)
@@ -105,7 +202,7 @@ def rank(jobs: list[Job], cfg: dict, store: SeenStore, now: datetime) -> tuple[l
 
     far_past = datetime(1970, 1, 1, tzinfo=timezone.utc)
     kept.sort(key=lambda j: (j.score, j.posted or far_past), reverse=True)
-    return kept[: cfg["output"]["max_jobs"]], matcher.drops, notes
+    return kept[: cfg["output"]["max_jobs"]], drops, notes
 
 
 def run(cfg: dict, companies: dict[str, list[str]], http, now: datetime | None = None) -> RunResult:
@@ -117,4 +214,4 @@ def run(cfg: dict, companies: dict[str, list[str]], http, now: datetime | None =
     store.prune(now, cfg["state"]["forget_after_days"])
     store.save()
     return RunResult(jobs=ranked, boards=boards, total_fetched=len(raw), drops=drops, notes=notes, started=now,
-                     first_run=first_run)
+                      first_run=first_run)

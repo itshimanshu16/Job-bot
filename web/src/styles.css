@@ -146,6 +146,46 @@ select {
   margin-left: 2px;
 }
 
+.track-chips {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--rule);
+  scrollbar-width: none;
+}
+
+.chip {
+  flex: none;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.chip:hover {
+  border-color: var(--signal-weak);
+  color: var(--ink);
+}
+
+.chip.is-active {
+  background: var(--signal);
+  color: var(--on-signal);
+  border-color: var(--signal);
+}
+
+.chip-count {
+  margin-left: 3px;
+  font-size: 11px;
+  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+
 .controls {
   display: flex;
   flex-wrap: wrap;
@@ -261,6 +301,48 @@ select {
   font-weight: 600;
 }
 
+.resume-pick {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 6px 0 0;
+  font-size: 14px;
+}
+
+.resume-file {
+  color: var(--signal);
+  font-weight: 600;
+}
+
+.resume-reason {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.copy-btn {
+  padding: 2px 8px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  color: var(--ink);
+  border-color: var(--signal);
+}
+
+.also-fits {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+}
+
 .applied-on {
   margin: 6px 0 0;
   font-size: 14px;
@@ -345,6 +427,24 @@ select {
   text-align: right;
 }
 
+.score-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.track-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  background: var(--signal-weak);
+  color: var(--ink);
+  white-space: nowrap;
+}
+
 .score {
   font-size: 22px;
   font-weight: 800;
@@ -427,6 +527,64 @@ select {
   max-width: 60ch;
 }
 
+.resumes-in-use {
+  margin: 24px 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+}
+
+.resumes-in-use h3 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.track-resumes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.track-resume-card {
+  padding: 12px;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.track-resume-card h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--signal);
+}
+
+.track-resume-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.track-resume-card li {
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.track-resume-card code {
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--paper);
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+
+.resume-desc {
+  margin: 2px 0 0;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
 .foot {
   padding: 32px 0 56px;
   font-size: 14px;
@@ -475,6 +633,12 @@ select {
     justify-content: space-between;
     margin-top: 12px;
     text-align: left;
+  }
+
+  .score-wrap {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
   }
 
   .score small {

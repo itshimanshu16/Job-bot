@@ -13,10 +13,13 @@ import requests
 
 from .models import Job
 
-PROMPT = """You screen job postings for one job seeker. Rate how well this job fits them.
+PROMPT = """You screen job postings for one job seeker. Rate how well this job fits them and pick the best resume to submit.
 
-ABOUT THE JOB SEEKER:
+ABOUT THE JOB SEEKER ({track_label}):
 {profile}
+
+RESUME OPTIONS:
+{resumes}
 
 JOB:
 Title: {title}
@@ -26,7 +29,7 @@ Description (truncated):
 {description}
 
 Reply with JSON only, no other text:
-{{"score": <0-100 integer, 100 = excellent fit and eligible>, "reason": "<one short sentence>"}}"""
+{{"score": <0-100 integer, 100 = excellent fit and eligible>, "reason": "<one short sentence>", "resume": "<exact file name of one of the listed resume options>"}}"""
 
 _JSON_RE = re.compile(r"\{.*\}", re.S)
 
@@ -34,8 +37,8 @@ _JSON_RE = re.compile(r"\{.*\}", re.S)
 class LLMScorer:
     def __init__(self, cfg: dict):
         self.cfg = cfg
-        self.api_key = os.environ.get(cfg["api_key_env"], "").strip()
-        self.url = cfg["base_url"].rstrip("/") + "/chat/completions"
+        self.api_key = os.environ.get(cfg.get("api_key_env", "LLM_API_KEY"), "").strip()
+        self.url = cfg.get("base_url", "https://generativelanguage.googleapis.com/v1beta/openai").rstrip("/") + "/chat/completions"
         self.errors: list[str] = []
 
     @property
@@ -43,16 +46,24 @@ class LLMScorer:
         if not self.cfg.get("enabled"):
             return False
         if not self.api_key:
-            self.errors.append(f"LLM enabled but environment variable {self.cfg['api_key_env']} is not set; skipped.")
-            return False
-        if not (self.cfg.get("profile") or "").strip():
-            self.errors.append("LLM enabled but llm.profile is empty; skipped.")
+            self.errors.append(f"LLM enabled but environment variable {self.cfg.get('api_key_env', 'LLM_API_KEY')} is not set; skipped.")
             return False
         return True
 
-    def score(self, job: Job) -> tuple[int, str] | None:
+    def score(self, job: Job, track: dict | None = None) -> tuple[int, str, str | None] | None:
+        track = track or {}
+        track_label = track.get("label", "General Track")
+        profile = track.get("profile") or self.cfg.get("profile") or "Fresh graduate looking for entry-level roles."
+        resume_items = track.get("resumes", [])
+        if resume_items:
+            resumes_text = "\n".join(f"- {r['file']}: {r.get('use_for', '')}" for r in resume_items)
+        else:
+            resumes_text = "(standard resume)"
+
         prompt = PROMPT.format(
-            profile=self.cfg["profile"].strip(),
+            track_label=track_label,
+            profile=profile.strip(),
+            resumes=resumes_text.strip(),
             title=job.title,
             company=job.company,
             location=job.location or "not stated",
@@ -63,7 +74,7 @@ class LLMScorer:
                 self.url,
                 headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
                 json={
-                    "model": self.cfg["model"],
+                    "model": self.cfg.get("model", "gemini-3.8-flash"),
                     "messages": [{"role": "user", "content": prompt}],
                     "temperature": 0,
                 },
@@ -79,7 +90,12 @@ class LLMScorer:
             content = resp.json()["choices"][0]["message"]["content"]
             parsed = json.loads(_JSON_RE.search(content).group(0))
             value = max(0, min(100, int(parsed["score"])))
-            return value, str(parsed.get("reason", ""))[:240]
+            reason = str(parsed.get("reason", ""))[:240]
+            picked_resume = parsed.get("resume")
+            valid_files = {r["file"] for r in resume_items}
+            if picked_resume and str(picked_resume).strip() in valid_files:
+                return value, reason, str(picked_resume).strip()
+            return value, reason, None
         except (KeyError, IndexError, ValueError, TypeError, AttributeError):
             self.errors.append("LLM reply could not be parsed for one job; skipped it.")
             return None

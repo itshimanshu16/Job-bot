@@ -8,3 +8,4 @@ state/*.tmp
 node_modules/
 web/dist/
 web/public/data/*.tmp
+resumes/*.pdf

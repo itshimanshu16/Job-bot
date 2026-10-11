@@ -50,10 +50,11 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").lower()).strip()
 
 
-def contains_term(haystack_lower: str, term: str) -> bool:
+def contains_term(haystack: str, term: str) -> bool:
     """Case-insensitive whole-word-ish match. 'sql' won't match 'nosql' but 'c++' works."""
     t = norm(term)
-    if not t:
+    h = norm(haystack)
+    if not t or not h:
         return False
     pattern = r"(?<![a-z0-9])" + re.escape(t) + r"(?![a-z0-9])"
-    return re.search(pattern, haystack_lower) is not None
+    return re.search(pattern, h) is not None

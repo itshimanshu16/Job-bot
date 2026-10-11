@@ -288,3 +288,141 @@ def test_shipped_config_files_load():
     root = Path(__file__).resolve().parents[1]
     assert load_config(root / "config.yaml")["search"]["keywords"]
     assert load_companies(root / "companies.yaml")
+
+
+# ── Step 5: Profiles, Tracks, Resumes & Eligibility Tests ────────────────────
+
+from jobradar.config import load_profiles
+from jobradar.filters import parse_batch_years, parse_cgpa_cutoff, check_branch_restriction, pick_resume
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_profiles_load_and_validation(tmp_path):
+    prof = load_profiles(ROOT / "profiles.yaml")
+    assert prof["candidate"]["graduation_year"] == 2027
+    assert len(prof["tracks"]) == 3
+    assert {t["id"] for t in prof["tracks"]} == {"software", "analyst", "supply_chain"}
+
+    bad = tmp_path / "bad.yaml"
+    bad.write_text("candidate: {}\ntracks:\n  - id: t1\n    # missing label\n    keywords: [x]\n    resumes: [{file: a.pdf}]\n")
+    with pytest.raises(ConfigError):
+        load_profiles(bad)
+
+    bad2 = tmp_path / "bad2.yaml"
+    bad2.write_text("candidate: {}\ntracks:\n  - id: t1\n    label: Track 1\n    keywords: []\n    resumes: [{file: a.pdf}]\n")
+    with pytest.raises(ConfigError):
+        load_profiles(bad2)
+
+
+def test_track_and_resume_picking():
+    prof = load_profiles(ROOT / "profiles.yaml")
+    tracks = {t["id"]: t for t in prof["tracks"]}
+
+    # Software track
+    j1 = job(title="Frontend Developer", description="React, Next.js, TypeScript developer")
+    assert pick_resume(tracks["software"], j1) == ("HIMANSHU_FINAL_TECH.pdf", "default for this track")
+
+    j1_tredence = job(title="Frontend Developer", company="Tredence", description="React and TypeScript")
+    assert pick_resume(tracks["software"], j1_tredence) == ("Tredence_New_Tech_1.pdf", "mentions tredence")
+
+    # Analyst track
+    j2_bank = job(title="Business Analyst - Retail Banking", company="HDFC", description="Banking analytics, SQL")
+    assert pick_resume(tracks["analyst"], j2_bank) == ("icic_1.pdf", "mentions banking")
+
+    j2_genai = job(title="Business Analyst - GenAI Practice", company="OrbitPay", description="LLM prompt and workflows")
+    assert pick_resume(tracks["analyst"], j2_genai) == ("GEN_AI___NON_TECH_1.pdf", "mentions genai")
+
+    j2_plain = job(title="Business Analyst", company="Acme", description="Excel and SQL")
+    assert pick_resume(tracks["analyst"], j2_plain) == ("INTERN_ADDED_NON_TECH.pdf", "default for this track")
+
+    # Supply Chain track
+    j3_sc = job(title="Demand Planner", company="Kettle", description="Warehouse capacity planning")
+    assert pick_resume(tracks["supply_chain"], j3_sc) == ("Supply_chain.pdf", "default for this track")
+
+
+def test_multitrack_matching_and_track_scores(tmp_path):
+    cfg_full = load_config(ROOT / "config.yaml", profiles_path=ROOT / "profiles.yaml")
+    cfg_full["output"]["dir"] = str(tmp_path / "out")
+    cfg_full["state"]["path"] = str(tmp_path / "state" / "seen.json")
+
+    # Job that touches both Software and Analyst keywords
+    # e.g. "Data Engineer" or "Analytics Engineer" or "Business Analyst" with React & SQL
+    j = job(title="Analytics Engineer", company="Stripe", description="SQL, Python, React, data pipelines, cohort analytics")
+    r = run(cfg_full, {"greenhouse": ["co"]}, None, now=NOW)
+    # Direct test via pipeline rank
+    from jobradar.pipeline import rank
+    from jobradar.state import SeenStore
+    store = SeenStore(cfg_full["state"]["path"])
+    ranked, drops, notes = rank([j], cfg_full, store, now=NOW)
+    assert len(ranked) == 1
+    matched_job = ranked[0]
+    assert matched_job.track in ("software", "analyst")
+    # Both tracks scored and reported in track_scores
+    assert len(matched_job.track_scores) >= 1
+    assert matched_job.track_scores[matched_job.track] == matched_job.score
+
+
+def test_batch_eligibility():
+    s = search(candidate_grad_year=2027)
+    m = Matcher(s, now=NOW)
+
+    j_dropped = job(title="Data Analyst", description="open to 2025 and 2026 batch candidates only")
+    assert not m.evaluate(j_dropped)
+    assert m.last_drop_reason == "not open to the 2027 batch"
+
+    j_bonus = job(title="Data Analyst", description="2026/2027 graduates welcome")
+    assert m.evaluate(j_bonus)
+    assert "open to 2027 batch" in j_bonus.reasons
+
+    j_range = job(title="Data Analyst", description="2025-2027 batch eligible")
+    assert m.evaluate(j_range)
+    assert "open to 2027 batch" in j_range.reasons
+
+
+def test_cgpa_cutoff_eligibility():
+    s = search(candidate_cgpa=7.64)
+    m = Matcher(s, now=NOW)
+
+    j_high = job(title="Data Analyst", description="minimum CGPA 8.0 required")
+    m.evaluate(j_high)
+    assert any("asks for CGPA 8.0+ (resume shows 7.64)" in f for f in j_high.flags)
+
+    j_ok = job(title="Data Analyst", description="CGPA 7 and above")
+    m.evaluate(j_ok)
+    assert not any("CGPA" in f for f in j_ok.flags)
+
+    j_4point = job(title="Data Analyst", description="GPA 3.5/4 required")
+    m.evaluate(j_4point)
+    assert not any("CGPA" in f for f in j_4point.flags)
+
+
+def test_branch_restriction_eligibility():
+    s = search(track_id="software", keywords=["software engineer"])
+    m = Matcher(s, now=NOW)
+
+    j_cs = job(title="Software Engineer", description="B.Tech CSE/IT only")
+    m.evaluate(j_cs)
+    assert any("may require a CS/IT degree" in f for f in j_cs.flags)
+
+    j_any = job(title="Software Engineer", description="B.Tech any branch")
+    m.evaluate(j_any)
+    assert not any("CS/IT degree" in f for f in j_any.flags)
+
+
+def test_no_phone_or_email_in_jobs_json(tmp_path):
+    import re
+    cfg_full = load_config(ROOT / "config.yaml", profiles_path=ROOT / "profiles.yaml")
+    cfg_full["output"]["dir"] = str(tmp_path / "out")
+    cfg_full["state"]["path"] = str(tmp_path / "state" / "seen.json")
+    r = run(cfg_full, DEMO_COMPANIES, DemoHttp(NOW), now=NOW)
+    path = write_all(r, cfg_full)
+    content = path.read_text(encoding="utf-8")
+
+    # Email pattern
+    emails = re.findall(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b", content)
+    assert emails == [], f"Found emails in jobs.json: {emails}"
+
+    # Phone pattern (10+ digits with optional country code)
+    phone_numbers = re.findall(r"\b(?:\+91[\-\s]?)?[6-9]\d{9}\b", content)
+    assert phone_numbers == [], f"Found phone numbers in jobs.json: {phone_numbers}"

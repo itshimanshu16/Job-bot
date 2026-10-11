@@ -23,11 +23,27 @@ class SeenStore:
         entry["last_seen"] = iso
         return entry["first_seen"]
 
-    def llm_cache(self, uid: str) -> dict | None:
-        return (self.data.get(uid) or {}).get("llm")
+    def llm_cache(self, uid: str, track_id: str = "") -> dict | None:
+        entry = self.data.get(uid) or {}
+        if track_id:
+            t_cache = (entry.get("llm_tracks") or {}).get(track_id)
+            if t_cache:
+                return t_cache
+            legacy = entry.get("llm")
+            if legacy and legacy.get("track") == track_id:
+                return legacy
+            return None
+        return entry.get("llm")
 
-    def set_llm(self, uid: str, score: int, reason: str) -> None:
-        self.data.setdefault(uid, {})["llm"] = {"score": score, "reason": reason}
+    def set_llm(self, uid: str, score: int, reason: str, resume: str = "", track_id: str = "") -> None:
+        entry = self.data.setdefault(uid, {})
+        val = {"score": score, "reason": reason}
+        if resume:
+            val["resume"] = resume
+        if track_id:
+            val["track"] = track_id
+            entry.setdefault("llm_tracks", {})[track_id] = val
+        entry["llm"] = val
 
     def prune(self, now: datetime, days: int) -> int:
         cutoff = now - timedelta(days=days)

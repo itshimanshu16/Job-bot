@@ -57,29 +57,115 @@ def scam_flags(job: Job) -> list[str]:
     return flags
 
 
+def parse_batch_years(text: str) -> set[int]:
+    """Extract graduation/pass-out years mentioned in text."""
+    years: set[int] = set()
+    # Ranges like 2024-2026 graduates, 2025-2027 batch, 2025 to 2027
+    r_range = re.findall(r"\b(20[2-3]\d)\s*(?:-|–|—|to)\s*(20[2-3]\d)\s*(?:batch|pass-?outs?|graduates?|passing\s+out)?\b", text, re.I)
+    for y1, y2 in r_range:
+        y1_int, y2_int = int(y1), int(y2)
+        if y1_int <= y2_int:
+            years.update(range(y1_int, y2_int + 1))
+
+    # Patterns with batch context
+    patterns = [
+        r"(?:class\s+of|graduating\s+in|batch\s+of)\s*(20[2-3]\d)",
+        r"\b(20[2-3]\d)\s*(?:/|\s+and\s+|\s+or\s+|,)\s*(20[2-3]\d)\s*(?:batch|pass-?outs?|graduates?|passing\s+out)?",
+        r"\b(20[2-3]\d)\s*(?:batch|pass-?outs?|graduates?|passouts?)",
+    ]
+    for pat in patterns:
+        for m in re.finditer(pat, text, re.I):
+            for g in m.groups():
+                if g:
+                    years.add(int(g))
+    return years
+
+
+def parse_cgpa_cutoff(text: str) -> tuple[float | None, str | None]:
+    """Detect CGPA cutoffs on 10-point scale. Returns (numeric_cutoff, matched_str)."""
+    # X/10 scale
+    m_10 = re.search(r"\b(\d+(?:\.\d+)?)\s*/\s*10\b", text, re.I)
+    if m_10:
+        return float(m_10.group(1)), m_10.group(1)
+
+    # Ignore 4-point scales, e.g. /4, /4.0
+    if re.search(r"\b\d+(?:\.\d+)?\s*/\s*4(?:\.0)?\b", text, re.I):
+        return None, None
+
+    # Patterns like minimum 8 CGPA, CGPA of 7.5 and above, minimum CGPA 8.0, CGPA 7 and above
+    patterns = [
+        r"(?:minimum|min\.?|at\s+least)?\s*(?:cgpa|gpa)\s*(?:of|is|:)?\s*(?:minimum|min\.?|at\s+least)?\s*(\d+(?:\.\d+)?)\s*(?:and\s+above|\+)?",
+        r"(?:minimum|min\.?|at\s+least)?\s*(\d+(?:\.\d+)?)\s*(?:\+)?\s*(?:cgpa|gpa)",
+    ]
+    for pat in patterns:
+        m = re.search(pat, text, re.I)
+        if m:
+            val_str = m.group(1)
+            val = float(val_str)
+            # If <= 4.0 and refers to GPA without /10 or without CGPA, ignore as 4-point scale
+            if val <= 4.0 and "cgpa" not in text.lower():
+                continue
+            return val, val_str
+
+    return None, None
+
+
+def check_branch_restriction(text: str, track_id: str) -> bool:
+    """True if posting limits eligibility to CS/IT/ECE and does not allow mechanical or any branch."""
+    if track_id != "software":
+        return False
+    low = text.lower()
+    open_terms = ["any branch", "all branches", "any engineering", "mechanical"]
+    if any(term in low for term in open_terms):
+        return False
+
+    patterns = [
+        r"\b(?:b\.?tech|be|b\.?e\.?|degree|graduates?)\s*(?:in|from)?\s*(?:computer\s+science|cs\b|cse\b|information\s+technology|it\b)",
+        r"\b(?:cse|cs|it|ece)\s*(?:/|\s+or\s+|\s+and\s+|,)?\s*(?:it|ece|cse|cs)?\s*(?:only|branches?|degree)",
+        r"\b(?:b\.?tech\s+cse/it\s+only)\b",
+    ]
+    return any(re.search(pat, low, re.I) for pat in patterns)
+
+
+def pick_resume(track: dict, job: Job) -> tuple[str, str]:
+    """Select the best resume file and reason for a given job within a track."""
+    for r in track.get("resumes", []):
+        for term in r.get("prefer_when", []):
+            if contains_term(job.title, term) or contains_term(job.company, term) or contains_term(job.description, term):
+                return r["file"], f"mentions {term}"
+    for r in track.get("resumes", []):
+        if r.get("default"):
+            return r["file"], "default for this track"
+    if track.get("resumes"):
+        return track["resumes"][0]["file"], "default for this track"
+    return "", ""
+
+
 class Matcher:
     def __init__(self, search: dict, now: datetime | None = None):
         self.s = search
         self.now = now or datetime.now(timezone.utc)
         self.drops: dict[str, int] = {}
+        self.last_drop_reason: str = ""
 
     def _drop(self, reason: str) -> bool:
         self.drops[reason] = self.drops.get(reason, 0) + 1
+        self.last_drop_reason = reason
         return False
 
     def _location_ok(self, job: Job) -> tuple[bool, str]:
         loc = norm(job.location)
-        for bad in self.s["exclude_locations"]:
+        for bad in self.s.get("exclude_locations", []):
             if contains_term(loc, bad):
                 return False, ""
-        wanted = self.s["locations"]
+        wanted = self.s.get("locations", [])
         is_remote = job.remote is True or "remote" in loc
         if not wanted:
             return True, "remote" if is_remote else ""
         for place in wanted:
             if contains_term(loc, place):
                 return True, place
-        if is_remote and self.s["include_remote"]:
+        if is_remote and self.s.get("include_remote", True):
             return True, "remote"
         if not loc and job.remote is None:
             return True, ""  # unknown location: let the person decide
@@ -90,25 +176,28 @@ class Matcher:
         s = self.s
         title = norm(job.title)
         body = job.description.lower()
+        full_text = f"{title} {body}"
         reasons: list[str] = []
         score = 0
+        job.flags = scam_flags(job)
 
         # 1. Role keywords
-        title_hits = [k for k in s["keywords"] if contains_term(title, k)]
-        body_hits = [k for k in s["keywords"] if k not in title_hits and contains_term(body, k)]
+        keywords = s.get("keywords", [])
+        title_hits = [k for k in keywords if contains_term(title, k)]
+        body_hits = [k for k in keywords if k not in title_hits and contains_term(body, k)]
         if title_hits:
             score += 40 + min(10 * (len(title_hits) - 1), 20)
             reasons.append("title: " + ", ".join(title_hits[:3]))
-        elif s["search_description"] and body_hits:
+        elif s.get("search_description") and body_hits:
             score += 18
             reasons.append("description mentions: " + ", ".join(body_hits[:3]))
         else:
             return self._drop("role keywords not matched")
 
         # 2. Hard excludes
-        if any(contains_term(title, x) for x in s["exclude_title"]):
+        if any(contains_term(title, x) for x in s.get("exclude_title", [])):
             return self._drop("excluded title word (e.g. senior/manager)")
-        if any(x.lower() in body or x.lower() in title for x in s["exclude_text"]):
+        if any(x.lower() in body or x.lower() in title for x in s.get("exclude_text", [])):
             return self._drop("excluded phrase in description")
 
         # 3. Location
@@ -125,7 +214,7 @@ class Matcher:
         # 4. Freshness
         if job.posted:
             age = self.now - job.posted
-            if s["max_age_days"] and age > timedelta(days=s["max_age_days"]):
+            if s.get("max_age_days") and age > timedelta(days=s["max_age_days"]):
                 return self._drop("older than max_age_days")
             if age <= timedelta(days=3):
                 score += 10
@@ -136,10 +225,10 @@ class Matcher:
         # 5. Experience
         years = required_years(job)
         job.min_years = years
-        limit = s["max_years_experience"]
+        limit = s.get("max_years_experience")
         if limit is not None:
             if years is None:
-                if s["unknown_experience"] == "drop":
+                if s.get("unknown_experience") == "drop":
                     return self._drop("experience not stated")
             elif years > limit:
                 return self._drop("asks for more experience than max_years_experience")
@@ -147,9 +236,19 @@ class Matcher:
                 score += 5
                 reasons.append(f"asks ≤{limit} yrs" if years else "no experience required")
 
-        # 6. Fresher / early-career signals
-        fresh_title = [t for t in s["fresher_terms"] if contains_term(title, t)]
-        fresh_body = [t for t in s["fresher_terms"] if t not in fresh_title and contains_term(body, t)]
+        # 6. Graduation batch eligibility check
+        batch_years = parse_batch_years(full_text)
+        cand_grad_year = s.get("candidate_grad_year", 2027)
+        if batch_years:
+            if cand_grad_year not in batch_years:
+                return self._drop(f"not open to the {cand_grad_year} batch")
+            score += 10
+            reasons.append(f"open to {cand_grad_year} batch")
+
+        # 7. Fresher / early-career signals
+        fresher_terms = s.get("fresher_terms", [])
+        fresh_title = [t for t in fresher_terms if contains_term(title, t)]
+        fresh_body = [t for t in fresher_terms if t not in fresh_title and contains_term(body, t)]
         if fresh_title or norm(job.seniority) in ("entry level", "entry-level", "internship"):
             score += 15
             reasons.append("early-career role")
@@ -157,19 +256,36 @@ class Matcher:
             score += 8
             reasons.append("mentions " + fresh_body[0])
 
-        # 7. Skills
-        skill_hits = [k for k in s["skills"] if contains_term(body, k) or contains_term(title, k)]
+        # 8. Skills
+        skill_hits = [k for k in s.get("skills", []) if contains_term(body, k) or contains_term(title, k)]
         if skill_hits:
             score += min(3 * len(skill_hits), 15)
             reasons.append("skills: " + ", ".join(skill_hits[:5]))
 
-        # 8. Scam signals (flag, don't hide)
-        job.flags = scam_flags(job)
-        if job.flags:
+        # 9. CGPA cutoff check
+        cand_cgpa = s.get("candidate_cgpa", 7.64)
+        if cand_cgpa is not None:
+            cgpa_val, cgpa_str = parse_cgpa_cutoff(full_text)
+            if cgpa_val is not None and cgpa_val > cand_cgpa:
+                flag = f"asks for CGPA {cgpa_str}+ (resume shows {cand_cgpa})"
+                if flag not in job.flags:
+                    job.flags.append(flag)
+                score -= 15
+
+        # 10. Branch restriction check (software track only)
+        track_id = s.get("track_id", "")
+        if check_branch_restriction(full_text, track_id):
+            flag = "may require a CS/IT degree"
+            if flag not in job.flags:
+                job.flags.append(flag)
+            score -= 10
+
+        # 11. Scam signals (flag, don't hide)
+        if scam_flags(job):
             score -= 30
 
         job.score = max(0, min(100, score))
         job.reasons = reasons
-        if job.score < s["min_score"]:
+        if job.score < s.get("min_score", 0):
             return self._drop("below min_score")
         return True

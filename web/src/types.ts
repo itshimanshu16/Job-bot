@@ -1,5 +1,22 @@
 /** Shapes of data/jobs.json, written by the Python collector (jobradar/report.py). */
 
+export interface TrackResume {
+  file: string;
+  use_for: string;
+}
+
+export interface TrackMeta {
+  id: string;
+  label: string;
+  resumes: TrackResume[];
+}
+
+export interface CandidateMeta {
+  degree?: string;
+  graduation_year?: number;
+  max_years_experience?: number;
+}
+
 export interface Job {
   uid: string;
   source: string;
@@ -22,6 +39,13 @@ export interface Job {
   llm_score: number | null;
   llm_reason: string;
   snippet: string;
+
+  // Multi-track and resume metadata
+  track: string;
+  track_label: string;
+  resume: string;
+  resume_reason: string;
+  track_scores: Record<string, number>;
 }
 
 export interface Board {
@@ -42,6 +66,8 @@ export interface Meta {
   drops: Record<string, number>;
   notes: string[];
   keywords: string[];
+  tracks?: TrackMeta[];
+  candidate?: CandidateMeta;
 }
 
 export interface Payload {
@@ -54,6 +80,7 @@ export type MarkStatus = "applied" | "hidden";
 export interface Mark {
   status: MarkStatus;
   at: string; // ISO time the mark was made
+  resume?: string;
 }
 
 export type Marks = Record<string, Mark>;

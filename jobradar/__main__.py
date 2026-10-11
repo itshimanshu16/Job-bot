@@ -15,7 +15,7 @@ import tempfile
 from pathlib import Path
 
 from . import __version__
-from .config import ConfigError, load_companies, load_config
+from .config import ConfigError, load_companies, load_config, load_profiles
 from .detect import detect
 from .http import Http
 from .pipeline import run
@@ -36,7 +36,7 @@ def _summary(result, path: Path) -> None:
 
 
 def cmd_run(args) -> int:
-    cfg = load_config(args.config)
+    cfg = load_config(args.config, profiles_path=args.profiles)
     if args.out:
         cfg["output"]["dir"] = args.out
     companies = load_companies(args.companies)
@@ -80,18 +80,10 @@ def cmd_detect(args) -> int:
 
 
 def cmd_demo(args) -> int:
-    from .config import DEFAULTS
     from .demo import DEMO_COMPANIES, DemoHttp
 
-    cfg = copy.deepcopy(DEFAULTS)
-    cfg["search"].update({
-        "keywords": ["business analyst", "data analyst", "product analyst", "supply chain analyst",
-                     "graduate engineer trainee", "design engineer", "founder's office"],
-        "skills": ["sql", "excel", "python", "power bi", "cad"],
-        "locations": ["india", "bengaluru", "gurugram", "pune", "chennai", "noida", "delhi"],
-        "max_years_experience": 2,
-        "min_score": 20,
-    })
+    profiles_path = getattr(args, "profiles", "profiles.yaml")
+    cfg = load_config("config.yaml", profiles_path=profiles_path)
     cfg["output"]["dir"] = args.out
     cfg["output"]["title"] = "Job Radar (demo)"
     cfg["state"]["path"] = str(Path(tempfile.mkdtemp()) / "seen.json")
@@ -109,6 +101,7 @@ def main(argv: list[str] | None = None) -> int:
 
     p = sub.add_parser("run", help="fetch, filter and write the report")
     p.add_argument("--config", default="config.yaml")
+    p.add_argument("--profiles", default="profiles.yaml")
     p.add_argument("--companies", default="companies.yaml")
     p.add_argument("--out", help="output folder (default: output.dir in config)")
     p.set_defaults(func=cmd_run)
@@ -122,6 +115,7 @@ def main(argv: list[str] | None = None) -> int:
     p.set_defaults(func=cmd_detect)
 
     p = sub.add_parser("demo", help="write sample data from made-up companies")
+    p.add_argument("--profiles", default="profiles.yaml")
     p.add_argument("--out", default="web/public/data")
     p.set_defaults(func=cmd_demo)
 

@@ -7,11 +7,15 @@ from pathlib import Path
 
 from .pipeline import RunResult
 
-CSV_FIELDS = ["score", "is_new", "title", "company", "location", "remote", "posted", "min_years",
-              "source", "url", "apply_url", "reasons", "flags", "llm_reason"]
+CSV_FIELDS = [
+    "score", "is_new", "title", "company", "track", "track_label", "resume", "resume_reason",
+    "location", "remote", "posted", "min_years", "source", "url",
+    "apply_url", "reasons", "flags", "llm_reason"
+]
 
 
 def build_payload(result: RunResult, cfg: dict) -> dict:
+    cand = cfg.get("candidate") or {}
     meta = {
         "title": cfg["output"]["title"],
         "generated": result.started.isoformat(timespec="seconds"),
@@ -21,7 +25,20 @@ def build_payload(result: RunResult, cfg: dict) -> dict:
         "boards": [b.__dict__ for b in result.boards],
         "drops": result.drops,
         "notes": result.notes,
-        "keywords": cfg["search"]["keywords"],
+        "keywords": cfg.get("search", {}).get("keywords", []),
+        "tracks": [
+            {
+                "id": t["id"],
+                "label": t["label"],
+                "resumes": [{"file": r["file"], "use_for": r.get("use_for", "")} for r in t.get("resumes", [])]
+            }
+            for t in cfg.get("tracks", [])
+        ],
+        "candidate": {
+            "degree": cand.get("degree", ""),
+            "graduation_year": cand.get("graduation_year"),
+            "max_years_experience": cand.get("max_years_experience"),
+        }
     }
     return {"meta": meta, "jobs": [j.to_dict() for j in result.jobs]}
 

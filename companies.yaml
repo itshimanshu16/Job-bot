@@ -2,43 +2,101 @@
 #  Companies to watch, grouped by the job board they use.
 #  The value is the company's "slug": the part after the board's domain in its job page URL.
 #
-#    boards.greenhouse.io/stripe            -> greenhouse: stripe
-#    job-boards.greenhouse.io/stripe        -> greenhouse: stripe
-#    jobs.lever.co/palantir                 -> lever: palantir
-#    jobs.ashbyhq.com/notion                -> ashby: notion
-#    careers.smartrecruiters.com/Visa       -> smartrecruiters: Visa     (case matters)
-#    apply.workable.com/acme                -> workable: acme
+#    job-boards.greenhouse.io/groww         -> greenhouse: groww
+#    jobs.lever.co/cred                     -> lever: cred
+#    jobs.ashbyhq.com/atlan                 -> ashby: atlan
+#    careers.smartrecruiters.com/Freshworks -> smartrecruiters: Freshworks
 #
-#  Don't know which board a company uses? Run:
-#    python -m jobradar detect https://company.com/careers
-#  Then check everything works with:
+#  Checked with:
 #    python -m jobradar check
-#
-#  Companies on Workday, SuccessFactors, Naukri-only or their own custom site are not supported.
 # ─────────────────────────────────────────────────────────────────────────────
 
 greenhouse:
-  - inmobi
+  - razorpaysoftwareprivatelimited
   - groww
+  - inmobi
+  - alphasights
+  - guidepoint
   - rubrik
   - twilio
   - okta
   - coinbase
   - deliveroo
-  - stripe
 
 lever:
+  - cred
+  - meesho
   - zeta
-  - palantir
+  - porter
 
 ashby:
-  - notion
+  - atlan
   - cursor
   - perplexity
   - sentry
 
 smartrecruiters:
+  - Freshworks
   - BoschGroup
   - AveryDennison
 
 workable: []
+
+# unsupported - check manually
+# ── Software ─────────────────────────────────────────────────────────────────
+# - Zepto: https://www.zeptonow.com/careers (own portal)
+# - PhonePe: https://www.phonepe.com/careers/ (own portal)
+# - Swiggy: https://careers.swiggy.com/ (own portal)
+# - Zomato: https://www.zomato.com/careers (own portal)
+# - Postman: https://www.postman.com/careers/ (own portal)
+# - BrowserStack: https://www.browserstack.com/careers (Workday)
+# - Chargebee: https://www.chargebee.com/careers/ (own portal)
+# - Juspay: https://juspay.in/careers (own portal)
+# - Dream11: https://www.dreamsports.group/careers (own portal)
+# - ShareChat: https://sharechat.com/careers (own portal)
+# - Unacademy: https://unacademy.com/careers (Darwinbox)
+# - upGrad: https://www.upgrad.com/careers/ (own portal)
+# - Smallcase: https://www.smallcase.com/careers/ (own portal)
+# - Slice: https://www.sliceit.com/careers (own portal)
+# - Jar: https://www.myjar.app/careers (own portal)
+# - Plum: https://www.plumhq.com/careers (own portal)
+# - Rippling: https://www.rippling.com/careers (own portal)
+# - Hasura: https://hasura.io/careers/ (own portal)
+# - Sprinklr: https://www.sprinklr.com/careers/ (Workday)
+#
+# ── Analyst & Consulting ──────────────────────────────────────────────────────
+# - Tredence: https://www.tredence.com/careers (own portal / Taleo)
+# - Fractal Analytics: https://fractal.ai/careers/ (own portal / Workday)
+# - Tiger Analytics: https://www.tigeranalytics.com/careers/ (own portal)
+# - LatentView: https://www.latentview.com/careers/ (own portal)
+# - Mu Sigma: https://www.mu-sigma.com/careers (own portal)
+# - EXL: https://www.exlservice.com/careers (Workday)
+# - ZS Associates: https://www.zs.com/careers (Workday)
+# - Trinity Life Sciences: https://trinitylifesciences.com/careers/ (Workday)
+# - Axtria: https://www.axtria.com/careers/ (SuccessFactors)
+# - Evalueserve: https://www.evalueserve.com/careers/ (own portal)
+# - Course5 Intelligence: https://www.course5i.com/careers/ (own portal)
+# - Gartner: https://jobs.gartner.com/ (Workday)
+# - Bain Capability Network: https://www.bain.com/careers/ (own portal / Workday)
+# - PwC India: https://www.pwc.in/careers.html (Workday)
+# - Deloitte USI: https://www2.deloitte.com/ui/en/pages/careers/articles/life-at-deloitte.html (Taleo / own portal)
+# - EY GDS: https://www.ey.com/en_gl/careers (SuccessFactors)
+# - KPMG India: https://kpmg.com/in/en/home/careers.html (own portal)
+#
+# ── Supply Chain & Operations ─────────────────────────────────────────────────
+# - Delhivery: https://www.delhivery.com/careers (own portal)
+# - Shiprocket: https://www.shiprocket.in/careers/ (own portal)
+# - Blinkit: https://blinkit.com/careers (own portal)
+# - Udaan: https://careers.udaan.com/ (own portal)
+# - Ninjacart: https://ninjacart.com/careers (own portal)
+# - Shadowfax: https://www.shadowfax.in/careers (own portal)
+# - Licious: https://careers.licious.in/ (own portal)
+# - BigBasket: https://www.bigbasket.com/careers/ (own portal / Taleo)
+# - Jumbotail: https://jumbotail.com/careers/ (own portal)
+# - ElasticRun: https://www.elastic.run/careers.html (own portal)
+# - BlackBuck: https://www.blackbuck.com/careers (own portal)
+# - Locus: https://locus.sh/careers/ (Darwinbox)
+# - FarEye: https://fareye.com/careers (Darwinbox)
+# - Pickrr: https://www.pickrr.com/careers/ (own portal)
+# - Ecom Express: https://ecomexpress.in/careers/ (own portal)
+# - Xpressbees: https://www.xpressbees.com/careers (own portal)

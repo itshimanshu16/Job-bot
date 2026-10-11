@@ -33,6 +33,13 @@ class Job:
     llm_score: int | None = None
     llm_reason: str = ""
 
+    # Multi-track and resume metadata
+    track: str = ""
+    track_label: str = ""
+    resume: str = ""
+    resume_reason: str = ""
+    track_scores: dict[str, int] = field(default_factory=dict)
+
     @property
     def uid(self) -> str:
         return f"{self.source}:{self.company_slug}:{self.job_id}".lower()
@@ -60,4 +67,9 @@ class Job:
             "llm_score": self.llm_score,
             "llm_reason": self.llm_reason,
             "snippet": self.description[:400],
+            "track": self.track,
+            "track_label": self.track_label,
+            "resume": self.resume,
+            "resume_reason": self.resume_reason,
+            "track_scores": self.track_scores,
         }
