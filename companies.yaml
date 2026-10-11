@@ -6,97 +6,951 @@
 #    jobs.lever.co/cred                     -> lever: cred
 #    jobs.ashbyhq.com/atlan                 -> ashby: atlan
 #    careers.smartrecruiters.com/Freshworks -> smartrecruiters: Freshworks
+#    apply.workable.com/cars24              -> workable: cars24
 #
-#  Checked with:
-#    python -m jobradar check
+#  This is the SEED list: India-relevant companies found in public ATS datasets.
+#  Run the "Refresh companies" workflow (Actions tab) to test ~19,600 boards and
+#  rewrite this file with only the boards that have live jobs in India.
 # ─────────────────────────────────────────────────────────────────────────────
 
 greenhouse:
-  - razorpaysoftwareprivatelimited
-  - groww
-  - inmobi
-  - alphasights
-  - guidepoint
-  - rubrik
-  - twilio
-  - okta
-  - coinbase
-  - deliveroo
+  # ── Already working ──
+  - razorpaysoftwareprivatelimited     # Razorpay Software Private Limited  (already working)
+  - groww                              # Groww  (already working)
+  - inmobi                             # InMobi  (already working)
+  - alphasights                        # AlphaSights  (already working)
+  - guidepoint                         # Guidepoint  (already working)
+  - rubrik                             # Rubrik Job Board  (already working)
+  - twilio                             # Twilio  (already working)
+  - okta                               # okta  (already working)
+  - coinbase                           # Coinbase  (already working)
+  - deliveroo                          # deliveroo  (already working)
+  # ── Software / Full-stack ──
+  - browserstack                       # BrowserStack
+  - chargebee                          # Chargebee
+  - dream11                            # Dream11
+  - druva                              # Druva
+  - flipkart                           # Flipkart
+  - freshworks                         # Freshworks
+  - gameskraft                         # Gameskraft
+  - glance                             # Glance
+  - hasura                             # Hasura
+  - jupitermoney                       # Jupiter Money
+  - juspay                             # Juspay
+  - meesho                             # Meesho
+  - myntra                             # Myntra
+  - naukri                             # Naukri
+  - navi                               # Navi
+  - nothing                            # Nothing
+  - observeai                          # Observe.AI
+  - phonepe                            # PhonePe
+  - postman                            # Postman
+  - sharechat                          # ShareChat
+  - signoz                             # SigNoz
+  - slice                              # Slice
+  - smallcase                          # Smallcase
+  - sprinklr                           # Sprinklr
+  - swiggy                             # Swiggy
+  - tcs                                # TCS
+  - tekion                             # Tekion
+  - thoughtworks                       # Thoughtworks
+  - zomato                             # Zomato
+  # ── Analyst & Consulting ──
+  - arcesiumllc                        # Arcesium
+  - arcesium                           # Arcesium
+  - citadel                            # Citadel
+  - colemanresearch                    # Coleman Research
+  - deshaw                             # D. E. Shaw
+  - dunnhumby                          # Dunnhumby
+  - gravitonresearchcapital            # Graviton Research Capital
+  - wehrtyou                           # Hudson River Trading
+  - hudsonrivertrading                 # Hudson River Trading
+  - imc                                # IMC
+  - janestreet                         # Jane Street
+  - optiver                            # Optiver
+  - optiverprivate                     # Optiver
+  - point72                            # Point72
+  - rippling                           # Rippling
+  - sigmoid                            # Sigmoid
+  - squarepointcapital                 # Squarepoint Capital
+  - thirdbridge                        # Third Bridge
+  - twosigma                           # Two Sigma
+  - unilever                           # Unilever
+  - worldquant                         # WorldQuant
+  # ── Supply Chain & Operations ──
+  - flexport                           # Flexport
+  - fourkites                          # FourKites
+  - project44                          # project44
+  - project44opportunities             # project44
+  # ── From an India-focused tracker (unverified) ──
+  - zeptonow                           # zeptonow  (from India tracker, unverified)
+  - urbancompany                       # urbancompany  (from India tracker, unverified)
+  - lambdatestinc                      # lambdatestinc  (from India tracker, unverified)
 
 lever:
-  - cred
-  - meesho
-  - zeta
-  - porter
+  # ── Already working ──
+  - cred                               # CRED  (already working)
+  - meesho                             # Meesho  (already working)
+  - zeta                               # Zeta  (already working)
+  - porter                             # Porter Cares, Inc.  (already working)
+  # ── Software / Full-stack ──
+  - hotstar                            # Disney+ Hotstar
+  - dunzo                              # Dunzo
+  - epifi                              # Epifi
+  - eternal                            # Eternal
+  - fampay                             # FamPay
+  - freshworks                         # Freshworks
+  - innovaccer                         # Innovaccer
+  - leadsquared                        # LeadSquared
+  - mindtickle                         # MindTickle
+  - paytm                              # Paytm
+  - plum                               # Plum
+  - pocketfm                           # Pocket FM
+  - postman                            # Postman
+  - razorpay                           # Razorpay
+  - slice                              # Slice
+  - whatfix                            # Whatfix
+  - zetwerk                            # Zetwerk
+  - zluri                              # Zluri
+  - zoho                               # Zoho
+  # ── Analyst & Consulting ──
+  - atlassian                          # Atlassian
+  - kpmg                               # KPMG
+  - nielsen                            # Nielsen
+  # ── Supply Chain & Operations ──
+  - coupa                              # Coupa
+  # ── From an India-focused tracker (unverified) ──
+  - netomi                             # netomi  (from India tracker, unverified)
+  - hackerrank                         # hackerrank  (from India tracker, unverified)
+  - kiwitech                           # kiwitech  (from India tracker, unverified)
+  - yellow                             # yellow  (from India tracker, unverified)
 
 ashby:
-  - atlan
-  - cursor
-  - perplexity
-  - sentry
+  # ── Already working ──
+  - atlan                              # Atlan  (already working)
+  - cursor                             # cursor  (already working)
+  - perplexity                         # Perplexity  (already working)
+  - sentry                             # Sentry  (already working)
+  # ── Software / Full-stack ──
+  - biconomy                           # Biconomy
+  - scaler                             # Scaler
+  - signoz                             # SigNoz
+  - tekion                             # Tekion
+  - thoughtworks                       # Thoughtworks
+  - zerodha                            # Zerodha
+  # ── Analyst & Consulting ──
+  - hrt                                # Hudson River Trading
+  - nutanix                            # Nutanix
+  # ── Supply Chain & Operations ──
+  - project44                          # project44
 
 smartrecruiters:
-  - Freshworks
-  - BoschGroup
-  - AveryDennison
+  # ── Already working ──
+  - Freshworks                         # Freshworks  (already working)
+  - BoschGroup                         # Bosch Group  (already working)
+  - AveryDennison                      # AveryDennison  (already working)
+  # ── Software / Full-stack ──
+  - cars24                             # Cars24
+  - exotel                             # Exotel
+  - flipkart                           # Flipkart
+  - icertis                            # Icertis
+  - inmobi                             # InMobi
+  - ixigo                              # ixigo
+  - jungleegames                       # Junglee Games
+  - loginext                           # LogiNext
+  - meesho                             # Meesho
+  - mindtickle                         # MindTickle
+  - nagarro1                           # Nagarro
+  - NoBroker                           # NoBroker
+  - persistentsystems                  # Persistent Systems
+  - phonepe                            # PhonePe
+  - slice1                             # Slice
+  - toppr                              # Toppr
+  - zeta                               # Zeta
+  - zomato1                            # Zomato
+  # ── Analyst & Consulting ──
+  - accenture                          # Accenture
+  - adobe1                             # Adobe
+  - alphasights                        # AlphaSights
+  - bectondickinson2                   # Becton Dickinson
+  - bp3                                # BP
+  - citi                               # Citi
+  - continental                        # Continental
+  - deloitte6                          # Deloitte
+  - deutschebank                       # Deutsche Bank
+  - dunnhumby                          # Dunnhumby
+  - ericsson                           # Ericsson
+  - fractalanalytics                   # Fractal Analytics
+  - HMGroup                            # H&M
+  - honeywell                          # Honeywell
+  - intuit2                            # Intuit
+  - ipsos                              # Ipsos
+  - mastercard                         # Mastercard
+  - micron                             # Micron
+  - morganstanley                      # Morgan Stanley
+  - thenielsencompany                  # Nielsen
+  - nielseniq                          # NielsenIQ
+  - nokia                              # Nokia
+  - nttdata                            # NTT Data
+  - nvidia                             # NVIDIA
+  - rippling                           # Rippling
+  - sap                                # SAP
+  - servicenow                         # ServiceNow
+  - standardchartered                  # Standard Chartered
+  - sutherland                         # Sutherland
+  - sutherland1                        # Sutherland
+  - synopsys                           # Synopsys
+  - texasinstruments                   # Texas Instruments
+  - tigeranalytics                     # Tiger Analytics
+  - visa                               # Visa
+  - Walmart30                          # Walmart Global Tech
+  - westerndigital                     # Western Digital
+  - wnscareers                         # WNS
+  - wnsglobalservices144               # WNS
+  - wnsglobalservices                  # WNS
+  # ── Supply Chain & Operations ──
+  - expeditors                         # Expeditors
+  - flexport                           # Flexport
+  - kuehne-nagel                       # Kuehne + Nagel
+  - zycus1                             # Zycus
 
-workable: []
+workable:
+  # ── Software / Full-stack ──
+  - allen-digital                      # Allen Digital
+  - cars24                             # Cars24
+  - dbox                               # Darwinbox
+  - agrevolution                       # DeHaat
+  - exponent-energy                    # Exponent Energy
+  - hyperverge                         # HyperVerge
+  - junglee-games                      # Junglee Games
+  - leenaai                            # Leena AI
+  - loginext                           # LogiNext
+  - postman                            # Postman
+  - toppr                              # Toppr
+  - urbanco                            # Urban Company
+  # ── Analyst & Consulting ──
+  - dialectica-global                  # Dialectica
+  - tiger-analytics                    # Tiger Analytics
+  - wnscareers                         # WNS
+  # ── Supply Chain & Operations ──
+  - zycus-1                            # Zycus
 
+# ═════════════════════════════════════════════════════════════════════════════
 # unsupported - check manually
-# ── Software ─────────────────────────────────────────────────────────────────
-# - Zepto: https://www.zeptonow.com/careers (own portal)
-# - PhonePe: https://www.phonepe.com/careers/ (own portal)
-# - Swiggy: https://careers.swiggy.com/ (own portal)
-# - Zomato: https://www.zomato.com/careers (own portal)
-# - Postman: https://www.postman.com/careers/ (own portal)
-# - BrowserStack: https://www.browserstack.com/careers (Workday)
-# - Chargebee: https://www.chargebee.com/careers/ (own portal)
-# - Juspay: https://juspay.in/careers (own portal)
-# - Dream11: https://www.dreamsports.group/careers (own portal)
-# - ShareChat: https://sharechat.com/careers (own portal)
-# - Unacademy: https://unacademy.com/careers (Darwinbox)
-# - upGrad: https://www.upgrad.com/careers/ (own portal)
-# - Smallcase: https://www.smallcase.com/careers/ (own portal)
-# - Slice: https://www.sliceit.com/careers (own portal)
-# - Jar: https://www.myjar.app/careers (own portal)
-# - Plum: https://www.plumhq.com/careers (own portal)
-# - Rippling: https://www.rippling.com/careers (own portal)
-# - Hasura: https://hasura.io/careers/ (own portal)
-# - Sprinklr: https://www.sprinklr.com/careers/ (Workday)
+# These companies hire in India but use a careers system the bot can't read yet.
+# Open the link (or set up the site's own job-alert emails).
+# ═════════════════════════════════════════════════════════════════════════════
 #
-# ── Analyst & Consulting ──────────────────────────────────────────────────────
-# - Tredence: https://www.tredence.com/careers (own portal / Taleo)
-# - Fractal Analytics: https://fractal.ai/careers/ (own portal / Workday)
-# - Tiger Analytics: https://www.tigeranalytics.com/careers/ (own portal)
-# - LatentView: https://www.latentview.com/careers/ (own portal)
-# - Mu Sigma: https://www.mu-sigma.com/careers (own portal)
-# - EXL: https://www.exlservice.com/careers (Workday)
-# - ZS Associates: https://www.zs.com/careers (Workday)
-# - Trinity Life Sciences: https://trinitylifesciences.com/careers/ (Workday)
-# - Axtria: https://www.axtria.com/careers/ (SuccessFactors)
-# - Evalueserve: https://www.evalueserve.com/careers/ (own portal)
-# - Course5 Intelligence: https://www.course5i.com/careers/ (own portal)
-# - Gartner: https://jobs.gartner.com/ (Workday)
-# - Bain Capability Network: https://www.bain.com/careers/ (own portal / Workday)
-# - PwC India: https://www.pwc.in/careers.html (Workday)
-# - Deloitte USI: https://www2.deloitte.com/ui/en/pages/careers/articles/life-at-deloitte.html (Taleo / own portal)
-# - EY GDS: https://www.ey.com/en_gl/careers (SuccessFactors)
-# - KPMG India: https://kpmg.com/in/en/home/careers.html (own portal)
+# ── Workday ──
+# - BrowserStack: https://browserstack.wd3.myworkdayjobs.com/external (Workday, Software / Full-stack)
+# - Infosys: https://infosys.wd103.myworkdayjobs.com/BLS_Careers (Workday, Software / Full-stack)
+# - Open: https://open.wd103.myworkdayjobs.com/ADLERE (Workday, Software / Full-stack)
+# - Palo Alto Networks: https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers (Workday, Software / Full-stack)
+# - SAP: https://sap.wd3.myworkdayjobs.com/SAPCareers (Workday, Software / Full-stack)
+# - Sprinklr: https://sprinklr.wd1.myworkdayjobs.com/careers (Workday, Software / Full-stack)
+# - Synechron: https://synechron.wd1.myworkdayjobs.com/synechroncareers (Workday, Software / Full-stack)
+# - Texas Instruments: https://texasinstruments.wd12.myworkdayjobs.com/External_Career_Site (Workday, Software / Full-stack)
+# - Uniphore: https://uniphore.wd503.myworkdayjobs.com/uniphore (Workday, Software / Full-stack)
+# - VMware: https://vmware.wd1.myworkdayjobs.com/VMware (Workday, Software / Full-stack)
+# - ABB: https://abb.wd3.myworkdayjobs.com/External_Career_Page (Workday, Analyst & Consulting)
+# - Abbott: https://abbott.wd5.myworkdayjobs.com/abbottcareers (Workday, Analyst & Consulting)
+# - Accenture: https://accenture.wd103.myworkdayjobs.com/AvanadeLeadershipCareers (Workday, Analyst & Consulting)
+# - Adobe: https://adobe.wd5.myworkdayjobs.com/external_experienced (Workday, Analyst & Consulting)
+# - American Express: https://aexp.wd3.myworkdayjobs.com/JobSearch (Workday, Analyst & Consulting)
+# - Applied Materials: https://amat.wd1.myworkdayjobs.com/external (Workday, Analyst & Consulting)
+# - AstraZeneca: https://astrazeneca.wd3.myworkdayjobs.com/Emerging-Talent (Workday, Analyst & Consulting)
+# - Autodesk: https://autodesk.wd1.myworkdayjobs.com/uni (Workday, Analyst & Consulting)
+# - Barclays: https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays (Workday, Analyst & Consulting)
+# - Baxter: https://baxter.wd1.myworkdayjobs.com/baxter (Workday, Analyst & Consulting)
+# - BlackRock: https://blackrock.wd1.myworkdayjobs.com/blackrock_professional (Workday, Analyst & Consulting)
+# - Boeing: https://boeing.wd1.myworkdayjobs.com/external_careers (Workday, Analyst & Consulting)
+# - Broadcom: https://broadcom.wd1.myworkdayjobs.com/external_career (Workday, Analyst & Consulting)
+# - Cadence: https://cadence.wd1.myworkdayjobs.com/University_Talent (Workday, Analyst & Consulting)
+# - Cisco: https://cisco.wd5.myworkdayjobs.com/cisco_careers (Workday, Analyst & Consulting)
+# - Citi: https://citi.wd5.myworkdayjobs.com/2 (Workday, Analyst & Consulting)
+# - Clarivate: https://clarivate.wd3.myworkdayjobs.com/clarivate_careers (Workday, Analyst & Consulting)
+# - Coca-Cola: https://coke.wd1.myworkdayjobs.com/coca-cola-careers (Workday, Analyst & Consulting)
+# - Cohesity: https://cohesity.wd5.myworkdayjobs.com/cohesity_careers (Workday, Analyst & Consulting)
+# - DBS: https://dbs.wd3.myworkdayjobs.com/DBS_Careers (Workday, Analyst & Consulting)
+# - Dell: https://dell.wd1.myworkdayjobs.com/external (Workday, Analyst & Consulting)
+# - Deutsche Bank: https://db.wd3.myworkdayjobs.com/DBWebsite (Workday, Analyst & Consulting)
+# - Diageo: https://diageo.wd3.myworkdayjobs.com/diageo_careers (Workday, Analyst & Consulting)
+# - Elara: https://elara.wd5.myworkdayjobs.com/external (Workday, Analyst & Consulting)
+# - Fidelity: https://fmr.wd1.myworkdayjobs.com/fidelitycareers (Workday, Analyst & Consulting)
+# - Fractal: https://fractal.wd1.myworkdayjobs.com/careers (Workday, Analyst & Consulting)
+# - Gartner: https://gartner.wd5.myworkdayjobs.com/ext (Workday, Analyst & Consulting)
+# - GE Vernova: https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite (Workday, Analyst & Consulting)
+# - Genpact: https://genpact.wd108.myworkdayjobs.com/External_Careers (Workday, Analyst & Consulting)
+# - Goldman Sachs: https://gs.wd5.myworkdayjobs.com/GoldmanSachsCareers (Workday, Analyst & Consulting)
+# - Google: https://google.wd501.myworkdayjobs.com/gocjobs (Workday, Analyst & Consulting)
+# - Grant Thornton: https://grantthorntonaus.wd105.myworkdayjobs.com/gta (Workday, Analyst & Consulting)
+# - GSK: https://gsk.wd5.myworkdayjobs.com/gskcareers (Workday, Analyst & Consulting)
+# - Hitachi: https://hitachi.wd1.myworkdayjobs.com/hitachi (Workday, Analyst & Consulting)
+# - HP: https://hp.wd5.myworkdayjobs.com/externalcareersite (Workday, Analyst & Consulting)
+# - HPE: https://hpe.wd5.myworkdayjobs.com/acjobsite (Workday, Analyst & Consulting)
+# - HSBC: https://hsbc.wd3.myworkdayjobs.com/External (Workday, Analyst & Consulting)
+# - Intel: https://intel.wd1.myworkdayjobs.com/external (Workday, Analyst & Consulting)
+# - IQVIA: https://iqvia.wd1.myworkdayjobs.com/iqvia (Workday, Analyst & Consulting)
+# - Kantar: https://kantar.wd3.myworkdayjobs.com/KANTART (Workday, Analyst & Consulting)
+# - Kyndryl: https://kyndryl.wd5.myworkdayjobs.com/ISMCareers (Workday, Analyst & Consulting)
+# - Mastercard: https://mastercard.wd1.myworkdayjobs.com/Campus (Workday, Analyst & Consulting)
+# - Medtronic: https://medtronic.wd1.myworkdayjobs.com/medtroniccareers (Workday, Analyst & Consulting)
+# - Micron: https://micron.wd1.myworkdayjobs.com/external (Workday, Analyst & Consulting)
+# - Morgan Stanley: https://morganstanley.wd5.myworkdayjobs.com/External (Workday, Analyst & Consulting)
+# - Novartis: https://novartis.wd3.myworkdayjobs.com/novartis_careers (Workday, Analyst & Consulting)
+# - NVIDIA: https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite (Workday, Analyst & Consulting)
+# - NXP: https://nxp.wd3.myworkdayjobs.com/careers (Workday, Analyst & Consulting)
+# - P&G: https://pg.wd5.myworkdayjobs.com/1000 (Workday, Analyst & Consulting)
+# - PayPal: https://paypal.wd1.myworkdayjobs.com/jobs (Workday, Analyst & Consulting)
+# - Pfizer: https://pfizer.wd1.myworkdayjobs.com/pfizercareers (Workday, Analyst & Consulting)
+# - Philips: https://philips.wd3.myworkdayjobs.com/jobs-and-careers (Workday, Analyst & Consulting)
+# - PwC: https://pwc.wd3.myworkdayjobs.com/global_campus_careers (Workday, Analyst & Consulting)
+# - Qualcomm: https://qualcomm.wd12.myworkdayjobs.com/external (Workday, Analyst & Consulting)
+# - Roche: https://roche.wd3.myworkdayjobs.com/roche-ext (Workday, Analyst & Consulting)
+# - Rolls-Royce: https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate (Workday, Analyst & Consulting)
+# - Salesforce: https://salesforce.wd12.myworkdayjobs.com/external_career_site (Workday, Analyst & Consulting)
+# - Sanofi: https://sanofi.wd3.myworkdayjobs.com/sanoficareers (Workday, Analyst & Consulting)
+# - Shell: https://shell.wd3.myworkdayjobs.com/shellcareers (Workday, Analyst & Consulting)
+# - State Street: https://statestreet.wd1.myworkdayjobs.com/global (Workday, Analyst & Consulting)
+# - Stryker: https://stryker.wd1.myworkdayjobs.com/strykercareers (Workday, Analyst & Consulting)
+# - Target: https://target.wd5.myworkdayjobs.com/targetcareers (Workday, Analyst & Consulting)
+# - TaskUs: https://taskus.wd1.myworkdayjobs.com/careers (Workday, Analyst & Consulting)
+# - Teleperformance: https://teleperformance.wd1.myworkdayjobs.com/allianceone (Workday, Analyst & Consulting)
+# - Thales: https://thales.wd3.myworkdayjobs.com/careers (Workday, Analyst & Consulting)
+# - Trinity Life Sciences: https://trinitylifesciences.wd108.myworkdayjobs.com/trinity (Workday, Analyst & Consulting)
+# - Unilever: https://unilever.wd3.myworkdayjobs.com/TMICC (Workday, Analyst & Consulting)
+# - Unisys: https://unisys.wd5.myworkdayjobs.com/external (Workday, Analyst & Consulting)
+# - Visa: https://visa.wd5.myworkdayjobs.com/visa (Workday, Analyst & Consulting)
+# - Walmart Global Tech: https://walmart.wd5.myworkdayjobs.com/walmartexternal (Workday, Analyst & Consulting)
+# - Wells Fargo: https://wellsfargo.wd1.myworkdayjobs.com/WellsFargoJobs (Workday, Analyst & Consulting)
+# - Workday: https://workday.wd5.myworkdayjobs.com/workday (Workday, Analyst & Consulting)
+# - C.H. Robinson: https://chrobinson.wd5.myworkdayjobs.com/chrobinson (Workday, Supply Chain & Operations)
+# - FedEx: https://fedex.wd1.myworkdayjobs.com/FTN_APAC_External (Workday, Supply Chain & Operations)
+# - Maersk: https://maersk.wd3.myworkdayjobs.com/MCI_Careers (Workday, Supply Chain & Operations)
 #
-# ── Supply Chain & Operations ─────────────────────────────────────────────────
-# - Delhivery: https://www.delhivery.com/careers (own portal)
-# - Shiprocket: https://www.shiprocket.in/careers/ (own portal)
-# - Blinkit: https://blinkit.com/careers (own portal)
-# - Udaan: https://careers.udaan.com/ (own portal)
-# - Ninjacart: https://ninjacart.com/careers (own portal)
-# - Shadowfax: https://www.shadowfax.in/careers (own portal)
-# - Licious: https://careers.licious.in/ (own portal)
-# - BigBasket: https://www.bigbasket.com/careers/ (own portal / Taleo)
-# - Jumbotail: https://jumbotail.com/careers/ (own portal)
-# - ElasticRun: https://www.elastic.run/careers.html (own portal)
-# - BlackBuck: https://www.blackbuck.com/careers (own portal)
-# - Locus: https://locus.sh/careers/ (Darwinbox)
-# - FarEye: https://fareye.com/careers (Darwinbox)
-# - Pickrr: https://www.pickrr.com/careers/ (own portal)
-# - Ecom Express: https://ecomexpress.in/careers/ (own portal)
-# - Xpressbees: https://www.xpressbees.com/careers (own portal)
+# ── SuccessFactors ──
+# - Altimetrik: https://career44.sapsf.com/career?company=altimetrik (SuccessFactors, Software / Full-stack)
+# - LTIMindtree: https://career5.successfactors.eu/career?company=larsentoub (SuccessFactors, Software / Full-stack)
+# - Wipro: https://career55.sapsf.eu/career?company=wiprolimitP2 (SuccessFactors, Software / Full-stack)
+# - AMD: https://performancemanager4.successfactors.com/career?company=AMD (SuccessFactors, Analyst & Consulting)
+# - Bajaj Auto: https://careers.bajajauto.com (SuccessFactors, Analyst & Consulting)
+# - Biocon: https://career10.successfactors.com/career?company=bioconlimi (SuccessFactors, Analyst & Consulting)
+# - Capgemini: https://career5.successfactors.eu/career?company=capgemitecP3 (SuccessFactors, Analyst & Consulting)
+# - Deloitte: https://career44.sapsf.com/career?company=deloittesh (SuccessFactors, Analyst & Consulting)
+# - Ericsson: https://career2.successfactors.eu/career?company=Ericsson (SuccessFactors, Analyst & Consulting)
+# - HSBC: https://career2.successfactors.eu/career?company=hsbcholdin (SuccessFactors, Analyst & Consulting)
+# - KPMG: https://careers.kpmg.it (SuccessFactors, Analyst & Consulting)
+# - Moody's: https://career8.successfactors.com/career?company=MoodysProd (SuccessFactors, Analyst & Consulting)
+# - NTT Data: https://bewerben.de.nttdata.com (SuccessFactors, Analyst & Consulting)
+# - PwC: https://careers.pwc.com (SuccessFactors, Analyst & Consulting)
+#
+# ── Oracle ──
+# - Icertis: https://iaaviz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1 (Oracle, Software / Full-stack)
+# - BNY: https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001 (Oracle, Analyst & Consulting)
+# - Conduent: https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1 (Oracle, Analyst & Consulting)
+# - Cummins: https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1007 (Oracle, Analyst & Consulting)
+# - Fujitsu: https://edzt.fa.em4.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1 (Oracle, Analyst & Consulting)
+# - Goldman Sachs: https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_3001 (Oracle, Analyst & Consulting)
+# - Honeywell: https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1 (Oracle, Analyst & Consulting)
+# - Ipsos: https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001 (Oracle, Analyst & Consulting)
+# - ITC: https://edqo.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_3001 (Oracle, Analyst & Consulting)
+# - JPMorgan Chase: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001 (Oracle, Analyst & Consulting)
+# - KPMG: https://elzw.fa.em8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001 (Oracle, Analyst & Consulting)
+# - Nokia: https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1 (Oracle, Analyst & Consulting)
+# - Oracle: https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1 (Oracle, Analyst & Consulting)
+# - Startek: https://fa-evuf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1 (Oracle, Analyst & Consulting)
+# - Tata Capital: https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1 (Oracle, Analyst & Consulting)
+# - Texas Instruments: https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1 (Oracle, Analyst & Consulting)
+#
+# ── Eightfold ──
+# - Applied Materials: https://appliedmaterials.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - AstraZeneca: https://astrazeneca.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - Citi: https://citi.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - Deere: https://careers.deere.com/careers (Eightfold, Analyst & Consulting)
+# - Deloitte: https://deloitte.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - Ericsson: https://ericsson.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - HP: https://hp.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - HSBC: https://hsbc.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - Infineon: https://infineon.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - John Deere: https://careers.deere.com/careers (Eightfold, Analyst & Consulting)
+# - Micron: https://micron.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - Microsoft: https://microsoft.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - Millennium: https://career.mlp.com/careers (Eightfold, Analyst & Consulting)
+# - Morgan Stanley: https://morganstanley.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - NTT Data: https://nttdata.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - NVIDIA: https://nvidia.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - PayPal: https://paypal.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - Qualcomm: https://qualcomm.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+# - Twilio: https://twilio.eightfold.ai/careers (Eightfold, Analyst & Consulting)
+#
+# ── Phenom ──
+# - ABB: https://careers.abb (Phenom, Analyst & Consulting)
+# - Adobe: https://careers.adobe.com (Phenom, Analyst & Consulting)
+# - BCG: https://careers.bcg.com (Phenom, Analyst & Consulting)
+# - Cisco: https://careers.cisco.com (Phenom, Analyst & Consulting)
+# - GE HealthCare: https://careers.gehealthcare.com (Phenom, Analyst & Consulting)
+# - HPE: https://careers.hpe.com (Phenom, Analyst & Consulting)
+# - Mastercard: https://careers.mastercard.com (Phenom, Analyst & Consulting)
+# - Merck: https://careers.merckgroup.com (Phenom, Analyst & Consulting)
+# - Morningstar: https://careers.morningstar.com (Phenom, Analyst & Consulting)
+# - Philips: https://www.careers.philips.com (Phenom, Analyst & Consulting)
+# - Roche: https://careers.roche.com (Phenom, Analyst & Consulting)
+# - State Street: https://careers.statestreet.com (Phenom, Analyst & Consulting)
+# - Thales: https://careers.thalesgroup.com (Phenom, Analyst & Consulting)
+# - DHL: https://careers.dhl.com (Phenom, Supply Chain & Operations)
+# - Kuehne + Nagel: https://jobs.kuehne-nagel.com (Phenom, Supply Chain & Operations)
+#
+# ── iCIMS ──
+# - Persistent Systems: https://careers-persistentsystems.icims.com (iCIMS, Software / Full-stack)
+# - Quest Global: https://careers-oneidentity.icims.com (iCIMS, Software / Full-stack)
+# - AMD: https://careers-amd.icims.com (iCIMS, Analyst & Consulting)
+# - Arcesium: https://careers-arcesium.icims.com (iCIMS, Analyst & Consulting)
+# - BCG: https://careers-bcg.icims.com (iCIMS, Analyst & Consulting)
+# - D. E. Shaw: https://careers-deshaw.icims.com (iCIMS, Analyst & Consulting)
+# - Microsoft: https://industryuseng-ms.icims.com (iCIMS, Analyst & Consulting)
+# - Millennium: https://careers-millgroupinc.icims.com (iCIMS, Analyst & Consulting)
+# - MSCI: https://globalcareers-msci.icims.com (iCIMS, Analyst & Consulting)
+# - NTPC: https://careers-ntpc.icims.com (iCIMS, Analyst & Consulting)
+# - PepsiCo: https://globalcampus-pepsico.icims.com (iCIMS, Analyst & Consulting)
+# - Teleperformance: https://careers-teleperformance.icims.com (iCIMS, Analyst & Consulting)
+# - ZS: https://careers-zs.icims.com (iCIMS, Analyst & Consulting)
+# - GEP: https://jobsindia-apac-gep.icims.com (iCIMS, Supply Chain & Operations)
+# - Kinaxis: https://careers-kinaxis.icims.com (iCIMS, Supply Chain & Operations)
+#
+# ── Avature ──
+# - Genpact: https://genpact.avature.net/careers/SearchJobs (Avature, Analyst & Consulting)
+# - Lenovo: https://lenovo.avature.net/careers/SearchJobs (Avature, Analyst & Consulting)
+# - Siemens Healthineers: https://jobs.siemens-healthineers.com/en_US/searchjobs/SearchJobs (Avature, Analyst & Consulting)
+# - Synopsys: https://synopsys.avature.net/careers/SearchJobs (Avature, Analyst & Consulting)
+# - Tesco: https://tesco.avature.net/careers/SearchJobs (Avature, Analyst & Consulting)
+# - DHL: https://dpdhlgroup.avature.net/jobs/SearchJobs (Avature, Supply Chain & Operations)
+#
+# ── Rippling ──
+# - CRED: https://ats.rippling.com/cred/jobs (Rippling, Software / Full-stack)
+# - Eternal: https://ats.rippling.com/eternal/jobs (Rippling, Software / Full-stack)
+# - Freshworks: https://ats.rippling.com/freshworks/jobs (Rippling, Software / Full-stack)
+# - Nothing: https://ats.rippling.com/nothing/jobs (Rippling, Software / Full-stack)
+# - Open: https://ats.rippling.com/open-jobs/jobs (Rippling, Software / Full-stack)
+# - Porter: https://ats.rippling.com/porter/jobs (Rippling, Software / Full-stack)
+# - ITC: https://ats.rippling.com/itc-jobs/jobs (Rippling, Analyst & Consulting)
+# - Rippling: https://ats.rippling.com/rippling/jobs (Rippling, Analyst & Consulting)
+# - Leap India: https://ats.rippling.com/leap-group/jobs (Rippling, Supply Chain & Operations)
+#
+# ── Darwinbox ──
+# - Agrostar: https://agrostar.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Airtel: https://airtel.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Ather Energy: https://atherenergy.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - BigBasket: https://bigbasket.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Cars24: https://cars24.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Coding Ninjas: https://codingninjas.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Curefit: https://curefit.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Delhivery: https://delhivery.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Emeritus: https://emeritus.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Great Learning: https://greatlearning.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - HomeLane: https://homelane.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Honasa: https://honasa.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Kissht: https://ring.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - LeadSquared: https://leadsquaredhrms.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Lendingkart: https://hrlendingkart.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Licious: https://licious.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - MobiKwik: https://mobikwik.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Moneyview: https://moneyview.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Ninjacart: https://ninjacart.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - NoBroker: https://nobroker.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Porter: https://porter.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Sonata Software: https://sonataone.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Times Internet: https://timesinternet.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Unacademy: https://unacademy.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - Upstox: https://upstox.darwinbox.in/ms/candidate/careers (Darwinbox, Software / Full-stack)
+# - AU Small Finance Bank: https://autalenthub.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - Avaada: https://myavaada.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - Glenmark: https://glenmark.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - Kotak Securities: https://kotaksecurities.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - Mordor Intelligence: https://mordorintelligence.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - SBI Life: https://sbilife.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - Suzlon: https://suzlon.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - Vedanta: https://vhr.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - Yes Bank: https://yesforyou.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - Zydus: https://zydusgroup.darwinbox.in/ms/candidate/careers (Darwinbox, Analyst & Consulting)
+# - Allcargo: https://allcargo.darwinbox.in/ms/candidate/careers (Darwinbox, Supply Chain & Operations)
+# - Mahindra Logistics: https://nectar.darwinbox.in/ms/candidate/careers (Darwinbox, Supply Chain & Operations)
+# - More Retail: https://hrmsmoreretail.darwinbox.in/ms/candidate/careers (Darwinbox, Supply Chain & Operations)
+#
+# ── Keka ──
+# - Eka Care: https://ekacare.keka.com/careers (Keka, Software / Full-stack)
+# - Jupiter Money: https://jupiter.keka.com/careers (Keka, Software / Full-stack)
+# - Keka: https://hr.keka.com/careers (Keka, Software / Full-stack)
+# - Open Financial: https://openfinancial.keka.com/careers (Keka, Software / Full-stack)
+# - Signzy: https://signzy.keka.com/careers (Keka, Software / Full-stack)
+# - Spyne: https://spyneai.keka.com/careers (Keka, Software / Full-stack)
+# - Teachmint: https://teachmint.keka.com/careers (Keka, Software / Full-stack)
+# - Procol: https://procol.keka.com/careers (Keka, Supply Chain & Operations)
+#
+# ── Recruiterbox ──
+# - Allen Digital: https://allendigital.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - Dream11: https://dream11.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - Easebuzz: https://easebuzz.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - Exotel: https://exotel.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - LogiNext: https://loginext.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - MediBuddy: https://medibuddy.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - MoEngage: https://moengage.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - ShareChat: https://sharechat.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - Simple Energy: https://simpleenergy.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - WebEngage: https://webengage.hire.trakstar.com/jobs (Recruiterbox, Software / Full-stack)
+# - Whatfix: https://whatfix101.recruiterbox.com (Recruiterbox, Software / Full-stack)
+# - 1Lattice: https://1lattice.recruiterbox.com (Recruiterbox, Analyst & Consulting)
+# - AlphaSights: https://alphasights.recruiterbox.com (Recruiterbox, Analyst & Consulting)
+# - Mordor Intelligence: https://mordorintelligence.recruiterbox.com (Recruiterbox, Analyst & Consulting)
+#
+# ── Recruitee ──
+# - Lenskart: https://lenskartcareers.recruitee.com (Recruitee, Software / Full-stack)
+# - Xebia: https://xccelerated.recruitee.com (Recruitee, Software / Full-stack)
+# - TaskUs: https://taskus.recruitee.com (Recruitee, Analyst & Consulting)
+#
+# ── Own careers sites ──
+# - TCS: https://www.tcs.com/careers (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - HCLTech: https://www.hcltech.com/careers (own portal, Software / Full-stack)
+# - Tech Mahindra: https://careers.techmahindra.com/ (own portal, Software / Full-stack)
+# - Cognizant: https://careers.cognizant.com/ (own portal, Software / Full-stack)
+# - Coforge: https://www.coforge.com/careers (own portal, Software / Full-stack)
+# - L&T Technology Services: https://www.ltts.com/careers (own portal, Software / Full-stack)
+# - KPIT: https://www.kpit.com/careers/ (own portal, Software / Full-stack)
+# - Tata Elxsi: https://www.tataelxsi.com/careers (own portal, Software / Full-stack)
+# - Cyient: https://www.cyient.com/careers (own portal, Software / Full-stack)
+# - Tata Technologies: https://www.tatatechnologies.com/careers/ (own portal, Software / Full-stack)
+# - Zensar: https://www.zensar.com/careers (own portal, Software / Full-stack)
+# - Birlasoft: https://www.birlasoft.com/careers (own portal, Software / Full-stack)
+# - Happiest Minds: https://www.happiestminds.com/careers/ (own portal, Software / Full-stack)
+# - Flipkart: https://www.flipkartcareers.com/ (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Amazon: https://www.amazon.jobs/ (own portal, Software / Full-stack)
+# - Swiggy: https://careers.swiggy.com/ (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Zomato: https://www.zomato.com/careers (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Blinkit: https://blinkit.com/careers (own portal, Software / Full-stack)
+# - Nykaa: https://careers.nykaa.com/ (own portal, Software / Full-stack)
+# - MakeMyTrip: https://careers.makemytrip.com/ (own portal, Software / Full-stack)
+# - Info Edge (Naukri): https://careers.infoedge.in/ (own portal, Software / Full-stack)
+# - IndiaMART: https://careers.indiamart.com/ (own portal, Software / Full-stack)
+# - Zepto: https://www.zeptonow.com/careers (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - PhonePe: https://www.phonepe.com/careers/ (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Postman: https://www.postman.com/company/careers/ (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Chargebee: https://www.chargebee.com/careers/ (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Juspay: https://juspay.in/careers (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Dream11 / Dream Sports: https://www.dreamsports.group/careers (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - upGrad: https://www.upgrad.com/careers/ (own portal, Software / Full-stack)
+# - Smallcase: https://www.smallcase.com/careers/ (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Slice: https://www.sliceit.com/careers (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Jar: https://www.myjar.app/careers (own portal, Software / Full-stack)
+# - Plum: https://www.plumhq.com/careers (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - Hasura: https://hasura.io/careers/ (own portal, Software / Full-stack; also in the list above - if Refresh drops it, check here)
+# - EY / EY GDS: https://careers.ey.com/ (own portal, Analyst & Consulting)
+# - McKinsey & Company: https://www.mckinsey.com/careers (own portal, Analyst & Consulting)
+# - Bain & Company / BCN: https://www.bain.com/careers/ (own portal, Analyst & Consulting)
+# - ICICI Bank: https://www.icicicareers.com/ (own portal, Analyst & Consulting)
+# - HDFC Bank: https://www.hdfcbank.com/personal/about-us/careers (own portal, Analyst & Consulting)
+# - Axis Bank: https://www.axisbank.com/careers (own portal, Analyst & Consulting)
+# - Tredence: https://www.tredence.com/careers (own portal, Analyst & Consulting)
+# - LatentView: https://www.latentview.com/careers/ (own portal, Analyst & Consulting)
+# - Mu Sigma: https://www.mu-sigma.com/careers (own portal, Analyst & Consulting)
+# - EXL: https://www.exlservice.com/careers (own portal, Analyst & Consulting)
+# - Evalueserve: https://www.evalueserve.com/careers/ (own portal, Analyst & Consulting)
+# - Course5 Intelligence: https://www.course5i.com/careers/ (own portal, Analyst & Consulting)
+# - KPMG India: https://kpmg.com/in/en/home/careers.html (own portal, Analyst & Consulting; also in the list above - if Refresh drops it, check here)
+# - Hindustan Unilever: https://www.hul.co.in/careers/ (own portal, Analyst & Consulting)
+# - Nestle India: https://www.nestle.in/jobs (own portal, Analyst & Consulting)
+# - Asian Paints: https://www.asianpaints.com/careers.html (own portal, Analyst & Consulting)
+# - Reliance Industries: https://careers.ril.com/ (own portal, Analyst & Consulting)
+# - Adani Group: https://careers.adani.com/ (own portal, Analyst & Consulting)
+# - Tata Steel: https://www.tatasteel.com/careers/ (own portal, Analyst & Consulting)
+# - Mahindra Group: https://www.mahindra.com/careers (own portal, Analyst & Consulting)
+# - Tata Motors: https://www.tatamotors.com/careers/ (own portal, Analyst & Consulting)
+# - Maruti Suzuki: https://www.marutisuzuki.com/corporate/careers (own portal, Analyst & Consulting)
+# - Larsen & Toubro: https://www.larsentoubro.com/corporate/careers/ (own portal, Analyst & Consulting)
+# - Shiprocket: https://www.shiprocket.in/careers/ (own portal, Supply Chain & Operations)
+# - Udaan: https://careers.udaan.com/ (own portal, Supply Chain & Operations)
+# - Jumbotail: https://jumbotail.com/careers/ (own portal, Supply Chain & Operations)
+# - ElasticRun: https://www.elastic.run/careers.html (own portal, Supply Chain & Operations)
+# - BlackBuck: https://www.blackbuck.com/careers (own portal, Supply Chain & Operations)
+# - Locus: https://locus.sh/careers/ (own portal, Supply Chain & Operations)
+# - FarEye: https://fareye.com/careers (own portal, Supply Chain & Operations)
+# - Pickrr: https://www.pickrr.com/careers/ (own portal, Supply Chain & Operations)
+# - Ecom Express: https://ecomexpress.in/careers/ (own portal, Supply Chain & Operations)
+# - Xpressbees: https://www.xpressbees.com/careers (own portal, Supply Chain & Operations)
+#
+# ── More Indian employers on Darwinbox (mostly smaller companies) ──
+# - 1mg (Tata 1mg): https://1mg.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - 2GO Group: https://meego.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - 2X: https://2xpeople.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Aarti Industries: https://aartiindustries.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - ABP Network: https://abpnetwork.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - ADA: https://adaglobal.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Addof: https://addof.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Affle: https://affle.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - AgroStar: https://agrostar.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - AIS: https://ais.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Akraya Group: https://akrayagroup.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Al Fardan Group: https://alfardan.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Arabian Construction Company: https://accpeoplehr.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Aragen Life Sciences: https://aragen.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Arvind: https://arvind.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Avaada Group: https://myavaada.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - AXIS Clinicals Limited: https://axisclinicals.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Baazi Games: https://baazigames.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Bajaj Electricals: https://bel.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Bajaj Finserv Direct: https://hrisbdirect.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Bank BTPN: https://btpn.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Bank of the Philippine Islands (BPI): https://rhea.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Bharti Airtel Foundation: https://bhartifoundation.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Blibli: https://blibli.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Botree Software (HRMS Botree): https://hrmsbotree.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Brigade Group: https://brigadegroup.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - BSA: https://bsa.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Bukuwarung: https://bukuwarung.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Busy Bees Asia: https://busybeesasia.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Casagrand: https://casagrand.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - CBC Group: https://cbcsynchrone.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - CR3 Group: https://cr3-care.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Cure.fit (Curefit Healthcare): https://curefit.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Darwinbox (dbx): https://dbx.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Darwinbox Digital Solutions (dbox): https://dbox.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Deepak Group: https://deepak.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - DMI Unify (DMI Finance): https://dmiunify.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - DOKU: https://doku.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Duroflex Group: https://duroflex.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Edelweiss Life Insurance: https://edelweisslife.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Enzene: https://enzenespherenet.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Evalueserve (Lighthouse): https://lighthouse.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Excelra: https://excelra.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Expo City Dubai Authority: https://ecdhrconnect.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Galaxy Surfactants: https://mygalaxy.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - GEP Worldwide (NB Ventures INC): https://geppeoplecentral.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - GirnarSoft Education Services Pvt. Ltd.: https://collegedekhohrms.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Glenmark | Spring: https://glenmarkspring.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - GYS: https://gys.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - HCA Healthcare India: https://hcahr.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Hetero: https://hetero.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - HL Mando India: https://hrmsmandoindia.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - HMS Vanguard Sdn Bhd: https://healthmetrics.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - HOH / HFS: https://hoh.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Home Credit Philippines: https://hcconnect.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Homevista Decor & Furnishings Private Limited: https://homelane.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Honasa Consumer (Mamaearth): https://honasa.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - HT Group: https://htmediagroup.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Invesco Mutual Fund: https://iiamihrms.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - iQuanti: https://iquanti.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - ITC Hotels: https://itchotels.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - JSW (My JSW): https://myjsw.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - JSW MG Motor India Pvt. Ltd.: https://mgmhr.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Kirloskar Oil Engines: https://koel.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Kopi Kenangan: https://kopikenangan.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Kotak Life Insurance: https://kotaklifeinsurance.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - KPN Corporation: https://kpncorporation.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Leadership Boulevard Pvt. Ltd.: https://myleadschool.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Linfox International Group: https://linfoxasiahrms.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Lionbridge Technologies: https://lionbridge.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Marks & Spencer Reliance India: https://mandsmyhr.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - MatchMove: https://matchmove.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Maxicare Healthcare (Philippines): https://onehrad.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Mayapada Hospital Group: https://mayapadahospital.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - MHealth: https://mhealth.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Modinity Group: https://modinity.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - MOL: https://molit.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - MOVIN Express: https://movin.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - mPokket: https://mpokket.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Muhavra Enterprises Private Limited: https://bluetokaicoffee.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - MyCrisil: https://mycrisil.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Mygate: https://mygate.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - MyHR: https://myhr.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Niva Bupa Health Insurance (Disha): https://disha.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - NIVEA India: https://nivea.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - NOVENTIQ HOLDINGS PLC: https://noventiq.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - OneSource Specialty Pharma (Stelis): https://stelis.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - PDAX (Philippine Digital Asset Exchange): https://pdax.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Piramal: https://piramal.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Piramal Finance: https://piramalfinance.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Pluang: https://pluanghrms.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Polycab: https://polycab.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - PT. Nippon Indosari Corpindo Tbk.: https://hrsr.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Punjab National Bank International: https://merapnbil.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - PwC Asia: https://pwc.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Quick Heal Technologies Ltd: https://lifecycleqhtl.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - QX Global Group: https://qxhrms.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - RateGain: https://rategain.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Reserve Bank Information Technology Pvt Ltd: https://rebithr.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - RustanCoffee (Starbucks Philippines): https://partnerconnect.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - SBI Life Insurance: https://sbilife.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Security Bank Cards (SBC Hero): https://sbchero.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Sembcorp Group: https://hrsembcorp.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Shakey's Group: https://shakeys.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Shalina Group: https://myshalina.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Shoppers Stop: https://ss-people.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Singland: https://singland.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Singlife: https://singlife.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - SMC Group: https://mysmcdbx.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - SMN Group: https://protelindo.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Spark Minda Group: https://sparkminda-hris.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Spinzone: https://spinzone.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - SPML Infra: https://spml.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - SteriScience Specialties: https://steriscience.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Strides Pharma Science: https://strides.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Synamedia: https://synamedia.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Synergy Marine Group: https://synergymarinegroup.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - TBO.com: https://tbo.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Tessolve Semiconductor Private Limited: https://tessolve.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - The Guardians India: https://theguardiansindia.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Thermax Group: https://thermaxglobal.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Tripatra: https://tripatra.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - TV9 Network (ABCPL): https://tv9.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - UEM Sunrise: https://uemsunrise.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Virtual Staffing Solutions: https://atlas.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Visteon: https://visteon-panorama.darwinbox.com/ms/candidate/careers (Darwinbox)
+# - Vivriti Capital: https://vivriti.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Y-Axis: https://y-axis.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Yashoda Hospitals Group: https://yashoda.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - YES Bank: https://yesforyou.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Yotta Infrastructure: https://yotta.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Zee Media Group: https://zeemedia.darwinbox.in/ms/candidate/careers (Darwinbox)
+# - Zydus Group: https://zydusgroup.darwinbox.in/ms/candidate/careers (Darwinbox)
+#
+# ── More Indian employers on Keka (mostly smaller companies) ──
+# - 47Billion: https://fourtyseven.keka.com/careers (Keka)
+# - A H INTERNATIONAL PRIVATE LIMITED: https://ahinternational.keka.com/careers (Keka)
+# - Acuiti Labs: https://acuitilabs.keka.com/careers (Keka)
+# - Adit: https://adit.keka.com/careers (Keka)
+# - AITMC VENTURES LTD: https://aitmc.keka.com/careers (Keka)
+# - AIVAR INNOVATIONS: https://aivarinnovations.keka.com/careers (Keka)
+# - Al Mirqab Facilities Management: https://almirqab.keka.com/careers/amfm (Keka)
+# - Alphamind: https://alphamindxaddmind.keka.com/careers (Keka)
+# - amber: https://amberstudent.keka.com/careers (Keka)
+# - American Chase: https://americanchase.keka.com/careers (Keka)
+# - AMINU: https://aminu.keka.com/careers (Keka)
+# - Analytics Vidhya: https://analyticsvidhya.keka.com/careers (Keka)
+# - Anubhuti Samiti: https://anubhutiorganization.keka.com/careers (Keka)
+# - Aris: https://arisinfra.keka.com/careers (Keka)
+# - ARTHA ENERGY PROJECTS PRIVATE LIMITED: https://arthanergy.keka.com/careers (Keka)
+# - Asian Christian Academy: https://acaindia.keka.com/careers (Keka)
+# - AsInt India Private Limited: https://asint.keka.com/careers (Keka)
+# - Attentive.ai: https://attentiveos.keka.com/careers (Keka)
+# - Aubergine Solutions Pvt Ltd: https://aubergine.keka.com/careers (Keka)
+# - Auriga: https://aurigait.keka.com/careers (Keka)
+# - AVID ORGANICS PRIVATE LIMITED: https://avidorganics.keka.com/careers (Keka)
+# - Awiros: https://awiros.keka.com/careers (Keka)
+# - BabyOrgano: https://babyorgano.keka.com/careers (Keka)
+# - Bala Vikasa: https://balavikasa.keka.com/careers (Keka)
+# - BIK: https://comida.keka.com/careers (Keka)
+# - BIMAKAVACH: https://bimakavach.keka.com/careers (Keka)
+# - Blitz: https://blitznow.keka.com/careers (Keka)
+# - Blueflame Labs: https://blueflamelabs.keka.com/careers (Keka)
+# - Book My Tour Now: https://bookmytournow.keka.com/careers (Keka)
+# - BOT VFX (INDIA) PRIVATE LIMITED: https://botvfx.keka.com/careers (Keka)
+# - Braves Offshore Management Services Private Limited: https://braves.keka.com/careers (Keka)
+# - breakin brew: https://breakinbrew.keka.com/careers (Keka)
+# - Brewbay Innovations: https://abcoffee.keka.com/careers (Keka)
+# - Bright Future: https://100.keka.com/careers (Keka)
+# - Bukhash Brothers: https://bukhashbrothers.keka.com/careers (Keka)
+# - Burlington English - Careers: https://burlington.keka.com/careers (Keka)
+# - Caizin: https://caizin.keka.com/careers (Keka)
+# - candiidus international school: https://cis.keka.com/careers (Keka)
+# - CANHEALTH ANALYTICS PRIVATE LIMITED: https://candorhealth.keka.com/careers (Keka)
+# - Career at Coozmoo Digital Solutions: https://coozmoo.keka.com/careers (Keka)
+# - Careers at SHOTT Amusement Limited: https://shott.keka.com/careers (Keka)
+# - Careers at WeDoGood: https://wedogood.keka.com/careers (Keka)
+# - Casepoint Private Limited: https://casepoint.keka.com/careers (Keka)
+# - Clean Max Enviro Energy Solutions Private Limited: https://cleanmax.keka.com/careers (Keka)
+# - Clickpost: https://clickpost.keka.com/careers (Keka)
+# - Coditude: https://coditude.keka.com/careers (Keka)
+# - Conserve Solutions: https://conservetrichy.keka.com/careers (Keka)
+# - Convegenius: https://convegenius.keka.com/careers (Keka)
+# - Crepdog Crew Careers: https://crepdogcrew.keka.com/careers (Keka)
+# - Dash Technologies INC: https://dashtech.keka.com/careers (Keka)
+# - DATABEAT: https://databeat.keka.com/careers (Keka)
+# - Dayal Group: https://dayalgroup.keka.com/careers (Keka)
+# - De Montfort University Dubai: https://dmudubai.keka.com/careers (Keka)
+# - Denken Solutions India Pvt Ltd: https://denken.keka.com/careers (Keka)
+# - Digit88 Technologies Private Limited: https://digit88.keka.com/careers (Keka)
+# - Dreamtime: https://dreamtime.keka.com/careers (Keka)
+# - Driver Logistics LLP: https://driverlogistics.keka.com/careers (Keka)
+# - Ebenezer International School: https://universaled.keka.com/careers/ebenezerschool (Keka)
+# - ECCENTRIC ENGINE: https://eccentric.keka.com/careers (Keka)
+# - Eka.care: https://ekacare.keka.com/careers (Keka)
+# - Entropik: https://entropik.keka.com/careers (Keka)
+# - Enzigma: https://enzigma.keka.com/careers (Keka)
+# - FACTENTRY: https://factentry.keka.com/careers (Keka)
+# - FleetPanda: https://fleetpanda.keka.com/careers (Keka)
+# - FloBiz: https://valorem.keka.com/careers (Keka)
+# - Freespace: https://afreespace.keka.com/careers (Keka)
+# - Gameberry Labs: https://gameberry.keka.com/careers (Keka)
+# - Gamlaa: https://gamlaa.keka.com/careers (Keka)
+# - Ginni Systems Ltd.: https://ginesysone.keka.com/careers (Keka)
+# - GoKwik Commerce Solutions Pvt. Ltd.: https://gokwik.keka.com/careers (Keka)
+# - GoML: https://neuralgo.keka.com/careers (Keka)
+# - GREENIZON AGRITECH CONSULTANCY PRIVATE LIMITED: https://jaikisan.keka.com/careers (Keka)
+# - Grexa AI: https://grexa.keka.com/careers (Keka)
+# - Grow Solutions: https://grow.keka.com/careers (Keka)
+# - Gurully: https://gurully.keka.com/careers (Keka)
+# - Habuild: https://habuild.keka.com/careers (Keka)
+# - Hatio Innovations Private Limited: https://hatio.keka.com/careers (Keka)
+# - HB+: https://hasel.keka.com/careers (Keka)
+# - Hiveminds Innovative Market Solution Pvt Ltd: https://hiveminds.keka.com/careers (Keka)
+# - ICM.com: https://icmcapital.keka.com/careers (Keka)
+# - iCreative Technologies & Aktiv Software: https://icreativeaktiv.keka.com/careers (Keka)
+# - Infinite Uptime India Pvt. ltd.: https://infiniteuptime.keka.com/careers (Keka)
+# - Innocean Worldwide Communication: https://innocean.keka.com/careers (Keka)
+# - iTeach Schools: https://iteachschools.keka.com/careers (Keka)
+# - JUSTO: https://justopulse.keka.com/careers (Keka)
+# - Keka Technologies Pvt. Ltd: https://hr.keka.com/careers (Keka)
+# - Ketto Online Ventures Pvt Ltd: https://ketto.keka.com/careers (Keka)
+# - Kidvento Education and Research: https://kidvento.keka.com/careers (Keka)
+# - KP Group: https://kpgroup.keka.com/careers (Keka)
+# - LambdaTest: https://lambdatest.keka.com/careers (Keka)
+# - LEADEC INDIA: https://leadecservices.keka.com/careers (Keka)
+# - Leadership For Skilled Education Foundation: https://leadership.keka.com/careers (Keka)
+# - Learning Center: https://learningcenter.keka.com/careers (Keka)
+# - LEMON YELLOW LLP: https://lydesign.keka.com/careers (Keka)
+# - Lera Technologies Pvt. Ltd.: https://lera.keka.com/careers (Keka)
+# - Liminal: https://liminal.keka.com/careers (Keka)
+# - Loop: https://loop.keka.com/careers (Keka)
+# - Luna PR: https://luna.keka.com/careers (Keka)
+# - MADHUS GARAGE EQUIPMENT: https://madhusgarage.keka.com/careers (Keka)
+# - MaxIQ: https://maxiq.keka.com/careers (Keka)
+# - Medon: https://medon.keka.com/careers (Keka)
+# - Mellow Designs: https://mellowdesigns.keka.com/careers (Keka)
+# - Mittal: https://mittalgroup.keka.com/careers (Keka)
+# - Modmacon: https://mpl1.keka.com/careers (Keka)
+# - MontyCloud: https://montycloud.keka.com/careers (Keka)
+# - Moolya Software Testing: https://moolya.keka.com/careers (Keka)
+# - Mozilor: https://mozilortech.keka.com/careers (Keka)
+# - Neutrinos: https://neutrinos.keka.com/careers (Keka)
+# - Nonstopio: https://nonstopio.keka.com/careers (Keka)
+# - NowPurchase Hiring Team: https://bizhero.keka.com/careers (Keka)
+# - Nurix: https://nurix.keka.com/careers (Keka)
+# - Oneture Technologies: https://oneture.keka.com/careers (Keka)
+# - Open Financial Technologies: https://openfinancial.keka.com/careers (Keka)
+# - Perceptyne Technologies Private Limited: https://perceptyne.keka.com/careers (Keka)
+# - Perstorp: https://perstorp.keka.com/careers (Keka)
+# - Petfully: https://petfully.keka.com/careers (Keka)
+# - PROCEDURE TECHNOLOGIES PRIVATE LIMITED: https://procedure.keka.com/careers (Keka)
+# - PROSHORT: https://proshort.keka.com/careers (Keka)
+# - PYXIS Management Consulting Group LLC: https://pyxis.keka.com/careers (Keka)
+# - Relanto: https://relanto.keka.com/careers (Keka)
+# - Rigi: https://rigi.keka.com/careers (Keka)
+# - Rootquotient Technologies: https://rootquotient.keka.com/careers (Keka)
+# - Rostrum Education: https://rostrumedu.keka.com/careers (Keka)
+# - Royal Health Group: https://royalhealth.keka.com/careers (Keka)
+# - SalesCode.ai: https://salescodeai.keka.com/careers (Keka)
+# - SanjhiSikhiya Foundation: https://sanjhi.keka.com/careers (Keka)
+# - SatSure Analytics India: https://satsure.keka.com/careers (Keka)
+# - SAVA HEALTHCARE: https://savaglobal.keka.com/careers (Keka)
+# - Scimplify: https://scimplify.keka.com/careers (Keka)
+# - Serviqual - Jobs: https://serviqual.keka.com/careers (Keka)
+# - Shopflo: https://shopflo.keka.com/careers (Keka)
+# - SIMPLY VYAPAR APPS PRIVATE LIMITED: https://vyaparapp.keka.com/careers (Keka)
+# - SkanAI: https://skanai.keka.com/careers (Keka)
+# - Snoonu: https://snoonu.keka.com/careers (Keka)
+# - Softlink Global: https://softlinkglobal.keka.com/careers (Keka)
+# - Softmason Technologies Inc: https://softmason.keka.com/careers (Keka)
+# - Softobiz Technologies Pvt. Ltd.: https://softobiz.keka.com/careers (Keka)
+# - Soho Dragon Solutions India Private Limited: https://sohodragon.keka.com/careers (Keka)
+# - SOLVEI8: https://buyogo.keka.com/careers (Keka)
+# - SPYNE: https://spyneai.keka.com/careers (Keka)
+# - SquadStack: https://squadrun.keka.com/careers (Keka)
+# - Sunflower Lab: https://sunflowerlab.keka.com/careers (Keka)
+# - Superplum Careers: https://superplum.keka.com/careers (Keka)
+# - SURVEYSPARROW PRIVATE LIMITED: https://surveysparrow.keka.com/careers (Keka)
+# - SWARAN SOFT SUPPORT SOLUTIONS PRIVATE LIMITED: https://swaransoft.keka.com/careers (Keka)
+# - TANDEMLOOP TECHNOLOGIES PRIVATE LIMITED: https://tandemloop.keka.com/careers (Keka)
+# - TC Global: https://tcglobal.keka.com/careers (Keka)
+# - Teabox - (A Teaxpress Private Limited Brand): https://teaxpress.keka.com/careers (Keka)
+# - TECHSOL ENGINEERS: https://techsolengineers.keka.com/careers (Keka)
+# - The Apprentice Project: https://tap.keka.com/careers (Keka)
+# - The/Nudge Institute: https://thenudge.keka.com/careers (Keka)
+# - Toddle: https://toddle.keka.com/careers (Keka)
+# - Tohands: https://tohands.keka.com/careers (Keka)
+# - Toprankers: https://toprankers.keka.com/careers (Keka)
+# - Tradelab: https://tradelab.keka.com/careers (Keka)
+# - Trenser: https://trenser.keka.com/careers (Keka)
+# - Trip Jack Pvt Ltd: https://tripjack.keka.com/careers (Keka)
+# - TRU: https://truagency.keka.com/careers (Keka)
+# - Turno: https://turno.keka.com/careers (Keka)
+# - Ummeed Child Development Center: https://ucdc.keka.com/careers (Keka)
+# - UNBOXROBOTICS LABS PRIVATE LIMITED: https://unboxrobotics.keka.com/careers (Keka)
+# - Universal Education: https://universaled.keka.com/careers (Keka)
+# - Vajro Inc: https://vajrorap.keka.com/careers (Keka)
+# - Vegapay Technology Private Limited: https://vegapay.keka.com/careers (Keka)
+# - Vinove: https://vinove.keka.com/careers (Keka)
+# - Visit Health: https://getvisitapp.keka.com/careers (Keka)
+# - Webito Infotech: https://webito.keka.com/careers (Keka)
+# - Welfare Group Global: https://wbg.keka.com/careers (Keka)
+# - Wildnet Technologies Limited: https://wildnet.keka.com/careers (Keka)
+# - Winfo Solutions: https://winfosolutions.keka.com/careers (Keka)
+# - Wishlink: https://wishlink.keka.com/careers (Keka)
+# - Wohlig: https://wohlig.keka.com/careers (Keka)
+# - Woundtech: https://woundtech.keka.com/careers (Keka)
+# - Yashraj Biotechnology Limited: https://yashrajbio.keka.com/careers (Keka)
+# - Zebu Animation Studios Private Limited: https://zebu.keka.com/careers (Keka)
+# - ZELIOT: https://zeliot.keka.com/careers (Keka)
+# - Zippee: https://zippee.keka.com/careers (Keka)
+# - ZoTok: https://zono.keka.com/careers (Keka)
+# - Zuddl: https://zuddl.keka.com/careers (Keka)
+# - Zuper: https://zupersoft.keka.com/careers (Keka)
+# - Zypp Electric: https://zypp.keka.com/careers (Keka)
+#
+# ── Not found on any job board: search "<company> careers" ──
+# Software / Full-stack:
+#   Aakash, Acko, Adda247, Addverb, Agnikul, Airmeet, Airtel Payments Bank, Ajio, Angel One, Apna, Appsmith
+#   Arya, Ati Motors, Battery Smart, BharatPe, Bharti Airtel, Bijak, boAt, Bounce, Bureau, Bureau.id, Byju's
+#   CarDekho, Cashfree, Cashfree Payments, Chalo, Classplus, Cleartrip, CleverTap, CoinDCX, CoinSwitch
+#   Country Delight, Credgenics, CreditMantri, Cuemath, Cult.fit, Cutshort, CynLr, Dailyhunt, Decentro, Dhan
+#   Digantara, Digit Insurance, Doubtnut, Dream Sports, Drivezy, Dukaan, EaseMyTrip, EnKash, EPAM
+#   EPAM Systems, Eruditus, ET Money, Euler Motors, Ezetap, FabHotels, Fastag, Fi Money, Fibe, Finarkein
+#   Fino Payments Bank, FirstCry, Freo, Freshdesk, FreshToHome, Gaana, Games24x7, GeeksforGeeks, Giottus
+#   GlobalLogic, Go Digit, GreyOrange, Groww Invest, Groww Mutual Fund, Gupshup, Haptik, Harappa
+#   HCL Technologies, HealthifyMe, Hexaware, HighRadius, Housing.com, Hubilo, ideaForge, IDfy, Impetus
+#   Incedo, Increff, INDmoney, Info Edge, Info Edge India, Infogain, Infra.Market, Innoviti, Inshorts
+#   Instahyre, Instamojo, InsuranceDekho, Internshala, InterviewBit, Jai Kisan, Jio, Jio Payments Bank
+#   Jio Platforms, JioCinema, JioHotstar, JioMart, JioSaavn, Josh Talks, Jupiter, Justdial, Khatabook
+#   Kotak811, KreditBee, Krutrim, Kuku FM, Kuvera, Leap Scholar, LeapScholar, Livspace, Log9, M2P Fintech
+#   Mad Street Den, Magicpin, Masai School, Mastek, Middleware, Mintoak, Mobile Premier League, Moglix
+#   Mohalla Tech, Mphasis, MPL, Mswipe, Mudrex, Myntra Jabong, Navi Mutual Fund, Nazara, Neo, Ness, Netcore
+#   Newton School, Niyo, NiyoX, Nothing Technology, OfBusiness, OkCredit, Ola, Ola Electric, Ola Krutrim
+#   OneCard, Onsurity, Otipy, OYO, Paisabazaar, Park+, Parkplus, Paynearby, Paytm Money, PayU, PB Fintech
+#   Pepperfry, Perfios, Persistent, PharmEasy, Physics Wallah, PhysicsWallah, Pine Labs, Pixxel, Pocket Aces
+#   PolicyBazaar, Polygon, Practo, Pratilipi, Pristyn Care, Publicis Sapient, Purplle, Quantiphi, Qure.ai
+#   Raise, Rapido, Recko, Reliance Jio, Reliance Retail, River, Rivigo, Rocketlane, Rooter, Rupeek, Rupifi
+#   Sahamati, Sarvam, Sarvam AI, Sasken, Scripbox, Sedemac, Setu, Shadowfax, ShopClues, Simplilearn, Skyroot
+#   Skyroot Aerospace, Snapdeal, SonyLIV, Spice Money, Spinny, Springworks, Square Yards, Stanza Living
+#   Stoa School, Swiggy Instamart, Tata 1mg, Tata CLiQ, Tata Communications, Tata Consultancy Services
+#   Tata Digital, Tata Neu, Testbook, ToolJet, Treebo, Turtlemint, Ultraviolette, Uni Cards, Unicommerce
+#   Unstop, upGrad Abroad, Vedantu, VerSe Innovation, Virtusa, Vodafone Idea, Volopay, Vyapar, WayCool
+#   WazirX, WinZO, WorkIndia, Wynk, Yellow.ai, Yocket, Yulu, Zaggle, Zee5, Zinghr, Zolo, Zoomcar, Zupee
+# Analyst & Consulting:
+#   Absolutdata, Acuity Knowledge Partners, Adani, Adani Green, Aditya Birla Capital, Affine, Airbus
+#   AlphaGrep, Alvarez & Marsal, Ambit, Aranca, Arm, Ashok Leyland, Aurobindo, Avalon Consulting, Avendus
+#   Axtria, Bain, Bain & Company, Bain Capability Network, Bajaj Allianz, Bajaj Finance, Bajaj Finserv, BDO
+#   BNP Paribas, BNY Mellon, Boston Consulting Group, Britannia, Capvision, Care Health, CARE Ratings
+#   Caterpillar, Cipla, Circana, Citigroup, Colgate-Palmolive, Concentrix, Copal Amba, Course5, CRISIL
+#   Dabur, DBS Bank, Divi's, Dr. Reddy's, DXC, Edelweiss, Eicher Motors, Emami, Ernst & Young, EXL Service
+#   ExxonMobil, EY, Fidelity International, Firstsource, Fitch, Frost & Sullivan, Futures First, GE
+#   Gerson Lehrman Group, GLG, Godrej, Godrej Consumer, Gramener, Graviton, Greenko, HDFC Life
+#   HDFC Securities, Hero MotoCorp, Hindalco, Hinduja Global Solutions, IBM, ICICI Lombard, ICICI Securities
+#   ICRA, IDFC First Bank, iEnergizer, Ikea, Indium, IndusInd Bank, Infiniti Research, iRage, JM Financial
+#   Johnson & Johnson, JPMorgan, JSW, JSW Steel, Jubilant FoodWorks, Kearney, Kotak Mahindra Bank, L&T
+#   LatentView Analytics, LG, Lowe's, Lupin, Macquarie, Mahindra, Mahindra & Mahindra, Marico, MathCo
+#   Max Life, McKinsey, MediaTek, Mercedes-Benz, Merkle, Mitsubishi, Mondelez, Motilal Oswal
+#   Muthoot Finance, NEC, Nestle, Netscribes, Niva Bupa, NK Securities, Nomura, Northern Trust, Nuvama
+#   Optum, Panasonic, Pidilite, Praxis, Procter & Gamble, Quadeye, Reckitt, Redseer, ReNew, ReNew Power
+#   S&P Global, Safran, Sainsbury's, Samsung, SAP Labs, Sathguru, Schneider Electric, Seagate
+#   Shriram Finance, Siemens, Societe Generale, Sony, Squarepoint, Star Health, Sun Pharma, Tata AIA
+#   Tata Consumer, Tata Power, Technavio, Technopak, TheMathCompany, Titan, Torrent, Toshiba
+#   Tower Research Capital, TVS Motor, Uber, UBS, Ugam, UnitedHealth Group, Volvo, Walmart, ZS Associates
+# Supply Chain & Operations:
+#   Addverb, Akshayakalpa, Amazon Logistics, Arya.ag, Arzooo, Ashok Leyland, Avenue Supermarts, Bijak
+#   Bikaji, Bizongo, Blue Dart, Blue Yonder, Britannia, Caterpillar, CEVA, CityMall, Container Corporation
+#   Country Delight, Cropin, Dabur, DB Schenker, Dealshare, DMart, DSV, DTDC, Ekart, Escorts Kubota
+#   Falcon Autotech, Flipkart Ekart, Flipkart Wholesale, Fraazo, FreshToHome, Gati, GEP Worldwide
+#   Godrej Consumer Products, Gramophone, GreyOrange, Haldiram's, Hero MotoCorp, Holisol, Hyperpure, Increff
+#   Infra.Market, JSW Steel, Kirana Club, LetsTransport, Mahindra, Marico, Metro Cash & Carry, Milky Mist
+#   Moglix, Mondelez, Nestle, o9 Solutions, OfBusiness, Ola, Ola Electric, Otipy, Pidilite, ProConnect
+#   Rapido, Reliance Retail, Rivigo, Safexpress, Schaeffler, Schneider Electric, Shadowfax
+#   Shiprocket Fulfillment, Siemens, SKF, Spencer's, Spoton, Stellar Value Chain, Swiggy Instamart
+#   Tata Cliq, Tata Consumer Products, TCI, Transport Corporation of India, Trent, TVS Motor, Uber
+#   Unicommerce, UPS, Varun Beverages, Walmart, Waycool, Westside, Yulu, Zomato Hyperpure

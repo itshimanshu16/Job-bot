@@ -1,10 +1,10 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-11T22:47:40+00:00",
+  "generated": "2026-10-11T23:30:29+00:00",
   "first_run": false,
-  "total_fetched": 7345,
-  "boards_ok": 21,
+  "total_fetched": 16892,
+  "boards_ok": 140,
   "boards": [
    {
     "source": "ashby",
@@ -15,10 +15,31 @@
    },
    {
     "source": "ashby",
+    "slug": "biconomy",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
     "count": 137,
     "error": ""
+   },
+   {
+    "source": "ashby",
+    "slug": "hrt",
+    "company": "Hrt",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "ashby",
+    "slug": "nutanix",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
    },
    {
     "source": "ashby",
@@ -29,10 +50,52 @@
    },
    {
     "source": "ashby",
+    "slug": "project44",
+    "company": "Project44",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "ashby",
+    "slug": "scaler",
+    "company": "Scaler",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "ashby",
     "slug": "sentry",
     "company": "Sentry",
     "count": 46,
     "error": ""
+   },
+   {
+    "source": "ashby",
+    "slug": "signoz",
+    "company": "Signoz",
+    "count": 13,
+    "error": ""
+   },
+   {
+    "source": "ashby",
+    "slug": "tekion",
+    "company": "Tekion",
+    "count": 98,
+    "error": ""
+   },
+   {
+    "source": "ashby",
+    "slug": "thoughtworks",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "ashby",
+    "slug": "zerodha",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
    },
    {
     "source": "greenhouse",
@@ -43,6 +106,41 @@
    },
    {
     "source": "greenhouse",
+    "slug": "arcesium",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "arcesiumllc",
+    "company": "Arcesium LLC",
+    "count": 54,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "browserstack",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "chargebee",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "citadel",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
     "count": 222,
@@ -50,9 +148,93 @@
    },
    {
     "source": "greenhouse",
+    "slug": "colemanresearch",
+    "company": "VISASQ/COLEMAN",
+    "count": 8,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
     "count": 200,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "deshaw",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "dream11",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "druva",
+    "company": "Druva",
+    "count": 35,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "dunnhumby",
+    "company": "dunnhumby",
+    "count": 34,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "flexport",
+    "company": "Flexport",
+    "count": 202,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "flipkart",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "fourkites",
+    "company": "FourKites",
+    "count": 12,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "freshworks",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "gameskraft",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "glance",
+    "company": "Glance",
+    "count": 36,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "gravitonresearchcapital",
+    "company": "Graviton Research Capital LLP",
+    "count": 21,
     "error": ""
    },
    {
@@ -71,9 +253,100 @@
    },
    {
     "source": "greenhouse",
+    "slug": "hasura",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "hudsonrivertrading",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "imc",
+    "company": "IMC",
+    "count": 175,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
     "count": 72,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "janestreet",
+    "company": "Jane Street",
+    "count": 231,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "jupitermoney",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "juspay",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "lambdatestinc",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "meesho",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "myntra",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "naukri",
+    "company": "naukri",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "navi",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "nothing",
+    "company": "Nothing",
+    "count": 8,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "observeai",
+    "company": "Observe.AI",
+    "count": 10,
     "error": ""
    },
    {
@@ -85,10 +358,66 @@
    },
    {
     "source": "greenhouse",
+    "slug": "optiver",
+    "company": "optiver",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "optiverprivate",
+    "company": "Optiver Private Jobs",
+    "count": 8,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "phonepe",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "point72",
+    "company": "Point72 ",
+    "count": 221,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "postman",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "project44",
+    "company": "project44",
+    "count": 30,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "project44opportunities",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
     "count": 24,
     "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "rippling",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
    },
    {
     "source": "greenhouse",
@@ -99,9 +428,156 @@
    },
    {
     "source": "greenhouse",
+    "slug": "sharechat",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "sigmoid",
+    "company": "Sigmoid",
+    "count": 36,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "signoz",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "slice",
+    "company": "Slice",
+    "count": 25,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "smallcase",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "sprinklr",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "squarepointcapital",
+    "company": "Squarepoint Capital",
+    "count": 93,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "swiggy",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "tcs",
+    "company": "Thornbury Community Services",
+    "count": 99,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "tekion",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "thirdbridge",
+    "company": "Third Bridge",
+    "count": 122,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "thoughtworks",
+    "company": "Thoughtworks",
+    "count": 37,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
     "count": 144,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "twosigma",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "unilever",
+    "company": "unilever",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "urbancompany",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "wehrtyou",
+    "company": "Hudson River Trading",
+    "count": 89,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "worldquant",
+    "company": "WorldQuant",
+    "count": 95,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "zeptonow",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "greenhouse",
+    "slug": "zomato",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "atlassian",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "coupa",
+    "company": "Coupa",
+    "count": 35,
     "error": ""
    },
    {
@@ -113,9 +589,128 @@
    },
    {
     "source": "lever",
+    "slug": "dunzo",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "epifi",
+    "company": "Epifi",
+    "count": 2,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "eternal",
+    "company": "Eternal",
+    "count": 4,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "fampay",
+    "company": "Fampay",
+    "count": 16,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "freshworks",
+    "company": "Freshworks",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "hackerrank",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "hotstar",
+    "company": "Hotstar",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "innovaccer",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "kiwitech",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "kpmg",
+    "company": "Kpmg",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "leadsquared",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
     "count": 59,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "mindtickle",
+    "company": "Mindtickle",
+    "count": 20,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "netomi",
+    "company": "Netomi",
+    "count": 23,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "nielsen",
+    "company": "Nielsen",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "paytm",
+    "company": "Paytm",
+    "count": 180,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "plum",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "pocketfm",
+    "company": "Pocketfm",
+    "count": 11,
     "error": ""
    },
    {
@@ -127,10 +722,66 @@
    },
    {
     "source": "lever",
+    "slug": "postman",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "razorpay",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "slice",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "whatfix",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "yellow",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
     "count": 24,
     "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "zetwerk",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "zluri",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "lever",
+    "slug": "zoho",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
    },
    {
     "source": "smartrecruiters",
@@ -152,16 +803,557 @@
     "company": "Freshworks",
     "count": 126,
     "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "HMGroup",
+    "company": "H&M Group",
+    "count": 1894,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "NoBroker",
+    "company": "NoBroker",
+    "count": 1,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "Walmart30",
+    "company": "Walmart",
+    "count": 650,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "accenture",
+    "company": "accenture",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "adobe1",
+    "company": "Adobe",
+    "count": 5,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "alphasights",
+    "company": "alphasights",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "bectondickinson2",
+    "company": "Becton Dickinson",
+    "count": 117,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "bp3",
+    "company": "bp3",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "cars24",
+    "company": "Cars24",
+    "count": 1,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "citi",
+    "company": "citi",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "continental",
+    "company": "Continental",
+    "count": 596,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "deloitte6",
+    "company": "Deloitte",
+    "count": 280,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "deutschebank",
+    "company": "deutschebank",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "dunnhumby",
+    "company": "dunnhumby",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "ericsson",
+    "company": "ericsson",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "exotel",
+    "company": "exotel",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "expeditors",
+    "company": "Expeditors",
+    "count": 475,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "flexport",
+    "company": "flexport",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "flipkart",
+    "company": "flipkart",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "fractalanalytics",
+    "company": "fractalanalytics",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "honeywell",
+    "company": "honeywell",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "icertis",
+    "company": "icertis",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "inmobi",
+    "company": "inmobi",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "intuit2",
+    "company": "Intuit",
+    "count": 12,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "ipsos",
+    "company": "ipsos",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "ixigo",
+    "company": "ixigo",
+    "count": 10,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "jungleegames",
+    "company": "jungleegames",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "kuehne-nagel",
+    "company": "kuehne-nagel",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "loginext",
+    "company": "LogiNext",
+    "count": 1,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "mastercard",
+    "company": "mastercard",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "meesho",
+    "company": "meesho",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "micron",
+    "company": "micron",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "mindtickle",
+    "company": "MindTickle",
+    "count": 11,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "morganstanley",
+    "company": "morganstanley",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "nagarro1",
+    "company": "Nagarro",
+    "count": 860,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "nielseniq",
+    "company": "NielsenIQ",
+    "count": 400,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "nokia",
+    "company": "nokia",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "nttdata",
+    "company": "nttdata",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "nvidia",
+    "company": "nvidia",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "persistentsystems",
+    "company": "persistentsystems",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "phonepe",
+    "company": "phonepe",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "rippling",
+    "company": "rippling",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "sap",
+    "company": "sap",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "servicenow",
+    "company": "ServiceNow",
+    "count": 696,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "slice1",
+    "company": "slice1",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "standardchartered",
+    "company": "standardchartered",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "sutherland",
+    "company": "Sutherland",
+    "count": 409,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "sutherland1",
+    "company": "Sutherland",
+    "count": 2,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "synopsys",
+    "company": "synopsys",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "texasinstruments",
+    "company": "texasinstruments",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "thenielsencompany",
+    "company": "The Nielsen Company",
+    "count": 127,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "tigeranalytics",
+    "company": "tigeranalytics",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "toppr",
+    "company": "toppr",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "visa",
+    "company": "visa",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "westerndigital",
+    "company": "Western Digital",
+    "count": 346,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "wnscareers",
+    "company": "wnscareers",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "wnsglobalservices",
+    "company": "wnsglobalservices",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "wnsglobalservices144",
+    "company": "WNS Global Services",
+    "count": 348,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "zeta",
+    "company": "zeta",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "zomato1",
+    "company": "Zomato",
+    "count": 3,
+    "error": ""
+   },
+   {
+    "source": "smartrecruiters",
+    "slug": "zycus1",
+    "company": "zycus1",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "agrevolution",
+    "company": "Dehaat",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "allen-digital",
+    "company": "ALLEN Digital",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "cars24",
+    "company": "Cars24",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "dbox",
+    "company": "Darwinbox",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "dialectica-global",
+    "company": "Dialectica",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "exponent-energy",
+    "company": "Exponent Energy",
+    "count": 49,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "hyperverge",
+    "company": "HyperVerge",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "junglee-games",
+    "company": "Junglee Games",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "leenaai",
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
+   },
+   {
+    "source": "workable",
+    "slug": "loginext",
+    "company": "LogiNext",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "postman",
+    "company": "Postman",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "tiger-analytics",
+    "company": "Tiger Analytics Inc.",
+    "count": 171,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "toppr",
+    "company": "Toppr",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "urbanco",
+    "company": "Urban",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "wnscareers",
+    "company": "WNS",
+    "count": 0,
+    "error": ""
+   },
+   {
+    "source": "workable",
+    "slug": "zycus-1",
+    "company": "Zycus",
+    "count": 0,
+    "error": ""
    }
   ],
   "drops": {
-   "role keywords not matched": 6667,
-   "location not wanted": 278,
-   "excluded title word (e.g. senior/manager)": 347,
-   "older than max_age_days": 31,
-   "asks for more experience than max_years_experience": 6
+   "role keywords not matched": 15352,
+   "location not wanted": 609,
+   "older than max_age_days": 86,
+   "excluded title word (e.g. senior/manager)": 807,
+   "asks for more experience than max_years_experience": 20
   },
-  "notes": [],
+  "notes": [
+   "LLM enabled but environment variable LLM_API_KEY is not set; skipped."
+  ],
   "keywords": [
    "software engineer",
    "software developer",
@@ -301,74 +1493,6 @@
  },
  "jobs": [
   {
-   "uid": "smartrecruiters:boschgroup:744000153372859",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Software Developer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000153372859",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000153372859",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-04T13:16:38.537000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 70,
-   "reasons": [
-    "title: software developer",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 85,
-   "llm_reason": "Strong fit for a product-focused software developer role at a global engineering firm.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: Strong fit for a product-focused software developer role at a global engineering firm.",
-   "track_scores": {
-    "software": 55
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000152431390",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Software Developer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152431390",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000152431390",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-09-29T13:15:58.190000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 70,
-   "reasons": [
-    "title: software developer",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 85,
-   "llm_reason": "Strong match for a full-stack developer fresher role at a major global engineering and tech company like Bosch.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: Strong match for a full-stack developer fresher role at a major global engineering and tech company like Bosch.",
-   "track_scores": {
-    "software": 55
-   }
-  },
-  {
    "uid": "greenhouse:rubrik:8258200",
    "source": "greenhouse",
    "company": "Rubrik Job Board",
@@ -381,7 +1505,7 @@
    "department": "Engineering",
    "employment_type": "",
    "seniority": "",
-   "score": 68,
+   "score": 71,
    "reasons": [
     "title: software engineer",
     "location: bangalore",
@@ -393,86 +1517,15 @@
    "min_years": 0,
    "is_new": true,
    "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 65,
-   "llm_reason": "The candidate has strong full-stack and system-level project experience, but lacks the specific backend language (Go/Java/C++) and cloud infrastructure depth required for this specialized cloud-native role.",
+   "llm_score": null,
+   "llm_reason": "",
    "snippet": "About the team:\nThe Rubrik Cloud Native Protection team helps customers secure their data on the cloud. Cloud data is growing at an ever growing pace and so are the risks with cyber attacks targeted towards cloud data. We make it easy for businesses to protect, search, analyze all of their cloud data simply and scalably.\nCloud Native Protection is one of the fastest growing businesses and teams wi",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate has strong full-stack and system-level project experience, but lacks the specific backend language (Go/Java/C++) and cloud infrastructure depth required for this specialized cloud-native role.",
+   "resume_reason": "default for this track",
    "track_scores": {
     "software": 71
-   }
-  },
-  {
-   "uid": "greenhouse:razorpaysoftwareprivatelimited:4738311005",
-   "source": "greenhouse",
-   "company": "Razorpay Software Private Limited",
-   "title": "Junior Analyst, Risk Management",
-   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4738311005",
-   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4738311005",
-   "location": "Bengaluru",
-   "remote": null,
-   "posted": "2026-10-08T11:05:00+00:00",
-   "department": "Risk Management",
-   "employment_type": "",
-   "seniority": "",
-   "score": 65,
-   "reasons": [
-    "title: junior analyst",
-    "location: bengaluru",
-    "early-career role"
-   ],
-   "flags": [
-    "asks for WhatsApp/Telegram contact"
-   ],
-   "min_years": null,
-   "is_new": true,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 90,
-   "llm_reason": "Strong fit for a fintech risk analyst role due to SQL and analytics projects involving large-scale transaction and delivery data.",
-   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "icic_1.pdf",
-   "resume_reason": "AI pick: Strong fit for a fintech risk analyst role due to SQL and analytics projects involving large-scale transaction and delivery data.",
-   "track_scores": {
-    "analyst": 40
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154658219",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack Developer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154658219",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154658219",
-   "location": "coimbatore, , India",
-   "remote": false,
-   "posted": "2026-10-09T11:55:44.555000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 55,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "posted in last 3 days",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 45,
-   "llm_reason": "The candidate's stack is MERN/Next.js focused, making them a poor match for a Java-centric role, but HIMANSHU_FINAL_TECH.pdf is the most relevant for general SDE positions.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's stack is MERN/Next.js focused, making them a poor match for a Java-centric role, but HIMANSHU_FINAL_TECH.pdf is the most relevant for general SDE positions.",
-   "track_scores": {
-    "software": 65
    }
   },
   {
@@ -488,7 +1541,7 @@
    "department": "Engineering",
    "employment_type": "",
    "seniority": "",
-   "score": 53,
+   "score": 71,
    "reasons": [
     "title: software engineer",
     "location: bangalore",
@@ -500,49 +1553,15 @@
    "min_years": 0,
    "is_new": true,
    "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 35,
-   "llm_reason": "Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
+   "llm_score": null,
+   "llm_reason": "",
    "snippet": "About Role:\nRubrik Software Engineers are self-starters, driven, and can manage themselves. We believe in giving engineers responsibility, not tasks. Our goal is to motivate and challenge people to do their best work. Bottom line, if you have a limitless drive and like to win, we want to talk to you - come make history!\nWhat you’ll do:\nBuild software using your strong background in distributed sys",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
+   "resume_reason": "default for this track",
    "track_scores": {
     "software": 71
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154402258",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack Developer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154402258",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154402258",
-   "location": "coimbatore, , India",
-   "remote": false,
-   "posted": "2026-10-08T10:37:42.026000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 49,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 38,
-   "llm_reason": "Requires Java full-stack expertise which conflicts with the candidate's TypeScript and Node.js focus.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HCLTech_Resume.pdf",
-   "resume_reason": "AI pick: Requires Java full-stack expertise which conflicts with the candidate's TypeScript and Node.js focus.",
-   "track_scores": {
-    "software": 60
    }
   },
   {
@@ -558,7 +1577,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 48,
+   "score": 65,
    "reasons": [
     "title: ai engineer",
     "location: india",
@@ -569,31 +1588,31 @@
    "min_years": 1,
    "is_new": true,
    "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 30,
-   "llm_reason": "Candidate has application-layer LLM integration experience and graduates in 2027, which is a stretch for a core AI Engineer position at Bosch.",
+   "llm_score": null,
+   "llm_reason": "",
    "snippet": "",
    "track": "software",
    "track_label": "Software / Full-stack",
-   "resume": "HCLTech_Resume.pdf",
-   "resume_reason": "AI pick: Candidate has application-layer LLM integration experience and graduates in 2027, which is a stretch for a core AI Engineer position at Bosch.",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
    "track_scores": {
     "software": 65
    }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000154601353",
+   "uid": "smartrecruiters:boschgroup:744000154658219",
    "source": "smartrecruiters",
    "company": "Bosch Group",
-   "title": "Java Full Stack with Java & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154601353",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154601353",
-   "location": "hosur road bangalore, , India",
+   "title": "Java Full Stack Developer",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154658219",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154658219",
+   "location": "coimbatore, , India",
    "remote": false,
-   "posted": "2026-10-09T07:17:46.644000+00:00",
+   "posted": "2026-10-09T11:55:44.555000+00:00",
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 45,
+   "score": 65,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -604,13 +1623,13 @@
    "min_years": 1,
    "is_new": true,
    "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 25,
-   "llm_reason": "The job requires Java and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "llm_score": null,
+   "llm_reason": "",
    "snippet": "",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires Java and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "resume_reason": "default for this track",
    "track_scores": {
     "software": 65
    }
@@ -628,7 +1647,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 40,
+   "score": 65,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -639,15 +1658,84 @@
    "min_years": 1,
    "is_new": true,
    "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 15,
-   "llm_reason": "The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "llm_score": null,
+   "llm_reason": "",
    "snippet": "",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "resume_reason": "default for this track",
    "track_scores": {
     "software": 65
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000154601353",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Java Full Stack with Java & Angular",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154601353",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154601353",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-09T07:17:46.644000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 65,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "software": 65
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000154402258",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Java Full Stack Developer",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154402258",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154402258",
+   "location": "coimbatore, , India",
+   "remote": false,
+   "posted": "2026-10-08T10:37:42.026000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 60,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "software": 60
    }
   },
   {
@@ -663,7 +1751,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 40,
+   "score": 60,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -673,115 +1761,13 @@
    "min_years": 1,
    "is_new": true,
    "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 20,
-   "llm_reason": "The job requires Java and Angular, but the candidate's stack is TypeScript, React, Node.js, and Python-adjacent tech.",
+   "llm_score": null,
+   "llm_reason": "",
    "snippet": "",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires Java and Angular, but the candidate's stack is TypeScript, React, Node.js, and Python-adjacent tech.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154171898",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Full Stack with C# & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154171898",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154171898",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-07T18:18:27.092000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 20,
-   "llm_reason": "The candidate's core tech stack is TypeScript, React, and Node.js, whereas this role specifically requires C# and Angular.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's core tech stack is TypeScript, React, and Node.js, whereas this role specifically requires C# and Angular.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154170834",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack with Java & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154170834",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154170834",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-07T18:16:01.531000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 20,
-   "llm_reason": "The role requires Java and Angular, whereas the candidate's stack is TypeScript, React, and Node.js.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The role requires Java and Angular, whereas the candidate's stack is TypeScript, React, and Node.js.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154169689",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack with Java & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154169689",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154169689",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-07T18:13:19.715000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 20,
-   "llm_reason": "The job requires Java and Angular, but the candidate's stack is TypeScript, React, Next.js, and Node.js.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires Java and Angular, but the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "resume_reason": "default for this track",
    "track_scores": {
     "software": 60
    }
@@ -799,7 +1785,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 38,
+   "score": 60,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -809,13 +1795,13 @@
    "min_years": 1,
    "is_new": true,
    "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 15,
-   "llm_reason": "The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "llm_score": null,
+   "llm_reason": "",
    "snippet": "",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "resume_reason": "default for this track",
    "track_scores": {
     "software": 60
    }
@@ -833,7 +1819,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 38,
+   "score": 60,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -843,15 +1829,290 @@
    "min_years": 1,
    "is_new": true,
    "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 15,
-   "llm_reason": "The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, Node.js, and Express.",
+   "llm_score": null,
+   "llm_reason": "",
    "snippet": "",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, Node.js, and Express.",
+   "resume_reason": "default for this track",
    "track_scores": {
     "software": 60
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000154171898",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Full Stack with C# & Angular",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154171898",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154171898",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-07T18:18:27.092000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 60,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "software": 60
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000154170834",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Java Full Stack with Java & Angular",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154170834",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154170834",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-07T18:16:01.531000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 60,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "software": 60
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000154169689",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Java Full Stack with Java & Angular",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154169689",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154169689",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-07T18:13:19.715000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 60,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "software": 60
+   }
+  },
+  {
+   "uid": "smartrecruiters:continental:744000154002299",
+   "source": "smartrecruiters",
+   "company": "Continental",
+   "title": "Java Full Stack Developer",
+   "url": "https://jobs.smartrecruiters.com/Continental/744000154002299",
+   "apply_url": "https://jobs.smartrecruiters.com/Continental/744000154002299",
+   "location": "Electronic City,  Bengaluru, Karnataka, India",
+   "remote": false,
+   "posted": "2026-10-07T04:13:40.378000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 60,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T23:30:29+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "software": 60
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000153372859",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Software Developer",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000153372859",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000153372859",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-04T13:16:38.537000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 55,
+   "reasons": [
+    "title: software developer",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000152431390",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Software Developer",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152431390",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000152431390",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-09-29T13:15:58.190000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 55,
+   "reasons": [
+    "title: software developer",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:continental:744000150896850",
+   "source": "smartrecruiters",
+   "company": "Continental",
+   "title": "Supply Chain Data Analyst",
+   "url": "https://jobs.smartrecruiters.com/Continental/744000150896850",
+   "apply_url": "https://jobs.smartrecruiters.com/Continental/744000150896850",
+   "location": "Taguig City, NCR, Philippines",
+   "remote": false,
+   "posted": "2026-09-22T03:12:55.191000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 55,
+   "reasons": [
+    "title: data analyst",
+    "location: ncr",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T23:30:29+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "INTERN_ADDED_NON_TECH.pdf",
+   "resume_reason": "default for this track",
+   "track_scores": {
+    "analyst": 55,
+    "supply_chain": 55
+   }
+  },
+  {
+   "uid": "greenhouse:razorpaysoftwareprivatelimited:4738311005",
+   "source": "greenhouse",
+   "company": "Razorpay Software Private Limited",
+   "title": "Junior Analyst, Risk Management",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4738311005",
+   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4738311005",
+   "location": "Bengaluru",
+   "remote": null,
+   "posted": "2026-10-08T11:05:00+00:00",
+   "department": "Risk Management",
+   "employment_type": "",
+   "seniority": "",
+   "score": 40,
+   "reasons": [
+    "title: junior analyst",
+    "location: bengaluru",
+    "early-career role"
+   ],
+   "flags": [
+    "asks for WhatsApp/Telegram contact"
+   ],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "GEN_AI___NON_TECH_1.pdf",
+   "resume_reason": "mentions automation",
+   "track_scores": {
+    "analyst": 40
    }
   }
  ]
