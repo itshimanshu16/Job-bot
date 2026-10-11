@@ -39,12 +39,17 @@ Reply with JSON only, no other text:
 
 _JSON_RE = re.compile(r"\{.*\}", re.S)
 
+# Active Gemini models supporting Google's OpenAI-compatible endpoint.
+# Prioritized by quota (Gemini 3.1 Flash Lite offers 500 RPD and 15 RPM on the free tier).
 DEFAULT_FALLBACK_MODELS = [
-    "gemini-2.5-flash",
-    "gemini-2.0-flash",
-    "gemini-1.5-flash",
-    "gemini-flash-latest",
-    "gemini-2.5-pro",
+    "gemini-3.1-flash-lite",
+    "gemini-3.5-flash-lite",
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-3-flash",
+    "gemini-2.5-flash-lite",
 ]
 
 
@@ -54,7 +59,11 @@ class LLMScorer:
         self.api_key = os.environ.get(cfg.get("api_key_env", "LLM_API_KEY"), "").strip()
         self.url = cfg.get("base_url", "https://generativelanguage.googleapis.com/v1beta/openai").rstrip("/") + "/chat/completions"
         self.errors: list[str] = []
-        self.active_model: str = str(cfg.get("model") or "gemini-2.5-flash").strip()
+        self.disabled_models: set[str] = set()
+        self.has_reported_failure = False
+
+        configured_model = str(cfg.get("model") or "gemini-3.1-flash-lite").strip()
+        self.active_model: str = configured_model
 
     @property
     def ready(self) -> bool:
@@ -65,12 +74,8 @@ class LLMScorer:
             return False
         return True
 
-    def _record_error(self, msg: str) -> None:
-        if msg not in self.errors and len(self.errors) < 8:
-            self.errors.append(msg)
-
     def _get_candidate_models(self) -> list[str]:
-        configured_primary = str(self.cfg.get("model") or "gemini-2.5-flash").strip()
+        configured_primary = str(self.cfg.get("model") or "gemini-3.1-flash-lite").strip()
         configured_fallbacks = [
             str(m).strip() for m in self.cfg.get("fallback_models") or DEFAULT_FALLBACK_MODELS if str(m).strip()
         ]
@@ -82,7 +87,9 @@ class LLMScorer:
         for m in configured_fallbacks:
             if m not in models:
                 models.append(m)
-        return models
+        # Filter out models that returned 404 (unavailable) or exhausted quota
+        active_candidates = [m for m in models if m not in self.disabled_models]
+        return active_candidates or models
 
     def _try_model(self, model: str, prompt: str) -> tuple[int, str, str | None] | None:
         retries = max(1, int(self.cfg.get("max_retries", 2)))
@@ -106,10 +113,10 @@ class LLMScorer:
                     log.warning("LLM model %s timed out (%s), retrying (attempt %d/%d)...", model, err_type, attempt + 1, retries)
                     time.sleep(1.5 * (attempt + 1))
                     continue
-                self._record_error(f"LLM model '{model}' failed: {err_type}")
+                log.warning("LLM model '%s' failed: %s", model, err_type)
                 return None
             except requests.RequestException as exc:
-                self._record_error(f"LLM request error with '{model}': {exc.__class__.__name__}")
+                log.warning("LLM request error with '%s': %s", model, exc)
                 return None
 
             if resp.status_code == 200:
@@ -117,7 +124,7 @@ class LLMScorer:
                     content = resp.json()["choices"][0]["message"]["content"]
                     match = _JSON_RE.search(content)
                     if not match:
-                        self._record_error(f"LLM reply from '{model}' contained no JSON block.")
+                        log.warning("LLM reply from '%s' contained no JSON block.", model)
                         return None
                     parsed = json.loads(match.group(0))
                     value = max(0, min(100, int(parsed["score"])))
@@ -125,20 +132,32 @@ class LLMScorer:
                     picked_resume = parsed.get("resume")
                     return value, reason, picked_resume
                 except (KeyError, IndexError, ValueError, TypeError, AttributeError) as exc:
-                    self._record_error(f"LLM reply from '{model}' could not be parsed: {exc}")
+                    log.warning("LLM reply from '%s' could not be parsed: %s", model, exc)
                     return None
 
-            # Handle transient high-demand spikes (503), rate limits (429), or gateway hiccups (500/502/504)
-            if resp.status_code in (429, 500, 502, 503, 504):
+            # 404 means model is discontinued or not available to account; disable it permanently for this run
+            if resp.status_code == 404:
+                log.warning("LLM model '%s' returned 404 (not available), disabling it.", model)
+                self.disabled_models.add(model)
+                return None
+
+            # 429 means rate limit exceeded or daily quota exhausted; disable and switch model immediately
+            if resp.status_code == 429:
+                log.warning("LLM model '%s' rate limit / daily quota reached (HTTP 429), switching fallback.", model)
+                self.disabled_models.add(model)
+                return None
+
+            # 503 or 500/502/504: temporary server demand spike
+            if resp.status_code in (500, 502, 503, 504):
                 if attempt < retries - 1:
                     log.warning("LLM model %s returned HTTP %d, retrying with backoff...", model, resp.status_code)
                     time.sleep(2.0 * (attempt + 1))
                     continue
-                self._record_error(f"LLM model '{model}' temporarily unavailable (HTTP {resp.status_code})")
+                log.warning("LLM model '%s' temporarily unavailable (HTTP %d)", model, resp.status_code)
                 return None
 
-            # Non-retryable error (e.g. 400 Bad Request, 404 Model Not Found)
-            self._record_error(f"LLM model '{model}' returned HTTP {resp.status_code}: {resp.text[:120]}")
+            # Other HTTP errors
+            log.warning("LLM model '%s' returned HTTP %d: %s", model, resp.status_code, resp.text[:120])
             return None
 
         return None
@@ -170,7 +189,7 @@ class LLMScorer:
             result = self._try_model(model, prompt)
             if result is not None:
                 value, reason, picked_resume = result
-                # If a fallback succeeded, latch onto it to avoid failing on subsequent jobs
+                # Latch onto the working model for remaining jobs
                 if model != self.active_model:
                     log.info("Switched active LLM model to working fallback: %s", model)
                     self.active_model = model
@@ -182,5 +201,10 @@ class LLMScorer:
             if idx < len(candidates) - 1:
                 next_model = candidates[idx + 1]
                 log.warning("LLM model '%s' failed, falling back to '%s'", model, next_model)
+
+        # If all candidate models failed completely, note clean message once
+        if not self.has_reported_failure:
+            self.errors.append("AI re-ranking temporarily paused (rate limits reached); showing keyword matches.")
+            self.has_reported_failure = True
 
         return None

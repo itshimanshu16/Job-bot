@@ -303,6 +303,44 @@ def test_llm_fallback_on_timeout(monkeypatch):
     assert "gemini-1.5-flash" in posted_models
 
 
+def test_llm_fallback_on_404_disables_model(monkeypatch):
+    from jobradar.llm import LLMScorer
+
+    monkeypatch.setenv("LLM_API_KEY", "test-key")
+    posted_models = []
+
+    class MockResponse:
+        def __init__(self, status_code, json_data, text=""):
+            self.status_code = status_code
+            self._json = json_data
+            self.text = text
+
+        def json(self):
+            return self._json
+
+    def mock_post(url, headers, json, timeout):
+        model = json["model"]
+        posted_models.append(model)
+        if model == "old-model":
+            return MockResponse(404, {}, "Model no longer available")
+        return MockResponse(200, {"choices": [{"message": {"content": '{"score": 88, "reason": "ok", "resume": "r.pdf"}'}}]})
+
+    monkeypatch.setattr("requests.post", mock_post)
+    scorer = LLMScorer({
+        "enabled": True,
+        "model": "old-model",
+        "fallback_models": ["gemini-3.1-flash-lite"],
+        "max_retries": 1,
+    })
+    j = job(title="Dev", company="Acme")
+    track = {"label": "Software", "resumes": [{"file": "r.pdf", "use_for": "dev"}]}
+    res = scorer.score(j, track=track)
+    assert res == (88, "ok", "r.pdf")
+    assert "old-model" in scorer.disabled_models
+    assert scorer.active_model == "gemini-3.1-flash-lite"
+    assert not any("404" in e for e in scorer.errors)
+
+
 # ── report ──────────────────────────────────────────────────────────────────
 
 def test_report_files_written(cfg):

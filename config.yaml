@@ -40,17 +40,21 @@ fetch:
 llm:
   enabled: true
   base_url: https://generativelanguage.googleapis.com/v1beta/openai
-  model: gemini-2.5-flash
+  model: gemini-3.1-flash-lite    # 500 requests/day, 15 RPM limit
   fallback_models:
-    - gemini-2.0-flash
-    - gemini-1.5-flash
-    - gemini-flash-latest
-    - gemini-2.5-pro
+    - gemini-3.5-flash-lite       # 500 requests/day, 15 RPM limit
+    - gemini-3.8-flash            # 20 requests/day, 5 RPM limit
+    - gemini-3.7-flash            # 20 requests/day, 5 RPM limit
+    - gemini-3.6-flash            # 20 requests/day, 5 RPM limit
+    - gemini-3.5-flash            # 20 requests/day, 5 RPM limit
+    - gemini-3-flash              # 20 requests/day, 5 RPM limit
+    - gemini-2.5-flash-lite       # 20 requests/day, 10 RPM limit
   api_key_env: LLM_API_KEY
-  max_jobs_per_run: 40            # only the top jobs are sent; each job is scored once and cached
+  max_jobs_per_run: 25            # only the top jobs are sent; each job is scored once and cached
   weight: 0.5                     # 0 = ignore AI score, 1 = use only the AI score
   timeout_seconds: 25             # fail fast on congested model servers
   max_retries: 2                  # retries before switching to next fallback
+  delay_seconds: 4.2              # pauses 4.2s between calls to stay under 15 RPM limit
 
 state:
   path: state/seen.json

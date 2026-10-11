@@ -194,6 +194,10 @@ def rank(jobs: list[Job], cfg: dict, store: SeenStore, now: datetime) -> tuple[l
                 j.resume = ai_res
                 j.resume_reason = f"AI pick: {reason_str}"
             store.set_llm(j.uid, sc_val, reason_str, resume=ai_res or "", track_id=j.track)
+            delay = float(llm_cfg.get("delay_seconds", 0.0))
+            if delay > 0 and budget > 0:
+                import time
+                time.sleep(delay)
         w = float(llm_cfg.get("weight", 0.5))
         for j in kept:
             if j.llm_score is not None:
