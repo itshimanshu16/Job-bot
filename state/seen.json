@@ -13,7 +13,7 @@
  },
  "smartrecruiters:boschgroup:744000151354289": {
   "first_seen": "2026-10-11T21:16:23+00:00",
-  "last_seen": "2026-10-11T21:16:23+00:00",
+  "last_seen": "2026-10-11T21:18:50+00:00",
   "llm": {
    "reason": "The 'Specialist' designation indicates an experienced-level role unsuitable for a fresh graduate.",
    "score": 25
@@ -21,10 +21,14 @@
  },
  "smartrecruiters:boschgroup:744000152329808": {
   "first_seen": "2026-10-11T21:16:23+00:00",
-  "last_seen": "2026-10-11T21:16:23+00:00"
+  "last_seen": "2026-10-11T21:18:50+00:00"
  },
  "smartrecruiters:boschgroup:744000152398558": {
   "first_seen": "2026-10-11T21:16:23+00:00",
-  "last_seen": "2026-10-11T21:16:23+00:00"
+  "last_seen": "2026-10-11T21:18:50+00:00",
+  "llm": {
+   "reason": "Hardware design roles typically require an electrical/electronics background rather than mechanical engineering, and no job details are provided to confirm fresher eligibility.",
+   "score": 35
+  }
  }
 }

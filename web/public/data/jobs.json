@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-11T21:16:23+00:00",
+  "generated": "2026-10-11T21:18:50+00:00",
   "first_run": false,
   "total_fetched": 8101,
   "boards_ok": 16,
@@ -121,9 +121,9 @@
   ],
   "drops": {
    "role keywords not matched": 7841,
+   "location not wanted": 181,
    "asks for more experience than max_years_experience": 3,
    "excluded title word (e.g. senior/manager)": 64,
-   "location not wanted": 181,
    "older than max_age_days": 9
   },
   "notes": [
@@ -153,33 +153,6 @@
  },
  "jobs": [
   {
-   "uid": "smartrecruiters:boschgroup:744000152398558",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Hardware Design Engineer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152398558",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000152398558",
-   "location": "bengaluru, , India",
-   "remote": false,
-   "posted": "2026-09-29T11:59:36.711000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 55,
-   "reasons": [
-    "title: design engineer",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-11T21:16:23+00:00",
-   "llm_score": null,
-   "llm_reason": "",
-   "snippet": ""
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000152329808",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -204,6 +177,33 @@
    "first_seen": "2026-10-11T21:16:23+00:00",
    "llm_score": null,
    "llm_reason": "",
+   "snippet": ""
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000152398558",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Hardware Design Engineer",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152398558",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000152398558",
+   "location": "bengaluru, , India",
+   "remote": false,
+   "posted": "2026-09-29T11:59:36.711000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 45,
+   "reasons": [
+    "title: design engineer",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-11T21:16:23+00:00",
+   "llm_score": 35,
+   "llm_reason": "Hardware design roles typically require an electrical/electronics background rather than mechanical engineering, and no job details are provided to confirm fresher eligibility.",
    "snippet": ""
   },
   {
