@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:                      # re-run when you change your search or the app
       - config.yaml
+      - profiles.yaml
       - companies.yaml
       - "web/src/**"
       - "jobradar/**"
