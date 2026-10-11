@@ -1,10 +1,13 @@
 import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { AuthModal } from "./components/AuthModal";
 import { Controls } from "./components/Controls";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { JobCard } from "./components/JobCard";
+import { LandingPage } from "./components/LandingPage";
 import { Tabs } from "./components/Tabs";
 import { TrackFilter } from "./components/TrackFilter";
+import { clearAuthSession, isSessionAuthed } from "./lib/auth";
 import { useJobData } from "./lib/data";
 import { appliedCsv, companies, tabCounts, trackCounts, visibleJobs, type View } from "./lib/jobs";
 import { useMarks } from "./lib/marks";
@@ -12,10 +15,39 @@ import type { Payload } from "./types";
 
 export default function App() {
   const state = useJobData();
+  const [isAuthed, setIsAuthed] = useState<boolean>(isSessionAuthed);
+  const [showAuthModal, setShowAuthModal] = useState<boolean>(false);
 
   if (state.kind === "loading") {
-    return <Shell><p className="status">Loading jobs…</p></Shell>;
+    return <Shell><p className="status">Loading Job Radar…</p></Shell>;
   }
+
+  if (state.kind === "error") {
+    return <Shell><p className="status error" role="alert">{state.message}</p></Shell>;
+  }
+
+  if (!isAuthed) {
+    const totalJobs = state.kind === "ready" ? state.data.jobs.length : 7300;
+    const totalBoards = state.kind === "ready" ? state.data.meta.boards?.length : 21;
+    return (
+      <>
+        <LandingPage
+          onOpenLogin={() => setShowAuthModal(true)}
+          totalJobs={totalJobs}
+          totalBoards={totalBoards}
+        />
+        <AuthModal
+          isOpen={showAuthModal}
+          onClose={() => setShowAuthModal(false)}
+          onSuccess={() => {
+            setShowAuthModal(false);
+            setIsAuthed(true);
+          }}
+        />
+      </>
+    );
+  }
+
   if (state.kind === "missing") {
     return (
       <Shell>
@@ -25,21 +57,38 @@ export default function App() {
             The first search hasn't finished. Open the repository's <strong>Actions</strong> tab, run the{" "}
             <strong>Job Radar</strong> workflow, and reload this page when it turns green.
           </p>
+          <button
+            type="button"
+            className="quiet"
+            onClick={() => {
+              clearAuthSession();
+              setIsAuthed(false);
+            }}
+            style={{ marginTop: "1rem" }}
+          >
+            ← Return to Homepage
+          </button>
         </div>
       </Shell>
     );
   }
-  if (state.kind === "error") {
-    return <Shell><p className="status error" role="alert">{state.message}</p></Shell>;
-  }
-  return <Radar data={state.data} />;
+
+  return (
+    <Radar
+      data={state.data}
+      onLogout={() => {
+        clearAuthSession();
+        setIsAuthed(false);
+      }}
+    />
+  );
 }
 
 function Shell({ children }: { children: ReactNode }) {
   return <main className="wrap">{children}</main>;
 }
 
-function Radar({ data }: { data: Payload }) {
+function Radar({ data, onLogout }: { data: Payload; onLogout: () => void }) {
   const { meta, jobs } = data;
   const { marks, toggle } = useMarks();
   const [view, setView] = useState<View>({
@@ -51,7 +100,7 @@ function Radar({ data }: { data: Payload }) {
   });
 
   useEffect(() => {
-    document.title = meta.title || "Job Radar";
+    document.title = `${meta.title || "Job Radar"} — Candidate Portal`;
   }, [meta.title]);
 
   const counts = useMemo(() => tabCounts(jobs, marks, view.track), [jobs, marks, view.track]);
@@ -80,6 +129,22 @@ function Radar({ data }: { data: Payload }) {
 
   return (
     <main className="wrap">
+      {/* ── Top Portal Bar ── */}
+      <div className="portal-bar">
+        <div className="portal-status">
+          <span className="portal-indicator" aria-hidden="true" />
+          <span>Candidate Portal (Personal Radar)</span>
+        </div>
+        <button
+          type="button"
+          className="portal-exit-btn"
+          onClick={onLogout}
+          title="Lock and return to public website"
+        >
+          🔒 Lock & Return Home
+        </button>
+      </div>
+
       <Header meta={meta} jobs={jobs} />
       <div className="bar">
         <Tabs tab={view.tab} counts={counts} onChange={(tab) => setView((v) => ({ ...v, tab }))} />
