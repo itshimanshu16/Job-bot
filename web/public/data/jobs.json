@@ -1,8 +1,8 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-11T20:54:34+00:00",
-  "first_run": true,
+  "generated": "2026-10-11T21:03:38+00:00",
+  "first_run": false,
   "total_fetched": 1169,
   "boards_ok": 3,
   "boards": [
