@@ -1,0 +1,4 @@
+score,is_new,title,company,location,remote,posted,min_years,source,url,apply_url,reasons,flags,llm_reason
+51,True,"Financial Data Analyst Intern, Technical Operations",Stripe,Singapore,,2026-09-24T21:24:36+00:00,2,greenhouse,https://stripe.com/jobs/search?gh_jid=8186442,https://stripe.com/jobs/search?gh_jid=8186442,"title: data analyst; asks ≤2 yrs; skills: sql, python",,
+43,True,"Data Analyst, Intern",Stripe,Toronto,,2026-10-01T15:05:36+00:00,,greenhouse,https://stripe.com/jobs/search?gh_jid=8194287,https://stripe.com/jobs/search?gh_jid=8194287,title: data analyst; skills: sql,,
+43,True,"Data Analyst, Intern",Stripe,"New York, Seattle, South San Francisco HQ",,2026-10-01T15:05:29+00:00,,greenhouse,https://stripe.com/jobs/search?gh_jid=8194291,https://stripe.com/jobs/search?gh_jid=8194291,title: data analyst; skills: sql,,

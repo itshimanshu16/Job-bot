@@ -1,0 +1,125 @@
+{
+ "meta": {
+  "title": "Job Radar",
+  "generated": "2026-10-11T20:54:34+00:00",
+  "first_run": true,
+  "total_fetched": 1169,
+  "boards_ok": 3,
+  "boards": [
+   {
+    "source": "ashby",
+    "slug": "notion",
+    "company": "Notion",
+    "count": 132,
+    "error": ""
+   },
+   {
+    "source": "greenhouse",
+    "slug": "stripe",
+    "company": "Stripe",
+    "count": 728,
+    "error": ""
+   },
+   {
+    "source": "lever",
+    "slug": "palantir",
+    "company": "Palantir",
+    "count": 309,
+    "error": ""
+   }
+  ],
+  "drops": {
+   "role keywords not matched": 1161,
+   "older than max_age_days": 3,
+   "asks for more experience than max_years_experience": 1,
+   "excluded title word (e.g. senior/manager)": 1
+  },
+  "notes": [],
+  "keywords": [
+   "data analyst",
+   "business analyst",
+   "product analyst"
+  ]
+ },
+ "jobs": [
+  {
+   "uid": "greenhouse:stripe:8186442",
+   "source": "greenhouse",
+   "company": "Stripe",
+   "title": "Financial Data Analyst Intern, Technical Operations",
+   "url": "https://stripe.com/jobs/search?gh_jid=8186442",
+   "apply_url": "https://stripe.com/jobs/search?gh_jid=8186442",
+   "location": "Singapore",
+   "remote": null,
+   "posted": "2026-09-24T21:24:36+00:00",
+   "department": "8548 Payins - Eng",
+   "employment_type": "",
+   "seniority": "",
+   "score": 51,
+   "reasons": [
+    "title: data analyst",
+    "asks ≤2 yrs",
+    "skills: sql, python"
+   ],
+   "flags": [],
+   "min_years": 2,
+   "is_new": true,
+   "first_seen": "2026-10-11T20:54:34+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "Who we are\nAbout Stripe\nStripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo"
+  },
+  {
+   "uid": "greenhouse:stripe:8194287",
+   "source": "greenhouse",
+   "company": "Stripe",
+   "title": "Data Analyst, Intern",
+   "url": "https://stripe.com/jobs/search?gh_jid=8194287",
+   "apply_url": "https://stripe.com/jobs/search?gh_jid=8194287",
+   "location": "Toronto",
+   "remote": null,
+   "posted": "2026-10-01T15:05:36+00:00",
+   "department": "5112 General University",
+   "employment_type": "",
+   "seniority": "",
+   "score": 43,
+   "reasons": [
+    "title: data analyst",
+    "skills: sql"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-11T20:54:34+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "Who we are\nAbout Stripe\nStripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo"
+  },
+  {
+   "uid": "greenhouse:stripe:8194291",
+   "source": "greenhouse",
+   "company": "Stripe",
+   "title": "Data Analyst, Intern",
+   "url": "https://stripe.com/jobs/search?gh_jid=8194291",
+   "apply_url": "https://stripe.com/jobs/search?gh_jid=8194291",
+   "location": "New York, Seattle, South San Francisco HQ",
+   "remote": null,
+   "posted": "2026-10-01T15:05:29+00:00",
+   "department": "5112 General University",
+   "employment_type": "",
+   "seniority": "",
+   "score": 43,
+   "reasons": [
+    "title: data analyst",
+    "skills: sql"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-11T20:54:34+00:00",
+   "llm_score": null,
+   "llm_reason": "",
+   "snippet": "Who we are\nAbout Stripe\nStripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo"
+  }
+ ]
+}
