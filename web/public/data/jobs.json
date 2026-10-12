@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-11T23:34:32+00:00",
+  "generated": "2026-10-12T06:05:11+00:00",
   "first_run": false,
-  "total_fetched": 16890,
+  "total_fetched": 16867,
   "boards_ok": 140,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 137,
+    "count": 136,
     "error": ""
    },
    {
@@ -241,14 +241,14 @@
     "source": "greenhouse",
     "slug": "groww",
     "company": "Groww",
-    "count": 9,
+    "count": 10,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 104,
+    "count": 105,
     "error": ""
    },
    {
@@ -269,21 +269,21 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 175,
+    "count": 176,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 72,
+    "count": 70,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 231,
+    "count": 230,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 377,
+    "count": 376,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 24,
+    "count": 23,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 89,
+    "count": 88,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 180,
+    "count": 183,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 486,
+    "count": 484,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 4950,
+    "count": 4937,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1894,
+    "count": 1891,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 596,
+    "count": 594,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 474,
+    "count": 476,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 400,
+    "count": 398,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 127,
+    "count": 128,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 346,
+    "count": 343,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15350,
-   "location not wanted": 609,
+   "role keywords not matched": 15337,
+   "asks for more experience than max_years_experience": 20,
    "older than max_age_days": 86,
-   "excluded title word (e.g. senior/manager)": 807,
-   "asks for more experience than max_years_experience": 20
+   "location not wanted": 602,
+   "excluded title word (e.g. senior/manager)": 803
   },
   "notes": [],
   "keywords": [
@@ -1663,6 +1663,42 @@
    "track_scores": {
     "analyst": 55,
     "supply_chain": 55
+   }
+  },
+  {
+   "uid": "greenhouse:razorpaysoftwareprivatelimited:4740722005",
+   "source": "greenhouse",
+   "company": "Razorpay Software Private Limited",
+   "title": "Junior Analyst, Risk Management",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4740722005",
+   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4740722005",
+   "location": "Bengaluru",
+   "remote": null,
+   "posted": "2026-10-07T07:03:53+00:00",
+   "department": "Risk Management",
+   "employment_type": "",
+   "seniority": "",
+   "score": 58,
+   "reasons": [
+    "title: junior analyst",
+    "location: bengaluru",
+    "early-career role"
+   ],
+   "flags": [
+    "asks for WhatsApp/Telegram contact"
+   ],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-12T06:05:11+00:00",
+   "llm_score": 75,
+   "llm_reason": "The candidate's strong SQL and data-driven risk/forecasting background aligns well with fintech, though the role's focus on AML/Sanctions requires specific domain emphasis.",
+   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "icic_1.pdf",
+   "resume_reason": "AI pick: The candidate's strong SQL and data-driven risk/forecasting background aligns well with fintech, though the role's focus on AML/Sanctions requires specific domain emphasis.",
+   "track_scores": {
+    "analyst": 40
    }
   },
   {
