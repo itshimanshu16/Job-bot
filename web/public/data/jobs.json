@@ -1,16 +1,16 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-13T11:52:11+00:00",
+  "generated": "2026-10-13T19:19:58+00:00",
   "first_run": false,
-  "total_fetched": 16857,
+  "total_fetched": 16987,
   "boards_ok": 140,
   "boards": [
    {
     "source": "ashby",
     "slug": "atlan",
     "company": "Atlan",
-    "count": 7,
+    "count": 6,
     "error": ""
    },
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 134,
+    "count": 132,
     "error": ""
    },
    {
@@ -66,21 +66,21 @@
     "source": "ashby",
     "slug": "sentry",
     "company": "Sentry",
-    "count": 46,
+    "count": 48,
     "error": ""
    },
    {
     "source": "ashby",
     "slug": "signoz",
     "company": "Signoz",
-    "count": 13,
+    "count": 14,
     "error": ""
    },
    {
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 92,
+    "count": 94,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 48,
+    "count": 47,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 225,
+    "count": 227,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 211,
+    "count": 220,
     "error": ""
    },
    {
@@ -178,21 +178,21 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 33,
+    "count": 34,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 35,
+    "count": 34,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 208,
+    "count": 205,
     "error": ""
    },
    {
@@ -206,7 +206,7 @@
     "source": "greenhouse",
     "slug": "fourkites",
     "company": "FourKites",
-    "count": 12,
+    "count": 13,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 174,
+    "count": 175,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 76,
+    "count": 77,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 378,
+    "count": 379,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 27,
+    "count": 28,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 134,
+    "count": 137,
     "error": ""
    },
    {
@@ -486,7 +486,7 @@
     "source": "greenhouse",
     "slug": "tcs",
     "company": "Thornbury Community Services",
-    "count": 101,
+    "count": 102,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 149,
+    "count": 146,
     "error": ""
    },
    {
@@ -549,7 +549,7 @@
     "source": "greenhouse",
     "slug": "worldquant",
     "company": "WorldQuant",
-    "count": 95,
+    "count": 94,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 31,
+    "count": 33,
     "error": ""
    },
    {
@@ -675,7 +675,7 @@
     "source": "lever",
     "slug": "mindtickle",
     "company": "Mindtickle",
-    "count": 20,
+    "count": 21,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 178,
+    "count": 179,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 471,
+    "count": 477,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 4918,
+    "count": 4985,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 123,
+    "count": 124,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1924,
+    "count": 1961,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 652,
+    "count": 654,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 566,
+    "count": 563,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 285,
+    "count": 287,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 474,
+    "count": 484,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 859,
+    "count": 860,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 397,
+    "count": 407,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 696,
+    "count": 671,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 411,
+    "count": 410,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 343,
+    "count": 341,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 349,
+    "count": 355,
     "error": ""
    },
    {
@@ -1270,7 +1270,7 @@
     "source": "workable",
     "slug": "exponent-energy",
     "company": "Exponent Energy",
-    "count": 49,
+    "count": 50,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15314,
-   "location not wanted": 600,
+   "role keywords not matched": 15446,
+   "location not wanted": 610,
+   "older than max_age_days": 91,
    "excluded title word (e.g. senior/manager)": 811,
-   "older than max_age_days": 90,
-   "asks for more experience than max_years_experience": 15
+   "asks for more experience than max_years_experience": 14
   },
   "notes": [],
   "keywords": [
@@ -1631,40 +1631,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000154658219",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack Developer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154658219",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154658219",
-   "location": "coimbatore, , India",
-   "remote": false,
-   "posted": "2026-10-09T11:55:44.555000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 52,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 45,
-   "llm_reason": "The candidate's stack is MERN/Next.js focused, making them a poor match for a Java-centric role, but HIMANSHU_FINAL_TECH.pdf is the most relevant for general SDE positions.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's stack is MERN/Next.js focused, making them a poor match for a Java-centric role, but HIMANSHU_FINAL_TECH.pdf is the most relevant for general SDE positions.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
    "uid": "smartrecruiters:continental:744000154002299",
    "source": "smartrecruiters",
    "company": "Continental",
@@ -1735,74 +1701,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000154402258",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack Developer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154402258",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154402258",
-   "location": "coimbatore, , India",
-   "remote": false,
-   "posted": "2026-10-08T10:37:42.026000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 49,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 38,
-   "llm_reason": "Requires Java full-stack expertise which conflicts with the candidate's TypeScript and Node.js focus.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HCLTech_Resume.pdf",
-   "resume_reason": "AI pick: Requires Java full-stack expertise which conflicts with the candidate's TypeScript and Node.js focus.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154659359",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "AI Engineer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154659359",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154659359",
-   "location": "bengaluru, , India",
-   "remote": false,
-   "posted": "2026-10-09T12:00:33.739000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 45,
-   "reasons": [
-    "title: ai engineer",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 30,
-   "llm_reason": "Candidate has application-layer LLM integration experience and graduates in 2027, which is a stretch for a core AI Engineer position at Bosch.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HCLTech_Resume.pdf",
-   "resume_reason": "AI pick: Candidate has application-layer LLM integration experience and graduates in 2027, which is a stretch for a core AI Engineer position at Bosch.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000154601353",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1858,7 +1756,7 @@
    ],
    "flags": [],
    "min_years": 1,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-10-12T17:59:37+00:00",
    "llm_score": 15,
    "llm_reason": "The role requires embedded systems and C/C++ expertise, which does not align with the candidate's full-stack web development profile.",
