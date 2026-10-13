@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-13T02:03:37+00:00",
+  "generated": "2026-10-13T11:52:11+00:00",
   "first_run": false,
-  "total_fetched": 16930,
+  "total_fetched": 16857,
   "boards_ok": 140,
   "boards": [
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 95,
+    "count": 92,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 53,
+    "count": 48,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 205,
+    "count": 211,
     "error": ""
    },
    {
@@ -178,7 +178,7 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 34,
+    "count": 33,
     "error": ""
    },
    {
@@ -234,7 +234,7 @@
     "source": "greenhouse",
     "slug": "gravitonresearchcapital",
     "company": "Graviton Research Capital LLP",
-    "count": 21,
+    "count": 20,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 104,
+    "count": 105,
     "error": ""
    },
    {
@@ -276,14 +276,14 @@
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 75,
+    "count": 76,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 230,
+    "count": 229,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 380,
+    "count": 378,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 28,
+    "count": 27,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 131,
+    "count": 134,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 37,
+    "count": 36,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 26,
+    "count": 27,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 146,
+    "count": 149,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 87,
+    "count": 90,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 29,
+    "count": 31,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 57,
+    "count": 58,
     "error": ""
    },
    {
@@ -682,7 +682,7 @@
     "source": "lever",
     "slug": "netomi",
     "company": "Netomi",
-    "count": 20,
+    "count": 21,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 175,
+    "count": 178,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 25,
+    "count": 26,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 477,
+    "count": 471,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 4955,
+    "count": 4918,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 122,
+    "count": 123,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1940,
+    "count": 1924,
     "error": ""
    },
    {
@@ -885,7 +885,7 @@
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 284,
+    "count": 285,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 480,
+    "count": 474,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 868,
+    "count": 859,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 399,
+    "count": 397,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 697,
+    "count": 696,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 413,
+    "count": 411,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 129,
+    "count": 124,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 344,
+    "count": 343,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 350,
+    "count": 349,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15390,
-   "excluded title word (e.g. senior/manager)": 815,
-   "location not wanted": 599,
-   "older than max_age_days": 89,
-   "asks for more experience than max_years_experience": 17
+   "role keywords not matched": 15314,
+   "location not wanted": 600,
+   "excluded title word (e.g. senior/manager)": 811,
+   "older than max_age_days": 90,
+   "asks for more experience than max_years_experience": 15
   },
   "notes": [],
   "keywords": [
@@ -1595,77 +1595,6 @@
    }
   },
   {
-   "uid": "greenhouse:razorpaysoftwareprivatelimited:4738311005",
-   "source": "greenhouse",
-   "company": "Razorpay Software Private Limited",
-   "title": "Junior Analyst, Risk Management",
-   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4738311005",
-   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4738311005",
-   "location": "Bengaluru",
-   "remote": null,
-   "posted": "2026-10-08T11:05:00+00:00",
-   "department": "Risk Management",
-   "employment_type": "",
-   "seniority": "",
-   "score": 65,
-   "reasons": [
-    "title: junior analyst",
-    "location: bengaluru",
-    "early-career role"
-   ],
-   "flags": [
-    "asks for WhatsApp/Telegram contact"
-   ],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 90,
-   "llm_reason": "Strong fit for a fintech risk analyst role due to SQL and analytics projects involving large-scale transaction and delivery data.",
-   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "icic_1.pdf",
-   "resume_reason": "AI pick: Strong fit for a fintech risk analyst role due to SQL and analytics projects involving large-scale transaction and delivery data.",
-   "track_scores": {
-    "analyst": 40
-   }
-  },
-  {
-   "uid": "smartrecruiters:continental:744000150896850",
-   "source": "smartrecruiters",
-   "company": "Continental",
-   "title": "Supply Chain Data Analyst",
-   "url": "https://jobs.smartrecruiters.com/Continental/744000150896850",
-   "apply_url": "https://jobs.smartrecruiters.com/Continental/744000150896850",
-   "location": "Taguig City, NCR, Philippines",
-   "remote": false,
-   "posted": "2026-09-22T03:12:55.191000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 65,
-   "reasons": [
-    "title: data analyst",
-    "location: ncr",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T23:30:29+00:00",
-   "llm_score": 75,
-   "llm_reason": "Good match for supply chain and data analysis skills, but requires relocating to the Philippines.",
-   "snippet": "",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "INTERN_ADDED_NON_TECH.pdf",
-   "resume_reason": "AI pick: Good match for supply chain and data analysis skills, but requires relocating to the Philippines.",
-   "track_scores": {
-    "analyst": 55,
-    "supply_chain": 55
-   }
-  },
-  {
    "uid": "greenhouse:razorpaysoftwareprivatelimited:4740722005",
    "source": "greenhouse",
    "company": "Razorpay Software Private Limited",
@@ -1688,7 +1617,7 @@
     "asks for WhatsApp/Telegram contact"
    ],
    "min_years": null,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-10-12T06:05:11+00:00",
    "llm_score": 75,
    "llm_reason": "The candidate's strong SQL and data-driven risk/forecasting background aligns well with fintech, though the role's focus on AML/Sanctions requires specific domain emphasis.",
@@ -1699,42 +1628,6 @@
    "resume_reason": "AI pick: The candidate's strong SQL and data-driven risk/forecasting background aligns well with fintech, though the role's focus on AML/Sanctions requires specific domain emphasis.",
    "track_scores": {
     "analyst": 40
-   }
-  },
-  {
-   "uid": "greenhouse:rubrik:8256407",
-   "source": "greenhouse",
-   "company": "Rubrik Job Board",
-   "title": "Software Engineer- SaaS O365",
-   "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-   "location": "Bangalore ",
-   "remote": null,
-   "posted": "2026-10-06T10:14:01+00:00",
-   "department": "Engineering",
-   "employment_type": "",
-   "seniority": "",
-   "score": 53,
-   "reasons": [
-    "title: software engineer",
-    "location: bangalore",
-    "no experience required",
-    "mentions 0-2 years",
-    "skills: c++"
-   ],
-   "flags": [],
-   "min_years": 0,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 35,
-   "llm_reason": "Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
-   "snippet": "About Role:\nRubrik Software Engineers are self-starters, driven, and can manage themselves. We believe in giving engineers responsibility, not tasks. Our goal is to motivate and challenge people to do their best work. Bottom line, if you have a limitless drive and like to win, we want to talk to you - come make history!\nWhat you’ll do:\nBuild software using your strong background in distributed sys",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
-   "track_scores": {
-    "software": 71
    }
   },
   {
@@ -1803,6 +1696,42 @@
    "resume_reason": "AI pick: The candidate's stack is MERN/Next.js focused, making them a poor match for a Java-centric role, but HIMANSHU_FINAL_TECH.pdf is the best fit for general SDE roles.",
    "track_scores": {
     "software": 60
+   }
+  },
+  {
+   "uid": "greenhouse:rubrik:8256407",
+   "source": "greenhouse",
+   "company": "Rubrik Job Board",
+   "title": "Software Engineer- SaaS O365",
+   "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
+   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
+   "location": "Bangalore ",
+   "remote": null,
+   "posted": "2026-10-06T10:14:01+00:00",
+   "department": "Engineering",
+   "employment_type": "",
+   "seniority": "",
+   "score": 50,
+   "reasons": [
+    "title: software engineer",
+    "location: bangalore",
+    "no experience required",
+    "mentions 0-2 years",
+    "skills: c++"
+   ],
+   "flags": [],
+   "min_years": 0,
+   "is_new": false,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": 35,
+   "llm_reason": "Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
+   "snippet": "About Role:\nRubrik Software Engineers are self-starters, driven, and can manage themselves. We believe in giving engineers responsibility, not tasks. Our goal is to motivate and challenge people to do their best work. Bottom line, if you have a limitless drive and like to win, we want to talk to you - come make history!\nWhat you’ll do:\nBuild software using your strong background in distributed sys",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
+   "track_scores": {
+    "software": 66
    }
   },
   {
