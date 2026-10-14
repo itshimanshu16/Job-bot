@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-14T20:13:57+00:00",
+  "generated": "2026-10-14T23:17:53+00:00",
   "first_run": false,
-  "total_fetched": 16989,
+  "total_fetched": 16978,
   "boards_ok": 140,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 131,
+    "count": 130,
     "error": ""
    },
    {
@@ -66,7 +66,7 @@
     "source": "ashby",
     "slug": "sentry",
     "company": "Sentry",
-    "count": 45,
+    "count": 46,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 216,
+    "count": 217,
     "error": ""
    },
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 36,
+    "count": 35,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 374,
+    "count": 375,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 142,
+    "count": 141,
     "error": ""
    },
    {
@@ -794,21 +794,21 @@
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5037,
+    "count": 5039,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 129,
+    "count": 130,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1929,
+    "count": 1914,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 503,
+    "count": 499,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 866,
+    "count": 869,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 399,
+    "count": 400,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 676,
+    "count": 677,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15433,
+   "role keywords not matched": 15418,
+   "location not wanted": 620,
+   "excluded title word (e.g. senior/manager)": 817,
    "asks for more experience than max_years_experience": 15,
-   "older than max_age_days": 89,
-   "location not wanted": 619,
-   "excluded title word (e.g. senior/manager)": 814
+   "older than max_age_days": 89
   },
   "notes": [],
   "keywords": [
