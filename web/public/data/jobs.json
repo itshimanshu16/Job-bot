@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-14T13:46:50+00:00",
+  "generated": "2026-10-14T20:13:57+00:00",
   "first_run": false,
-  "total_fetched": 17012,
+  "total_fetched": 16989,
   "boards_ok": 140,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 133,
+    "count": 131,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 58,
+    "count": 60,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 225,
+    "count": 224,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 218,
+    "count": 216,
     "error": ""
    },
    {
@@ -178,7 +178,7 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 35,
+    "count": 34,
     "error": ""
    },
    {
@@ -241,14 +241,14 @@
     "source": "greenhouse",
     "slug": "groww",
     "company": "Groww",
-    "count": 10,
+    "count": 11,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 106,
+    "count": 107,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 176,
+    "count": 175,
     "error": ""
    },
    {
@@ -283,7 +283,7 @@
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 229,
+    "count": 227,
     "error": ""
    },
    {
@@ -346,14 +346,14 @@
     "source": "greenhouse",
     "slug": "observeai",
     "company": "Observe.AI",
-    "count": 10,
+    "count": 9,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 375,
+    "count": 374,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 221,
+    "count": 226,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 135,
+    "count": 136,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 28,
+    "count": 27,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 125,
+    "count": 124,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 145,
+    "count": 142,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 32,
+    "count": 34,
     "error": ""
    },
    {
@@ -682,7 +682,7 @@
     "source": "lever",
     "slug": "netomi",
     "company": "Netomi",
-    "count": 20,
+    "count": 19,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 181,
+    "count": 182,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 480,
+    "count": 482,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5025,
+    "count": 5037,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 128,
+    "count": 129,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1930,
+    "count": 1929,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 655,
+    "count": 601,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 558,
+    "count": 559,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 497,
+    "count": 503,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 867,
+    "count": 866,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 393,
+    "count": 399,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 673,
+    "count": 676,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 412,
+    "count": 415,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 124,
+    "count": 125,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 172,
+    "count": 174,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15460,
-   "location not wanted": 616,
+   "role keywords not matched": 15433,
+   "asks for more experience than max_years_experience": 15,
    "older than max_age_days": 89,
-   "excluded title word (e.g. senior/manager)": 813,
-   "asks for more experience than max_years_experience": 15
+   "location not wanted": 619,
+   "excluded title word (e.g. senior/manager)": 814
   },
   "notes": [],
   "keywords": [
@@ -1911,142 +1911,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000154173553",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack with Java & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154173553",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154173553",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-07T18:31:20.530000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 20,
-   "llm_reason": "The job requires Java and Angular, but the candidate's stack is TypeScript, React, Node.js, and Python-adjacent tech.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires Java and Angular, but the candidate's stack is TypeScript, React, Node.js, and Python-adjacent tech.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154171898",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Full Stack with C# & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154171898",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154171898",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-07T18:18:27.092000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 20,
-   "llm_reason": "The candidate's core tech stack is TypeScript, React, and Node.js, whereas this role specifically requires C# and Angular.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's core tech stack is TypeScript, React, and Node.js, whereas this role specifically requires C# and Angular.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154170834",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack with Java & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154170834",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154170834",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-07T18:16:01.531000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 20,
-   "llm_reason": "The role requires Java and Angular, whereas the candidate's stack is TypeScript, React, and Node.js.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The role requires Java and Angular, whereas the candidate's stack is TypeScript, React, and Node.js.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154169689",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack with Java & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154169689",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154169689",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-07T18:13:19.715000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 20,
-   "llm_reason": "The job requires Java and Angular, but the candidate's stack is TypeScript, React, Next.js, and Node.js.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires Java and Angular, but the candidate's stack is TypeScript, React, Next.js, and Node.js.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000154602988",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -2081,6 +1945,142 @@
    }
   },
   {
+   "uid": "smartrecruiters:boschgroup:744000154173553",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Java Full Stack with Java & Angular",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154173553",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154173553",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-07T18:31:20.530000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 38,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": 20,
+   "llm_reason": "The job requires Java and Angular, but the candidate's stack is TypeScript, React, Node.js, and Python-adjacent tech.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The job requires Java and Angular, but the candidate's stack is TypeScript, React, Node.js, and Python-adjacent tech.",
+   "track_scores": {
+    "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000154171898",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Full Stack with C# & Angular",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154171898",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154171898",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-07T18:18:27.092000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 38,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": 20,
+   "llm_reason": "The candidate's core tech stack is TypeScript, React, and Node.js, whereas this role specifically requires C# and Angular.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The candidate's core tech stack is TypeScript, React, and Node.js, whereas this role specifically requires C# and Angular.",
+   "track_scores": {
+    "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000154170834",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Java Full Stack with Java & Angular",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154170834",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154170834",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-07T18:16:01.531000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 38,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": 20,
+   "llm_reason": "The role requires Java and Angular, whereas the candidate's stack is TypeScript, React, and Node.js.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The role requires Java and Angular, whereas the candidate's stack is TypeScript, React, and Node.js.",
+   "track_scores": {
+    "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000154169689",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Java Full Stack with Java & Angular",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154169689",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154169689",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-07T18:13:19.715000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 38,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": 20,
+   "llm_reason": "The job requires Java and Angular, but the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The job requires Java and Angular, but the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "track_scores": {
+    "software": 55
+   }
+  },
+  {
    "uid": "smartrecruiters:boschgroup:744000154173617",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -2093,7 +2093,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 38,
+   "score": 35,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -2111,7 +2111,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
    "track_scores": {
-    "software": 60
+    "software": 55
    }
   },
   {
@@ -2127,7 +2127,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 38,
+   "score": 35,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -2145,7 +2145,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, Node.js, and Express.",
    "track_scores": {
-    "software": 60
+    "software": 55
    }
   }
  ]
