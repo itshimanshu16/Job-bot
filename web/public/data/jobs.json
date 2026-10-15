@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-15T04:47:44+00:00",
+  "generated": "2026-10-15T13:28:58+00:00",
   "first_run": false,
-  "total_fetched": 16918,
+  "total_fetched": 16940,
   "boards_ok": 140,
   "boards": [
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 59,
+    "count": 60,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 225,
+    "count": 224,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 217,
+    "count": 219,
     "error": ""
    },
    {
@@ -178,21 +178,21 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 34,
+    "count": 33,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 35,
+    "count": 36,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 206,
+    "count": 204,
     "error": ""
    },
    {
@@ -241,7 +241,7 @@
     "source": "greenhouse",
     "slug": "groww",
     "company": "Groww",
-    "count": 11,
+    "count": 10,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 174,
+    "count": 175,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 376,
+    "count": 375,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 224,
+    "count": 221,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 136,
+    "count": 134,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 36,
+    "count": 35,
     "error": ""
    },
    {
@@ -486,7 +486,7 @@
     "source": "greenhouse",
     "slug": "tcs",
     "company": "Thornbury Community Services",
-    "count": 102,
+    "count": 116,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 126,
+    "count": 125,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 41,
+    "count": 44,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 141,
+    "count": 139,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 34,
+    "count": 30,
     "error": ""
    },
    {
@@ -682,7 +682,7 @@
     "source": "lever",
     "slug": "netomi",
     "company": "Netomi",
-    "count": 19,
+    "count": 20,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 182,
+    "count": 180,
     "error": ""
    },
    {
@@ -794,7 +794,7 @@
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5040,
+    "count": 5054,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1861,
+    "count": 1846,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 560,
+    "count": 565,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 287,
+    "count": 289,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 498,
+    "count": 496,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 867,
+    "count": 865,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 400,
+    "count": 403,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 673,
+    "count": 678,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 414,
+    "count": 422,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 335,
+    "count": 333,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 354,
+    "count": 356,
     "error": ""
    },
    {
@@ -1270,7 +1270,7 @@
     "source": "workable",
     "slug": "exponent-energy",
     "company": "Exponent Energy",
-    "count": 57,
+    "count": 59,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15361,
+   "role keywords not matched": 15380,
+   "location not wanted": 624,
+   "excluded title word (e.g. senior/manager)": 815,
    "asks for more experience than max_years_experience": 15,
-   "older than max_age_days": 89,
-   "location not wanted": 623,
-   "excluded title word (e.g. senior/manager)": 811
+   "older than max_age_days": 90
   },
   "notes": [],
   "keywords": [
@@ -1523,75 +1523,6 @@
    "resume_reason": "AI pick: The candidate's strong full-stack experience with AI/LLM integration matches this full-stack developer role with AI expertise.",
    "track_scores": {
     "software": 75
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000155427788",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Frontend Engineer – Cloud Web Applications (Automotive SDV Platform)",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155427788",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155427788",
-   "location": "bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-14T07:28:45.766000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 78,
-   "reasons": [
-    "title: frontend",
-    "location: india",
-    "posted in last 3 days",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-14T13:46:50+00:00",
-   "llm_score": 90,
-   "llm_reason": "Strong fit for a frontend engineer role requiring web app development, matching the candidate's core stack.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: Strong fit for a frontend engineer role requiring web app development, matching the candidate's core stack.",
-   "track_scores": {
-    "software": 65
-   }
-  },
-  {
-   "uid": "smartrecruiters:servicenow:744000155459130",
-   "source": "smartrecruiters",
-   "company": "ServiceNow",
-   "title": "Software Engineer",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000155459130",
-   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000155459130",
-   "location": "Hyderabad, , India",
-   "remote": false,
-   "posted": "2026-10-14T09:49:22.957000+00:00",
-   "department": "Engineering, Infrastructure and Operations",
-   "employment_type": "Full-time",
-   "seniority": "Not Applicable",
-   "score": 75,
-   "reasons": [
-    "title: software engineer",
-    "location: india",
-    "posted in last 3 days"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": true,
-   "first_seen": "2026-10-14T13:46:50+00:00",
-   "llm_score": 90,
-   "llm_reason": "ServiceNow is a top-tier product company hiring for a pure SDE role, making HIMANSHU_FINAL_TECH.pdf the best fit.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: ServiceNow is a top-tier product company hiring for a pure SDE role, making HIMANSHU_FINAL_TECH.pdf the best fit.",
-   "track_scores": {
-    "software": 60
    }
   },
   {
@@ -1772,6 +1703,41 @@
    }
   },
   {
+   "uid": "smartrecruiters:boschgroup:744000155761408",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Full Stack with C# & Angular, Pune",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761408",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761408",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-15T13:27:29.704000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 52,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-15T13:28:58+00:00",
+   "llm_score": 40,
+   "llm_reason": "The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
+   "track_scores": {
+    "software": 65
+   }
+  },
+  {
    "uid": "smartrecruiters:continental:744000154002299",
    "source": "smartrecruiters",
    "company": "Continental",
@@ -1873,41 +1839,6 @@
    "resume_reason": "AI pick: The job requires Java and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
    "track_scores": {
     "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154990088",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Autosar Base Software Developer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154990088",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154990088",
-   "location": "Bengaluru, Karnataka, India",
-   "remote": false,
-   "posted": "2026-10-12T11:11:54.162000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: software developer",
-    "location: india",
-    "posted in last 3 days",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-12T17:59:37+00:00",
-   "llm_score": 15,
-   "llm_reason": "The role requires embedded systems and C/C++ expertise, which does not align with the candidate's full-stack web development profile.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HCLTech_Resume.pdf",
-   "resume_reason": "AI pick: The role requires embedded systems and C/C++ expertise, which does not align with the candidate's full-stack web development profile.",
-   "track_scores": {
-    "software": 65
    }
   },
   {
@@ -2110,40 +2041,6 @@
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
-   "track_scores": {
-    "software": 55
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154172468",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Full Stack with C# & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154172468",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154172468",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-07T18:22:58.301000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 35,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 15,
-   "llm_reason": "The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, Node.js, and Express.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, Node.js, and Express.",
    "track_scores": {
     "software": 55
    }
