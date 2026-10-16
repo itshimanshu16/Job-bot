@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-16T04:37:55+00:00",
+  "generated": "2026-10-16T13:18:01+00:00",
   "first_run": false,
-  "total_fetched": 16984,
+  "total_fetched": 16917,
   "boards_ok": 140,
   "boards": [
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 94,
+    "count": 92,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 224,
+    "count": 226,
     "error": ""
    },
    {
@@ -178,21 +178,21 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 33,
+    "count": 34,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 35,
+    "count": 36,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 209,
+    "count": 212,
     "error": ""
    },
    {
@@ -276,7 +276,7 @@
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 78,
+    "count": 79,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 379,
+    "count": 376,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 221,
+    "count": 222,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 25,
+    "count": 24,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 133,
+    "count": 140,
     "error": ""
    },
    {
@@ -486,7 +486,7 @@
     "source": "greenhouse",
     "slug": "tcs",
     "company": "Thornbury Community Services",
-    "count": 123,
+    "count": 118,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 125,
+    "count": 124,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 43,
+    "count": 45,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 137,
+    "count": 135,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 34,
+    "count": 35,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 58,
+    "count": 59,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 181,
+    "count": 182,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 480,
+    "count": 481,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5059,
+    "count": 5066,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 131,
+    "count": 128,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1855,
+    "count": 1865,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 569,
+    "count": 576,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 288,
+    "count": 292,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 494,
+    "count": 491,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 863,
+    "count": 761,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 396,
+    "count": 399,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 688,
+    "count": 685,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 126,
+    "count": 125,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 358,
+    "count": 364,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15421,
-   "location not wanted": 627,
-   "excluded title word (e.g. senior/manager)": 814,
-   "older than max_age_days": 91,
-   "asks for more experience than max_years_experience": 15
+   "role keywords not matched": 15409,
+   "asks for more experience than max_years_experience": 14,
+   "older than max_age_days": 89,
+   "location not wanted": 626,
+   "excluded title word (e.g. senior/manager)": 760
   },
   "notes": [],
   "keywords": [
@@ -1772,42 +1772,6 @@
    }
   },
   {
-   "uid": "greenhouse:rubrik:8256407",
-   "source": "greenhouse",
-   "company": "Rubrik Job Board",
-   "title": "Software Engineer- SaaS O365",
-   "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-   "location": "Bangalore ",
-   "remote": null,
-   "posted": "2026-10-06T10:14:01+00:00",
-   "department": "Engineering",
-   "employment_type": "",
-   "seniority": "",
-   "score": 50,
-   "reasons": [
-    "title: software engineer",
-    "location: bangalore",
-    "no experience required",
-    "mentions 0-2 years",
-    "skills: c++"
-   ],
-   "flags": [],
-   "min_years": 0,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 35,
-   "llm_reason": "Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
-   "snippet": "About Role:\nRubrik Software Engineers are self-starters, driven, and can manage themselves. We believe in giving engineers responsibility, not tasks. Our goal is to motivate and challenge people to do their best work. Bottom line, if you have a limitless drive and like to win, we want to talk to you - come make history!\nWhat you’ll do:\nBuild software using your strong background in distributed sys",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
-   "track_scores": {
-    "software": 66
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000155761606",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1855,7 +1819,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 42,
+   "score": 40,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -1873,41 +1837,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The job requires Java and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
    "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154602988",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Full Stack with C# & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154602988",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154602988",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-09T07:20:05.987000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 38,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 15,
-   "llm_reason": "The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
-   "track_scores": {
-    "software": 60
+    "software": 55
    }
   },
   {
@@ -2013,6 +1943,40 @@
    }
   },
   {
+   "uid": "smartrecruiters:boschgroup:744000154602988",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Full Stack with C# & Angular",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154602988",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154602988",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-09T07:20:05.987000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 35,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": 15,
+   "llm_reason": "The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
+   "track_scores": {
+    "software": 55
+   }
+  },
+  {
    "uid": "smartrecruiters:boschgroup:744000154173617",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -2044,6 +2008,41 @@
    "resume_reason": "AI pick: The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
    "track_scores": {
     "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000155960139",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "PLC Automation Engineer-ECF2",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155960139",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155960139",
+   "location": "bengaluru, , India",
+   "remote": false,
+   "posted": "2026-10-16T10:17:20.145000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 32,
+   "reasons": [
+    "title: automation engineer",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-16T13:18:01+00:00",
+   "llm_score": 0,
+   "llm_reason": "The candidate is a full-stack software developer, while this job is for a hardware-focused PLC Automation Engineer.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The candidate is a full-stack software developer, while this job is for a hardware-focused PLC Automation Engineer.",
+   "track_scores": {
+    "software": 65
    }
   }
  ]
