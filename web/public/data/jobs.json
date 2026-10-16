@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-15T23:05:25+00:00",
+  "generated": "2026-10-16T04:37:55+00:00",
   "first_run": false,
   "total_fetched": 16984,
   "boards_ok": 140,
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 130,
+    "count": 131,
     "error": ""
    },
    {
@@ -73,7 +73,7 @@
     "source": "ashby",
     "slug": "signoz",
     "company": "Signoz",
-    "count": 14,
+    "count": 15,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 228,
+    "count": 229,
     "error": ""
    },
    {
@@ -178,7 +178,7 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 34,
+    "count": 33,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 381,
+    "count": 379,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 27,
+    "count": 25,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 481,
+    "count": 480,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5060,
+    "count": 5059,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1856,
+    "count": 1855,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 568,
+    "count": 569,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 492,
+    "count": 494,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 865,
+    "count": 863,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 400,
+    "count": 396,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 687,
+    "count": 688,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 414,
+    "count": 415,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 357,
+    "count": 358,
     "error": ""
    },
    {
@@ -1270,7 +1270,7 @@
     "source": "workable",
     "slug": "exponent-energy",
     "company": "Exponent Energy",
-    "count": 59,
+    "count": 64,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15418,
-   "location not wanted": 629,
-   "excluded title word (e.g. senior/manager)": 815,
-   "asks for more experience than max_years_experience": 15,
-   "older than max_age_days": 91
+   "role keywords not matched": 15421,
+   "location not wanted": 627,
+   "excluded title word (e.g. senior/manager)": 814,
+   "older than max_age_days": 91,
+   "asks for more experience than max_years_experience": 15
   },
   "notes": [],
   "keywords": [
