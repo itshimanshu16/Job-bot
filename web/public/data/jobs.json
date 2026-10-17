@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-17T15:43:04+00:00",
+  "generated": "2026-10-17T18:33:01+00:00",
   "first_run": false,
-  "total_fetched": 16904,
+  "total_fetched": 16908,
   "boards_ok": 140,
   "boards": [
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 143,
+    "count": 144,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1868,
+    "count": 1872,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 401,
+    "count": 400,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15421,
+   "role keywords not matched": 15424,
    "location not wanted": 626,
-   "older than max_age_days": 89,
    "excluded title word (e.g. senior/manager)": 739,
-   "asks for more experience than max_years_experience": 13
+   "asks for more experience than max_years_experience": 13,
+   "older than max_age_days": 89
   },
   "notes": [],
   "keywords": [
@@ -1767,6 +1767,42 @@
    "resume_reason": "AI pick: The candidate's stack is MERN/Next.js focused, making them a poor match for a Java-centric role, but HIMANSHU_FINAL_TECH.pdf is the best fit for general SDE roles.",
    "track_scores": {
     "software": 55
+   }
+  },
+  {
+   "uid": "greenhouse:rubrik:8256407",
+   "source": "greenhouse",
+   "company": "Rubrik Job Board",
+   "title": "Software Engineer- SaaS O365",
+   "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
+   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
+   "location": "Bangalore ",
+   "remote": null,
+   "posted": "2026-10-06T10:14:01+00:00",
+   "department": "Engineering",
+   "employment_type": "",
+   "seniority": "",
+   "score": 50,
+   "reasons": [
+    "title: software engineer",
+    "location: bangalore",
+    "no experience required",
+    "mentions 0-2 years",
+    "skills: c++"
+   ],
+   "flags": [],
+   "min_years": 0,
+   "is_new": false,
+   "first_seen": "2026-10-11T22:03:07+00:00",
+   "llm_score": 35,
+   "llm_reason": "Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
+   "snippet": "About Role:\nRubrik Software Engineers are self-starters, driven, and can manage themselves. We believe in giving engineers responsibility, not tasks. Our goal is to motivate and challenge people to do their best work. Bottom line, if you have a limitless drive and like to win, we want to talk to you - come make history!\nWhat you’ll do:\nBuild software using your strong background in distributed sys",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
+   "track_scores": {
+    "software": 66
    }
   },
   {
