@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-18T12:38:23+00:00",
+  "generated": "2026-10-18T18:40:11+00:00",
   "first_run": false,
-  "total_fetched": 16888,
+  "total_fetched": 16889,
   "boards_ok": 140,
   "boards": [
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 36,
+    "count": 37,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 144,
+    "count": 143,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1845,
+    "count": 1847,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 496,
+    "count": 493,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 708,
+    "count": 709,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 399,
+    "count": 398,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 706,
+    "count": 705,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 363,
+    "count": 366,
     "error": ""
    },
    {
@@ -1345,9 +1345,9 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15403,
-   "location not wanted": 627,
-   "excluded title word (e.g. senior/manager)": 739,
+   "role keywords not matched": 15406,
+   "location not wanted": 626,
+   "excluded title word (e.g. senior/manager)": 738,
    "asks for more experience than max_years_experience": 13,
    "older than max_age_days": 89
   },
@@ -1713,11 +1713,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 52,
+   "score": 50,
    "reasons": [
     "title: full stack",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1732,7 +1731,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
    "track_scores": {
-    "software": 65
+    "software": 60
    }
   },
   {
@@ -1818,11 +1817,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 42,
+   "score": 40,
    "reasons": [
     "title: full stack",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1837,7 +1835,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
    "track_scores": {
-    "software": 65
+    "software": 60
    }
   },
   {
