@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-17T22:24:03+00:00",
+  "generated": "2026-10-18T04:40:20+00:00",
   "first_run": false,
-  "total_fetched": 16900,
+  "total_fetched": 16889,
   "boards_ok": 140,
   "boards": [
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 492,
+    "count": 491,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5074,
+    "count": 5077,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1864,
+    "count": 1852,
     "error": ""
    },
    {
@@ -1046,7 +1046,7 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 709,
+    "count": 708,
     "error": ""
    },
    {
@@ -1345,7 +1345,7 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15416,
+   "role keywords not matched": 15405,
    "location not wanted": 626,
    "excluded title word (e.g. senior/manager)": 739,
    "older than max_age_days": 89,
