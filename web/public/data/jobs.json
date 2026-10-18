@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-18T04:40:20+00:00",
+  "generated": "2026-10-18T12:38:23+00:00",
   "first_run": false,
-  "total_fetched": 16889,
+  "total_fetched": 16888,
   "boards_ok": 140,
   "boards": [
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 491,
+    "count": 490,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5077,
+    "count": 5079,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1852,
+    "count": 1845,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 493,
+    "count": 496,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 400,
+    "count": 399,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 700,
+    "count": 706,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 366,
+    "count": 363,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15405,
-   "location not wanted": 626,
+   "role keywords not matched": 15403,
+   "location not wanted": 627,
    "excluded title word (e.g. senior/manager)": 739,
-   "older than max_age_days": 89,
-   "asks for more experience than max_years_experience": 13
+   "asks for more experience than max_years_experience": 13,
+   "older than max_age_days": 89
   },
   "notes": [],
   "keywords": [
