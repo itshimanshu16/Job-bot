@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-19T04:48:26+00:00",
+  "generated": "2026-10-19T15:41:06+00:00",
   "first_run": false,
-  "total_fetched": 16834,
+  "total_fetched": 16901,
   "boards_ok": 140,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 133,
+    "count": 132,
     "error": ""
    },
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 91,
+    "count": 93,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 225,
+    "count": 228,
     "error": ""
    },
    {
@@ -185,14 +185,14 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 37,
+    "count": 39,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 209,
+    "count": 210,
     "error": ""
    },
    {
@@ -227,14 +227,14 @@
     "source": "greenhouse",
     "slug": "glance",
     "company": "Glance",
-    "count": 35,
+    "count": 36,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "gravitonresearchcapital",
     "company": "Graviton Research Capital LLP",
-    "count": 21,
+    "count": 24,
     "error": ""
    },
    {
@@ -276,14 +276,14 @@
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 79,
+    "count": 80,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 222,
+    "count": 221,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 388,
+    "count": 385,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 221,
+    "count": 215,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 28,
+    "count": 27,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 25,
+    "count": 26,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 143,
+    "count": 139,
     "error": ""
    },
    {
@@ -472,7 +472,7 @@
     "source": "greenhouse",
     "slug": "squarepointcapital",
     "company": "Squarepoint Capital",
-    "count": 92,
+    "count": 91,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 123,
+    "count": 124,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 43,
+    "count": 45,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 133,
+    "count": 134,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 88,
+    "count": 87,
     "error": ""
    },
    {
@@ -577,14 +577,14 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 36,
+    "count": 35,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 7,
+    "count": 9,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 183,
+    "count": 189,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 488,
+    "count": 487,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5065,
+    "count": 5084,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 127,
+    "count": 126,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1819,
+    "count": 1879,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 602,
+    "count": 599,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 574,
+    "count": 572,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 288,
+    "count": 284,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 494,
+    "count": 496,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 710,
+    "count": 712,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 396,
+    "count": 391,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 704,
+    "count": 705,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 413,
+    "count": 404,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 126,
+    "count": 124,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 333,
+    "count": 334,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 366,
+    "count": 367,
     "error": ""
    },
    {
@@ -1270,7 +1270,7 @@
     "source": "workable",
     "slug": "exponent-energy",
     "company": "Exponent Energy",
-    "count": 64,
+    "count": 65,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15353,
-   "location not wanted": 622,
-   "excluded title word (e.g. senior/manager)": 740,
+   "role keywords not matched": 15426,
    "older than max_age_days": 89,
-   "asks for more experience than max_years_experience": 13
+   "location not wanted": 615,
+   "excluded title word (e.g. senior/manager)": 742,
+   "asks for more experience than max_years_experience": 11
   },
   "notes": [],
   "keywords": [
@@ -2043,6 +2043,42 @@
    }
   },
   {
+   "uid": "smartrecruiters:boschgroup:744000156280749",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Embedded C++ & PLC Automation Engineer-EPS1",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156280749",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000156280749",
+   "location": "bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-19T10:13:53.313000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 34,
+   "reasons": [
+    "title: automation engineer",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs",
+    "skills: c++"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-19T15:41:06+00:00",
+   "llm_score": 0,
+   "llm_reason": "The job is for an Embedded C++ and PLC Automation Engineer, which does not match the candidate's full-stack software engineering profile.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The job is for an Embedded C++ and PLC Automation Engineer, which does not match the candidate's full-stack software engineering profile.",
+   "track_scores": {
+    "software": 68
+   }
+  },
+  {
    "uid": "smartrecruiters:boschgroup:744000155960139",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -2055,11 +2091,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 32,
+   "score": 30,
    "reasons": [
     "title: automation engineer",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -2074,7 +2109,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The candidate is a full-stack software developer, while this job is for a hardware-focused PLC Automation Engineer.",
    "track_scores": {
-    "software": 65
+    "software": 60
    }
   }
  ]
