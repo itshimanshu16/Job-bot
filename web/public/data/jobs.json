@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-18T22:27:24+00:00",
+  "generated": "2026-10-19T04:48:26+00:00",
   "first_run": false,
-  "total_fetched": 16860,
+  "total_fetched": 16834,
   "boards_ok": 140,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 133,
+    "count": 134,
     "error": ""
    },
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 92,
+    "count": 91,
     "error": ""
    },
    {
@@ -234,7 +234,7 @@
     "source": "greenhouse",
     "slug": "gravitonresearchcapital",
     "company": "Graviton Research Capital LLP",
-    "count": 20,
+    "count": 21,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 172,
+    "count": 171,
     "error": ""
    },
    {
@@ -283,7 +283,7 @@
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 221,
+    "count": 222,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 393,
+    "count": 388,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 35,
+    "count": 36,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 490,
+    "count": 488,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5079,
+    "count": 5065,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1820,
+    "count": 1819,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 493,
+    "count": 494,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 709,
+    "count": 710,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 398,
+    "count": 396,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 705,
+    "count": 704,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 417,
+    "count": 413,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 334,
+    "count": 333,
     "error": ""
    },
    {
@@ -1345,9 +1345,9 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15377,
-   "location not wanted": 626,
-   "excluded title word (e.g. senior/manager)": 738,
+   "role keywords not matched": 15353,
+   "location not wanted": 622,
+   "excluded title word (e.g. senior/manager)": 740,
    "older than max_age_days": 89,
    "asks for more experience than max_years_experience": 13
   },
