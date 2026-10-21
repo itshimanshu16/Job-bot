@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-21T04:56:29+00:00",
+  "generated": "2026-10-21T13:52:07+00:00",
   "first_run": false,
-  "total_fetched": 16856,
+  "total_fetched": 16959,
   "boards_ok": 140,
   "boards": [
    {
@@ -66,7 +66,7 @@
     "source": "ashby",
     "slug": "sentry",
     "company": "Sentry",
-    "count": 45,
+    "count": 44,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 62,
+    "count": 63,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 230,
+    "count": 228,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 226,
+    "count": 227,
     "error": ""
    },
    {
@@ -178,21 +178,21 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 32,
+    "count": 34,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 42,
+    "count": 45,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 205,
+    "count": 204,
     "error": ""
    },
    {
@@ -227,7 +227,7 @@
     "source": "greenhouse",
     "slug": "glance",
     "company": "Glance",
-    "count": 38,
+    "count": 39,
     "error": ""
    },
    {
@@ -276,14 +276,14 @@
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 81,
+    "count": 82,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 222,
+    "count": 223,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 395,
+    "count": 398,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 215,
+    "count": 216,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 27,
+    "count": 26,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 142,
+    "count": 145,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 24,
+    "count": 23,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 125,
+    "count": 126,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 43,
+    "count": 44,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 132,
+    "count": 131,
     "error": ""
    },
    {
@@ -682,7 +682,7 @@
     "source": "lever",
     "slug": "netomi",
     "company": "Netomi",
-    "count": 21,
+    "count": 19,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 190,
+    "count": 192,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 24,
+    "count": 25,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 481,
+    "count": 483,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5065,
+    "count": 5100,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 126,
+    "count": 125,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1883,
+    "count": 1913,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 568,
+    "count": 571,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 285,
+    "count": 284,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 519,
+    "count": 523,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 692,
+    "count": 690,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 394,
+    "count": 393,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 713,
+    "count": 711,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 398,
+    "count": 417,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 120,
+    "count": 119,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 337,
+    "count": 338,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 367,
+    "count": 371,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15370,
-   "asks for more experience than max_years_experience": 11,
-   "older than max_age_days": 88,
-   "location not wanted": 619,
-   "excluded title word (e.g. senior/manager)": 747
+   "role keywords not matched": 15468,
+   "location not wanted": 621,
+   "excluded title word (e.g. senior/manager)": 748,
+   "asks for more experience than max_years_experience": 16,
+   "older than max_age_days": 86
   },
   "notes": [],
   "keywords": [
@@ -1503,7 +1503,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 80,
+   "score": 78,
    "reasons": [
     "title: software developer, full stack",
     "location: india",
@@ -1521,7 +1521,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The candidate's strong full-stack experience with AI/LLM integration matches this full-stack developer role with AI expertise.",
    "track_scores": {
-    "software": 70
+    "software": 65
    }
   },
   {
@@ -1583,7 +1583,7 @@
     "asks for WhatsApp/Telegram contact"
    ],
    "min_years": 0,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-10-20T13:36:06+00:00",
    "llm_score": 90,
    "llm_reason": "The role is in fintech and explicitly requires AI-powered workflow automation, which aligns perfectly with the candidate's SQL/GenAI project experience.",
@@ -1630,6 +1630,42 @@
    "resume_reason": "AI pick: The candidate has strong full-stack and system-level project experience, but lacks the specific backend language (Go/Java/C++) and cloud infrastructure depth required for this specialized cloud-native role.",
    "track_scores": {
     "software": 66
+   }
+  },
+  {
+   "uid": "greenhouse:rubrik:8282005",
+   "source": "greenhouse",
+   "company": "Rubrik Job Board",
+   "title": "Software Engineer Product Infra: Core Services",
+   "url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
+   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
+   "location": "Bengaluru",
+   "remote": null,
+   "posted": "2026-10-21T08:20:32+00:00",
+   "department": "Engineering",
+   "employment_type": "",
+   "seniority": "",
+   "score": 56,
+   "reasons": [
+    "title: software engineer",
+    "location: bengaluru",
+    "posted in last 3 days",
+    "asks ≤1 yrs",
+    "skills: c++"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-21T13:52:07+00:00",
+   "llm_score": 45,
+   "llm_reason": "The role requires experience in distributed systems, C++/Java, and infrastructure, which deviates from the candidate's primary web-stack focus and current academic standing.",
+   "snippet": "About the team\nThe Polaris Platform Bangalore team (a.k.a. Legion team) at Rubrik provides the core platforms and systems that enable product engineers to efficiently build and operate scalable and reliable applications in the cloud and also the on-prem version of the control plane. Polaris Platform has a horizontal charter with our customers being both external customers as well as Rubrik interna",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The role requires experience in distributed systems, C++/Java, and infrastructure, which deviates from the candidate's primary web-stack focus and current academic standing.",
+   "track_scores": {
+    "software": 68
    }
   },
   {
@@ -1874,6 +1910,41 @@
    "resume_reason": "AI pick: The job requires Java and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
    "track_scores": {
     "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000156805545",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "PLC Automation Engineer-ECF2",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156805545",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000156805545",
+   "location": "bengaluru, , India",
+   "remote": false,
+   "posted": "2026-10-21T13:35:23.554000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 38,
+   "reasons": [
+    "title: automation engineer",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-10-21T13:52:07+00:00",
+   "llm_score": 10,
+   "llm_reason": "The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "Tredence_New_Tech_1.pdf",
+   "resume_reason": "AI pick: The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
+   "track_scores": {
+    "software": 65
    }
   },
   {
