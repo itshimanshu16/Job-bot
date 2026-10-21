@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-21T13:52:07+00:00",
+  "generated": "2026-10-21T20:13:04+00:00",
   "first_run": false,
-  "total_fetched": 16959,
+  "total_fetched": 16987,
   "boards_ok": 140,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 134,
+    "count": 130,
     "error": ""
    },
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 134,
+    "count": 132,
     "error": ""
    },
    {
@@ -66,7 +66,7 @@
     "source": "ashby",
     "slug": "sentry",
     "company": "Sentry",
-    "count": 44,
+    "count": 43,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 227,
+    "count": 226,
     "error": ""
    },
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 45,
+    "count": 47,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 113,
+    "count": 115,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 169,
+    "count": 172,
     "error": ""
    },
    {
@@ -283,7 +283,7 @@
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 223,
+    "count": 221,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 398,
+    "count": 400,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 145,
+    "count": 146,
     "error": ""
    },
    {
@@ -507,14 +507,14 @@
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 44,
+    "count": 46,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 131,
+    "count": 132,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 32,
+    "count": 34,
     "error": ""
    },
    {
@@ -675,7 +675,7 @@
     "source": "lever",
     "slug": "mindtickle",
     "company": "Mindtickle",
-    "count": 20,
+    "count": 21,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 25,
+    "count": 26,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1913,
+    "count": 1928,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 586,
+    "count": 587,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 571,
+    "count": 569,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 284,
+    "count": 285,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 523,
+    "count": 524,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 690,
+    "count": 691,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 393,
+    "count": 390,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 711,
+    "count": 712,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 417,
+    "count": 419,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 119,
+    "count": 117,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 338,
+    "count": 342,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 371,
+    "count": 372,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 175,
+    "count": 176,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15468,
-   "location not wanted": 621,
-   "excluded title word (e.g. senior/manager)": 748,
-   "asks for more experience than max_years_experience": 16,
-   "older than max_age_days": 86
+   "role keywords not matched": 15494,
+   "location not wanted": 622,
+   "excluded title word (e.g. senior/manager)": 749,
+   "older than max_age_days": 87,
+   "asks for more experience than max_years_experience": 14
   },
   "notes": [],
   "keywords": [
