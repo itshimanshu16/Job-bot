@@ -1,16 +1,16 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-22T04:56:19+00:00",
+  "generated": "2026-10-22T13:50:52+00:00",
   "first_run": false,
-  "total_fetched": 16962,
-  "boards_ok": 140,
+  "total_fetched": 16854,
+  "boards_ok": 139,
   "boards": [
    {
     "source": "ashby",
     "slug": "atlan",
     "company": "Atlan",
-    "count": 6,
+    "count": 5,
     "error": ""
    },
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 131,
+    "count": 133,
     "error": ""
    },
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 92,
+    "count": 93,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 63,
+    "count": 64,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 229,
+    "count": 228,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 226,
+    "count": 223,
     "error": ""
    },
    {
@@ -178,7 +178,7 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 34,
+    "count": 33,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 196,
+    "count": 194,
     "error": ""
    },
    {
@@ -234,7 +234,7 @@
     "source": "greenhouse",
     "slug": "gravitonresearchcapital",
     "company": "Graviton Research Capital LLP",
-    "count": 24,
+    "count": 23,
     "error": ""
    },
    {
@@ -269,21 +269,21 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 172,
+    "count": 170,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 82,
+    "count": 80,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 221,
+    "count": 219,
     "error": ""
    },
    {
@@ -338,9 +338,9 @@
    {
     "source": "greenhouse",
     "slug": "nothing",
-    "company": "Nothing",
-    "count": 8,
-    "error": ""
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
    },
    {
     "source": "greenhouse",
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 398,
+    "count": 396,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 215,
+    "count": 213,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 26,
+    "count": 25,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 146,
+    "count": 145,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 36,
+    "count": 38,
     "error": ""
    },
    {
@@ -472,7 +472,7 @@
     "source": "greenhouse",
     "slug": "squarepointcapital",
     "company": "Squarepoint Capital",
-    "count": 93,
+    "count": 92,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 124,
+    "count": 128,
     "error": ""
    },
    {
@@ -584,7 +584,7 @@
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 9,
+    "count": 8,
     "error": ""
    },
    {
@@ -612,7 +612,7 @@
     "source": "lever",
     "slug": "fampay",
     "company": "Fampay",
-    "count": 17,
+    "count": 18,
     "error": ""
    },
    {
@@ -682,7 +682,7 @@
     "source": "lever",
     "slug": "netomi",
     "company": "Netomi",
-    "count": 19,
+    "count": 20,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 193,
+    "count": 196,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 26,
+    "count": 27,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 486,
+    "count": 487,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5099,
+    "count": 5095,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1923,
+    "count": 1942,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 567,
+    "count": 568,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 283,
+    "count": 282,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 527,
+    "count": 519,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 686,
+    "count": 587,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 386,
+    "count": 385,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 711,
+    "count": 710,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 419,
+    "count": 416,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 114,
+    "count": 115,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 344,
+    "count": 346,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 372,
+    "count": 371,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 176,
+    "count": 177,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15476,
-   "location not wanted": 620,
-   "excluded title word (e.g. senior/manager)": 746,
-   "older than max_age_days": 87,
-   "asks for more experience than max_years_experience": 13
+   "role keywords not matched": 15407,
+   "location not wanted": 612,
+   "excluded title word (e.g. senior/manager)": 719,
+   "older than max_age_days": 85,
+   "asks for more experience than max_years_experience": 14
   },
   "notes": [],
   "keywords": [
@@ -1633,78 +1633,6 @@
    }
   },
   {
-   "uid": "greenhouse:rubrik:8282005",
-   "source": "greenhouse",
-   "company": "Rubrik Job Board",
-   "title": "Software Engineer Product Infra: Core Services",
-   "url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
-   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
-   "location": "Bengaluru",
-   "remote": null,
-   "posted": "2026-10-21T08:20:32+00:00",
-   "department": "Engineering",
-   "employment_type": "",
-   "seniority": "",
-   "score": 56,
-   "reasons": [
-    "title: software engineer",
-    "location: bengaluru",
-    "posted in last 3 days",
-    "asks ≤1 yrs",
-    "skills: c++"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": true,
-   "first_seen": "2026-10-21T13:52:07+00:00",
-   "llm_score": 45,
-   "llm_reason": "The role requires experience in distributed systems, C++/Java, and infrastructure, which deviates from the candidate's primary web-stack focus and current academic standing.",
-   "snippet": "About the team\nThe Polaris Platform Bangalore team (a.k.a. Legion team) at Rubrik provides the core platforms and systems that enable product engineers to efficiently build and operate scalable and reliable applications in the cloud and also the on-prem version of the control plane. Polaris Platform has a horizontal charter with our customers being both external customers as well as Rubrik interna",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The role requires experience in distributed systems, C++/Java, and infrastructure, which deviates from the candidate's primary web-stack focus and current academic standing.",
-   "track_scores": {
-    "software": 68
-   }
-  },
-  {
-   "uid": "greenhouse:razorpaysoftwareprivatelimited:4740722005",
-   "source": "greenhouse",
-   "company": "Razorpay Software Private Limited",
-   "title": "Junior Analyst, Risk Management",
-   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4740722005",
-   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4740722005",
-   "location": "Bengaluru",
-   "remote": null,
-   "posted": "2026-10-07T07:03:53+00:00",
-   "department": "Risk Management",
-   "employment_type": "",
-   "seniority": "",
-   "score": 55,
-   "reasons": [
-    "title: junior analyst",
-    "location: bengaluru",
-    "early-career role"
-   ],
-   "flags": [
-    "asks for WhatsApp/Telegram contact"
-   ],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-10-12T06:05:11+00:00",
-   "llm_score": 75,
-   "llm_reason": "The candidate's strong SQL and data-driven risk/forecasting background aligns well with fintech, though the role's focus on AML/Sanctions requires specific domain emphasis.",
-   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "icic_1.pdf",
-   "resume_reason": "AI pick: The candidate's strong SQL and data-driven risk/forecasting background aligns well with fintech, though the role's focus on AML/Sanctions requires specific domain emphasis.",
-   "track_scores": {
-    "analyst": 35
-   }
-  },
-  {
    "uid": "workable:exponent-energy:578704727c",
    "source": "workable",
    "company": "Exponent Energy",
@@ -1738,40 +1666,6 @@
    "resume_reason": "AI pick: The role is a manual/operational storekeeper position requiring 1-3 years of experience, which is a significant underutilization of the candidate's advanced analytics and engineering background.",
    "track_scores": {
     "supply_chain": 82
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000155761408",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Full Stack with C# & Angular, Pune",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761408",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761408",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-15T13:27:29.704000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 50,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-15T13:28:58+00:00",
-   "llm_score": 40,
-   "llm_reason": "The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
-   "track_scores": {
-    "software": 60
    }
   },
   {
@@ -1809,55 +1703,19 @@
    }
   },
   {
-   "uid": "greenhouse:rubrik:8256407",
-   "source": "greenhouse",
-   "company": "Rubrik Job Board",
-   "title": "Software Engineer- SaaS O365",
-   "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-   "location": "Bangalore ",
-   "remote": null,
-   "posted": "2026-10-06T10:14:01+00:00",
-   "department": "Engineering",
-   "employment_type": "",
-   "seniority": "",
-   "score": 50,
-   "reasons": [
-    "title: software engineer",
-    "location: bangalore",
-    "no experience required",
-    "mentions 0-2 years",
-    "skills: c++"
-   ],
-   "flags": [],
-   "min_years": 0,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 35,
-   "llm_reason": "Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
-   "snippet": "About Role:\nRubrik Software Engineers are self-starters, driven, and can manage themselves. We believe in giving engineers responsibility, not tasks. Our goal is to motivate and challenge people to do their best work. Bottom line, if you have a limitless drive and like to win, we want to talk to you - come make history!\nWhat you’ll do:\nBuild software using your strong background in distributed sys",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: Requires backend/distributed systems experience in languages like Go, Java, or C++, differing from your TypeScript/JavaScript stack and Mechanical Engineering background.",
-   "track_scores": {
-    "software": 66
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000155761606",
+   "uid": "smartrecruiters:boschgroup:744000155761408",
    "source": "smartrecruiters",
    "company": "Bosch Group",
-   "title": "Java Full Stack with Java & Angular, Pune",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761606",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761606",
+   "title": "Full Stack with C# & Angular, Pune",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761408",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761408",
    "location": "hosur road bangalore, , India",
    "remote": false,
-   "posted": "2026-10-15T13:29:39.859000+00:00",
+   "posted": "2026-10-15T13:27:29.704000+00:00",
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 40,
+   "score": 48,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -1866,16 +1724,16 @@
    "flags": [],
    "min_years": 1,
    "is_new": false,
-   "first_seen": "2026-10-15T19:54:45+00:00",
-   "llm_score": 20,
-   "llm_reason": "The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
+   "first_seen": "2026-10-15T13:28:58+00:00",
+   "llm_score": 40,
+   "llm_reason": "The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
    "snippet": "",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
+   "resume_reason": "AI pick: The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
    "track_scores": {
-    "software": 60
+    "software": 55
    }
   },
   {
@@ -1945,6 +1803,40 @@
    "resume_reason": "AI pick: The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
    "track_scores": {
     "software": 65
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000155761606",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Java Full Stack with Java & Angular, Pune",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761606",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761606",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-15T13:29:39.859000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 38,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-10-15T19:54:45+00:00",
+   "llm_score": 20,
+   "llm_reason": "The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
+   "track_scores": {
+    "software": 55
    }
   },
   {
@@ -2130,11 +2022,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 34,
+   "score": 32,
    "reasons": [
     "title: automation engineer",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs",
     "skills: c++"
    ],
@@ -2150,7 +2041,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The job is for an Embedded C++ and PLC Automation Engineer, which does not match the candidate's full-stack software engineering profile.",
    "track_scores": {
-    "software": 68
+    "software": 63
    }
   },
   {
