@@ -37,7 +37,7 @@
  },
  "greenhouse:razorpaysoftwareprivatelimited:4744129005": {
   "first_seen": "2026-10-20T13:36:06+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The role is in fintech and explicitly requires AI-powered workflow automation, which aligns perfectly with the candidate's SQL/GenAI project experience.",
    "resume": "GEN_AI___NON_TECH_1.pdf",
@@ -73,7 +73,7 @@
  },
  "greenhouse:rubrik:8258200": {
   "first_seen": "2026-10-11T22:03:07+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The candidate has strong full-stack and system-level project experience, but lacks the specific backend language (Go/Java/C++) and cloud infrastructure depth required for this specialized cloud-native role.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -159,7 +159,7 @@
  },
  "smartrecruiters:boschgroup:744000153372859": {
   "first_seen": "2026-10-11T22:03:07+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "Strong fit for a product-focused software developer role at a global engineering firm.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -195,7 +195,7 @@
  },
  "smartrecruiters:boschgroup:744000154170834": {
   "first_seen": "2026-10-11T22:03:07+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The role requires Java and Angular, whereas the candidate's stack is TypeScript, React, and Node.js.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -249,7 +249,7 @@
  },
  "smartrecruiters:boschgroup:744000154173553": {
   "first_seen": "2026-10-11T22:03:07+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The job requires Java and Angular, but the candidate's stack is TypeScript, React, Node.js, and Python-adjacent tech.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -267,7 +267,7 @@
  },
  "smartrecruiters:boschgroup:744000154173617": {
   "first_seen": "2026-10-11T22:03:07+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -303,7 +303,7 @@
  },
  "smartrecruiters:boschgroup:744000154601353": {
   "first_seen": "2026-10-11T22:03:07+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The job requires Java and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -321,7 +321,7 @@
  },
  "smartrecruiters:boschgroup:744000154602988": {
   "first_seen": "2026-10-11T22:03:07+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The job requires C# and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -411,7 +411,7 @@
  },
  "smartrecruiters:boschgroup:744000155451389": {
   "first_seen": "2026-10-14T13:46:50+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The candidate's strong full-stack experience with AI/LLM integration matches this full-stack developer role with AI expertise.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -429,7 +429,7 @@
  },
  "smartrecruiters:boschgroup:744000155761408": {
   "first_seen": "2026-10-15T13:28:58+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -447,7 +447,7 @@
  },
  "smartrecruiters:boschgroup:744000155761606": {
   "first_seen": "2026-10-15T19:54:45+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -465,7 +465,7 @@
  },
  "smartrecruiters:boschgroup:744000155960139": {
   "first_seen": "2026-10-16T13:18:01+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The candidate is a full-stack software developer, while this job is for a hardware-focused PLC Automation Engineer.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -483,7 +483,7 @@
  },
  "smartrecruiters:boschgroup:744000156280749": {
   "first_seen": "2026-10-19T15:41:06+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The job is for an Embedded C++ and PLC Automation Engineer, which does not match the candidate's full-stack software engineering profile.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -501,7 +501,7 @@
  },
  "smartrecruiters:boschgroup:744000156805545": {
   "first_seen": "2026-10-21T13:52:07+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
    "resume": "Tredence_New_Tech_1.pdf",
@@ -519,7 +519,7 @@
  },
  "smartrecruiters:boschgroup:744000157152783": {
   "first_seen": "2026-10-22T20:11:18+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -537,7 +537,7 @@
  },
  "smartrecruiters:boschgroup:744000157329841": {
   "first_seen": "2026-10-23T04:58:30+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
    "resume": "Supply_chain.pdf",
@@ -573,7 +573,7 @@
  },
  "smartrecruiters:continental:744000154002299": {
   "first_seen": "2026-10-11T23:30:29+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The candidate's stack is MERN/Next.js focused, making them a poor match for a Java-centric role, but HIMANSHU_FINAL_TECH.pdf is the best fit for general SDE roles.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -609,7 +609,7 @@
  },
  "workable:exponent-energy:578704727c": {
   "first_seen": "2026-10-14T13:46:50+00:00",
-  "last_seen": "2026-10-23T04:58:30+00:00",
+  "last_seen": "2026-10-23T13:30:46+00:00",
   "llm": {
    "reason": "The role is a manual/operational storekeeper position requiring 1-3 years of experience, which is a significant underutilization of the candidate's advanced analytics and engineering background.",
    "resume": "Supply_chain.pdf",

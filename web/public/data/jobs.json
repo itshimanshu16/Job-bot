@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-23T04:58:30+00:00",
+  "generated": "2026-10-23T13:30:46+00:00",
   "first_run": false,
-  "total_fetched": 16842,
+  "total_fetched": 16840,
   "boards_ok": 139,
   "boards": [
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 50,
+    "count": 49,
     "error": ""
    },
    {
@@ -178,21 +178,21 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 32,
+    "count": 31,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 50,
+    "count": 53,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 195,
+    "count": 193,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 113,
+    "count": 114,
     "error": ""
    },
    {
@@ -269,21 +269,21 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 169,
+    "count": 168,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 80,
+    "count": 82,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 220,
+    "count": 221,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 396,
+    "count": 390,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 25,
+    "count": 26,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 147,
+    "count": 148,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 38,
+    "count": 39,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 21,
+    "count": 22,
     "error": ""
    },
    {
@@ -472,7 +472,7 @@
     "source": "greenhouse",
     "slug": "squarepointcapital",
     "company": "Squarepoint Capital",
-    "count": 92,
+    "count": 91,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 130,
+    "count": 129,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 43,
+    "count": 39,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 131,
+    "count": 132,
     "error": ""
    },
    {
@@ -668,14 +668,14 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 59,
+    "count": 58,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "mindtickle",
     "company": "Mindtickle",
-    "count": 20,
+    "count": 21,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 196,
+    "count": 197,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 489,
+    "count": 486,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5093,
+    "count": 5072,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 127,
+    "count": 126,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1926,
+    "count": 1950,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 569,
+    "count": 572,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 279,
+    "count": 278,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 526,
+    "count": 524,
     "error": ""
    },
    {
@@ -983,7 +983,7 @@
     "source": "smartrecruiters",
     "slug": "ixigo",
     "company": "ixigo",
-    "count": 10,
+    "count": 7,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 585,
+    "count": 582,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 390,
+    "count": 399,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 713,
+    "count": 714,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 415,
+    "count": 419,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 113,
+    "count": 112,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 342,
+    "count": 344,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 374,
+    "count": 368,
     "error": ""
    },
    {
@@ -1270,7 +1270,7 @@
     "source": "workable",
     "slug": "exponent-energy",
     "company": "Exponent Energy",
-    "count": 65,
+    "count": 66,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 178,
+    "count": 177,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15397,
-   "location not wanted": 612,
-   "excluded title word (e.g. senior/manager)": 716,
-   "older than max_age_days": 85,
-   "asks for more experience than max_years_experience": 14
+   "role keywords not matched": 15401,
+   "excluded title word (e.g. senior/manager)": 711,
+   "location not wanted": 609,
+   "older than max_age_days": 84,
+   "asks for more experience than max_years_experience": 17
   },
   "notes": [],
   "keywords": [
@@ -1594,44 +1594,6 @@
    }
   },
   {
-   "uid": "greenhouse:razorpaysoftwareprivatelimited:4744129005",
-   "source": "greenhouse",
-   "company": "Razorpay Software Private Limited",
-   "title": "Data Analyst, Business Finance",
-   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
-   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
-   "location": "Bengaluru",
-   "remote": null,
-   "posted": "2026-10-16T06:53:10+00:00",
-   "department": "Finance",
-   "employment_type": "",
-   "seniority": "",
-   "score": 67,
-   "reasons": [
-    "title: data analyst",
-    "location: bengaluru",
-    "no experience required",
-    "mentions 0-2 years",
-    "skills: sql, tableau"
-   ],
-   "flags": [
-    "asks for WhatsApp/Telegram contact"
-   ],
-   "min_years": 0,
-   "is_new": false,
-   "first_seen": "2026-10-20T13:36:06+00:00",
-   "llm_score": 90,
-   "llm_reason": "The role is in fintech and explicitly requires AI-powered workflow automation, which aligns perfectly with the candidate's SQL/GenAI project experience.",
-   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "GEN_AI___NON_TECH_1.pdf",
-   "resume_reason": "AI pick: The role is in fintech and explicitly requires AI-powered workflow automation, which aligns perfectly with the candidate's SQL/GenAI project experience.",
-   "track_scores": {
-    "analyst": 44
-   }
-  },
-  {
    "uid": "greenhouse:rubrik:8258200",
    "source": "greenhouse",
    "company": "Rubrik Job Board",
@@ -1665,6 +1627,44 @@
    "resume_reason": "AI pick: The candidate has strong full-stack and system-level project experience, but lacks the specific backend language (Go/Java/C++) and cloud infrastructure depth required for this specialized cloud-native role.",
    "track_scores": {
     "software": 66
+   }
+  },
+  {
+   "uid": "greenhouse:razorpaysoftwareprivatelimited:4744129005",
+   "source": "greenhouse",
+   "company": "Razorpay Software Private Limited",
+   "title": "Data Analyst, Business Finance",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
+   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
+   "location": "Bengaluru",
+   "remote": null,
+   "posted": "2026-10-16T06:53:10+00:00",
+   "department": "Finance",
+   "employment_type": "",
+   "seniority": "",
+   "score": 64,
+   "reasons": [
+    "title: data analyst",
+    "location: bengaluru",
+    "no experience required",
+    "mentions 0-2 years",
+    "skills: sql, tableau"
+   ],
+   "flags": [
+    "asks for WhatsApp/Telegram contact"
+   ],
+   "min_years": 0,
+   "is_new": false,
+   "first_seen": "2026-10-20T13:36:06+00:00",
+   "llm_score": 90,
+   "llm_reason": "The role is in fintech and explicitly requires AI-powered workflow automation, which aligns perfectly with the candidate's SQL/GenAI project experience.",
+   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "GEN_AI___NON_TECH_1.pdf",
+   "resume_reason": "AI pick: The role is in fintech and explicitly requires AI-powered workflow automation, which aligns perfectly with the candidate's SQL/GenAI project experience.",
+   "track_scores": {
+    "analyst": 39
    }
   },
   {
@@ -2093,7 +2093,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 30,
+   "score": 28,
    "reasons": [
     "title: automation engineer",
     "location: india",
@@ -2111,7 +2111,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The candidate is a full-stack software developer, while this job is for a hardware-focused PLC Automation Engineer.",
    "track_scores": {
-    "software": 60
+    "software": 55
    }
   }
  ]
