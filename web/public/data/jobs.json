@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-24T18:49:22+00:00",
+  "generated": "2026-10-24T22:32:05+00:00",
   "first_run": false,
-  "total_fetched": 16887,
+  "total_fetched": 16900,
   "boards_ok": 139,
   "boards": [
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1986,
+    "count": 1999,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15443,
+   "role keywords not matched": 15456,
    "location not wanted": 611,
    "excluded title word (e.g. senior/manager)": 715,
-   "asks for more experience than max_years_experience": 16,
-   "older than max_age_days": 84
+   "older than max_age_days": 84,
+   "asks for more experience than max_years_experience": 16
   },
   "notes": [],
   "keywords": [
