@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-23T23:11:29+00:00",
+  "generated": "2026-10-24T04:43:22+00:00",
   "first_run": false,
-  "total_fetched": 16899,
+  "total_fetched": 16900,
   "boards_ok": 139,
   "boards": [
    {
@@ -66,7 +66,7 @@
     "source": "ashby",
     "slug": "sentry",
     "company": "Sentry",
-    "count": 42,
+    "count": 43,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 191,
+    "count": 190,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 389,
+    "count": 390,
     "error": ""
    },
    {
@@ -794,7 +794,7 @@
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5085,
+    "count": 5088,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1985,
+    "count": 1983,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 572,
+    "count": 571,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 530,
+    "count": 531,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 401,
+    "count": 402,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 717,
+    "count": 715,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15454,
-   "asks for more experience than max_years_experience": 17,
+   "role keywords not matched": 15455,
+   "location not wanted": 611,
    "older than max_age_days": 84,
-   "location not wanted": 612,
-   "excluded title word (e.g. senior/manager)": 714
+   "excluded title word (e.g. senior/manager)": 715,
+   "asks for more experience than max_years_experience": 17
   },
   "notes": [],
   "keywords": [
