@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-24T12:44:00+00:00",
+  "generated": "2026-10-24T18:49:22+00:00",
   "first_run": false,
-  "total_fetched": 16894,
+  "total_fetched": 16887,
   "boards_ok": 139,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 131,
+    "count": 132,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 149,
+    "count": 148,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 39,
+    "count": 40,
     "error": ""
    },
    {
@@ -794,7 +794,7 @@
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5088,
+    "count": 5087,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 404,
+    "count": 398,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 367,
+    "count": 366,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15449,
+   "role keywords not matched": 15443,
    "location not wanted": 611,
    "excluded title word (e.g. senior/manager)": 715,
-   "asks for more experience than max_years_experience": 17,
+   "asks for more experience than max_years_experience": 16,
    "older than max_age_days": 84
   },
   "notes": [],
@@ -1841,41 +1841,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000156805545",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "PLC Automation Engineer-ECF2",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156805545",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000156805545",
-   "location": "bengaluru, , India",
-   "remote": false,
-   "posted": "2026-10-21T13:35:23.554000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 38,
-   "reasons": [
-    "title: automation engineer",
-    "location: india",
-    "posted in last 3 days",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-21T13:52:07+00:00",
-   "llm_score": 10,
-   "llm_reason": "The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "Tredence_New_Tech_1.pdf",
-   "resume_reason": "AI pick: The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
-   "track_scores": {
-    "software": 65
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000155761606",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1975,6 +1940,40 @@
    "resume_reason": "AI pick: The role requires Java and Angular, whereas the candidate's stack is TypeScript, React, and Node.js.",
    "track_scores": {
     "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000156805545",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "PLC Automation Engineer-ECF2",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156805545",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000156805545",
+   "location": "bengaluru, , India",
+   "remote": false,
+   "posted": "2026-10-21T13:35:23.554000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 35,
+   "reasons": [
+    "title: automation engineer",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-10-21T13:52:07+00:00",
+   "llm_score": 10,
+   "llm_reason": "The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "Tredence_New_Tech_1.pdf",
+   "resume_reason": "AI pick: The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
+   "track_scores": {
+    "software": 60
    }
   },
   {
