@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-25T04:49:39+00:00",
+  "generated": "2026-10-25T13:13:13+00:00",
   "first_run": false,
-  "total_fetched": 16902,
+  "total_fetched": 16909,
   "boards_ok": 139,
   "boards": [
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 211,
+    "count": 215,
     "error": ""
    },
    {
@@ -794,7 +794,7 @@
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5087,
+    "count": 5088,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2005,
+    "count": 2006,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 366,
+    "count": 367,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15459,
-   "location not wanted": 611,
+   "role keywords not matched": 15463,
+   "location not wanted": 610,
    "excluded title word (e.g. senior/manager)": 714,
-   "asks for more experience than max_years_experience": 16,
-   "older than max_age_days": 84
+   "older than max_age_days": 84,
+   "asks for more experience than max_years_experience": 16
   },
   "notes": [],
   "keywords": [
@@ -1490,6 +1490,150 @@
   }
  },
  "jobs": [
+  {
+   "uid": "greenhouse:point72:8893935002",
+   "source": "greenhouse",
+   "company": "Point72 ",
+   "title": "2027 Software Engineer - Campus Graduate Program - IIT Madras",
+   "url": "https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002",
+   "apply_url": "https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002",
+   "location": "India, Bengaluru",
+   "remote": null,
+   "posted": "2026-10-25T12:11:24+00:00",
+   "department": "Technology",
+   "employment_type": "",
+   "seniority": "",
+   "score": 86,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days",
+    "early-career role",
+    "skills: react, node.js, git, c++"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-25T13:13:13+00:00",
+   "llm_score": 85,
+   "llm_reason": "The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven tools.",
+   "snippet": "2027 Software Engineer - Campus Graduate Program - IIT Madras\nA CAREER WITH POINT72'S TECHNOLOGY TEAM\nAs Point72 reimagines the future of investing, our Technology team is constantly improving our company’s IT infrastructure, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts experimenting, discovering new ways to harness the power of open-source so",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "Tredence_New_Tech_1.pdf",
+   "resume_reason": "AI pick: The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven tools.",
+   "track_scores": {
+    "software": 87
+   }
+  },
+  {
+   "uid": "greenhouse:point72:8893936002",
+   "source": "greenhouse",
+   "company": "Point72 ",
+   "title": "2027 Software Engineer - Campus Graduate Program - IIT Hyderabad",
+   "url": "https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002",
+   "apply_url": "https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002",
+   "location": "India, Bengaluru",
+   "remote": null,
+   "posted": "2026-10-25T12:10:31+00:00",
+   "department": "Technology",
+   "employment_type": "",
+   "seniority": "",
+   "score": 86,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days",
+    "early-career role",
+    "skills: react, node.js, git, c++"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-25T13:13:13+00:00",
+   "llm_score": 85,
+   "llm_reason": "The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven research tools.",
+   "snippet": "2027 Software Engineer - Campus Graduate Program - IIT Hyderabad\nA CAREER WITH POINT72'S TECHNOLOGY TEAM\nAs Point72 reimagines the future of investing, our Technology team is constantly improving our company’s IT infrastructure, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts experimenting, discovering new ways to harness the power of open-source",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "Tredence_New_Tech_1.pdf",
+   "resume_reason": "AI pick: The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven research tools.",
+   "track_scores": {
+    "software": 87
+   }
+  },
+  {
+   "uid": "greenhouse:point72:8893939002",
+   "source": "greenhouse",
+   "company": "Point72 ",
+   "title": "2027 Software Engineer - Campus Graduate Program - IIT Kanpur",
+   "url": "https://boards.greenhouse.io/point72/jobs/8893939002?gh_jid=8893939002",
+   "apply_url": "https://boards.greenhouse.io/point72/jobs/8893939002?gh_jid=8893939002",
+   "location": "India, Bengaluru",
+   "remote": null,
+   "posted": "2026-10-25T12:11:02+00:00",
+   "department": "Technology",
+   "employment_type": "",
+   "seniority": "",
+   "score": 81,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days",
+    "early-career role",
+    "skills: react, node.js, git, c++"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-25T13:13:13+00:00",
+   "llm_score": 75,
+   "llm_reason": "The candidate's experience with LLM integration, real-time data, and SQL aligns well with Point72's focus on AI-driven finance tools, though the degree year is one year off the stated requirement.",
+   "snippet": "2027 Software Engineer - Campus Graduate Program - IIT Kanpur\nA CAREER WITH POINT72'S TECHNOLOGY TEAM\nAs Point72 reimagines the future of investing, our Technology team is constantly improving our company’s IT infrastructure, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts experimenting, discovering new ways to harness the power of open-source so",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "Tredence_New_Tech_1.pdf",
+   "resume_reason": "AI pick: The candidate's experience with LLM integration, real-time data, and SQL aligns well with Point72's focus on AI-driven finance tools, though the degree year is one year off the stated requirement.",
+   "track_scores": {
+    "software": 87
+   }
+  },
+  {
+   "uid": "greenhouse:point72:8893940002",
+   "source": "greenhouse",
+   "company": "Point72 ",
+   "title": "2027 Software Engineer - Campus Graduate Program - IIT BHU",
+   "url": "https://boards.greenhouse.io/point72/jobs/8893940002?gh_jid=8893940002",
+   "apply_url": "https://boards.greenhouse.io/point72/jobs/8893940002?gh_jid=8893940002",
+   "location": "India, Bengaluru",
+   "remote": null,
+   "posted": "2026-10-25T12:09:50+00:00",
+   "department": "Technology",
+   "employment_type": "",
+   "seniority": "",
+   "score": 81,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days",
+    "early-career role",
+    "skills: react, node.js, git, c++"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-25T13:13:13+00:00",
+   "llm_score": 75,
+   "llm_reason": "The candidate's experience with LLM integration, data scraping, and SQL aligns well with the firm's focus on AI-driven research and data pipelines, though the graduation year requirement is a slight mismatch.",
+   "snippet": "2027 Software Engineer - Campus Graduate Program - IIT BHU\nA CAREER WITH POINT72'S TECHNOLOGY TEAM\nAs Point72 reimagines the future of investing, our Technology team is constantly improving our company’s IT infrastructure, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts experimenting, discovering new ways to harness the power of open-source solut",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "Tredence_New_Tech_1.pdf",
+   "resume_reason": "AI pick: The candidate's experience with LLM integration, data scraping, and SQL aligns well with the firm's focus on AI-driven research and data pipelines, though the graduation year requirement is a slight mismatch.",
+   "track_scores": {
+    "software": 87
+   }
+  },
   {
    "uid": "smartrecruiters:boschgroup:744000155451389",
    "source": "smartrecruiters",
