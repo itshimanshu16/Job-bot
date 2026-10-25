@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-25T19:05:37+00:00",
+  "generated": "2026-10-25T22:36:37+00:00",
   "first_run": false,
-  "total_fetched": 16911,
+  "total_fetched": 16903,
   "boards_ok": 139,
   "boards": [
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 40,
+    "count": 37,
     "error": ""
    },
    {
@@ -794,7 +794,7 @@
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5088,
+    "count": 5087,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2003,
+    "count": 2001,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 715,
+    "count": 714,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 110,
+    "count": 109,
     "error": ""
    },
    {
@@ -1345,9 +1345,9 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15466,
+   "role keywords not matched": 15459,
    "location not wanted": 610,
-   "excluded title word (e.g. senior/manager)": 713,
+   "excluded title word (e.g. senior/manager)": 712,
    "asks for more experience than max_years_experience": 16,
    "older than max_age_days": 85
   },
