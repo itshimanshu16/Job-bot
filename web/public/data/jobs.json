@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-25T13:13:13+00:00",
+  "generated": "2026-10-25T19:05:37+00:00",
   "first_run": false,
-  "total_fetched": 16909,
+  "total_fetched": 16911,
   "boards_ok": 139,
   "boards": [
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 205,
+    "count": 206,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 134,
+    "count": 133,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2006,
+    "count": 2003,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 600,
+    "count": 602,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 581,
+    "count": 584,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 398,
+    "count": 399,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 342,
+    "count": 343,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 367,
+    "count": 365,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15463,
+   "role keywords not matched": 15466,
    "location not wanted": 610,
-   "excluded title word (e.g. senior/manager)": 714,
-   "older than max_age_days": 84,
-   "asks for more experience than max_years_experience": 16
+   "excluded title word (e.g. senior/manager)": 713,
+   "asks for more experience than max_years_experience": 16,
+   "older than max_age_days": 85
   },
   "notes": [],
   "keywords": [
@@ -1704,40 +1704,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000153372859",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Software Developer",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000153372859",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000153372859",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-04T13:16:38.537000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 70,
-   "reasons": [
-    "title: software developer",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 85,
-   "llm_reason": "Strong fit for a product-focused software developer role at a global engineering firm.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: Strong fit for a product-focused software developer role at a global engineering firm.",
-   "track_scores": {
-    "software": 55
-   }
-  },
-  {
    "uid": "greenhouse:rubrik:8258200",
    "source": "greenhouse",
    "company": "Rubrik Job Board",
@@ -1812,41 +1778,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000157152783",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Full Stack with C# & Angular, Pune",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157152783",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000157152783",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-22T14:34:08.664000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 52,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "posted in last 3 days",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-22T20:11:18+00:00",
-   "llm_score": 40,
-   "llm_reason": "The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
-   "track_scores": {
-    "software": 65
-   }
-  },
-  {
    "uid": "workable:exponent-energy:578704727c",
    "source": "workable",
    "company": "Exponent Energy",
@@ -1880,6 +1811,40 @@
    "resume_reason": "AI pick: The role is a manual/operational storekeeper position requiring 1-3 years of experience, which is a significant underutilization of the candidate's advanced analytics and engineering background.",
    "track_scores": {
     "supply_chain": 82
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000157152783",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Full Stack with C# & Angular, Pune",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157152783",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000157152783",
+   "location": "hosur road bangalore, , India",
+   "remote": false,
+   "posted": "2026-10-22T14:34:08.664000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 50,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-10-22T20:11:18+00:00",
+   "llm_score": 40,
+   "llm_reason": "The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
+   "track_scores": {
+    "software": 60
    }
   },
   {
