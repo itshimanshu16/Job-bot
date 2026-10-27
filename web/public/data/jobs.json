@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-27T14:35:25+00:00",
+  "generated": "2026-10-27T20:44:36+00:00",
   "first_run": false,
-  "total_fetched": 16545,
+  "total_fetched": 16713,
   "boards_ok": 139,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 123,
+    "count": 122,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 224,
+    "count": 227,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 206,
+    "count": 205,
     "error": ""
    },
    {
@@ -178,7 +178,7 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 31,
+    "count": 30,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 169,
+    "count": 168,
     "error": ""
    },
    {
@@ -346,14 +346,14 @@
     "source": "greenhouse",
     "slug": "observeai",
     "company": "Observe.AI",
-    "count": 8,
+    "count": 7,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 391,
+    "count": 390,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 209,
+    "count": 208,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 28,
+    "count": 27,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 147,
+    "count": 148,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 130,
+    "count": 131,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 46,
+    "count": 45,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 134,
+    "count": 136,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 87,
+    "count": 86,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 37,
+    "count": 38,
     "error": ""
    },
    {
@@ -717,7 +717,7 @@
     "source": "lever",
     "slug": "porter",
     "company": "Porter",
-    "count": 24,
+    "count": 22,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 459,
+    "count": 474,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 4973,
+    "count": 5005,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 126,
+    "count": 125,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1908,
+    "count": 1970,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 601,
+    "count": 600,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 563,
+    "count": 567,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 275,
+    "count": 279,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 507,
+    "count": 516,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 580,
+    "count": 587,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 371,
+    "count": 383,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 686,
+    "count": 707,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 415,
+    "count": 416,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 107,
+    "count": 109,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 337,
+    "count": 338,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 354,
+    "count": 357,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 178,
+    "count": 179,
     "error": ""
    },
    {
@@ -1345,9 +1345,9 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15085,
-   "excluded title word (e.g. senior/manager)": 703,
-   "location not wanted": 599,
+   "role keywords not matched": 15279,
+   "location not wanted": 605,
+   "excluded title word (e.g. senior/manager)": 714,
    "older than max_age_days": 81,
    "asks for more experience than max_years_experience": 13
   },
@@ -1689,7 +1689,7 @@
    ],
    "flags": [],
    "min_years": null,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-10-26T15:14:54+00:00",
    "llm_score": 90,
    "llm_reason": "ServiceNow is a top-tier product company hiring a Software Engineer, making the pure tech resume focusing on full-stack projects the best fit.",
@@ -1700,6 +1700,40 @@
    "resume_reason": "AI pick: ServiceNow is a top-tier product company hiring a Software Engineer, making the pure tech resume focusing on full-stack projects the best fit.",
    "track_scores": {
     "software": 60
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000158014599",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "IN_RBAI_Business Analyst - Product Controlling_IN",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158014599",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000158014599",
+   "location": "Bengaluru, KA, India",
+   "remote": false,
+   "posted": "2026-10-27T10:54:13.766000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Not Applicable",
+   "score": 72,
+   "reasons": [
+    "title: business analyst",
+    "location: india",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-27T20:44:36+00:00",
+   "llm_score": 85,
+   "llm_reason": "The role requires product controlling and business analysis, which aligns perfectly with the candidate's experience in SQL forecasting, cohort analysis, and data-driven strategy.",
+   "snippet": "",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "Himanshu_Gautam_Trinity.pdf",
+   "resume_reason": "AI pick: The role requires product controlling and business analysis, which aligns perfectly with the candidate's experience in SQL forecasting, cohort analysis, and data-driven strategy.",
+   "track_scores": {
+    "analyst": 60
    }
   },
   {
