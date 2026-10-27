@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-27T05:12:05+00:00",
+  "generated": "2026-10-27T14:35:25+00:00",
   "first_run": false,
-  "total_fetched": 16632,
+  "total_fetched": 16545,
   "boards_ok": 139,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 124,
+    "count": 123,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 47,
+    "count": 46,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 226,
+    "count": 224,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 205,
+    "count": 206,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 188,
+    "count": 191,
     "error": ""
    },
    {
@@ -227,7 +227,7 @@
     "source": "greenhouse",
     "slug": "glance",
     "company": "Glance",
-    "count": 31,
+    "count": 34,
     "error": ""
    },
    {
@@ -276,7 +276,7 @@
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 79,
+    "count": 78,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 390,
+    "count": 391,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 210,
+    "count": 209,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 27,
+    "count": 28,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 26,
+    "count": 27,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 148,
+    "count": 147,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 128,
+    "count": 130,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 42,
+    "count": 46,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 136,
+    "count": 134,
     "error": ""
    },
    {
@@ -612,7 +612,7 @@
     "source": "lever",
     "slug": "fampay",
     "company": "Fampay",
-    "count": 17,
+    "count": 18,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 197,
+    "count": 198,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 28,
+    "count": 30,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 470,
+    "count": 459,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5008,
+    "count": 4973,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1927,
+    "count": 1908,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 602,
+    "count": 601,
     "error": ""
    },
    {
@@ -850,7 +850,7 @@
     "source": "smartrecruiters",
     "slug": "bectondickinson2",
     "company": "Becton Dickinson",
-    "count": 114,
+    "count": 112,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 564,
+    "count": 563,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 510,
+    "count": 507,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 581,
+    "count": 580,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 380,
+    "count": 371,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 690,
+    "count": 686,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 424,
+    "count": 415,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 105,
+    "count": 107,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 340,
+    "count": 337,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 180,
+    "count": 178,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15145,
-   "older than max_age_days": 81,
-   "asks for more experience than max_years_experience": 12,
+   "role keywords not matched": 15085,
+   "excluded title word (e.g. senior/manager)": 703,
    "location not wanted": 599,
-   "excluded title word (e.g. senior/manager)": 701
+   "older than max_age_days": 81,
+   "asks for more experience than max_years_experience": 13
   },
   "notes": [],
   "keywords": [
@@ -1703,40 +1703,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:servicenow:744000157740014",
-   "source": "smartrecruiters",
-   "company": "ServiceNow",
-   "title": "Software Engineer",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157740014",
-   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000157740014",
-   "location": "Hyderabad, , India",
-   "remote": false,
-   "posted": "2026-10-26T08:21:30.416000+00:00",
-   "department": "Engineering, Infrastructure and Operations",
-   "employment_type": "Full-time",
-   "seniority": "Not Applicable",
-   "score": 72,
-   "reasons": [
-    "title: software engineer",
-    "location: india",
-    "posted in last 3 days"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": true,
-   "first_seen": "2026-10-26T15:14:54+00:00",
-   "llm_score": 85,
-   "llm_reason": "ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000157329841",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1804,81 +1770,6 @@
    "resume_reason": "AI pick: The candidate has strong full-stack and system-level project experience, but lacks the specific backend language (Go/Java/C++) and cloud infrastructure depth required for this specialized cloud-native role.",
    "track_scores": {
     "software": 66
-   }
-  },
-  {
-   "uid": "greenhouse:razorpaysoftwareprivatelimited:4736957005",
-   "source": "greenhouse",
-   "company": "Razorpay Software Private Limited",
-   "title": "Associate Business Analyst",
-   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736957005",
-   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736957005",
-   "location": "Bengaluru",
-   "remote": null,
-   "posted": "2026-10-26T09:13:37+00:00",
-   "department": "Product Management",
-   "employment_type": "",
-   "seniority": "",
-   "score": 64,
-   "reasons": [
-    "title: business analyst",
-    "location: bengaluru",
-    "posted in last 3 days",
-    "skills: sql, tableau, stakeholder"
-   ],
-   "flags": [
-    "asks for WhatsApp/Telegram contact"
-   ],
-   "min_years": null,
-   "is_new": true,
-   "first_seen": "2026-10-26T15:14:54+00:00",
-   "llm_score": 90,
-   "llm_reason": "The role is a fintech business analyst position requiring heavy analytics and stakeholder communication, which strongly matches the candidate's internship and SQL/Excel background.",
-   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "icic_1.pdf",
-   "resume_reason": "AI pick: The role is a fintech business analyst position requiring heavy analytics and stakeholder communication, which strongly matches the candidate's internship and SQL/Excel background.",
-   "track_scores": {
-    "analyst": 39
-   }
-  },
-  {
-   "uid": "greenhouse:razorpaysoftwareprivatelimited:4744129005",
-   "source": "greenhouse",
-   "company": "Razorpay Software Private Limited",
-   "title": "Data Analyst, Business Finance",
-   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
-   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
-   "location": "Bengaluru",
-   "remote": null,
-   "posted": "2026-10-16T06:53:10+00:00",
-   "department": "Finance",
-   "employment_type": "",
-   "seniority": "",
-   "score": 64,
-   "reasons": [
-    "title: data analyst",
-    "location: bengaluru",
-    "no experience required",
-    "mentions 0-2 years",
-    "skills: sql, tableau"
-   ],
-   "flags": [
-    "asks for WhatsApp/Telegram contact"
-   ],
-   "min_years": 0,
-   "is_new": false,
-   "first_seen": "2026-10-20T13:36:06+00:00",
-   "llm_score": 90,
-   "llm_reason": "The role is in fintech and explicitly requires AI-powered workflow automation, which aligns perfectly with the candidate's SQL/GenAI project experience.",
-   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "GEN_AI___NON_TECH_1.pdf",
-   "resume_reason": "AI pick: The role is in fintech and explicitly requires AI-powered workflow automation, which aligns perfectly with the candidate's SQL/GenAI project experience.",
-   "track_scores": {
-    "analyst": 39
    }
   },
   {
