@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-27T20:44:36+00:00",
+  "generated": "2026-10-28T05:49:48+00:00",
   "first_run": false,
-  "total_fetched": 16713,
+  "total_fetched": 16907,
   "boards_ok": 139,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 132,
+    "count": 134,
     "error": ""
    },
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 93,
+    "count": 92,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 191,
+    "count": 190,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 168,
+    "count": 169,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 390,
+    "count": 386,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 208,
+    "count": 207,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 27,
+    "count": 28,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 148,
+    "count": 153,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 131,
+    "count": 130,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 45,
+    "count": 44,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 136,
+    "count": 133,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 54,
+    "count": 53,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 474,
+    "count": 490,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5005,
+    "count": 5070,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1970,
+    "count": 2020,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 600,
+    "count": 602,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 567,
+    "count": 568,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 279,
+    "count": 281,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 516,
+    "count": 524,
     "error": ""
    },
    {
@@ -983,7 +983,7 @@
     "source": "smartrecruiters",
     "slug": "ixigo",
     "company": "ixigo",
-    "count": 7,
+    "count": 8,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 587,
+    "count": 596,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 383,
+    "count": 387,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 707,
+    "count": 738,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 416,
+    "count": 411,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 338,
+    "count": 345,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 357,
+    "count": 364,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15279,
-   "location not wanted": 605,
-   "excluded title word (e.g. senior/manager)": 714,
-   "older than max_age_days": 81,
+   "role keywords not matched": 15463,
+   "location not wanted": 611,
+   "excluded title word (e.g. senior/manager)": 717,
+   "older than max_age_days": 84,
    "asks for more experience than max_years_experience": 13
   },
   "notes": [],
@@ -1669,40 +1669,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:servicenow:744000157722179",
-   "source": "smartrecruiters",
-   "company": "ServiceNow",
-   "title": "Software Engineer",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157722179",
-   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000157722179",
-   "location": "Hyderabad, , India",
-   "remote": false,
-   "posted": "2026-10-26T05:22:39.092000+00:00",
-   "department": "Engineering, Infrastructure and Operations",
-   "employment_type": "Full-time",
-   "seniority": "Not Applicable",
-   "score": 75,
-   "reasons": [
-    "title: software engineer",
-    "location: india",
-    "posted in last 3 days"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-10-26T15:14:54+00:00",
-   "llm_score": 90,
-   "llm_reason": "ServiceNow is a top-tier product company hiring a Software Engineer, making the pure tech resume focusing on full-stack projects the best fit.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: ServiceNow is a top-tier product company hiring a Software Engineer, making the pure tech resume focusing on full-stack projects the best fit.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000158014599",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1737,6 +1703,40 @@
    }
   },
   {
+   "uid": "smartrecruiters:servicenow:744000157856929",
+   "source": "smartrecruiters",
+   "company": "ServiceNow",
+   "title": "Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157856929",
+   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000157856929",
+   "location": "Hyderabad, , India",
+   "remote": false,
+   "posted": "2026-10-26T15:56:14.989000+00:00",
+   "department": "Engineering, Infrastructure and Operations",
+   "employment_type": "Full-time",
+   "seniority": "Not Applicable",
+   "score": 72,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-10-28T05:49:48+00:00",
+   "llm_score": 85,
+   "llm_reason": "ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
+   "track_scores": {
+    "software": 60
+   }
+  },
+  {
    "uid": "smartrecruiters:boschgroup:744000157329841",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1768,42 +1768,6 @@
    "resume_reason": "AI pick: The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
    "track_scores": {
     "supply_chain": 60
-   }
-  },
-  {
-   "uid": "greenhouse:rubrik:8258200",
-   "source": "greenhouse",
-   "company": "Rubrik Job Board",
-   "title": "Software Engineer - Cloud: Azure",
-   "url": "https://www.rubrik.com/company/careers/departments/job.8258200?gh_jid=8258200",
-   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8258200?gh_jid=8258200",
-   "location": "Bangalore ",
-   "remote": null,
-   "posted": "2026-10-07T05:44:10+00:00",
-   "department": "Engineering",
-   "employment_type": "",
-   "seniority": "",
-   "score": 66,
-   "reasons": [
-    "title: software engineer",
-    "location: bangalore",
-    "no experience required",
-    "mentions 0-2 years",
-    "skills: c++"
-   ],
-   "flags": [],
-   "min_years": 0,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 65,
-   "llm_reason": "The candidate has strong full-stack and system-level project experience, but lacks the specific backend language (Go/Java/C++) and cloud infrastructure depth required for this specialized cloud-native role.",
-   "snippet": "About the team:\nThe Rubrik Cloud Native Protection team helps customers secure their data on the cloud. Cloud data is growing at an ever growing pace and so are the risks with cyber attacks targeted towards cloud data. We make it easy for businesses to protect, search, analyze all of their cloud data simply and scalably.\nCloud Native Protection is one of the fastest growing businesses and teams wi",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate has strong full-stack and system-level project experience, but lacks the specific backend language (Go/Java/C++) and cloud infrastructure depth required for this specialized cloud-native role.",
-   "track_scores": {
-    "software": 66
    }
   },
   {
@@ -1874,40 +1838,6 @@
    "resume_reason": "AI pick: The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
    "track_scores": {
     "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:continental:744000154002299",
-   "source": "smartrecruiters",
-   "company": "Continental",
-   "title": "Java Full Stack Developer",
-   "url": "https://jobs.smartrecruiters.com/Continental/744000154002299",
-   "apply_url": "https://jobs.smartrecruiters.com/Continental/744000154002299",
-   "location": "Electronic City,  Bengaluru, Karnataka, India",
-   "remote": false,
-   "posted": "2026-10-07T04:13:40.378000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 50,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T23:30:29+00:00",
-   "llm_score": 45,
-   "llm_reason": "The candidate's stack is MERN/Next.js focused, making them a poor match for a Java-centric role, but HIMANSHU_FINAL_TECH.pdf is the best fit for general SDE roles.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's stack is MERN/Next.js focused, making them a poor match for a Java-centric role, but HIMANSHU_FINAL_TECH.pdf is the best fit for general SDE roles.",
-   "track_scores": {
-    "software": 55
    }
   },
   {
