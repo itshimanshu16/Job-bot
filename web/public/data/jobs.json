@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-28T21:08:55+00:00",
+  "generated": "2026-10-29T05:54:02+00:00",
   "first_run": false,
-  "total_fetched": 16918,
+  "total_fetched": 16898,
   "boards_ok": 139,
   "boards": [
    {
@@ -185,14 +185,14 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 56,
+    "count": 60,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 188,
+    "count": 192,
     "error": ""
    },
    {
@@ -276,14 +276,14 @@
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 79,
+    "count": 80,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 221,
+    "count": 222,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 383,
+    "count": 381,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 151,
+    "count": 152,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 132,
+    "count": 134,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 134,
+    "count": 132,
     "error": ""
    },
    {
@@ -577,14 +577,14 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 39,
+    "count": 40,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 10,
+    "count": 13,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 486,
+    "count": 481,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5025,
+    "count": 5013,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 122,
+    "count": 124,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2050,
+    "count": 2045,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 569,
+    "count": 566,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 280,
+    "count": 279,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 529,
+    "count": 524,
     "error": ""
    },
    {
@@ -983,7 +983,7 @@
     "source": "smartrecruiters",
     "slug": "ixigo",
     "company": "ixigo",
-    "count": 8,
+    "count": 7,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 394,
+    "count": 393,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 737,
+    "count": 741,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 419,
+    "count": 417,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 111,
+    "count": 112,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 349,
+    "count": 345,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 364,
+    "count": 363,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15486,
-   "location not wanted": 608,
-   "excluded title word (e.g. senior/manager)": 713,
-   "older than max_age_days": 84,
-   "asks for more experience than max_years_experience": 12
+   "role keywords not matched": 15462,
+   "location not wanted": 610,
+   "excluded title word (e.g. senior/manager)": 715,
+   "older than max_age_days": 83,
+   "asks for more experience than max_years_experience": 13
   },
   "notes": [],
   "keywords": [
