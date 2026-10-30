@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-30T05:55:19+00:00",
+  "generated": "2026-10-30T15:05:16+00:00",
   "first_run": false,
-  "total_fetched": 16971,
+  "total_fetched": 16998,
   "boards_ok": 139,
   "boards": [
    {
@@ -143,21 +143,21 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 234,
+    "count": 242,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "colemanresearch",
     "company": "VISASQ/COLEMAN",
-    "count": 11,
+    "count": 9,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 214,
+    "count": 208,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 191,
+    "count": 193,
     "error": ""
    },
    {
@@ -234,14 +234,14 @@
     "source": "greenhouse",
     "slug": "gravitonresearchcapital",
     "company": "Graviton Research Capital LLP",
-    "count": 22,
+    "count": 23,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "groww",
     "company": "Groww",
-    "count": 10,
+    "count": 9,
     "error": ""
    },
    {
@@ -269,21 +269,21 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 168,
+    "count": 167,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 79,
+    "count": 80,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 221,
+    "count": 219,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 387,
+    "count": 388,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 207,
+    "count": 208,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 26,
+    "count": 31,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 154,
+    "count": 155,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 43,
+    "count": 45,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 23,
+    "count": 24,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 137,
+    "count": 144,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 47,
+    "count": 45,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 130,
+    "count": 132,
     "error": ""
    },
    {
@@ -584,7 +584,7 @@
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 13,
+    "count": 14,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 48,
+    "count": 49,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 200,
+    "count": 199,
     "error": ""
    },
    {
@@ -710,7 +710,7 @@
     "source": "lever",
     "slug": "pocketfm",
     "company": "Pocketfm",
-    "count": 11,
+    "count": 12,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 30,
+    "count": 31,
     "error": ""
    },
    {
@@ -794,7 +794,7 @@
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5022,
+    "count": 5007,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2058,
+    "count": 2074,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 608,
+    "count": 607,
     "error": ""
    },
    {
@@ -885,7 +885,7 @@
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 279,
+    "count": 281,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 539,
+    "count": 538,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 394,
+    "count": 395,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 741,
+    "count": 739,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 422,
+    "count": 426,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 348,
+    "count": 346,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 360,
+    "count": 362,
     "error": ""
    },
    {
@@ -1270,7 +1270,7 @@
     "source": "workable",
     "slug": "exponent-energy",
     "company": "Exponent Energy",
-    "count": 67,
+    "count": 68,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 185,
+    "count": 186,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15528,
-   "location not wanted": 600,
+   "role keywords not matched": 15547,
+   "location not wanted": 604,
+   "older than max_age_days": 83,
    "excluded title word (e.g. senior/manager)": 729,
-   "older than max_age_days": 82,
-   "asks for more experience than max_years_experience": 15
+   "asks for more experience than max_years_experience": 19
   },
   "notes": [],
   "keywords": [
@@ -1749,11 +1749,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Not Applicable",
-   "score": 72,
+   "score": 70,
    "reasons": [
     "title: business analyst",
-    "location: india",
-    "posted in last 3 days"
+    "location: india"
    ],
    "flags": [],
    "min_years": null,
@@ -1767,7 +1766,7 @@
    "resume": "Himanshu_Gautam_Trinity.pdf",
    "resume_reason": "AI pick: The role requires product controlling and business analysis, which aligns perfectly with the candidate's experience in SQL forecasting, cohort analysis, and data-driven strategy.",
    "track_scores": {
-    "analyst": 60
+    "analyst": 55
    }
   },
   {
@@ -1904,40 +1903,6 @@
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
-   "track_scores": {
-    "software": 55
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000154601353",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack with Java & Angular",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154601353",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154601353",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-09T07:17:46.644000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-11T22:03:07+00:00",
-   "llm_score": 25,
-   "llm_reason": "The job requires Java and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires Java and Angular, whereas the candidate's stack is TypeScript, React, Next.js, and Node.js.",
    "track_scores": {
     "software": 55
    }
