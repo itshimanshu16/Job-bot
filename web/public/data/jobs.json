@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-31T20:01:32+00:00",
+  "generated": "2026-10-31T23:25:52+00:00",
   "first_run": false,
-  "total_fetched": 16992,
+  "total_fetched": 16991,
   "boards_ok": 139,
   "boards": [
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 384,
+    "count": 383,
     "error": ""
    },
    {
@@ -1345,7 +1345,7 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15546,
+   "role keywords not matched": 15545,
    "location not wanted": 604,
    "excluded title word (e.g. senior/manager)": 728,
    "older than max_age_days": 81,
