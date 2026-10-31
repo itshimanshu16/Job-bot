@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-31T14:34:24+00:00",
+  "generated": "2026-10-31T20:01:32+00:00",
   "first_run": false,
-  "total_fetched": 16990,
+  "total_fetched": 16992,
   "boards_ok": 139,
   "boards": [
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 250,
+    "count": 254,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 571,
+    "count": 572,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 536,
+    "count": 535,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 385,
+    "count": 384,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 346,
+    "count": 345,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15544,
+   "role keywords not matched": 15546,
    "location not wanted": 604,
-   "older than max_age_days": 81,
    "excluded title word (e.g. senior/manager)": 728,
+   "older than max_age_days": 81,
    "asks for more experience than max_years_experience": 17
   },
   "notes": [],

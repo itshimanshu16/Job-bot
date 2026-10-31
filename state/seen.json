@@ -1,7 +1,7 @@
 {
  "greenhouse:point72:8893935002": {
   "first_seen": "2026-10-25T13:13:13+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven tools.",
    "resume": "Tredence_New_Tech_1.pdf",
@@ -19,7 +19,7 @@
  },
  "greenhouse:point72:8893936002": {
   "first_seen": "2026-10-25T13:13:13+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven research tools.",
    "resume": "Tredence_New_Tech_1.pdf",
@@ -37,7 +37,7 @@
  },
  "greenhouse:point72:8893939002": {
   "first_seen": "2026-10-25T13:13:13+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate's experience with LLM integration, real-time data, and SQL aligns well with Point72's focus on AI-driven finance tools, though the degree year is one year off the stated requirement.",
    "resume": "Tredence_New_Tech_1.pdf",
@@ -55,7 +55,7 @@
  },
  "greenhouse:point72:8893940002": {
   "first_seen": "2026-10-25T13:13:13+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate's experience with LLM integration, data scraping, and SQL aligns well with the firm's focus on AI-driven research and data pipelines, though the graduation year requirement is a slight mismatch.",
    "resume": "Tredence_New_Tech_1.pdf",
@@ -211,7 +211,7 @@
  },
  "smartrecruiters:averydennison:744000158502829": {
   "first_seen": "2026-10-29T15:16:11+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
    "resume": "Supply_chain.pdf",
@@ -519,7 +519,7 @@
  },
  "smartrecruiters:boschgroup:744000155451389": {
   "first_seen": "2026-10-14T13:46:50+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate's strong full-stack experience with AI/LLM integration matches this full-stack developer role with AI expertise.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -537,7 +537,7 @@
  },
  "smartrecruiters:boschgroup:744000155761408": {
   "first_seen": "2026-10-15T13:28:58+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -555,7 +555,7 @@
  },
  "smartrecruiters:boschgroup:744000155761606": {
   "first_seen": "2026-10-15T19:54:45+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -573,7 +573,7 @@
  },
  "smartrecruiters:boschgroup:744000155960139": {
   "first_seen": "2026-10-16T13:18:01+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate is a full-stack software developer, while this job is for a hardware-focused PLC Automation Engineer.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -591,7 +591,7 @@
  },
  "smartrecruiters:boschgroup:744000156280749": {
   "first_seen": "2026-10-19T15:41:06+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The job is for an Embedded C++ and PLC Automation Engineer, which does not match the candidate's full-stack software engineering profile.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -609,7 +609,7 @@
  },
  "smartrecruiters:boschgroup:744000156805545": {
   "first_seen": "2026-10-21T13:52:07+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
    "resume": "Tredence_New_Tech_1.pdf",
@@ -627,7 +627,7 @@
  },
  "smartrecruiters:boschgroup:744000157152783": {
   "first_seen": "2026-10-22T20:11:18+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -645,7 +645,7 @@
  },
  "smartrecruiters:boschgroup:744000157329841": {
   "first_seen": "2026-10-23T04:58:30+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
    "resume": "Supply_chain.pdf",
@@ -663,7 +663,7 @@
  },
  "smartrecruiters:boschgroup:744000158014599": {
   "first_seen": "2026-10-27T20:44:36+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The role requires product controlling and business analysis, which aligns perfectly with the candidate's experience in SQL forecasting, cohort analysis, and data-driven strategy.",
    "resume": "Himanshu_Gautam_Trinity.pdf",
@@ -789,7 +789,7 @@
  },
  "smartrecruiters:sutherland:744000158477608": {
   "first_seen": "2026-10-29T15:16:11+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -807,7 +807,7 @@
  },
  "workable:exponent-energy:578704727c": {
   "first_seen": "2026-10-14T13:46:50+00:00",
-  "last_seen": "2026-10-31T14:34:24+00:00",
+  "last_seen": "2026-10-31T20:01:32+00:00",
   "llm": {
    "reason": "The role is a manual/operational storekeeper position requiring 1-3 years of experience, which is a significant underutilization of the candidate's advanced analytics and engineering background.",
    "resume": "Supply_chain.pdf",
