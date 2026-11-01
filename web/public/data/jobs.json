@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-10-31T23:25:52+00:00",
+  "generated": "2026-11-01T06:15:21+00:00",
   "first_run": false,
-  "total_fetched": 16991,
+  "total_fetched": 16983,
   "boards_ok": 139,
   "boards": [
    {
@@ -794,7 +794,7 @@
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5018,
+    "count": 5015,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2059,
+    "count": 2056,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 572,
+    "count": 571,
     "error": ""
    },
    {
@@ -1046,7 +1046,7 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 605,
+    "count": 604,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15545,
+   "role keywords not matched": 15537,
    "location not wanted": 604,
-   "excluded title word (e.g. senior/manager)": 728,
    "older than max_age_days": 81,
+   "excluded title word (e.g. senior/manager)": 728,
    "asks for more experience than max_years_experience": 17
   },
   "notes": [],
