@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-02T06:17:10+00:00",
+  "generated": "2026-11-02T18:27:22+00:00",
   "first_run": false,
-  "total_fetched": 16890,
+  "total_fetched": 16963,
   "boards_ok": 139,
   "boards": [
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 252,
+    "count": 269,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 201,
+    "count": 199,
     "error": ""
    },
    {
@@ -178,7 +178,7 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 27,
+    "count": 28,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 192,
+    "count": 193,
     "error": ""
    },
    {
@@ -206,7 +206,7 @@
     "source": "greenhouse",
     "slug": "fourkites",
     "company": "FourKites",
-    "count": 17,
+    "count": 18,
     "error": ""
    },
    {
@@ -269,21 +269,21 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 166,
+    "count": 162,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 80,
+    "count": 81,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 218,
+    "count": 217,
     "error": ""
    },
    {
@@ -346,14 +346,14 @@
     "source": "greenhouse",
     "slug": "observeai",
     "company": "Observe.AI",
-    "count": 8,
+    "count": 10,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 387,
+    "count": 393,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 205,
+    "count": 199,
     "error": ""
    },
    {
@@ -507,14 +507,14 @@
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 44,
+    "count": 45,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 132,
+    "count": 133,
     "error": ""
    },
    {
@@ -542,14 +542,14 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 85,
+    "count": 84,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "worldquant",
     "company": "WorldQuant",
-    "count": 93,
+    "count": 88,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 39,
+    "count": 41,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 50,
+    "count": 51,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 201,
+    "count": 198,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 485,
+    "count": 480,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5007,
+    "count": 4992,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 125,
+    "count": 123,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2015,
+    "count": 2083,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 569,
+    "count": 568,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 281,
+    "count": 283,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 533,
+    "count": 528,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 598,
+    "count": 601,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 381,
+    "count": 398,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 722,
+    "count": 718,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 428,
+    "count": 429,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 113,
+    "count": 114,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 359,
+    "count": 361,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 188,
+    "count": 187,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15454,
-   "excluded title word (e.g. senior/manager)": 726,
-   "location not wanted": 600,
-   "older than max_age_days": 78,
+   "role keywords not matched": 15512,
+   "excluded title word (e.g. senior/manager)": 736,
+   "location not wanted": 603,
+   "older than max_age_days": 81,
    "asks for more experience than max_years_experience": 17
   },
   "notes": [],
@@ -1527,76 +1527,6 @@
    }
   },
   {
-   "uid": "greenhouse:point72:8893935002",
-   "source": "greenhouse",
-   "company": "Point72 ",
-   "title": "2027 Software Engineer - Campus Graduate Program - IIT Madras",
-   "url": "https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002",
-   "apply_url": "https://boards.greenhouse.io/point72/jobs/8893935002?gh_jid=8893935002",
-   "location": "India, Bengaluru",
-   "remote": null,
-   "posted": "2026-10-25T12:11:24+00:00",
-   "department": "Technology",
-   "employment_type": "",
-   "seniority": "",
-   "score": 81,
-   "reasons": [
-    "title: software engineer",
-    "location: india",
-    "early-career role",
-    "skills: react, node.js, git, c++"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-10-25T13:13:13+00:00",
-   "llm_score": 85,
-   "llm_reason": "The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven tools.",
-   "snippet": "2027 Software Engineer - Campus Graduate Program - IIT Madras\nA CAREER WITH POINT72'S TECHNOLOGY TEAM\nAs Point72 reimagines the future of investing, our Technology team is constantly improving our company’s IT infrastructure, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts experimenting, discovering new ways to harness the power of open-source so",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "Tredence_New_Tech_1.pdf",
-   "resume_reason": "AI pick: The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven tools.",
-   "track_scores": {
-    "software": 77
-   }
-  },
-  {
-   "uid": "greenhouse:point72:8893936002",
-   "source": "greenhouse",
-   "company": "Point72 ",
-   "title": "2027 Software Engineer - Campus Graduate Program - IIT Hyderabad",
-   "url": "https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002",
-   "apply_url": "https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002",
-   "location": "India, Bengaluru",
-   "remote": null,
-   "posted": "2026-10-25T12:10:31+00:00",
-   "department": "Technology",
-   "employment_type": "",
-   "seniority": "",
-   "score": 81,
-   "reasons": [
-    "title: software engineer",
-    "location: india",
-    "early-career role",
-    "skills: react, node.js, git, c++"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-10-25T13:13:13+00:00",
-   "llm_score": 85,
-   "llm_reason": "The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven research tools.",
-   "snippet": "2027 Software Engineer - Campus Graduate Program - IIT Hyderabad\nA CAREER WITH POINT72'S TECHNOLOGY TEAM\nAs Point72 reimagines the future of investing, our Technology team is constantly improving our company’s IT infrastructure, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts experimenting, discovering new ways to harness the power of open-source",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "Tredence_New_Tech_1.pdf",
-   "resume_reason": "AI pick: The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven research tools.",
-   "track_scores": {
-    "software": 77
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000155451389",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1628,41 +1558,6 @@
    "resume_reason": "AI pick: The candidate's strong full-stack experience with AI/LLM integration matches this full-stack developer role with AI expertise.",
    "track_scores": {
     "software": 65
-   }
-  },
-  {
-   "uid": "greenhouse:point72:8893939002",
-   "source": "greenhouse",
-   "company": "Point72 ",
-   "title": "2027 Software Engineer - Campus Graduate Program - IIT Kanpur",
-   "url": "https://boards.greenhouse.io/point72/jobs/8893939002?gh_jid=8893939002",
-   "apply_url": "https://boards.greenhouse.io/point72/jobs/8893939002?gh_jid=8893939002",
-   "location": "India, Bengaluru",
-   "remote": null,
-   "posted": "2026-10-25T12:11:02+00:00",
-   "department": "Technology",
-   "employment_type": "",
-   "seniority": "",
-   "score": 76,
-   "reasons": [
-    "title: software engineer",
-    "location: india",
-    "early-career role",
-    "skills: react, node.js, git, c++"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-10-25T13:13:13+00:00",
-   "llm_score": 75,
-   "llm_reason": "The candidate's experience with LLM integration, real-time data, and SQL aligns well with Point72's focus on AI-driven finance tools, though the degree year is one year off the stated requirement.",
-   "snippet": "2027 Software Engineer - Campus Graduate Program - IIT Kanpur\nA CAREER WITH POINT72'S TECHNOLOGY TEAM\nAs Point72 reimagines the future of investing, our Technology team is constantly improving our company’s IT infrastructure, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts experimenting, discovering new ways to harness the power of open-source so",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "Tredence_New_Tech_1.pdf",
-   "resume_reason": "AI pick: The candidate's experience with LLM integration, real-time data, and SQL aligns well with Point72's focus on AI-driven finance tools, though the degree year is one year off the stated requirement.",
-   "track_scores": {
-    "software": 77
    }
   },
   {
@@ -1698,6 +1593,40 @@
    "resume_reason": "AI pick: The candidate's experience with LLM integration, data scraping, and SQL aligns well with the firm's focus on AI-driven research and data pipelines, though the graduation year requirement is a slight mismatch.",
    "track_scores": {
     "software": 77
+   }
+  },
+  {
+   "uid": "smartrecruiters:servicenow:744000159166108",
+   "source": "smartrecruiters",
+   "company": "ServiceNow",
+   "title": "Assoc Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000159166108",
+   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000159166108",
+   "location": "Hyderabad, , India",
+   "remote": false,
+   "posted": "2026-11-02T14:58:30.107000+00:00",
+   "department": "Early In Career",
+   "employment_type": "Full-time",
+   "seniority": "Not Applicable",
+   "score": 72,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-02T18:27:22+00:00",
+   "llm_score": 85,
+   "llm_reason": "ServiceNow is a large-scale product company that values full-stack proficiency and technical depth, making the SDE-focused resume the strongest match.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: ServiceNow is a large-scale product company that values full-stack proficiency and technical depth, making the SDE-focused resume the strongest match.",
+   "track_scores": {
+    "software": 60
    }
   },
   {
@@ -1799,6 +1728,41 @@
    "resume_reason": "AI pick: The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
    "track_scores": {
     "supply_chain": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000159086615",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Supply chain IT operations Support",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159086615",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000159086615",
+   "location": "bangalore, , India",
+   "remote": false,
+   "posted": "2026-11-02T09:40:36.149000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 65,
+   "reasons": [
+    "title: supply chain",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-11-02T18:27:22+00:00",
+   "llm_score": 65,
+   "llm_reason": "The role aligns with the candidate's technical supply chain background, but the lack of a detailed job description makes it difficult to confirm if it is a 'fresher' role.",
+   "snippet": "",
+   "track": "supply_chain",
+   "track_label": "Supply Chain & Operations",
+   "resume": "Supply_chain.pdf",
+   "resume_reason": "AI pick: The role aligns with the candidate's technical supply chain background, but the lack of a detailed job description makes it difficult to confirm if it is a 'fresher' role.",
+   "track_scores": {
+    "supply_chain": 65
    }
   },
   {
