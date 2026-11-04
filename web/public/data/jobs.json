@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-04T12:13:33+00:00",
+  "generated": "2026-11-04T19:51:43+00:00",
   "first_run": false,
-  "total_fetched": 16941,
+  "total_fetched": 16988,
   "boards_ok": 139,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 117,
+    "count": 119,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 41,
+    "count": 40,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 276,
+    "count": 278,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 197,
+    "count": 199,
     "error": ""
    },
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 58,
+    "count": 59,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 107,
+    "count": 109,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 157,
+    "count": 158,
     "error": ""
    },
    {
@@ -346,14 +346,14 @@
     "source": "greenhouse",
     "slug": "observeai",
     "company": "Observe.AI",
-    "count": 10,
+    "count": 11,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 390,
+    "count": 386,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 199,
+    "count": 197,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 155,
+    "count": 154,
     "error": ""
    },
    {
@@ -486,7 +486,7 @@
     "source": "greenhouse",
     "slug": "tcs",
     "company": "Thornbury Community Services",
-    "count": 91,
+    "count": 95,
     "error": ""
    },
    {
@@ -507,14 +507,14 @@
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 50,
+    "count": 52,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 130,
+    "count": 128,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 53,
+    "count": 54,
     "error": ""
    },
    {
@@ -710,7 +710,7 @@
     "source": "lever",
     "slug": "pocketfm",
     "company": "Pocketfm",
-    "count": 13,
+    "count": 14,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 483,
+    "count": 485,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 4994,
+    "count": 5004,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 121,
+    "count": 123,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2065,
+    "count": 2079,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 607,
+    "count": 605,
     "error": ""
    },
    {
@@ -850,7 +850,7 @@
     "source": "smartrecruiters",
     "slug": "bectondickinson2",
     "company": "Becton Dickinson",
-    "count": 112,
+    "count": 108,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 561,
+    "count": 565,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 515,
+    "count": 524,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 597,
+    "count": 603,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 411,
+    "count": 417,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 736,
+    "count": 744,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 435,
+    "count": 427,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 119,
+    "count": 116,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 367,
+    "count": 364,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 186,
+    "count": 183,
     "error": ""
    },
    {
@@ -1345,9 +1345,9 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15514,
-   "excluded title word (e.g. senior/manager)": 719,
-   "location not wanted": 592,
+   "role keywords not matched": 15553,
+   "location not wanted": 591,
+   "excluded title word (e.g. senior/manager)": 730,
    "older than max_age_days": 86,
    "asks for more experience than max_years_experience": 16
   },
@@ -1513,7 +1513,7 @@
    ],
    "flags": [],
    "min_years": 1,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-03T19:31:43+00:00",
    "llm_score": 85,
    "llm_reason": "The candidate's strong SQL, Power BI, and data-driven project experience aligns perfectly with the core technical requirements of this Data Analyst role.",
@@ -1560,75 +1560,6 @@
    "resume_reason": "AI pick: The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
    "track_scores": {
     "supply_chain": 78
-   }
-  },
-  {
-   "uid": "greenhouse:point72:8893936002",
-   "source": "greenhouse",
-   "company": "Point72 ",
-   "title": "2027 Software Engineer - Campus Graduate Program - IIT Hyderabad",
-   "url": "https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002",
-   "apply_url": "https://boards.greenhouse.io/point72/jobs/8893936002?gh_jid=8893936002",
-   "location": "India, Bengaluru",
-   "remote": null,
-   "posted": "2026-10-25T12:10:31+00:00",
-   "department": "Technology",
-   "employment_type": "",
-   "seniority": "",
-   "score": 81,
-   "reasons": [
-    "title: software engineer",
-    "location: india",
-    "early-career role",
-    "skills: react, node.js, git, c++"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-10-25T13:13:13+00:00",
-   "llm_score": 85,
-   "llm_reason": "The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven research tools.",
-   "snippet": "2027 Software Engineer - Campus Graduate Program - IIT Hyderabad\nA CAREER WITH POINT72'S TECHNOLOGY TEAM\nAs Point72 reimagines the future of investing, our Technology team is constantly improving our company’s IT infrastructure, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts experimenting, discovering new ways to harness the power of open-source",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "Tredence_New_Tech_1.pdf",
-   "resume_reason": "AI pick: The candidate's experience with real-time data, LLM integration, and SQL aligns well with Point72's focus on high-performance financial systems and AI-driven research tools.",
-   "track_scores": {
-    "software": 77
-   }
-  },
-  {
-   "uid": "smartrecruiters:sutherland:744000158477608",
-   "source": "smartrecruiters",
-   "company": "Sutherland",
-   "title": "Software Full stack Developer",
-   "url": "https://jobs.smartrecruiters.com/Sutherland/744000158477608",
-   "apply_url": "https://jobs.smartrecruiters.com/Sutherland/744000158477608",
-   "location": "Bengaluru, KA, India",
-   "remote": false,
-   "posted": "2026-10-29T10:06:28.515000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 72,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-29T15:16:11+00:00",
-   "llm_score": 85,
-   "llm_reason": "The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
-   "track_scores": {
-    "software": 60
    }
   },
   {

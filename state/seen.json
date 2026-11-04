@@ -1,7 +1,7 @@
 {
  "ashby:tekion:64b332be-cc41-4b4a-b0bf-6c5a7308fdb6": {
   "first_seen": "2026-11-03T19:31:43+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The candidate's strong SQL, Power BI, and data-driven project experience aligns perfectly with the core technical requirements of this Data Analyst role.",
    "resume": "INTERN_ADDED_NON_TECH.pdf",
@@ -229,7 +229,7 @@
  },
  "lever:fampay:a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c": {
   "first_seen": "2026-11-04T12:13:33+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The role is strictly focused on HR/People Operations and payroll compliance, which does not align with the candidate's supply chain planning and analytics profile.",
    "resume": "Supply_chain.pdf",
@@ -247,7 +247,7 @@
  },
  "smartrecruiters:averydennison:744000158502829": {
   "first_seen": "2026-10-29T15:16:11+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
    "resume": "Supply_chain.pdf",
@@ -573,7 +573,7 @@
  },
  "smartrecruiters:boschgroup:744000155761408": {
   "first_seen": "2026-10-15T13:28:58+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -591,7 +591,7 @@
  },
  "smartrecruiters:boschgroup:744000155761606": {
   "first_seen": "2026-10-15T19:54:45+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -609,7 +609,7 @@
  },
  "smartrecruiters:boschgroup:744000155960139": {
   "first_seen": "2026-10-16T13:18:01+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The candidate is a full-stack software developer, while this job is for a hardware-focused PLC Automation Engineer.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -645,7 +645,7 @@
  },
  "smartrecruiters:boschgroup:744000156805545": {
   "first_seen": "2026-10-21T13:52:07+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
    "resume": "Tredence_New_Tech_1.pdf",
@@ -663,7 +663,7 @@
  },
  "smartrecruiters:boschgroup:744000157152783": {
   "first_seen": "2026-10-22T20:11:18+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -681,7 +681,7 @@
  },
  "smartrecruiters:boschgroup:744000157329841": {
   "first_seen": "2026-10-23T04:58:30+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
    "resume": "Supply_chain.pdf",
@@ -699,7 +699,7 @@
  },
  "smartrecruiters:boschgroup:744000158014599": {
   "first_seen": "2026-10-27T20:44:36+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The role requires product controlling and business analysis, which aligns perfectly with the candidate's experience in SQL forecasting, cohort analysis, and data-driven strategy.",
    "resume": "Himanshu_Gautam_Trinity.pdf",
@@ -735,7 +735,7 @@
  },
  "smartrecruiters:boschgroup:744000159295609": {
   "first_seen": "2026-11-03T11:59:04+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The candidate is a strong full-stack developer, but lacks the professional DevOps experience explicitly requested for this Bosch role.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -753,7 +753,7 @@
  },
  "smartrecruiters:boschgroup:744000159306949": {
   "first_seen": "2026-11-03T11:59:04+00:00",
-  "last_seen": "2026-11-04T12:13:33+00:00",
+  "last_seen": "2026-11-04T19:51:43+00:00",
   "llm": {
    "reason": "The job targets IT operations support rather than supply chain planning and analytics.",
    "resume": "Supply_chain.pdf",
