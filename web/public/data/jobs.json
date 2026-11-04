@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-03T19:31:43+00:00",
+  "generated": "2026-11-04T00:38:38+00:00",
   "first_run": false,
-  "total_fetched": 16918,
+  "total_fetched": 16928,
   "boards_ok": 139,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 119,
+    "count": 118,
     "error": ""
    },
    {
@@ -66,7 +66,7 @@
     "source": "ashby",
     "slug": "sentry",
     "company": "Sentry",
-    "count": 40,
+    "count": 39,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 264,
+    "count": 267,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 196,
+    "count": 195,
     "error": ""
    },
    {
@@ -283,7 +283,7 @@
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 217,
+    "count": 219,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 392,
+    "count": 393,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 197,
+    "count": 198,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 154,
+    "count": 156,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 137,
+    "count": 138,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 46,
+    "count": 45,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 134,
+    "count": 133,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 471,
+    "count": 477,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 4991,
+    "count": 4986,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2080,
+    "count": 2071,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 513,
+    "count": 512,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 398,
+    "count": 412,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 724,
+    "count": 725,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 437,
+    "count": 438,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 117,
+    "count": 115,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15483,
-   "older than max_age_days": 83,
-   "location not wanted": 594,
+   "role keywords not matched": 15492,
+   "location not wanted": 595,
    "excluded title word (e.g. senior/manager)": 723,
+   "older than max_age_days": 84,
    "asks for more experience than max_years_experience": 19
   },
   "notes": [],
@@ -1834,42 +1834,6 @@
    "resume_reason": "AI pick: The job targets IT operations support rather than supply chain planning and analytics.",
    "track_scores": {
     "supply_chain": 65
-   }
-  },
-  {
-   "uid": "workable:exponent-energy:578704727c",
-   "source": "workable",
-   "company": "Exponent Energy",
-   "title": "Storekeeper - Spare Parts Warehouse",
-   "url": "https://apply.workable.com/j/578704727C",
-   "apply_url": "https://apply.workable.com/j/578704727C/apply",
-   "location": "Bengaluru, Karnataka, India",
-   "remote": false,
-   "posted": "2026-10-14T00:00:00+00:00",
-   "department": "Operations",
-   "employment_type": "Full-time",
-   "seniority": "Entry level",
-   "score": 51,
-   "reasons": [
-    "title: warehouse",
-    "location: india",
-    "no experience required",
-    "early-career role",
-    "skills: excel, inventory, logistics, warehouse"
-   ],
-   "flags": [],
-   "min_years": 0,
-   "is_new": false,
-   "first_seen": "2026-10-14T13:46:50+00:00",
-   "llm_score": 20,
-   "llm_reason": "The role is a manual/operational storekeeper position requiring 1-3 years of experience, which is a significant underutilization of the candidate's advanced analytics and engineering background.",
-   "snippet": "Role: Storekeeper – Spare Parts Warehouse\nDepartment: Operations Location: Bengaluru, India Experience: 2-5 Years\nYour Team:\nYou'll be working with Operations — a group that runs on coffee and an infectious passion for building products that have never been built before. Our Flexible Energy Stack consists of the e^pack (battery pack) and e^pump (charging station), which unlock 15-minute rapid char",
-   "track": "supply_chain",
-   "track_label": "Supply Chain & Operations",
-   "resume": "Supply_chain.pdf",
-   "resume_reason": "AI pick: The role is a manual/operational storekeeper position requiring 1-3 years of experience, which is a significant underutilization of the candidate's advanced analytics and engineering background.",
-   "track_scores": {
-    "supply_chain": 82
    }
   },
   {
