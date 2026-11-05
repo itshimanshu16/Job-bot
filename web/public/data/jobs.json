@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-05T12:27:03+00:00",
+  "generated": "2026-11-05T22:04:31+00:00",
   "first_run": false,
-  "total_fetched": 16963,
+  "total_fetched": 17012,
   "boards_ok": 139,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 139,
+    "count": 137,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 108,
+    "count": 105,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 159,
+    "count": 161,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 82,
+    "count": 81,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 390,
+    "count": 385,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 197,
+    "count": 195,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 26,
+    "count": 25,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 151,
+    "count": 150,
     "error": ""
    },
    {
@@ -472,7 +472,7 @@
     "source": "greenhouse",
     "slug": "squarepointcapital",
     "company": "Squarepoint Capital",
-    "count": 89,
+    "count": 90,
     "error": ""
    },
    {
@@ -486,7 +486,7 @@
     "source": "greenhouse",
     "slug": "tcs",
     "company": "Thornbury Community Services",
-    "count": 95,
+    "count": 100,
     "error": ""
    },
    {
@@ -507,14 +507,14 @@
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 50,
+    "count": 49,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 128,
+    "count": 122,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 84,
+    "count": 83,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 29,
+    "count": 28,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 481,
+    "count": 478,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 4994,
+    "count": 5032,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 125,
+    "count": 123,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2065,
+    "count": 2085,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 605,
+    "count": 607,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 561,
+    "count": 559,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 521,
+    "count": 528,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 415,
+    "count": 412,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 745,
+    "count": 749,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 434,
+    "count": 436,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 116,
+    "count": 115,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 338,
+    "count": 339,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 358,
+    "count": 360,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15533,
-   "location not wanted": 587,
-   "excluded title word (e.g. senior/manager)": 730,
-   "older than max_age_days": 86,
-   "asks for more experience than max_years_experience": 16
+   "role keywords not matched": 15584,
+   "location not wanted": 586,
+   "excluded title word (e.g. senior/manager)": 727,
+   "asks for more experience than max_years_experience": 16,
+   "older than max_age_days": 88
   },
   "notes": [],
   "keywords": [
@@ -1527,6 +1527,40 @@
    }
   },
   {
+   "uid": "smartrecruiters:servicenow:744000159896784",
+   "source": "smartrecruiters",
+   "company": "ServiceNow",
+   "title": "Software Engineer - Fullstack",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000159896784",
+   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000159896784",
+   "location": "Hyderabad, Telangana, India",
+   "remote": false,
+   "posted": "2026-11-05T15:27:48.914000+00:00",
+   "department": "Engineering, Infrastructure and Operations",
+   "employment_type": "Full-time",
+   "seniority": "Not Applicable",
+   "score": 80,
+   "reasons": [
+    "title: software engineer, fullstack",
+    "location: india",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-05T22:04:31+00:00",
+   "llm_score": 90,
+   "llm_reason": "ServiceNow is a major product-based company that values full-stack expertise and scalable architecture, making the project-heavy resume the best fit.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: ServiceNow is a major product-based company that values full-stack expertise and scalable architecture, making the project-heavy resume the best fit.",
+   "track_scores": {
+    "software": 70
+   }
+  },
+  {
    "uid": "smartrecruiters:averydennison:744000158502829",
    "source": "smartrecruiters",
    "company": "Avery Dennison",
@@ -1560,6 +1594,40 @@
    "resume_reason": "AI pick: The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
    "track_scores": {
     "supply_chain": 73
+   }
+  },
+  {
+   "uid": "smartrecruiters:servicenow:744000159899389",
+   "source": "smartrecruiters",
+   "company": "ServiceNow",
+   "title": "Software Engineer - Fullstack",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000159899389",
+   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000159899389",
+   "location": "Bangalore, Karnataka, India",
+   "remote": false,
+   "posted": "2026-11-05T15:25:22.221000+00:00",
+   "department": "Engineering, Infrastructure and Operations",
+   "employment_type": "Full-time",
+   "seniority": "Not Applicable",
+   "score": 78,
+   "reasons": [
+    "title: software engineer, fullstack",
+    "location: india",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-05T22:04:31+00:00",
+   "llm_score": 85,
+   "llm_reason": "ServiceNow is a major product-based company that prioritizes strong full-stack engineering skills and scalable architecture, making the project-heavy resume the best fit.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: ServiceNow is a major product-based company that prioritizes strong full-stack engineering skills and scalable architecture, making the project-heavy resume the best fit.",
+   "track_scores": {
+    "software": 70
    }
   },
   {
@@ -1695,74 +1763,6 @@
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
-   "track_scores": {
-    "software": 55
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000155761408",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Full Stack with C# & Angular, Pune",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761408",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761408",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-15T13:27:29.704000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 48,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-15T13:28:58+00:00",
-   "llm_score": 40,
-   "llm_reason": "The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate lacks the required C# and Angular stack, making this a poor technical match despite the strong full-stack project background.",
-   "track_scores": {
-    "software": 55
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000155761606",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Java Full Stack with Java & Angular, Pune",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761606",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155761606",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-15T13:29:39.859000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 38,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-15T19:54:45+00:00",
-   "llm_score": 20,
-   "llm_reason": "The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's stack (MERN/Next.js) is entirely different from the required Java/Angular stack, and the role is likely not suitable for a fresher.",
    "track_scores": {
     "software": 55
    }
