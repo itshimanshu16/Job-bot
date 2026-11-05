@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-05T00:55:30+00:00",
+  "generated": "2026-11-05T12:27:03+00:00",
   "first_run": false,
-  "total_fetched": 17007,
+  "total_fetched": 16963,
   "boards_ok": 139,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 138,
+    "count": 139,
     "error": ""
    },
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 91,
+    "count": 90,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 279,
+    "count": 278,
     "error": ""
    },
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 59,
+    "count": 60,
     "error": ""
    },
    {
@@ -227,7 +227,7 @@
     "source": "greenhouse",
     "slug": "glance",
     "company": "Glance",
-    "count": 34,
+    "count": 35,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 109,
+    "count": 108,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 158,
+    "count": 159,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 81,
+    "count": 82,
     "error": ""
    },
    {
@@ -346,14 +346,14 @@
     "source": "greenhouse",
     "slug": "observeai",
     "company": "Observe.AI",
-    "count": 11,
+    "count": 12,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 389,
+    "count": 390,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 27,
+    "count": 26,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 154,
+    "count": 151,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 22,
+    "count": 23,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 137,
+    "count": 138,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 52,
+    "count": 50,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 129,
+    "count": 128,
     "error": ""
    },
    {
@@ -549,7 +549,7 @@
     "source": "greenhouse",
     "slug": "worldquant",
     "company": "WorldQuant",
-    "count": 86,
+    "count": 87,
     "error": ""
    },
    {
@@ -612,7 +612,7 @@
     "source": "lever",
     "slug": "fampay",
     "company": "Fampay",
-    "count": 18,
+    "count": 17,
     "error": ""
    },
    {
@@ -668,14 +668,14 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 54,
+    "count": 55,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "mindtickle",
     "company": "Mindtickle",
-    "count": 20,
+    "count": 21,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 31,
+    "count": 29,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 482,
+    "count": 481,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5008,
+    "count": 4994,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 123,
+    "count": 125,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2069,
+    "count": 2065,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 617,
+    "count": 605,
     "error": ""
    },
    {
@@ -850,7 +850,7 @@
     "source": "smartrecruiters",
     "slug": "bectondickinson2",
     "company": "Becton Dickinson",
-    "count": 108,
+    "count": 109,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 566,
+    "count": 561,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 526,
+    "count": 521,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 603,
+    "count": 601,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 417,
+    "count": 415,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 428,
+    "count": 434,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 115,
+    "count": 116,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 341,
+    "count": 338,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 364,
+    "count": 358,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 183,
+    "count": 184,
     "error": ""
    },
    {
@@ -1345,8 +1345,8 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15575,
-   "location not wanted": 588,
+   "role keywords not matched": 15533,
+   "location not wanted": 587,
    "excluded title word (e.g. senior/manager)": 730,
    "older than max_age_days": 86,
    "asks for more experience than max_years_experience": 16
@@ -1539,7 +1539,7 @@
    "department": "Supply Chain",
    "employment_type": "Full-time",
    "seniority": "Entry Level",
-   "score": 82,
+   "score": 79,
    "reasons": [
     "title: inventory planner",
     "location: india",
@@ -1559,41 +1559,7 @@
    "resume": "Supply_chain.pdf",
    "resume_reason": "AI pick: The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
    "track_scores": {
-    "supply_chain": 78
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000157329841",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Demand Planner - North",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157329841",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000157329841",
-   "location": "New Delhi, DL, India",
-   "remote": false,
-   "posted": "2026-10-23T02:58:20.438000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 70,
-   "reasons": [
-    "title: demand planner",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-23T04:58:30+00:00",
-   "llm_score": 85,
-   "llm_reason": "The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
-   "snippet": "",
-   "track": "supply_chain",
-   "track_label": "Supply Chain & Operations",
-   "resume": "Supply_chain.pdf",
-   "resume_reason": "AI pick: The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
-   "track_scores": {
-    "supply_chain": 55
+    "supply_chain": 73
    }
   },
   {
@@ -1823,7 +1789,7 @@
    ],
    "flags": [],
    "min_years": null,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-04T12:13:33+00:00",
    "llm_score": 5,
    "llm_reason": "The role is strictly focused on HR/People Operations and payroll compliance, which does not align with the candidate's supply chain planning and analytics profile.",
