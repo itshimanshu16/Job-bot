@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-06T06:54:48+00:00",
+  "generated": "2026-11-06T15:57:36+00:00",
   "first_run": false,
-  "total_fetched": 16977,
+  "total_fetched": 17027,
   "boards_ok": 139,
   "boards": [
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 65,
+    "count": 64,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 279,
+    "count": 278,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 200,
+    "count": 199,
     "error": ""
    },
    {
@@ -185,14 +185,14 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 60,
+    "count": 61,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 191,
+    "count": 192,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 162,
+    "count": 161,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 81,
+    "count": 79,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 383,
+    "count": 381,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 195,
+    "count": 199,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 26,
+    "count": 27,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 24,
+    "count": 22,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 43,
+    "count": 42,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 23,
+    "count": 24,
     "error": ""
    },
    {
@@ -486,7 +486,7 @@
     "source": "greenhouse",
     "slug": "tcs",
     "company": "Thornbury Community Services",
-    "count": 100,
+    "count": 106,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 138,
+    "count": 137,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 50,
+    "count": 44,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 121,
+    "count": 127,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 478,
+    "count": 476,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5029,
+    "count": 5058,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2068,
+    "count": 2084,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 554,
+    "count": 557,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 281,
+    "count": 280,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 534,
+    "count": 530,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 599,
+    "count": 602,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 411,
+    "count": 420,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 741,
+    "count": 730,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 435,
+    "count": 437,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 114,
+    "count": 113,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 342,
+    "count": 343,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 359,
+    "count": 363,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15555,
-   "location not wanted": 585,
-   "asks for more experience than max_years_experience": 15,
+   "role keywords not matched": 15602,
+   "location not wanted": 586,
    "excluded title word (e.g. senior/manager)": 725,
-   "older than max_age_days": 88
+   "older than max_age_days": 89,
+   "asks for more experience than max_years_experience": 18
   },
   "notes": [],
   "keywords": [
@@ -1491,42 +1491,6 @@
  },
  "jobs": [
   {
-   "uid": "ashby:tekion:64b332be-cc41-4b4a-b0bf-6c5a7308fdb6",
-   "source": "ashby",
-   "company": "Tekion",
-   "title": "Data Analyst I",
-   "url": "https://jobs.ashbyhq.com/tekion/64b332be-cc41-4b4a-b0bf-6c5a7308fdb6",
-   "apply_url": "https://jobs.ashbyhq.com/tekion/64b332be-cc41-4b4a-b0bf-6c5a7308fdb6/application",
-   "location": "Chennai Regional Office; Chennai Regional Office",
-   "remote": false,
-   "posted": "2026-11-03T13:57:18.925000+00:00",
-   "department": "All Cost Centers",
-   "employment_type": "Full time",
-   "seniority": "",
-   "score": 82,
-   "reasons": [
-    "title: data analyst",
-    "location: chennai",
-    "posted in last 3 days",
-    "asks ≤1 yrs",
-    "skills: sql, excel, power bi, tableau, statistics"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-11-03T19:31:43+00:00",
-   "llm_score": 85,
-   "llm_reason": "The candidate's strong SQL, Power BI, and data-driven project experience aligns perfectly with the core technical requirements of this Data Analyst role.",
-   "snippet": "ABOUT TEKION:\n\nPositively disrupting an industry that has not seen any innovation in over 50 years, Tekion has challenged the paradigm with the first and fastest cloud-native automotive platform that includes the revolutionary Automotive Retail Cloud (ARC) for retailers, Automotive Enterprise Cloud (AEC) for manufacturers and other large automotive enterprises and Automotive Partner Cloud (APC) fo",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "INTERN_ADDED_NON_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's strong SQL, Power BI, and data-driven project experience aligns perfectly with the core technical requirements of this Data Analyst role.",
-   "track_scores": {
-    "analyst": 80
-   }
-  },
-  {
    "uid": "smartrecruiters:averydennison:744000158502829",
    "source": "smartrecruiters",
    "company": "Avery Dennison",
@@ -1642,11 +1606,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 55,
+   "score": 52,
    "reasons": [
     "title: supply chain",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1661,7 +1624,7 @@
    "resume": "Supply_chain.pdf",
    "resume_reason": "AI pick: The job targets IT operations support rather than supply chain planning and analytics.",
    "track_scores": {
-    "supply_chain": 65
+    "supply_chain": 60
    }
   },
   {
@@ -1763,40 +1726,6 @@
    "track_label": "Software / Full-stack",
    "resume": "Tredence_New_Tech_1.pdf",
    "resume_reason": "AI pick: The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
-   "track_scores": {
-    "software": 55
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000155960139",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "PLC Automation Engineer-ECF2",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155960139",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000155960139",
-   "location": "bengaluru, , India",
-   "remote": false,
-   "posted": "2026-10-16T10:17:20.145000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 28,
-   "reasons": [
-    "title: automation engineer",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-16T13:18:01+00:00",
-   "llm_score": 0,
-   "llm_reason": "The candidate is a full-stack software developer, while this job is for a hardware-focused PLC Automation Engineer.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate is a full-stack software developer, while this job is for a hardware-focused PLC Automation Engineer.",
    "track_scores": {
     "software": 55
    }
