@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-07T06:05:45+00:00",
+  "generated": "2026-11-07T14:55:35+00:00",
   "first_run": false,
-  "total_fetched": 17035,
+  "total_fetched": 17018,
   "boards_ok": 139,
   "boards": [
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2065,
+    "count": 2051,
     "error": ""
    },
    {
@@ -1046,7 +1046,7 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 600,
+    "count": 598,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 362,
+    "count": 361,
     "error": ""
    },
    {
@@ -1345,7 +1345,7 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15604,
+   "role keywords not matched": 15587,
    "location not wanted": 591,
    "excluded title word (e.g. senior/manager)": 728,
    "asks for more experience than max_years_experience": 16,
@@ -1674,11 +1674,10 @@
    "department": "People",
    "employment_type": "Full Time",
    "seniority": "",
-   "score": 36,
+   "score": 33,
    "reasons": [
     "title: operations associate",
     "location: bengaluru",
-    "posted in last 3 days",
     "skills: excel, advanced excel"
    ],
    "flags": [],
@@ -1693,7 +1692,7 @@
    "resume": "Supply_chain.pdf",
    "resume_reason": "AI pick: The role is strictly focused on HR/People Operations and payroll compliance, which does not align with the candidate's supply chain planning and analytics profile.",
    "track_scores": {
-    "supply_chain": 66
+    "supply_chain": 61
    }
   },
   {
