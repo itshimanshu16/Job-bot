@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-07T23:41:11+00:00",
+  "generated": "2026-11-08T06:10:14+00:00",
   "first_run": false,
-  "total_fetched": 17001,
+  "total_fetched": 16994,
   "boards_ok": 139,
   "boards": [
    {
@@ -584,7 +584,7 @@
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 13,
+    "count": 14,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2040,
+    "count": 2032,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15570,
+   "role keywords not matched": 15563,
    "location not wanted": 590,
+   "asks for more experience than max_years_experience": 16,
    "excluded title word (e.g. senior/manager)": 729,
-   "older than max_age_days": 89,
-   "asks for more experience than max_years_experience": 16
+   "older than max_age_days": 89
   },
   "notes": [],
   "keywords": [
