@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-08T20:31:27+00:00",
+  "generated": "2026-11-09T06:44:19+00:00",
   "first_run": false,
-  "total_fetched": 16996,
+  "total_fetched": 16961,
   "boards_ok": 139,
   "boards": [
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 60,
+    "count": 59,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 375,
+    "count": 376,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 201,
+    "count": 200,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 128,
+    "count": 129,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 477,
+    "count": 481,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5071,
+    "count": 5070,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2035,
+    "count": 1993,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 549,
+    "count": 546,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 531,
+    "count": 530,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 422,
+    "count": 425,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 745,
+    "count": 747,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 438,
+    "count": 436,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 361,
+    "count": 366,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15564,
-   "location not wanted": 590,
-   "excluded title word (e.g. senior/manager)": 729,
+   "role keywords not matched": 15532,
+   "older than max_age_days": 88,
    "asks for more experience than max_years_experience": 17,
-   "older than max_age_days": 89
+   "location not wanted": 589,
+   "excluded title word (e.g. senior/manager)": 727
   },
   "notes": [],
   "keywords": [
@@ -1659,6 +1659,42 @@
    "resume_reason": "AI pick: The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
    "track_scores": {
     "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:wnsglobalservices144:744000160537063",
+   "source": "smartrecruiters",
+   "company": "WNS Global Services",
+   "title": "Actuarial Management Trainee - Fresher in Actuarial with 3 papers (GGN - WFO) - Immediate Joiners Only",
+   "url": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000160537063",
+   "apply_url": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000160537063",
+   "location": "Gurgaon, HR, India",
+   "remote": false,
+   "posted": "2026-11-09T06:06:14.116000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Entry Level",
+   "score": 45,
+   "reasons": [
+    "title: management trainee",
+    "location: india",
+    "posted in last 3 days",
+    "no experience required",
+    "early-career role"
+   ],
+   "flags": [],
+   "min_years": 0,
+   "is_new": true,
+   "first_seen": "2026-11-09T06:44:19+00:00",
+   "llm_score": 10,
+   "llm_reason": "The candidate lacks the mandatory actuarial certifications required for this specialized role, making it a poor fit.",
+   "snippet": "",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "icic_1.pdf",
+   "resume_reason": "AI pick: The candidate lacks the mandatory actuarial certifications required for this specialized role, making it a poor fit.",
+   "track_scores": {
+    "analyst": 80
    }
   },
   {
