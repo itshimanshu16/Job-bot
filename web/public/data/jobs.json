@@ -1,16 +1,16 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-09T06:44:19+00:00",
+  "generated": "2026-11-09T18:52:01+00:00",
   "first_run": false,
-  "total_fetched": 16961,
+  "total_fetched": 17026,
   "boards_ok": 139,
   "boards": [
    {
     "source": "ashby",
     "slug": "atlan",
     "company": "Atlan",
-    "count": 6,
+    "count": 7,
     "error": ""
    },
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 121,
+    "count": 120,
     "error": ""
    },
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 137,
+    "count": 138,
     "error": ""
    },
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 89,
+    "count": 91,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 39,
+    "count": 37,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 200,
+    "count": 196,
     "error": ""
    },
    {
@@ -185,14 +185,14 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 59,
+    "count": 57,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 190,
+    "count": 186,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 105,
+    "count": 106,
     "error": ""
    },
    {
@@ -283,7 +283,7 @@
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 219,
+    "count": 220,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 200,
+    "count": 199,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 22,
+    "count": 23,
     "error": ""
    },
    {
@@ -486,7 +486,7 @@
     "source": "greenhouse",
     "slug": "tcs",
     "company": "Thornbury Community Services",
-    "count": 106,
+    "count": 110,
     "error": ""
    },
    {
@@ -500,14 +500,14 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 138,
+    "count": 139,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 44,
+    "count": 43,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 47,
+    "count": 46,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 481,
+    "count": 480,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5070,
+    "count": 5096,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 123,
+    "count": 120,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1993,
+    "count": 2047,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 609,
+    "count": 608,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 546,
+    "count": 540,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 280,
+    "count": 279,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 530,
+    "count": 537,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 598,
+    "count": 595,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 425,
+    "count": 422,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 747,
+    "count": 745,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 436,
+    "count": 440,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 112,
+    "count": 113,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 338,
+    "count": 336,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 366,
+    "count": 365,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15532,
-   "older than max_age_days": 88,
+   "role keywords not matched": 15601,
+   "location not wanted": 588,
+   "excluded title word (e.g. senior/manager)": 723,
    "asks for more experience than max_years_experience": 17,
-   "location not wanted": 589,
-   "excluded title word (e.g. senior/manager)": 727
+   "older than max_age_days": 88
   },
   "notes": [],
   "keywords": [
@@ -1527,6 +1527,41 @@
    }
   },
   {
+   "uid": "smartrecruiters:boschgroup:744000160600719",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Full Stack Developer",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160600719",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000160600719",
+   "location": "bangalore, , India",
+   "remote": false,
+   "posted": "2026-11-09T12:32:19.790000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 75,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-11-09T18:52:01+00:00",
+   "llm_score": 85,
+   "llm_reason": "Bosch is a large-scale product company that values both robust full-stack capabilities and the technical depth shown in the project-focused resume.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: Bosch is a large-scale product company that values both robust full-stack capabilities and the technical depth shown in the project-focused resume.",
+   "track_scores": {
+    "software": 65
+   }
+  },
+  {
    "uid": "smartrecruiters:boschgroup:744000158014599",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1662,39 +1697,38 @@
    }
   },
   {
-   "uid": "smartrecruiters:wnsglobalservices144:744000160537063",
+   "uid": "smartrecruiters:boschgroup:744000160603388",
    "source": "smartrecruiters",
-   "company": "WNS Global Services",
-   "title": "Actuarial Management Trainee - Fresher in Actuarial with 3 papers (GGN - WFO) - Immediate Joiners Only",
-   "url": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000160537063",
-   "apply_url": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000160537063",
-   "location": "Gurgaon, HR, India",
+   "company": "Bosch Group",
+   "title": "Linux Infrastructure Automation Engineer (Ansible)",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160603388",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000160603388",
+   "location": "bangalore, , India",
    "remote": false,
-   "posted": "2026-11-09T06:06:14.116000+00:00",
+   "posted": "2026-11-09T12:36:32.831000+00:00",
    "department": "",
    "employment_type": "Full-time",
-   "seniority": "Entry Level",
-   "score": 45,
+   "seniority": "Associate",
+   "score": 42,
    "reasons": [
-    "title: management trainee",
+    "title: automation engineer",
     "location: india",
     "posted in last 3 days",
-    "no experience required",
-    "early-career role"
+    "asks ≤1 yrs"
    ],
    "flags": [],
-   "min_years": 0,
+   "min_years": 1,
    "is_new": true,
-   "first_seen": "2026-11-09T06:44:19+00:00",
-   "llm_score": 10,
-   "llm_reason": "The candidate lacks the mandatory actuarial certifications required for this specialized role, making it a poor fit.",
+   "first_seen": "2026-11-09T18:52:01+00:00",
+   "llm_score": 20,
+   "llm_reason": "The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
    "snippet": "",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "icic_1.pdf",
-   "resume_reason": "AI pick: The candidate lacks the mandatory actuarial certifications required for this specialized role, making it a poor fit.",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HCLTech_Resume.pdf",
+   "resume_reason": "AI pick: The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
    "track_scores": {
-    "analyst": 80
+    "software": 65
    }
   },
   {
