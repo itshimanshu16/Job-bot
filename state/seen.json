@@ -215,6 +215,24 @@
    }
   }
  },
+ "greenhouse:sigmoid:8927991002": {
+  "first_seen": "2026-11-10T12:43:22+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
+  "llm": {
+   "reason": "The role blends data engineering and software development, perfectly matching the candidate's mix of full-stack projects, data web scraping, and SQL experience.",
+   "resume": "Tredence_New_Tech_1.pdf",
+   "score": 90,
+   "track": "software"
+  },
+  "llm_tracks": {
+   "software": {
+    "reason": "The role blends data engineering and software development, perfectly matching the candidate's mix of full-stack projects, data web scraping, and SQL experience.",
+    "resume": "Tredence_New_Tech_1.pdf",
+    "score": 90,
+    "track": "software"
+   }
+  }
+ },
  "greenhouse:stripe:8186442": {
   "first_seen": "2026-10-11T20:54:34+00:00",
   "last_seen": "2026-10-11T21:03:38+00:00"
@@ -229,7 +247,7 @@
  },
  "lever:fampay:a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c": {
   "first_seen": "2026-11-04T12:13:33+00:00",
-  "last_seen": "2026-11-10T02:45:31+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
   "llm": {
    "reason": "The role is strictly focused on HR/People Operations and payroll compliance, which does not align with the candidate's supply chain planning and analytics profile.",
    "resume": "Supply_chain.pdf",
@@ -247,7 +265,7 @@
  },
  "smartrecruiters:averydennison:744000158502829": {
   "first_seen": "2026-10-29T15:16:11+00:00",
-  "last_seen": "2026-11-10T02:45:31+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
   "llm": {
    "reason": "The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
    "resume": "Supply_chain.pdf",
@@ -645,7 +663,7 @@
  },
  "smartrecruiters:boschgroup:744000156805545": {
   "first_seen": "2026-10-21T13:52:07+00:00",
-  "last_seen": "2026-11-10T02:45:31+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
   "llm": {
    "reason": "The job is for a Mechanical/Automation engineering role, which does not align with the candidate's software development profile.",
    "resume": "Tredence_New_Tech_1.pdf",
@@ -663,7 +681,7 @@
  },
  "smartrecruiters:boschgroup:744000157152783": {
   "first_seen": "2026-10-22T20:11:18+00:00",
-  "last_seen": "2026-11-10T02:45:31+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
   "llm": {
    "reason": "The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -699,7 +717,7 @@
  },
  "smartrecruiters:boschgroup:744000158014599": {
   "first_seen": "2026-10-27T20:44:36+00:00",
-  "last_seen": "2026-11-10T02:45:31+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
   "llm": {
    "reason": "The role requires product controlling and business analysis, which aligns perfectly with the candidate's experience in SQL forecasting, cohort analysis, and data-driven strategy.",
    "resume": "Himanshu_Gautam_Trinity.pdf",
@@ -735,7 +753,7 @@
  },
  "smartrecruiters:boschgroup:744000159295609": {
   "first_seen": "2026-11-03T11:59:04+00:00",
-  "last_seen": "2026-11-10T02:45:31+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
   "llm": {
    "reason": "The candidate is a strong full-stack developer, but lacks the professional DevOps experience explicitly requested for this Bosch role.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -753,7 +771,7 @@
  },
  "smartrecruiters:boschgroup:744000159306949": {
   "first_seen": "2026-11-03T11:59:04+00:00",
-  "last_seen": "2026-11-10T02:45:31+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
   "llm": {
    "reason": "The job targets IT operations support rather than supply chain planning and analytics.",
    "resume": "Supply_chain.pdf",
@@ -771,7 +789,7 @@
  },
  "smartrecruiters:boschgroup:744000160600719": {
   "first_seen": "2026-11-09T18:52:01+00:00",
-  "last_seen": "2026-11-10T02:45:31+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
   "llm": {
    "reason": "Bosch is a large-scale product company that values both robust full-stack capabilities and the technical depth shown in the project-focused resume.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -789,7 +807,7 @@
  },
  "smartrecruiters:boschgroup:744000160603388": {
   "first_seen": "2026-11-09T18:52:01+00:00",
-  "last_seen": "2026-11-10T02:45:31+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
   "llm": {
    "reason": "The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
    "resume": "HCLTech_Resume.pdf",
@@ -801,6 +819,24 @@
     "reason": "The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
     "resume": "HCLTech_Resume.pdf",
     "score": 20,
+    "track": "software"
+   }
+  }
+ },
+ "smartrecruiters:boschgroup:744000160794268": {
+  "first_seen": "2026-11-10T12:43:22+00:00",
+  "last_seen": "2026-11-10T12:43:22+00:00",
+  "llm": {
+   "reason": "Bosch is a large-scale product company that values the robust backend architecture and full-stack expertise highlighted in the technical resume.",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "score": 85,
+   "track": "software"
+  },
+  "llm_tracks": {
+   "software": {
+    "reason": "Bosch is a large-scale product company that values the robust backend architecture and full-stack expertise highlighted in the technical resume.",
+    "resume": "HIMANSHU_FINAL_TECH.pdf",
+    "score": 85,
     "track": "software"
    }
   }

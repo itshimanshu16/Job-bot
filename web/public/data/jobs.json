@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-10T02:45:31+00:00",
+  "generated": "2026-11-10T12:43:22+00:00",
   "first_run": false,
-  "total_fetched": 16988,
+  "total_fetched": 16987,
   "boards_ok": 139,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 96,
+    "count": 115,
     "error": ""
    },
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 91,
+    "count": 90,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 196,
+    "count": 195,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 186,
+    "count": 187,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 160,
+    "count": 159,
     "error": ""
    },
    {
@@ -283,7 +283,7 @@
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 220,
+    "count": 221,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 380,
+    "count": 379,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 200,
+    "count": 199,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 23,
+    "count": 24,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 151,
+    "count": 149,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 42,
+    "count": 43,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 24,
+    "count": 23,
     "error": ""
    },
    {
@@ -486,7 +486,7 @@
     "source": "greenhouse",
     "slug": "tcs",
     "company": "Thornbury Community Services",
-    "count": 110,
+    "count": 89,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 129,
+    "count": 128,
     "error": ""
    },
    {
@@ -549,7 +549,7 @@
     "source": "greenhouse",
     "slug": "worldquant",
     "company": "WorldQuant",
-    "count": 87,
+    "count": 86,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 45,
+    "count": 47,
     "error": ""
    },
    {
@@ -668,14 +668,14 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 52,
+    "count": 50,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "mindtickle",
     "company": "Mindtickle",
-    "count": 21,
+    "count": 20,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 479,
+    "count": 478,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5097,
+    "count": 5084,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 121,
+    "count": 124,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2024,
+    "count": 2035,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 540,
+    "count": 549,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 279,
+    "count": 278,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 542,
+    "count": 544,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 416,
+    "count": 418,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 756,
+    "count": 750,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 439,
+    "count": 437,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 333,
+    "count": 337,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15579,
-   "older than max_age_days": 88,
-   "asks for more experience than max_years_experience": 17,
-   "location not wanted": 567,
-   "excluded title word (e.g. senior/manager)": 728
+   "role keywords not matched": 15557,
+   "location not wanted": 580,
+   "excluded title word (e.g. senior/manager)": 729,
+   "asks for more experience than max_years_experience": 22,
+   "older than max_age_days": 88
   },
   "notes": [],
   "keywords": [
@@ -1527,6 +1527,81 @@
    }
   },
   {
+   "uid": "greenhouse:sigmoid:8927991002",
+   "source": "greenhouse",
+   "company": "Sigmoid",
+   "title": "DE Intern + SDE Trainee - Off Campus Hiring 2026",
+   "url": "https://job-boards.greenhouse.io/sigmoid/jobs/8927991002",
+   "apply_url": "https://job-boards.greenhouse.io/sigmoid/jobs/8927991002",
+   "location": "Bengaluru",
+   "remote": null,
+   "posted": "2026-11-10T10:08:51+00:00",
+   "department": "Data Engineering",
+   "employment_type": "",
+   "seniority": "",
+   "score": 75,
+   "reasons": [
+    "title: sde",
+    "location: bengaluru",
+    "posted in last 3 days",
+    "open to 2027 batch",
+    "early-career role",
+    "skills: javascript, sql, git, c++, llm"
+   ],
+   "flags": [
+    "asks for WhatsApp/Telegram contact",
+    "may require a CS/IT degree"
+   ],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-10T12:43:22+00:00",
+   "llm_score": 90,
+   "llm_reason": "The role blends data engineering and software development, perfectly matching the candidate's mix of full-stack projects, data web scraping, and SQL experience.",
+   "snippet": "Job Description: DE Intern + SDE Trainee\nAbout the Role\nRole: DE Intern + SDE Trainee\nDuration: 6-month internship, followed by a performance-based opportunity for full-time conversion.\nTraining & Evaluation: Candidates will undergo an extensive training programme during the internship, with full-time conversion based on their performance throughout the training period.\nAbout Sigmoid\nSigmoid enabl",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "Tredence_New_Tech_1.pdf",
+   "resume_reason": "AI pick: The role blends data engineering and software development, perfectly matching the candidate's mix of full-stack projects, data web scraping, and SQL experience.",
+   "track_scores": {
+    "software": 60
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000160794268",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Full stack Engineer",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160794268",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000160794268",
+   "location": "bengaluru, , India",
+   "remote": false,
+   "posted": "2026-11-10T05:09:19.948000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 75,
+   "reasons": [
+    "title: full stack",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-11-10T12:43:22+00:00",
+   "llm_score": 85,
+   "llm_reason": "Bosch is a large-scale product company that values the robust backend architecture and full-stack expertise highlighted in the technical resume.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: Bosch is a large-scale product company that values the robust backend architecture and full-stack expertise highlighted in the technical resume.",
+   "track_scores": {
+    "software": 65
+   }
+  },
+  {
    "uid": "smartrecruiters:boschgroup:744000160600719",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1607,7 +1682,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 58,
+   "score": 55,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -1625,7 +1700,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The candidate is a strong full-stack developer, but lacks the professional DevOps experience explicitly requested for this Bosch role.",
    "track_scores": {
-    "software": 60
+    "software": 55
    }
   },
   {
@@ -1641,7 +1716,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 52,
+   "score": 50,
    "reasons": [
     "title: supply chain",
     "location: india",
@@ -1659,7 +1734,7 @@
    "resume": "Supply_chain.pdf",
    "resume_reason": "AI pick: The job targets IT operations support rather than supply chain planning and analytics.",
    "track_scores": {
-    "supply_chain": 60
+    "supply_chain": 55
    }
   },
   {
