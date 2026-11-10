@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-10T12:43:22+00:00",
+  "generated": "2026-11-10T21:49:51+00:00",
   "first_run": false,
-  "total_fetched": 16987,
+  "total_fetched": 17031,
   "boards_ok": 139,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 136,
+    "count": 137,
     "error": ""
    },
    {
@@ -66,7 +66,7 @@
     "source": "ashby",
     "slug": "sentry",
     "company": "Sentry",
-    "count": 41,
+    "count": 42,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 195,
+    "count": 194,
     "error": ""
    },
    {
@@ -185,14 +185,14 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 56,
+    "count": 57,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 187,
+    "count": 188,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 159,
+    "count": 158,
     "error": ""
    },
    {
@@ -283,7 +283,7 @@
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 221,
+    "count": 220,
     "error": ""
    },
    {
@@ -346,14 +346,14 @@
     "source": "greenhouse",
     "slug": "observeai",
     "company": "Observe.AI",
-    "count": 12,
+    "count": 11,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 379,
+    "count": 378,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 199,
+    "count": 196,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 26,
+    "count": 23,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 24,
+    "count": 25,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 149,
+    "count": 150,
     "error": ""
    },
    {
@@ -472,7 +472,7 @@
     "source": "greenhouse",
     "slug": "squarepointcapital",
     "company": "Squarepoint Capital",
-    "count": 90,
+    "count": 91,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 128,
+    "count": 127,
     "error": ""
    },
    {
@@ -542,14 +542,14 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 83,
+    "count": 81,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "worldquant",
     "company": "WorldQuant",
-    "count": 86,
+    "count": 85,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 478,
+    "count": 489,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5084,
+    "count": 5100,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 124,
+    "count": 122,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2035,
+    "count": 2049,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 608,
+    "count": 606,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 549,
+    "count": 553,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 278,
+    "count": 277,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 544,
+    "count": 551,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 418,
+    "count": 416,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 750,
+    "count": 757,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 437,
+    "count": 440,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 113,
+    "count": 107,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 337,
+    "count": 339,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 365,
+    "count": 366,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15557,
-   "location not wanted": 580,
-   "excluded title word (e.g. senior/manager)": 729,
-   "asks for more experience than max_years_experience": 22,
-   "older than max_age_days": 88
+   "role keywords not matched": 15596,
+   "older than max_age_days": 87,
+   "asks for more experience than max_years_experience": 21,
+   "location not wanted": 582,
+   "excluded title word (e.g. senior/manager)": 734
   },
   "notes": [],
   "keywords": [
@@ -1623,7 +1623,7 @@
    ],
    "flags": [],
    "min_years": 1,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-09T18:52:01+00:00",
    "llm_score": 85,
    "llm_reason": "Bosch is a large-scale product company that values both robust full-stack capabilities and the technical depth shown in the project-focused resume.",
@@ -1793,7 +1793,7 @@
    ],
    "flags": [],
    "min_years": 1,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-09T18:52:01+00:00",
    "llm_score": 20,
    "llm_reason": "The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
