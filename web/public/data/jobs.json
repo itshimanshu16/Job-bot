@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-09T18:52:01+00:00",
+  "generated": "2026-11-10T02:45:31+00:00",
   "first_run": false,
-  "total_fetched": 17026,
+  "total_fetched": 16988,
   "boards_ok": 139,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 120,
+    "count": 96,
     "error": ""
    },
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 138,
+    "count": 136,
     "error": ""
    },
    {
@@ -66,7 +66,7 @@
     "source": "ashby",
     "slug": "sentry",
     "company": "Sentry",
-    "count": 39,
+    "count": 41,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 283,
+    "count": 285,
     "error": ""
    },
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 57,
+    "count": 56,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 162,
+    "count": 160,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 376,
+    "count": 380,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 199,
+    "count": 200,
     "error": ""
    },
    {
@@ -500,14 +500,14 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 139,
+    "count": 140,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 43,
+    "count": 44,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 46,
+    "count": 45,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 53,
+    "count": 52,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 480,
+    "count": 479,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5096,
+    "count": 5097,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 120,
+    "count": 121,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2047,
+    "count": 2024,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 537,
+    "count": 542,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 422,
+    "count": 416,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 745,
+    "count": 756,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 440,
+    "count": 439,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 336,
+    "count": 333,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 184,
+    "count": 182,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15601,
-   "location not wanted": 588,
-   "excluded title word (e.g. senior/manager)": 723,
+   "role keywords not matched": 15579,
+   "older than max_age_days": 88,
    "asks for more experience than max_years_experience": 17,
-   "older than max_age_days": 88
+   "location not wanted": 567,
+   "excluded title word (e.g. senior/manager)": 728
   },
   "notes": [],
   "keywords": [
