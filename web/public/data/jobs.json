@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-10T21:49:51+00:00",
+  "generated": "2026-11-11T06:35:00+00:00",
   "first_run": false,
-  "total_fetched": 17031,
+  "total_fetched": 17030,
   "boards_ok": 139,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 115,
+    "count": 116,
     "error": ""
    },
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 137,
+    "count": 138,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 285,
+    "count": 286,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 188,
+    "count": 191,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 106,
+    "count": 105,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 158,
+    "count": 157,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 79,
+    "count": 77,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 23,
+    "count": 22,
     "error": ""
    },
    {
@@ -507,14 +507,14 @@
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 44,
+    "count": 48,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 127,
+    "count": 125,
     "error": ""
    },
    {
@@ -612,7 +612,7 @@
     "source": "lever",
     "slug": "fampay",
     "company": "Fampay",
-    "count": 17,
+    "count": 18,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 489,
+    "count": 490,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2049,
+    "count": 2037,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 606,
+    "count": 602,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 553,
+    "count": 555,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 551,
+    "count": 554,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 416,
+    "count": 413,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 757,
+    "count": 767,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 339,
+    "count": 336,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 366,
+    "count": 367,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15596,
+   "role keywords not matched": 15591,
    "older than max_age_days": 87,
-   "asks for more experience than max_years_experience": 21,
-   "location not wanted": 582,
-   "excluded title word (e.g. senior/manager)": 734
+   "asks for more experience than max_years_experience": 20,
+   "location not wanted": 580,
+   "excluded title word (e.g. senior/manager)": 740
   },
   "notes": [],
   "keywords": [
@@ -1490,6 +1490,40 @@
   }
  },
  "jobs": [
+  {
+   "uid": "lever:fampay:811d4537-ade2-43fa-83c5-e2d07839b402",
+   "source": "lever",
+   "company": "Fampay",
+   "title": "Data Analyst",
+   "url": "https://jobs.lever.co/fampay/811d4537-ade2-43fa-83c5-e2d07839b402",
+   "apply_url": "https://jobs.lever.co/fampay/811d4537-ade2-43fa-83c5-e2d07839b402/apply",
+   "location": "Bengaluru",
+   "remote": false,
+   "posted": "2026-11-06T11:34:31.006000+00:00",
+   "department": "Product",
+   "employment_type": "Fulltime- Office",
+   "seniority": "",
+   "score": 81,
+   "reasons": [
+    "title: data analyst",
+    "location: bengaluru",
+    "skills: sql, excel, statistics, cohort"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-11T06:35:00+00:00",
+   "llm_score": 95,
+   "llm_reason": "The candidate's experience with SQL, cohort analysis, and GenAI tools aligns perfectly with FamPay's fintech-focused, data-driven product requirements.",
+   "snippet": "About Fam (previously FamPay)\n\nFam is India’s first payments app for everyone above 11. FamApp helps make online and offline payments through UPI and FamCard. We are on a mission to raise a new, financially aware generation, and drive 250 million+ young users in India to kickstart their financial journey super early in their life.\n\nWe’re reimagining how the next generation experiences fintech—goin",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "icic_1.pdf",
+   "resume_reason": "AI pick: The candidate's experience with SQL, cohort analysis, and GenAI tools aligns perfectly with FamPay's fintech-focused, data-driven product requirements.",
+   "track_scores": {
+    "analyst": 67
+   }
+  },
   {
    "uid": "smartrecruiters:averydennison:744000158502829",
    "source": "smartrecruiters",
