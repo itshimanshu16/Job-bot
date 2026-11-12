@@ -1,16 +1,16 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-12T07:18:16+00:00",
+  "generated": "2026-11-12T16:51:03+00:00",
   "first_run": false,
-  "total_fetched": 17031,
+  "total_fetched": 17065,
   "boards_ok": 139,
   "boards": [
    {
     "source": "ashby",
     "slug": "atlan",
     "company": "Atlan",
-    "count": 7,
+    "count": 8,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 63,
+    "count": 64,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 39,
+    "count": 40,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 277,
+    "count": 271,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 190,
+    "count": 189,
     "error": ""
    },
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 59,
+    "count": 58,
     "error": ""
    },
    {
@@ -206,7 +206,7 @@
     "source": "greenhouse",
     "slug": "fourkites",
     "company": "FourKites",
-    "count": 16,
+    "count": 15,
     "error": ""
    },
    {
@@ -276,7 +276,7 @@
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 76,
+    "count": 75,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 373,
+    "count": 370,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 201,
+    "count": 198,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 24,
+    "count": 25,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 26,
+    "count": 25,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 156,
+    "count": 177,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 125,
+    "count": 119,
     "error": ""
    },
    {
@@ -549,7 +549,7 @@
     "source": "greenhouse",
     "slug": "worldquant",
     "company": "WorldQuant",
-    "count": 83,
+    "count": 82,
     "error": ""
    },
    {
@@ -577,14 +577,14 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 49,
+    "count": 48,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 14,
+    "count": 15,
     "error": ""
    },
    {
@@ -668,14 +668,14 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 48,
+    "count": 49,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "mindtickle",
     "company": "Mindtickle",
-    "count": 20,
+    "count": 21,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 201,
+    "count": 202,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 491,
+    "count": 488,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5100,
+    "count": 5099,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 121,
+    "count": 123,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2044,
+    "count": 2067,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 558,
+    "count": 565,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 276,
+    "count": 277,
     "error": ""
    },
    {
@@ -983,7 +983,7 @@
     "source": "smartrecruiters",
     "slug": "ixigo",
     "company": "ixigo",
-    "count": 7,
+    "count": 8,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 413,
+    "count": 407,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 787,
+    "count": 795,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 439,
+    "count": 437,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 105,
+    "count": 104,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 344,
+    "count": 339,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 361,
+    "count": 367,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15593,
-   "location not wanted": 582,
-   "excluded title word (e.g. senior/manager)": 740,
-   "older than max_age_days": 92,
-   "asks for more experience than max_years_experience": 15
+   "role keywords not matched": 15630,
+   "location not wanted": 579,
+   "excluded title word (e.g. senior/manager)": 737,
+   "asks for more experience than max_years_experience": 17,
+   "older than max_age_days": 93
   },
   "notes": [],
   "keywords": [
@@ -1527,6 +1527,40 @@
    }
   },
   {
+   "uid": "smartrecruiters:servicenow:744000161292240",
+   "source": "smartrecruiters",
+   "company": "ServiceNow",
+   "title": "Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161292240",
+   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000161292240",
+   "location": "Hyderabad, , India",
+   "remote": false,
+   "posted": "2026-11-12T12:52:18.631000+00:00",
+   "department": "Engineering, Infrastructure and Operations",
+   "employment_type": "Full-time",
+   "seniority": "Not Applicable",
+   "score": 75,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-12T16:51:03+00:00",
+   "llm_score": 90,
+   "llm_reason": "ServiceNow is a top-tier product company seeking software engineers, making the pure SDE resume ideal.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: ServiceNow is a top-tier product company seeking software engineers, making the pure SDE resume ideal.",
+   "track_scores": {
+    "software": 60
+   }
+  },
+  {
    "uid": "smartrecruiters:servicenow:744000161221879",
    "source": "smartrecruiters",
    "company": "ServiceNow",
@@ -1608,11 +1642,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 75,
+   "score": 72,
    "reasons": [
     "title: full stack",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1627,7 +1660,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: Bosch is a large-scale product company that values both robust full-stack capabilities and the technical depth shown in the project-focused resume.",
    "track_scores": {
-    "software": 65
+    "software": 60
    }
   },
   {
@@ -1698,40 +1731,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000157152783",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Full Stack with C# & Angular, Pune",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157152783",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000157152783",
-   "location": "hosur road bangalore, , India",
-   "remote": false,
-   "posted": "2026-10-22T14:34:08.664000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 48,
-   "reasons": [
-    "title: full stack",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-10-22T20:11:18+00:00",
-   "llm_score": 40,
-   "llm_reason": "The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's tech stack (React, Node, TypeScript) does not match the C# and Angular requirements.",
-   "track_scores": {
-    "software": 55
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000160603388",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1744,11 +1743,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 42,
+   "score": 40,
    "reasons": [
     "title: automation engineer",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1763,7 +1761,7 @@
    "resume": "HCLTech_Resume.pdf",
    "resume_reason": "AI pick: The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
    "track_scores": {
-    "software": 65
+    "software": 60
    }
   },
   {
