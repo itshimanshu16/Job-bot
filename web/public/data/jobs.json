@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-13T01:08:54+00:00",
+  "generated": "2026-11-13T12:18:22+00:00",
   "first_run": false,
-  "total_fetched": 17070,
+  "total_fetched": 17025,
   "boards_ok": 139,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 140,
+    "count": 142,
     "error": ""
    },
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 92,
+    "count": 90,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 64,
+    "count": 65,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 271,
+    "count": 270,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 189,
+    "count": 191,
     "error": ""
    },
    {
@@ -185,14 +185,14 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 58,
+    "count": 53,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 197,
+    "count": 198,
     "error": ""
    },
    {
@@ -206,7 +206,7 @@
     "source": "greenhouse",
     "slug": "fourkites",
     "company": "FourKites",
-    "count": 15,
+    "count": 12,
     "error": ""
    },
    {
@@ -227,7 +227,7 @@
     "source": "greenhouse",
     "slug": "glance",
     "company": "Glance",
-    "count": 35,
+    "count": 34,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 157,
+    "count": 158,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 76,
+    "count": 74,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 370,
+    "count": 364,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 23,
+    "count": 22,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 25,
+    "count": 26,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 42,
+    "count": 41,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 22,
+    "count": 21,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 138,
+    "count": 139,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 46,
+    "count": 47,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 117,
+    "count": 116,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 81,
+    "count": 82,
     "error": ""
    },
    {
@@ -668,14 +668,14 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 49,
+    "count": 48,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "mindtickle",
     "company": "Mindtickle",
-    "count": 21,
+    "count": 20,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 201,
+    "count": 202,
     "error": ""
    },
    {
@@ -710,7 +710,7 @@
     "source": "lever",
     "slug": "pocketfm",
     "company": "Pocketfm",
-    "count": 15,
+    "count": 14,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 29,
+    "count": 30,
     "error": ""
    },
    {
@@ -787,14 +787,14 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 485,
+    "count": 486,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5100,
+    "count": 5085,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2045,
+    "count": 2038,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 567,
+    "count": 571,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 275,
+    "count": 274,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 551,
+    "count": 547,
     "error": ""
    },
    {
@@ -983,7 +983,7 @@
     "source": "smartrecruiters",
     "slug": "ixigo",
     "company": "ixigo",
-    "count": 8,
+    "count": 9,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 600,
+    "count": 596,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 406,
+    "count": 411,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 799,
+    "count": 803,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 438,
+    "count": 437,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 104,
+    "count": 103,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 337,
+    "count": 328,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 367,
+    "count": 362,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 186,
+    "count": 187,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15634,
+   "role keywords not matched": 15595,
    "location not wanted": 581,
-   "excluded title word (e.g. senior/manager)": 735,
-   "older than max_age_days": 93,
-   "asks for more experience than max_years_experience": 18
+   "asks for more experience than max_years_experience": 22,
+   "excluded title word (e.g. senior/manager)": 729,
+   "older than max_age_days": 89
   },
   "notes": [],
   "keywords": [
@@ -1527,40 +1527,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:servicenow:744000161292240",
-   "source": "smartrecruiters",
-   "company": "ServiceNow",
-   "title": "Software Engineer",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161292240",
-   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000161292240",
-   "location": "Hyderabad, , India",
-   "remote": false,
-   "posted": "2026-11-12T12:52:18.631000+00:00",
-   "department": "Engineering, Infrastructure and Operations",
-   "employment_type": "Full-time",
-   "seniority": "Not Applicable",
-   "score": 75,
-   "reasons": [
-    "title: software engineer",
-    "location: india",
-    "posted in last 3 days"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": true,
-   "first_seen": "2026-11-12T16:51:03+00:00",
-   "llm_score": 90,
-   "llm_reason": "ServiceNow is a top-tier product company seeking software engineers, making the pure SDE resume ideal.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: ServiceNow is a top-tier product company seeking software engineers, making the pure SDE resume ideal.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
    "uid": "smartrecruiters:servicenow:744000161221879",
    "source": "smartrecruiters",
    "company": "ServiceNow",
@@ -1581,7 +1547,7 @@
    ],
    "flags": [],
    "min_years": null,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-12T07:18:16+00:00",
    "llm_score": 90,
    "llm_reason": "ServiceNow is a top-tier product company seeking software engineers, which fits the candidate's strong full-stack project background.",
@@ -1590,6 +1556,40 @@
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: ServiceNow is a top-tier product company seeking software engineers, which fits the candidate's strong full-stack project background.",
+   "track_scores": {
+    "software": 60
+   }
+  },
+  {
+   "uid": "smartrecruiters:servicenow:744000161432929",
+   "source": "smartrecruiters",
+   "company": "ServiceNow",
+   "title": "Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161432929",
+   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000161432929",
+   "location": "Bangalore, Karnataka, India",
+   "remote": false,
+   "posted": "2026-11-13T07:12:53.400000+00:00",
+   "department": "Engineering, Infrastructure and Operations",
+   "employment_type": "Full-time",
+   "seniority": "Not Applicable",
+   "score": 72,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-13T12:18:22+00:00",
+   "llm_score": 85,
+   "llm_reason": "ServiceNow is a product-based company that values full-stack expertise and scalable architecture, making the project-heavy resume the best fit.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: ServiceNow is a product-based company that values full-stack expertise and scalable architecture, making the project-heavy resume the best fit.",
    "track_scores": {
     "software": 60
    }
@@ -1607,11 +1607,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 75,
+   "score": 72,
    "reasons": [
     "title: full stack",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1626,7 +1625,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: Bosch is a large-scale product company that values the robust backend architecture and full-stack expertise highlighted in the technical resume.",
    "track_scores": {
-    "software": 65
+    "software": 60
    }
   },
   {

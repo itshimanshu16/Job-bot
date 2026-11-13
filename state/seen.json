@@ -265,7 +265,7 @@
  },
  "lever:fampay:a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c": {
   "first_seen": "2026-11-04T12:13:33+00:00",
-  "last_seen": "2026-11-13T01:08:54+00:00",
+  "last_seen": "2026-11-13T12:18:22+00:00",
   "llm": {
    "reason": "The role is strictly focused on HR/People Operations and payroll compliance, which does not align with the candidate's supply chain planning and analytics profile.",
    "resume": "Supply_chain.pdf",
@@ -283,7 +283,7 @@
  },
  "smartrecruiters:averydennison:744000158502829": {
   "first_seen": "2026-10-29T15:16:11+00:00",
-  "last_seen": "2026-11-13T01:08:54+00:00",
+  "last_seen": "2026-11-13T12:18:22+00:00",
   "llm": {
    "reason": "The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
    "resume": "Supply_chain.pdf",
@@ -735,7 +735,7 @@
  },
  "smartrecruiters:boschgroup:744000158014599": {
   "first_seen": "2026-10-27T20:44:36+00:00",
-  "last_seen": "2026-11-13T01:08:54+00:00",
+  "last_seen": "2026-11-13T12:18:22+00:00",
   "llm": {
    "reason": "The role requires product controlling and business analysis, which aligns perfectly with the candidate's experience in SQL forecasting, cohort analysis, and data-driven strategy.",
    "resume": "Himanshu_Gautam_Trinity.pdf",
@@ -789,7 +789,7 @@
  },
  "smartrecruiters:boschgroup:744000159306949": {
   "first_seen": "2026-11-03T11:59:04+00:00",
-  "last_seen": "2026-11-13T01:08:54+00:00",
+  "last_seen": "2026-11-13T12:18:22+00:00",
   "llm": {
    "reason": "The job targets IT operations support rather than supply chain planning and analytics.",
    "resume": "Supply_chain.pdf",
@@ -807,7 +807,7 @@
  },
  "smartrecruiters:boschgroup:744000160600719": {
   "first_seen": "2026-11-09T18:52:01+00:00",
-  "last_seen": "2026-11-13T01:08:54+00:00",
+  "last_seen": "2026-11-13T12:18:22+00:00",
   "llm": {
    "reason": "Bosch is a large-scale product company that values both robust full-stack capabilities and the technical depth shown in the project-focused resume.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -825,7 +825,7 @@
  },
  "smartrecruiters:boschgroup:744000160603388": {
   "first_seen": "2026-11-09T18:52:01+00:00",
-  "last_seen": "2026-11-13T01:08:54+00:00",
+  "last_seen": "2026-11-13T12:18:22+00:00",
   "llm": {
    "reason": "The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
    "resume": "HCLTech_Resume.pdf",
@@ -843,7 +843,7 @@
  },
  "smartrecruiters:boschgroup:744000160794268": {
   "first_seen": "2026-11-10T12:43:22+00:00",
-  "last_seen": "2026-11-13T01:08:54+00:00",
+  "last_seen": "2026-11-13T12:18:22+00:00",
   "llm": {
    "reason": "Bosch is a large-scale product company that values the robust backend architecture and full-stack expertise highlighted in the technical resume.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -1041,7 +1041,7 @@
  },
  "smartrecruiters:servicenow:744000161221879": {
   "first_seen": "2026-11-12T07:18:16+00:00",
-  "last_seen": "2026-11-13T01:08:54+00:00",
+  "last_seen": "2026-11-13T12:18:22+00:00",
   "llm": {
    "reason": "ServiceNow is a top-tier product company seeking software engineers, which fits the candidate's strong full-stack project background.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -1071,6 +1071,24 @@
     "reason": "ServiceNow is a top-tier product company seeking software engineers, making the pure SDE resume ideal.",
     "resume": "HIMANSHU_FINAL_TECH.pdf",
     "score": 90,
+    "track": "software"
+   }
+  }
+ },
+ "smartrecruiters:servicenow:744000161432929": {
+  "first_seen": "2026-11-13T12:18:22+00:00",
+  "last_seen": "2026-11-13T12:18:22+00:00",
+  "llm": {
+   "reason": "ServiceNow is a product-based company that values full-stack expertise and scalable architecture, making the project-heavy resume the best fit.",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "score": 85,
+   "track": "software"
+  },
+  "llm_tracks": {
+   "software": {
+    "reason": "ServiceNow is a product-based company that values full-stack expertise and scalable architecture, making the project-heavy resume the best fit.",
+    "resume": "HIMANSHU_FINAL_TECH.pdf",
+    "score": 85,
     "track": "software"
    }
   }
