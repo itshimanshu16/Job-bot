@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-14T06:33:34+00:00",
+  "generated": "2026-11-14T15:08:53+00:00",
   "first_run": false,
-  "total_fetched": 17011,
+  "total_fetched": 17007,
   "boards_ok": 139,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 100,
+    "count": 99,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 186,
+    "count": 185,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 26,
+    "count": 25,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2031,
+    "count": 2032,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 553,
+    "count": 552,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 598,
+    "count": 594,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 403,
+    "count": 404,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 362,
+    "count": 364,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15585,
-   "location not wanted": 571,
-   "excluded title word (e.g. senior/manager)": 738,
-   "asks for more experience than max_years_experience": 22,
-   "older than max_age_days": 88
+   "role keywords not matched": 15584,
+   "location not wanted": 570,
+   "older than max_age_days": 88,
+   "asks for more experience than max_years_experience": 21,
+   "excluded title word (e.g. senior/manager)": 737
   },
   "notes": [],
   "keywords": [
