@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-14T15:08:53+00:00",
+  "generated": "2026-11-14T20:46:13+00:00",
   "first_run": false,
-  "total_fetched": 17007,
+  "total_fetched": 17005,
   "boards_ok": 139,
   "boards": [
    {
@@ -794,7 +794,7 @@
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5092,
+    "count": 5091,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2032,
+    "count": 2030,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 439,
+    "count": 440,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15584,
+   "role keywords not matched": 15582,
    "location not wanted": 570,
+   "excluded title word (e.g. senior/manager)": 737,
    "older than max_age_days": 88,
-   "asks for more experience than max_years_experience": 21,
-   "excluded title word (e.g. senior/manager)": 737
+   "asks for more experience than max_years_experience": 21
   },
   "notes": [],
   "keywords": [
