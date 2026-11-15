@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-14T20:46:13+00:00",
+  "generated": "2026-11-15T06:41:53+00:00",
   "first_run": false,
-  "total_fetched": 17005,
+  "total_fetched": 16977,
   "boards_ok": 139,
   "boards": [
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 115,
+    "count": 114,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 2030,
+    "count": 2006,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 564,
+    "count": 561,
     "error": ""
    },
    {
@@ -1345,7 +1345,7 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15582,
+   "role keywords not matched": 15553,
    "location not wanted": 570,
    "excluded title word (e.g. senior/manager)": 737,
    "older than max_age_days": 88,
@@ -1524,6 +1524,41 @@
    "resume_reason": "AI pick: The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
    "track_scores": {
     "supply_chain": 73
+   }
+  },
+  {
+   "uid": "smartrecruiters:hmgroup:744000161672089",
+   "source": "smartrecruiters",
+   "company": "H&M Group",
+   "title": "Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/HMGroup/744000161672089",
+   "apply_url": "https://jobs.smartrecruiters.com/HMGroup/744000161672089",
+   "location": "Bangalore, Karnataka, India",
+   "remote": false,
+   "posted": "2026-11-15T05:22:40.557000+00:00",
+   "department": "H&M",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 75,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-11-15T06:41:53+00:00",
+   "llm_score": 85,
+   "llm_reason": "H&M is a large-scale product company where the candidate's full-stack experience and LLM/data-scraping projects align well with modern enterprise software engineering requirements.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: H&M is a large-scale product company where the candidate's full-stack experience and LLM/data-scraping projects align well with modern enterprise software engineering requirements.",
+   "track_scores": {
+    "software": 65
    }
   },
   {
