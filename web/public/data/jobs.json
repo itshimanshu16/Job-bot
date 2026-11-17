@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-17T02:57:52+00:00",
+  "generated": "2026-11-17T13:31:59+00:00",
   "first_run": false,
-  "total_fetched": 16990,
+  "total_fetched": 16968,
   "boards_ok": 140,
   "boards": [
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 147,
+    "count": 148,
     "error": ""
    },
    {
@@ -80,14 +80,14 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 91,
+    "count": 90,
     "error": ""
    },
    {
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 75,
+    "count": 71,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 64,
+    "count": 66,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 41,
+    "count": 44,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 261,
+    "count": 259,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 182,
+    "count": 181,
     "error": ""
    },
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 54,
+    "count": 56,
     "error": ""
    },
    {
@@ -227,7 +227,7 @@
     "source": "greenhouse",
     "slug": "glance",
     "company": "Glance",
-    "count": 33,
+    "count": 27,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 105,
+    "count": 106,
     "error": ""
    },
    {
@@ -269,21 +269,21 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 156,
+    "count": 154,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 77,
+    "count": 75,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 216,
+    "count": 215,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 357,
+    "count": 360,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 196,
+    "count": 198,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 18,
+    "count": 17,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 189,
+    "count": 188,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 40,
+    "count": 42,
     "error": ""
    },
    {
@@ -472,7 +472,7 @@
     "source": "greenhouse",
     "slug": "squarepointcapital",
     "company": "Squarepoint Capital",
-    "count": 90,
+    "count": 88,
     "error": ""
    },
    {
@@ -507,14 +507,14 @@
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 41,
+    "count": 38,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 111,
+    "count": 115,
     "error": ""
    },
    {
@@ -549,7 +549,7 @@
     "source": "greenhouse",
     "slug": "worldquant",
     "company": "WorldQuant",
-    "count": 81,
+    "count": 80,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 49,
+    "count": 51,
     "error": ""
    },
    {
@@ -612,7 +612,7 @@
     "source": "lever",
     "slug": "fampay",
     "company": "Fampay",
-    "count": 17,
+    "count": 15,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 48,
+    "count": 47,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 481,
+    "count": 478,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5071,
+    "count": 5064,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 121,
+    "count": 115,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1987,
+    "count": 1985,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 600,
+    "count": 601,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 558,
+    "count": 550,
     "error": ""
    },
    {
@@ -983,7 +983,7 @@
     "source": "smartrecruiters",
     "slug": "ixigo",
     "company": "ixigo",
-    "count": 10,
+    "count": 9,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 602,
+    "count": 599,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 399,
+    "count": 405,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 820,
+    "count": 842,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 102,
+    "count": 98,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 331,
+    "count": 328,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 363,
+    "count": 356,
     "error": ""
    },
    {
@@ -1270,7 +1270,7 @@
     "source": "workable",
     "slug": "exponent-energy",
     "company": "Exponent Energy",
-    "count": 67,
+    "count": 68,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15547,
-   "location not wanted": 574,
-   "excluded title word (e.g. senior/manager)": 748,
+   "role keywords not matched": 15530,
+   "location not wanted": 573,
    "asks for more experience than max_years_experience": 22,
-   "older than max_age_days": 87
+   "excluded title word (e.g. senior/manager)": 748,
+   "older than max_age_days": 84
   },
   "notes": [],
   "keywords": [
@@ -1527,37 +1527,38 @@
    }
   },
   {
-   "uid": "smartrecruiters:servicenow:744000161760969",
+   "uid": "smartrecruiters:sutherland:744000161998729",
    "source": "smartrecruiters",
-   "company": "ServiceNow",
-   "title": "Software Engineer",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161760969",
-   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000161760969",
-   "location": "Hyderabad, , India",
+   "company": "Sutherland",
+   "title": "Software Full stack Developer",
+   "url": "https://jobs.smartrecruiters.com/Sutherland/744000161998729",
+   "apply_url": "https://jobs.smartrecruiters.com/Sutherland/744000161998729",
+   "location": "Bengaluru, KA, India",
    "remote": false,
-   "posted": "2026-11-16T09:36:59.974000+00:00",
-   "department": "Engineering, Infrastructure and Operations",
+   "posted": "2026-11-17T05:58:02.016000+00:00",
+   "department": "",
    "employment_type": "Full-time",
-   "seniority": "Not Applicable",
-   "score": 72,
+   "seniority": "Associate",
+   "score": 75,
    "reasons": [
-    "title: software engineer",
+    "title: full stack",
     "location: india",
-    "posted in last 3 days"
+    "posted in last 3 days",
+    "asks ≤1 yrs"
    ],
    "flags": [],
-   "min_years": null,
+   "min_years": 1,
    "is_new": true,
-   "first_seen": "2026-11-16T18:37:54+00:00",
+   "first_seen": "2026-11-17T13:31:59+00:00",
    "llm_score": 85,
-   "llm_reason": "ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
+   "llm_reason": "The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
    "snippet": "",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
+   "resume_reason": "AI pick: The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
    "track_scores": {
-    "software": 60
+    "software": 65
    }
   },
   {
@@ -1573,7 +1574,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 72,
+   "score": 70,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -1591,7 +1592,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: Bosch is a large-scale product company that values the robust backend architecture and full-stack expertise highlighted in the technical resume.",
    "track_scores": {
-    "software": 60
+    "software": 55
    }
   },
   {
@@ -1629,39 +1630,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:boschgroup:744000158014599",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "IN_RBAI_Business Analyst - Product Controlling_IN",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158014599",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000158014599",
-   "location": "Bengaluru, KA, India",
-   "remote": false,
-   "posted": "2026-10-27T10:54:13.766000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Not Applicable",
-   "score": 68,
-   "reasons": [
-    "title: business analyst",
-    "location: india"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-10-27T20:44:36+00:00",
-   "llm_score": 85,
-   "llm_reason": "The role requires product controlling and business analysis, which aligns perfectly with the candidate's experience in SQL forecasting, cohort analysis, and data-driven strategy.",
-   "snippet": "",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "Himanshu_Gautam_Trinity.pdf",
-   "resume_reason": "AI pick: The role requires product controlling and business analysis, which aligns perfectly with the candidate's experience in SQL forecasting, cohort analysis, and data-driven strategy.",
-   "track_scores": {
-    "analyst": 50
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000161732674",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1684,7 +1652,7 @@
    ],
    "flags": [],
    "min_years": 1,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-16T06:39:16+00:00",
    "llm_score": 65,
    "llm_reason": "The role aligns with the candidate's warehouse and inventory analytics experience, though it is a functional 'Key-user' role rather than a pure planning/analytics role.",
