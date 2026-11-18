@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-18T07:37:06+00:00",
+  "generated": "2026-11-18T17:18:14+00:00",
   "first_run": false,
-  "total_fetched": 16901,
+  "total_fetched": 16909,
   "boards_ok": 140,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 96,
+    "count": 95,
     "error": ""
    },
    {
@@ -80,14 +80,14 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 90,
+    "count": 89,
     "error": ""
    },
    {
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 66,
+    "count": 59,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 256,
+    "count": 255,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 183,
+    "count": 182,
     "error": ""
    },
    {
@@ -185,14 +185,14 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 56,
+    "count": 57,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 207,
+    "count": 208,
     "error": ""
    },
    {
@@ -206,7 +206,7 @@
     "source": "greenhouse",
     "slug": "fourkites",
     "company": "FourKites",
-    "count": 12,
+    "count": 11,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 109,
+    "count": 108,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 152,
+    "count": 153,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 199,
+    "count": 201,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 25,
+    "count": 28,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 195,
+    "count": 199,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 42,
+    "count": 43,
     "error": ""
    },
    {
@@ -500,14 +500,14 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 145,
+    "count": 144,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 35,
+    "count": 31,
     "error": ""
    },
    {
@@ -577,14 +577,14 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 51,
+    "count": 50,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 15,
+    "count": 13,
     "error": ""
    },
    {
@@ -682,7 +682,7 @@
     "source": "lever",
     "slug": "netomi",
     "company": "Netomi",
-    "count": 21,
+    "count": 19,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 196,
+    "count": 194,
     "error": ""
    },
    {
@@ -710,7 +710,7 @@
     "source": "lever",
     "slug": "pocketfm",
     "company": "Pocketfm",
-    "count": 11,
+    "count": 12,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 476,
+    "count": 470,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5079,
+    "count": 5100,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 113,
+    "count": 116,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1970,
+    "count": 1953,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 601,
+    "count": 602,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 541,
+    "count": 548,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 283,
+    "count": 284,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 541,
+    "count": 542,
     "error": ""
    },
    {
@@ -1053,7 +1053,7 @@
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 402,
+    "count": 403,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 835,
+    "count": 840,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 327,
+    "count": 328,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 361,
+    "count": 362,
     "error": ""
    },
    {
@@ -1346,10 +1346,10 @@
   ],
   "drops": {
    "role keywords not matched": 15472,
-   "location not wanted": 573,
-   "excluded title word (e.g. senior/manager)": 734,
-   "older than max_age_days": 84,
-   "asks for more experience than max_years_experience": 25
+   "older than max_age_days": 87,
+   "location not wanted": 584,
+   "excluded title word (e.g. senior/manager)": 730,
+   "asks for more experience than max_years_experience": 22
   },
   "notes": [],
   "keywords": [
@@ -1491,6 +1491,44 @@
  },
  "jobs": [
   {
+   "uid": "greenhouse:thirdbridge:5041274101",
+   "source": "greenhouse",
+   "company": "Third Bridge",
+   "title": "Data Operations Analyst",
+   "url": "https://job-boards.eu.greenhouse.io/thirdbridge/jobs/5041274101?gh_jid=5041274101",
+   "apply_url": "https://job-boards.eu.greenhouse.io/thirdbridge/jobs/5041274101?gh_jid=5041274101",
+   "location": "Mumbai",
+   "remote": null,
+   "posted": "2026-11-18T12:49:57+00:00",
+   "department": "Data",
+   "employment_type": "",
+   "seniority": "",
+   "score": 80,
+   "reasons": [
+    "title: operations analyst",
+    "location: mumbai",
+    "posted in last 3 days",
+    "no experience required",
+    "mentions freshers",
+    "skills: excel"
+   ],
+   "flags": [],
+   "min_years": 0,
+   "is_new": true,
+   "first_seen": "2026-11-18T17:18:14+00:00",
+   "llm_score": 85,
+   "llm_reason": "The candidate's strong background in market research, data organization, and stakeholder communication aligns perfectly with the operational and research-heavy nature of this role.",
+   "snippet": "Third Bridge is a leading global research firm established in 2007, with a team of over 1,500 employees worldwide dedicated to fueling decisions with expert insights . We accelerate and enhance decision-making for investors and business leaders by unearthing unique expert insights across multiple sectors, geographies, and topics.\nFor nearly 20 years, we’ve helped clients access knowledge on demand",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "INTERN_ADDED_NON_TECH.pdf",
+   "resume_reason": "AI pick: The candidate's strong background in market research, data organization, and stakeholder communication aligns perfectly with the operational and research-heavy nature of this role.",
+   "track_scores": {
+    "analyst": 76,
+    "supply_chain": 76
+   }
+  },
+  {
    "uid": "smartrecruiters:averydennison:744000158502829",
    "source": "smartrecruiters",
    "company": "Avery Dennison",
@@ -1583,7 +1621,7 @@
    ],
    "flags": [],
    "min_years": 1,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-17T13:31:59+00:00",
    "llm_score": 85,
    "llm_reason": "The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
