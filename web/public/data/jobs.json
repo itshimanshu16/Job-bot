@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-17T23:32:05+00:00",
+  "generated": "2026-11-18T07:37:06+00:00",
   "first_run": false,
-  "total_fetched": 16915,
+  "total_fetched": 16901,
   "boards_ok": 140,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 95,
+    "count": 96,
     "error": ""
    },
    {
@@ -87,7 +87,7 @@
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 68,
+    "count": 66,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 66,
+    "count": 65,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 258,
+    "count": 256,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 205,
+    "count": 207,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 108,
+    "count": 109,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 153,
+    "count": 152,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 52,
+    "count": 51,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 200,
+    "count": 196,
     "error": ""
    },
    {
@@ -787,28 +787,28 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 479,
+    "count": 476,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "BoschGroup",
     "company": "Bosch Group",
-    "count": 5075,
+    "count": 5079,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 115,
+    "count": 113,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1975,
+    "count": 1970,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 542,
+    "count": 541,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 544,
+    "count": 541,
     "error": ""
    },
    {
@@ -1046,7 +1046,7 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 601,
+    "count": 602,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 834,
+    "count": 835,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 441,
+    "count": 442,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15483,
-   "location not wanted": 572,
-   "excluded title word (e.g. senior/manager)": 741,
-   "older than max_age_days": 85,
-   "asks for more experience than max_years_experience": 23
+   "role keywords not matched": 15472,
+   "location not wanted": 573,
+   "excluded title word (e.g. senior/manager)": 734,
+   "older than max_age_days": 84,
+   "asks for more experience than max_years_experience": 25
   },
   "notes": [],
   "keywords": [
@@ -1527,6 +1527,41 @@
    }
   },
   {
+   "uid": "smartrecruiters:boschgroup:744000162221730",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "Demand Planner - North",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162221730",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000162221730",
+   "location": "New Delhi, DL, India",
+   "remote": false,
+   "posted": "2026-11-18T05:36:58.978000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 75,
+   "reasons": [
+    "title: demand planner",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-11-18T07:37:06+00:00",
+   "llm_score": 85,
+   "llm_reason": "The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
+   "snippet": "",
+   "track": "supply_chain",
+   "track_label": "Supply Chain & Operations",
+   "resume": "Supply_chain.pdf",
+   "resume_reason": "AI pick: The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
+   "track_scores": {
+    "supply_chain": 65
+   }
+  },
+  {
    "uid": "smartrecruiters:sutherland:744000161998729",
    "source": "smartrecruiters",
    "company": "Sutherland",
@@ -1559,6 +1594,40 @@
    "resume_reason": "AI pick: The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
    "track_scores": {
     "software": 65
+   }
+  },
+  {
+   "uid": "smartrecruiters:servicenow:744000162226349",
+   "source": "smartrecruiters",
+   "company": "ServiceNow",
+   "title": "Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000162226349",
+   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000162226349",
+   "location": "Hyderabad, , India",
+   "remote": false,
+   "posted": "2026-11-18T06:34:42.094000+00:00",
+   "department": "Engineering, Infrastructure and Operations",
+   "employment_type": "Full-time",
+   "seniority": "Not Applicable",
+   "score": 72,
+   "reasons": [
+    "title: software engineer",
+    "location: india",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-18T07:37:06+00:00",
+   "llm_score": 85,
+   "llm_reason": "ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
+   "track_scores": {
+    "software": 60
    }
   },
   {
@@ -1756,7 +1825,7 @@
    ],
    "flags": [],
    "min_years": null,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-17T02:57:52+00:00",
    "llm_score": 15,
    "llm_reason": "The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
@@ -1857,7 +1926,7 @@
    ],
    "flags": [],
    "min_years": null,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-17T02:57:52+00:00",
    "llm_score": 0,
    "llm_reason": "The job description explicitly states it is a test posting and not a valid position to apply for.",
