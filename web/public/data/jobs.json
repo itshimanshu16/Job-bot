@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-19T01:53:35+00:00",
+  "generated": "2026-11-19T13:20:00+00:00",
   "first_run": false,
-  "total_fetched": 16893,
+  "total_fetched": 16913,
   "boards_ok": 140,
   "boards": [
    {
@@ -87,7 +87,7 @@
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 57,
+    "count": 54,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 65,
+    "count": 66,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 182,
+    "count": 186,
     "error": ""
    },
    {
@@ -185,7 +185,7 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 56,
+    "count": 54,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 154,
+    "count": 153,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 75,
+    "count": 78,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 28,
+    "count": 30,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 200,
+    "count": 202,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 43,
+    "count": 45,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 143,
+    "count": 145,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 47,
+    "count": 48,
     "error": ""
    },
    {
@@ -682,7 +682,7 @@
     "source": "lever",
     "slug": "netomi",
     "company": "Netomi",
-    "count": 19,
+    "count": 18,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 194,
+    "count": 197,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 30,
+    "count": 31,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 467,
+    "count": 465,
     "error": ""
    },
    {
@@ -801,14 +801,14 @@
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 117,
+    "count": 123,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1941,
+    "count": 1934,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 607,
+    "count": 606,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 548,
+    "count": 544,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 549,
+    "count": 547,
     "error": ""
    },
    {
@@ -983,7 +983,7 @@
     "source": "smartrecruiters",
     "slug": "ixigo",
     "company": "ixigo",
-    "count": 9,
+    "count": 8,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 603,
+    "count": 606,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 400,
+    "count": 417,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 441,
+    "count": 440,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 324,
+    "count": 322,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15455,
-   "older than max_age_days": 86,
-   "location not wanted": 584,
-   "excluded title word (e.g. senior/manager)": 731,
-   "asks for more experience than max_years_experience": 23
+   "role keywords not matched": 15467,
+   "location not wanted": 583,
+   "excluded title word (e.g. senior/manager)": 740,
+   "older than max_age_days": 84,
+   "asks for more experience than max_years_experience": 24
   },
   "notes": [],
   "keywords": [
@@ -1491,80 +1491,6 @@
  },
  "jobs": [
   {
-   "uid": "greenhouse:thirdbridge:5041274101",
-   "source": "greenhouse",
-   "company": "Third Bridge",
-   "title": "Data Operations Analyst",
-   "url": "https://job-boards.eu.greenhouse.io/thirdbridge/jobs/5041274101?gh_jid=5041274101",
-   "apply_url": "https://job-boards.eu.greenhouse.io/thirdbridge/jobs/5041274101?gh_jid=5041274101",
-   "location": "Mumbai",
-   "remote": null,
-   "posted": "2026-11-18T12:49:57+00:00",
-   "department": "Data",
-   "employment_type": "",
-   "seniority": "",
-   "score": 80,
-   "reasons": [
-    "title: operations analyst",
-    "location: mumbai",
-    "posted in last 3 days",
-    "no experience required",
-    "mentions freshers",
-    "skills: excel"
-   ],
-   "flags": [],
-   "min_years": 0,
-   "is_new": true,
-   "first_seen": "2026-11-18T17:18:14+00:00",
-   "llm_score": 85,
-   "llm_reason": "The candidate's strong background in market research, data organization, and stakeholder communication aligns perfectly with the operational and research-heavy nature of this role.",
-   "snippet": "Third Bridge is a leading global research firm established in 2007, with a team of over 1,500 employees worldwide dedicated to fueling decisions with expert insights . We accelerate and enhance decision-making for investors and business leaders by unearthing unique expert insights across multiple sectors, geographies, and topics.\nFor nearly 20 years, we’ve helped clients access knowledge on demand",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "INTERN_ADDED_NON_TECH.pdf",
-   "resume_reason": "AI pick: The candidate's strong background in market research, data organization, and stakeholder communication aligns perfectly with the operational and research-heavy nature of this role.",
-   "track_scores": {
-    "analyst": 76,
-    "supply_chain": 76
-   }
-  },
-  {
-   "uid": "smartrecruiters:averydennison:744000158502829",
-   "source": "smartrecruiters",
-   "company": "Avery Dennison",
-   "title": "Inventory Planner",
-   "url": "https://jobs.smartrecruiters.com/AveryDennison/744000158502829",
-   "apply_url": "https://jobs.smartrecruiters.com/AveryDennison/744000158502829",
-   "location": "Bangalore, Karnataka, India",
-   "remote": false,
-   "posted": "2026-10-29T12:09:43.770000+00:00",
-   "department": "Supply Chain",
-   "employment_type": "Full-time",
-   "seniority": "Entry Level",
-   "score": 79,
-   "reasons": [
-    "title: inventory planner",
-    "location: india",
-    "no experience required",
-    "early-career role",
-    "skills: inventory"
-   ],
-   "flags": [],
-   "min_years": 0,
-   "is_new": false,
-   "first_seen": "2026-10-29T15:16:11+00:00",
-   "llm_score": 85,
-   "llm_reason": "The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
-   "snippet": "",
-   "track": "supply_chain",
-   "track_label": "Supply Chain & Operations",
-   "resume": "Supply_chain.pdf",
-   "resume_reason": "AI pick: The candidate's specific experience with ABC-XYZ inventory segmentation and safety stock modeling aligns perfectly with the core responsibilities of an Inventory Planner.",
-   "track_scores": {
-    "supply_chain": 73
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000162221730",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1586,7 +1512,7 @@
    ],
    "flags": [],
    "min_years": 1,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-18T07:37:06+00:00",
    "llm_score": 85,
    "llm_reason": "The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
@@ -1635,35 +1561,35 @@
    }
   },
   {
-   "uid": "smartrecruiters:servicenow:744000162226349",
-   "source": "smartrecruiters",
-   "company": "ServiceNow",
-   "title": "Software Engineer",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000162226349",
-   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000162226349",
-   "location": "Hyderabad, , India",
-   "remote": false,
-   "posted": "2026-11-18T06:34:42.094000+00:00",
-   "department": "Engineering, Infrastructure and Operations",
-   "employment_type": "Full-time",
-   "seniority": "Not Applicable",
+   "uid": "lever:paytm:0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8",
+   "source": "lever",
+   "company": "Paytm",
+   "title": "Backend - Intern ( SEA & Europe)",
+   "url": "https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8",
+   "apply_url": "https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8/apply",
+   "location": "Noida, Uttar Pradesh",
+   "remote": true,
+   "posted": "2026-11-19T08:51:58.189000+00:00",
+   "department": "SEA & Europe",
+   "employment_type": "Intern",
+   "seniority": "",
    "score": 72,
    "reasons": [
-    "title: software engineer",
-    "location: india",
+    "title: backend",
+    "location: noida",
     "posted in last 3 days"
    ],
    "flags": [],
    "min_years": null,
    "is_new": true,
-   "first_seen": "2026-11-18T07:37:06+00:00",
+   "first_seen": "2026-11-19T13:20:00+00:00",
    "llm_score": 85,
-   "llm_reason": "ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
+   "llm_reason": "The role aligns with the candidate's backend stack (Node/Express/SQL), and this resume highlights the necessary technical depth in Redis and queue management required for backend engineering.",
    "snippet": "",
    "track": "software",
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
+   "resume_reason": "AI pick: The role aligns with the candidate's backend stack (Node/Express/SQL), and this resume highlights the necessary technical depth in Redis and queue management required for backend engineering.",
    "track_scores": {
     "software": 60
    }
@@ -1749,11 +1675,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 66,
+   "score": 64,
    "reasons": [
     "title: warehouse",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs",
     "skills: warehouse"
    ],
@@ -1769,7 +1694,7 @@
    "resume": "Supply_chain.pdf",
    "resume_reason": "AI pick: The role aligns with the candidate's warehouse and inventory analytics experience, though it is a functional 'Key-user' role rather than a pure planning/analytics role.",
    "track_scores": {
-    "supply_chain": 68
+    "supply_chain": 63
    }
   },
   {
@@ -1837,6 +1762,76 @@
    "track_label": "Software / Full-stack",
    "resume": "HCLTech_Resume.pdf",
    "resume_reason": "AI pick: The candidate is a full-stack developer, while this role is for test automation, making it a poor alignment with their core skills and career goals.",
+   "track_scores": {
+    "software": 65
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000162443139",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "VM Brakes - ASW Algorithm Software Developer [Indian OEM]-",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162443139",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000162443139",
+   "location": "pune, , India",
+   "remote": false,
+   "posted": "2026-11-19T06:19:12.866000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 42,
+   "reasons": [
+    "title: software developer",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-11-19T13:20:00+00:00",
+   "llm_score": 20,
+   "llm_reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HCLTech_Resume.pdf",
+   "resume_reason": "AI pick: The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
+   "track_scores": {
+    "software": 65
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000162442879",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "VM Brakes - ASW Algorithm Software Developer [Indian OEM]-",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162442879",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000162442879",
+   "location": "pune, , India",
+   "remote": false,
+   "posted": "2026-11-19T06:18:04.363000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 42,
+   "reasons": [
+    "title: software developer",
+    "location: india",
+    "posted in last 3 days",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-11-19T13:20:00+00:00",
+   "llm_score": 20,
+   "llm_reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HCLTech_Resume.pdf",
+   "resume_reason": "AI pick: The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
    "track_scores": {
     "software": 65
    }
