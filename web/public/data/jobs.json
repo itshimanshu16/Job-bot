@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-19T13:20:00+00:00",
+  "generated": "2026-11-19T23:05:00+00:00",
   "first_run": false,
-  "total_fetched": 16913,
+  "total_fetched": 16926,
   "boards_ok": 140,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 92,
+    "count": 88,
     "error": ""
    },
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 147,
+    "count": 148,
     "error": ""
    },
    {
@@ -87,7 +87,7 @@
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 54,
+    "count": 38,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 66,
+    "count": 67,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 255,
+    "count": 253,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 186,
+    "count": 189,
     "error": ""
    },
    {
@@ -178,7 +178,7 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 27,
+    "count": 28,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 207,
+    "count": 209,
     "error": ""
    },
    {
@@ -248,7 +248,7 @@
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 105,
+    "count": 106,
     "error": ""
    },
    {
@@ -269,7 +269,7 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 153,
+    "count": 152,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 21,
+    "count": 23,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 145,
+    "count": 147,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 109,
+    "count": 107,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 86,
+    "count": 87,
     "error": ""
    },
    {
@@ -577,14 +577,14 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 50,
+    "count": 47,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 13,
+    "count": 12,
     "error": ""
    },
    {
@@ -710,7 +710,7 @@
     "source": "lever",
     "slug": "pocketfm",
     "company": "Pocketfm",
-    "count": 12,
+    "count": 10,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 31,
+    "count": 32,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 465,
+    "count": 468,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1934,
+    "count": 1936,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 544,
+    "count": 545,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 283,
+    "count": 281,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 547,
+    "count": 552,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 606,
+    "count": 610,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 417,
+    "count": 422,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 836,
+    "count": 841,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 440,
+    "count": 442,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 94,
+    "count": 96,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 363,
+    "count": 365,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15467,
-   "location not wanted": 583,
-   "excluded title word (e.g. senior/manager)": 740,
+   "role keywords not matched": 15486,
    "older than max_age_days": 84,
-   "asks for more experience than max_years_experience": 24
+   "location not wanted": 582,
+   "excluded title word (e.g. senior/manager)": 735,
+   "asks for more experience than max_years_experience": 25
   },
   "notes": [],
   "keywords": [
@@ -1744,11 +1744,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 48,
+   "score": 45,
    "reasons": [
     "title: automation engineer",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1763,7 +1762,7 @@
    "resume": "HCLTech_Resume.pdf",
    "resume_reason": "AI pick: The candidate is a full-stack developer, while this role is for test automation, making it a poor alignment with their core skills and career goals.",
    "track_scores": {
-    "software": 65
+    "software": 60
    }
   },
   {
