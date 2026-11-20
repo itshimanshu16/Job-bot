@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-19T23:05:00+00:00",
+  "generated": "2026-11-20T07:23:53+00:00",
   "first_run": false,
-  "total_fetched": 16926,
+  "total_fetched": 16903,
   "boards_ok": 140,
   "boards": [
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 90,
+    "count": 91,
     "error": ""
    },
    {
@@ -178,7 +178,7 @@
     "source": "greenhouse",
     "slug": "druva",
     "company": "Druva",
-    "count": 28,
+    "count": 27,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 209,
+    "count": 210,
     "error": ""
    },
    {
@@ -227,14 +227,14 @@
     "source": "greenhouse",
     "slug": "glance",
     "company": "Glance",
-    "count": 27,
+    "count": 26,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "gravitonresearchcapital",
     "company": "Graviton Research Capital LLP",
-    "count": 20,
+    "count": 19,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 365,
+    "count": 366,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 202,
+    "count": 204,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 147,
+    "count": 146,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 87,
+    "count": 86,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 47,
+    "count": 46,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 468,
+    "count": 463,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1936,
+    "count": 1919,
     "error": ""
    },
    {
@@ -822,7 +822,7 @@
     "source": "smartrecruiters",
     "slug": "Walmart30",
     "company": "Walmart",
-    "count": 606,
+    "count": 605,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 545,
+    "count": 544,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 552,
+    "count": 553,
     "error": ""
    },
    {
@@ -983,7 +983,7 @@
     "source": "smartrecruiters",
     "slug": "ixigo",
     "company": "ixigo",
-    "count": 8,
+    "count": 7,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 841,
+    "count": 842,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 442,
+    "count": 441,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 96,
+    "count": 95,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 322,
+    "count": 325,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 365,
+    "count": 364,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 162,
+    "count": 163,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15486,
+   "role keywords not matched": 15473,
    "older than max_age_days": 84,
-   "location not wanted": 582,
-   "excluded title word (e.g. senior/manager)": 735,
+   "location not wanted": 579,
+   "excluded title word (e.g. senior/manager)": 730,
    "asks for more experience than max_years_experience": 25
   },
   "notes": [],
@@ -1538,11 +1538,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 75,
+   "score": 72,
    "reasons": [
     "title: full stack",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1556,40 +1555,6 @@
    "track_label": "Software / Full-stack",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
-   "track_scores": {
-    "software": 65
-   }
-  },
-  {
-   "uid": "lever:paytm:0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8",
-   "source": "lever",
-   "company": "Paytm",
-   "title": "Backend - Intern ( SEA & Europe)",
-   "url": "https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8",
-   "apply_url": "https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8/apply",
-   "location": "Noida, Uttar Pradesh",
-   "remote": true,
-   "posted": "2026-11-19T08:51:58.189000+00:00",
-   "department": "SEA & Europe",
-   "employment_type": "Intern",
-   "seniority": "",
-   "score": 72,
-   "reasons": [
-    "title: backend",
-    "location: noida",
-    "posted in last 3 days"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": true,
-   "first_seen": "2026-11-19T13:20:00+00:00",
-   "llm_score": 85,
-   "llm_reason": "The role aligns with the candidate's backend stack (Node/Express/SQL), and this resume highlights the necessary technical depth in Redis and queue management required for backend engineering.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The role aligns with the candidate's backend stack (Node/Express/SQL), and this resume highlights the necessary technical depth in Redis and queue management required for backend engineering.",
    "track_scores": {
     "software": 60
    }
@@ -1732,40 +1697,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:sutherland:744000161849779",
-   "source": "smartrecruiters",
-   "company": "Sutherland",
-   "title": "Test Automation Engineer",
-   "url": "https://jobs.smartrecruiters.com/Sutherland/744000161849779",
-   "apply_url": "https://jobs.smartrecruiters.com/Sutherland/744000161849779",
-   "location": "Bengaluru, KA, India",
-   "remote": false,
-   "posted": "2026-11-16T15:49:22.434000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 45,
-   "reasons": [
-    "title: automation engineer",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-11-16T18:37:54+00:00",
-   "llm_score": 30,
-   "llm_reason": "The candidate is a full-stack developer, while this role is for test automation, making it a poor alignment with their core skills and career goals.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HCLTech_Resume.pdf",
-   "resume_reason": "AI pick: The candidate is a full-stack developer, while this role is for test automation, making it a poor alignment with their core skills and career goals.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000162443139",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1836,41 +1767,6 @@
    }
   },
   {
-   "uid": "greenhouse:rubrik:8349847",
-   "source": "greenhouse",
-   "company": "Rubrik Job Board",
-   "title": "Software Engineer",
-   "url": "https://www.rubrik.com/company/careers/departments/job.8349847?gh_jid=8349847",
-   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8349847?gh_jid=8349847",
-   "location": "bangalore",
-   "remote": null,
-   "posted": "2026-11-17T00:01:13+00:00",
-   "department": "Engineering",
-   "employment_type": "",
-   "seniority": "",
-   "score": 39,
-   "reasons": [
-    "title: software engineer",
-    "location: bangalore",
-    "posted in last 3 days",
-    "skills: redis"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-11-17T02:57:52+00:00",
-   "llm_score": 15,
-   "llm_reason": "The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
-   "snippet": "Location : Pune\nAbout Team & About Role:\nAs a Software Engineer (SE) in the Continuous Product Delivery (CPD) team, you will play a key role in providing long term stability and last mile delight to our customers. You will work closely with the core engineering team, product, and support org.\nYou will be working across Rubrik releases on our on-premise data backup & management offering, with a foc",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
-   "track_scores": {
-    "software": 63
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000160603388",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1902,6 +1798,40 @@
    "resume_reason": "AI pick: The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
    "track_scores": {
     "software": 55
+   }
+  },
+  {
+   "uid": "greenhouse:rubrik:8349847",
+   "source": "greenhouse",
+   "company": "Rubrik Job Board",
+   "title": "Software Engineer",
+   "url": "https://www.rubrik.com/company/careers/departments/job.8349847?gh_jid=8349847",
+   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8349847?gh_jid=8349847",
+   "location": "bangalore",
+   "remote": null,
+   "posted": "2026-11-17T00:01:13+00:00",
+   "department": "Engineering",
+   "employment_type": "",
+   "seniority": "",
+   "score": 36,
+   "reasons": [
+    "title: software engineer",
+    "location: bangalore",
+    "skills: redis"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": false,
+   "first_seen": "2026-11-17T02:57:52+00:00",
+   "llm_score": 15,
+   "llm_reason": "The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
+   "snippet": "Location : Pune\nAbout Team & About Role:\nAs a Software Engineer (SE) in the Continuous Product Delivery (CPD) team, you will play a key role in providing long term stability and last mile delight to our customers. You will work closely with the core engineering team, product, and support org.\nYou will be working across Rubrik releases on our on-premise data backup & management offering, with a foc",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
+   "track_scores": {
+    "software": 58
    }
   },
   {
