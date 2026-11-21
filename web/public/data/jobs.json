@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-21T01:33:53+00:00",
+  "generated": "2026-11-21T12:43:32+00:00",
   "first_run": false,
-  "total_fetched": 17044,
+  "total_fetched": 17031,
   "boards_ok": 140,
   "boards": [
    {
@@ -87,7 +87,7 @@
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 23,
+    "count": 18,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 253,
+    "count": 252,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 213,
+    "count": 212,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 375,
+    "count": 372,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 207,
+    "count": 208,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 108,
+    "count": 109,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 460,
+    "count": 461,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1903,
+    "count": 1894,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 548,
+    "count": 547,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 556,
+    "count": 553,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 614,
+    "count": 612,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 415,
+    "count": 412,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 986,
+    "count": 998,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 330,
+    "count": 329,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 365,
+    "count": 366,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15629,
+   "role keywords not matched": 15614,
    "older than max_age_days": 81,
    "location not wanted": 576,
-   "excluded title word (e.g. senior/manager)": 723,
+   "excluded title word (e.g. senior/manager)": 726,
    "asks for more experience than max_years_experience": 22
   },
   "notes": [],
@@ -1503,11 +1503,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 75,
+   "score": 72,
    "reasons": [
     "title: demand planner",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1522,41 +1521,7 @@
    "resume": "Supply_chain.pdf",
    "resume_reason": "AI pick: The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
    "track_scores": {
-    "supply_chain": 65
-   }
-  },
-  {
-   "uid": "smartrecruiters:servicenow:744000162697254",
-   "source": "smartrecruiters",
-   "company": "ServiceNow",
-   "title": "Software Engineer",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000162697254",
-   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000162697254",
-   "location": "Hyderabad, , India",
-   "remote": false,
-   "posted": "2026-11-20T10:13:46.658000+00:00",
-   "department": "Engineering, Infrastructure and Operations",
-   "employment_type": "Full-time",
-   "seniority": "Not Applicable",
-   "score": 72,
-   "reasons": [
-    "title: software engineer",
-    "location: india",
-    "posted in last 3 days"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": true,
-   "first_seen": "2026-11-20T16:59:54+00:00",
-   "llm_score": 85,
-   "llm_reason": "ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: ServiceNow is a large-scale product company that values full-stack expertise and high-performance backend systems, making the project-heavy resume the best fit.",
-   "track_scores": {
-    "software": 60
+    "supply_chain": 60
    }
   },
   {
@@ -1869,6 +1834,40 @@
    }
   },
   {
+   "uid": "ashby:thoughtworks:02a6d274-7747-442c-847c-4c24a391548c",
+   "source": "ashby",
+   "company": "Thoughtworks",
+   "title": "UAT-Referral Consultant:County:Developer:Front-end Developer",
+   "url": "https://jobs.ashbyhq.com/thoughtworks/02a6d274-7747-442c-847c-4c24a391548c",
+   "apply_url": "https://jobs.ashbyhq.com/thoughtworks/02a6d274-7747-442c-847c-4c24a391548c/application",
+   "location": "Chennai; Perth",
+   "remote": false,
+   "posted": "2026-11-21T08:32:13.169000+00:00",
+   "department": "01_TWROU Professional Services",
+   "employment_type": "Full time",
+   "seniority": "",
+   "score": 30,
+   "reasons": [
+    "title: front-end",
+    "location: chennai",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": false,
+   "first_seen": "2026-11-17T02:57:52+00:00",
+   "llm_score": 0,
+   "llm_reason": "The job description explicitly states it is a test posting and not a valid position to apply for.",
+   "snippet": "This is a test Job, please look for another positions to apply\n\n<h2 id='responsible-ai-use'>Responsible Use of AI in Recruitment</h2><div class=\"responsible-ai-use content\"><p>At Thoughtworks, we use AI tools to support our recruitment team with administrative tasks such as drafting communications, scheduling interviews and writing job descriptions.<br><br>Crucially, our AI tools do not screen, as",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The job description explicitly states it is a test posting and not a valid position to apply for.",
+   "track_scores": {
+    "software": 60
+   }
+  },
+  {
    "uid": "lever:fampay:a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c",
    "source": "lever",
    "company": "Fampay",
@@ -1900,39 +1899,6 @@
    "resume_reason": "AI pick: The role is strictly focused on HR/People Operations and payroll compliance, which does not align with the candidate's supply chain planning and analytics profile.",
    "track_scores": {
     "supply_chain": 56
-   }
-  },
-  {
-   "uid": "ashby:thoughtworks:02a6d274-7747-442c-847c-4c24a391548c",
-   "source": "ashby",
-   "company": "Thoughtworks",
-   "title": "UAT-Referral Consultant:County:Developer:Front-end Developer",
-   "url": "https://jobs.ashbyhq.com/thoughtworks/02a6d274-7747-442c-847c-4c24a391548c",
-   "apply_url": "https://jobs.ashbyhq.com/thoughtworks/02a6d274-7747-442c-847c-4c24a391548c/application",
-   "location": "Chennai; Hyderabad; Bangalore - Koramangala",
-   "remote": false,
-   "posted": "2026-11-05T10:33:36.086000+00:00",
-   "department": "01_TWROU Professional Services",
-   "employment_type": "Full time",
-   "seniority": "",
-   "score": 25,
-   "reasons": [
-    "title: front-end",
-    "location: bangalore"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-11-17T02:57:52+00:00",
-   "llm_score": 0,
-   "llm_reason": "The job description explicitly states it is a test posting and not a valid position to apply for.",
-   "snippet": "This is a test Job, please look for another positions to apply\n\n<h2 id='responsible-ai-use'>Responsible Use of AI in Recruitment</h2><div class=\"responsible-ai-use content\"><p>At Thoughtworks, we use AI tools to support our recruitment team with administrative tasks such as drafting communications, scheduling interviews and writing job descriptions.<br><br>Crucially, our AI tools do not screen, as",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job description explicitly states it is a test posting and not a valid position to apply for.",
-   "track_scores": {
-    "software": 50
    }
   }
  ]
