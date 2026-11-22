@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-21T21:40:56+00:00",
+  "generated": "2026-11-22T06:57:50+00:00",
   "first_run": false,
-  "total_fetched": 17017,
+  "total_fetched": 16994,
   "boards_ok": 140,
   "boards": [
    {
@@ -241,7 +241,7 @@
     "source": "greenhouse",
     "slug": "groww",
     "company": "Groww",
-    "count": 9,
+    "count": 8,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 16,
+    "count": 15,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 461,
+    "count": 460,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1887,
+    "count": 1870,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 547,
+    "count": 546,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 280,
+    "count": 279,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 998,
+    "count": 997,
     "error": ""
    },
    {
@@ -1345,9 +1345,9 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15600,
-   "location not wanted": 576,
-   "excluded title word (e.g. senior/manager)": 726,
+   "role keywords not matched": 15577,
+   "location not wanted": 577,
+   "excluded title word (e.g. senior/manager)": 725,
    "older than max_age_days": 81,
    "asks for more experience than max_years_experience": 22
   },
@@ -1708,11 +1708,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 42,
+   "score": 40,
    "reasons": [
     "title: software developer",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1727,7 +1726,7 @@
    "resume": "HCLTech_Resume.pdf",
    "resume_reason": "AI pick: The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
    "track_scores": {
-    "software": 65
+    "software": 60
    }
   },
   {
@@ -1743,11 +1742,10 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 42,
+   "score": 40,
    "reasons": [
     "title: software developer",
     "location: india",
-    "posted in last 3 days",
     "asks ≤1 yrs"
    ],
    "flags": [],
@@ -1762,7 +1760,7 @@
    "resume": "HCLTech_Resume.pdf",
    "resume_reason": "AI pick: The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
    "track_scores": {
-    "software": 65
+    "software": 60
    }
   },
   {
