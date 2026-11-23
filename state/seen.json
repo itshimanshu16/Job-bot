@@ -235,7 +235,7 @@
  },
  "greenhouse:rubrik:8349847": {
   "first_seen": "2026-11-17T02:57:52+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -317,6 +317,24 @@
    }
   }
  },
+ "lever:cred:913a6616-78c9-4ca3-8c92-67ddea8a80df": {
+  "first_seen": "2026-11-23T14:46:36+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
+  "llm": {
+   "reason": "The role requires 1-2 years of experience and heavy data analytics/fraud focus, whereas the candidate is a fresher with a full-stack focus, though their SQL internship and data background provide some overlap.",
+   "resume": "Tredence_New_Tech_1.pdf",
+   "score": 55,
+   "track": "software"
+  },
+  "llm_tracks": {
+   "software": {
+    "reason": "The role requires 1-2 years of experience and heavy data analytics/fraud focus, whereas the candidate is a fresher with a full-stack focus, though their SQL internship and data background provide some overlap.",
+    "resume": "Tredence_New_Tech_1.pdf",
+    "score": 55,
+    "track": "software"
+   }
+  }
+ },
  "lever:fampay:811d4537-ade2-43fa-83c5-e2d07839b402": {
   "first_seen": "2026-11-11T06:35:00+00:00",
   "last_seen": "2026-11-11T06:35:00+00:00",
@@ -337,7 +355,7 @@
  },
  "lever:fampay:a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c": {
   "first_seen": "2026-11-04T12:13:33+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "The role is strictly focused on HR/People Operations and payroll compliance, which does not align with the candidate's supply chain planning and analytics profile.",
    "resume": "Supply_chain.pdf",
@@ -879,7 +897,7 @@
  },
  "smartrecruiters:boschgroup:744000159306949": {
   "first_seen": "2026-11-03T11:59:04+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "The job targets IT operations support rather than supply chain planning and analytics.",
    "resume": "Supply_chain.pdf",
@@ -897,7 +915,7 @@
  },
  "smartrecruiters:boschgroup:744000160600719": {
   "first_seen": "2026-11-09T18:52:01+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "Bosch is a large-scale product company that values both robust full-stack capabilities and the technical depth shown in the project-focused resume.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -915,7 +933,7 @@
  },
  "smartrecruiters:boschgroup:744000160603388": {
   "first_seen": "2026-11-09T18:52:01+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
    "resume": "HCLTech_Resume.pdf",
@@ -933,7 +951,7 @@
  },
  "smartrecruiters:boschgroup:744000160794268": {
   "first_seen": "2026-11-10T12:43:22+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "Bosch is a large-scale product company that values the robust backend architecture and full-stack expertise highlighted in the technical resume.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -951,7 +969,7 @@
  },
  "smartrecruiters:boschgroup:744000161732674": {
   "first_seen": "2026-11-16T06:39:16+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "The role aligns with the candidate's warehouse and inventory analytics experience, though it is a functional 'Key-user' role rather than a pure planning/analytics role.",
    "resume": "Supply_chain.pdf",
@@ -969,7 +987,7 @@
  },
  "smartrecruiters:boschgroup:744000162221730": {
   "first_seen": "2026-11-18T07:37:06+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
    "resume": "Supply_chain.pdf",
@@ -987,7 +1005,7 @@
  },
  "smartrecruiters:boschgroup:744000162442879": {
   "first_seen": "2026-11-19T13:20:00+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
    "resume": "HCLTech_Resume.pdf",
@@ -1005,7 +1023,7 @@
  },
  "smartrecruiters:boschgroup:744000162443139": {
   "first_seen": "2026-11-19T13:20:00+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
    "resume": "HCLTech_Resume.pdf",
@@ -1327,6 +1345,42 @@
    }
   }
  },
+ "smartrecruiters:servicenow:744000163146999": {
+  "first_seen": "2026-11-23T14:46:36+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
+  "llm": {
+   "reason": "The job requires Go and Kubernetes, which do not match the candidate's TypeScript and React full-stack stack.",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "score": 25,
+   "track": "software"
+  },
+  "llm_tracks": {
+   "software": {
+    "reason": "The job requires Go and Kubernetes, which do not match the candidate's TypeScript and React full-stack stack.",
+    "resume": "HIMANSHU_FINAL_TECH.pdf",
+    "score": 25,
+    "track": "software"
+   }
+  }
+ },
+ "smartrecruiters:servicenow:744000163151029": {
+  "first_seen": "2026-11-23T14:46:36+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
+  "llm": {
+   "reason": "ServiceNow is a major product company hiring for a Software Engineer role, making the pure tech resume the best fit.",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "score": 90,
+   "track": "software"
+  },
+  "llm_tracks": {
+   "software": {
+    "reason": "ServiceNow is a major product company hiring for a Software Engineer role, making the pure tech resume the best fit.",
+    "resume": "HIMANSHU_FINAL_TECH.pdf",
+    "score": 90,
+    "track": "software"
+   }
+  }
+ },
  "smartrecruiters:sutherland:744000158477608": {
   "first_seen": "2026-10-29T15:16:11+00:00",
   "last_seen": "2026-11-04T12:13:33+00:00",
@@ -1365,7 +1419,7 @@
  },
  "smartrecruiters:sutherland:744000161998729": {
   "first_seen": "2026-11-17T13:31:59+00:00",
-  "last_seen": "2026-11-23T00:55:44+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
   "llm": {
    "reason": "The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -1378,6 +1432,24 @@
     "resume": "HIMANSHU_FINAL_TECH.pdf",
     "score": 85,
     "track": "software"
+   }
+  }
+ },
+ "smartrecruiters:thenielsencompany:3743990017030906": {
+  "first_seen": "2026-11-23T14:46:36+00:00",
+  "last_seen": "2026-11-23T14:46:36+00:00",
+  "llm": {
+   "reason": "The Nielsen Company is a data analytics firm well-suited for a mechanical engineering graduate with strong SQL and analytics internship experience.",
+   "resume": "Himanshu_Gautam_Trinity.pdf",
+   "score": 75,
+   "track": "analyst"
+  },
+  "llm_tracks": {
+   "analyst": {
+    "reason": "The Nielsen Company is a data analytics firm well-suited for a mechanical engineering graduate with strong SQL and analytics internship experience.",
+    "resume": "Himanshu_Gautam_Trinity.pdf",
+    "score": 75,
+    "track": "analyst"
    }
   }
  },
