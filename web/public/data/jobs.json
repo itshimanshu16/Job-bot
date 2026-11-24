@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-23T14:46:36+00:00",
+  "generated": "2026-11-24T02:55:31+00:00",
   "first_run": false,
-  "total_fetched": 16926,
+  "total_fetched": 16932,
   "boards_ok": 140,
   "boards": [
    {
@@ -24,7 +24,7 @@
     "source": "ashby",
     "slug": "cursor",
     "company": "Cursor",
-    "count": 89,
+    "count": 87,
     "error": ""
    },
    {
@@ -80,7 +80,7 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 89,
+    "count": 92,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 45,
+    "count": 44,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 251,
+    "count": 249,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 211,
+    "count": 208,
     "error": ""
    },
    {
@@ -206,7 +206,7 @@
     "source": "greenhouse",
     "slug": "fourkites",
     "company": "FourKites",
-    "count": 10,
+    "count": 11,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 152,
+    "count": 153,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 71,
+    "count": 70,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 374,
+    "count": 370,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 202,
+    "count": 201,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 217,
+    "count": 219,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 146,
+    "count": 145,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 109,
+    "count": 115,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 86,
+    "count": 85,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 41,
+    "count": 37,
     "error": ""
    },
    {
@@ -710,14 +710,14 @@
     "source": "lever",
     "slug": "pocketfm",
     "company": "Pocketfm",
-    "count": 11,
+    "count": 12,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "porter",
     "company": "Porter",
-    "count": 20,
+    "count": 11,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 456,
+    "count": 446,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1823,
+    "count": 1840,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 534,
+    "count": 547,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 280,
+    "count": 279,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 555,
+    "count": 560,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 614,
+    "count": 619,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 421,
+    "count": 419,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 1006,
+    "count": 1001,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 437,
+    "count": 434,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 98,
+    "count": 97,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 327,
+    "count": 328,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 356,
+    "count": 357,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 168,
+    "count": 169,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15522,
+   "role keywords not matched": 15529,
    "location not wanted": 567,
-   "excluded title word (e.g. senior/manager)": 724,
-   "asks for more experience than max_years_experience": 21,
-   "older than max_age_days": 77
+   "excluded title word (e.g. senior/manager)": 723,
+   "older than max_age_days": 77,
+   "asks for more experience than max_years_experience": 21
   },
   "notes": [],
   "keywords": [
@@ -1947,7 +1947,7 @@
    "department": "Engineering",
    "employment_type": "",
    "seniority": "",
-   "score": 36,
+   "score": 34,
    "reasons": [
     "title: software engineer",
     "location: bangalore",
@@ -1965,7 +1965,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
    "track_scores": {
-    "software": 58
+    "software": 53
    }
   },
   {
