@@ -1,10 +1,10 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-24T02:55:31+00:00",
+  "generated": "2026-11-24T14:55:50+00:00",
   "first_run": false,
-  "total_fetched": 16932,
-  "boards_ok": 140,
+  "total_fetched": 16913,
+  "boards_ok": 139,
   "boards": [
    {
     "source": "ashby",
@@ -80,14 +80,14 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 92,
+    "count": 91,
     "error": ""
    },
    {
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 2,
+    "count": 7,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 67,
+    "count": 68,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 188,
+    "count": 193,
     "error": ""
    },
    {
@@ -185,14 +185,14 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 56,
+    "count": 55,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 208,
+    "count": 207,
     "error": ""
    },
    {
@@ -227,7 +227,7 @@
     "source": "greenhouse",
     "slug": "glance",
     "company": "Glance",
-    "count": 24,
+    "count": 23,
     "error": ""
    },
    {
@@ -276,14 +276,14 @@
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 70,
+    "count": 67,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "janestreet",
     "company": "Jane Street",
-    "count": 216,
+    "count": 217,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 370,
+    "count": 371,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 29,
+    "count": 23,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 219,
+    "count": 223,
     "error": ""
    },
    {
@@ -437,7 +437,7 @@
     "source": "greenhouse",
     "slug": "sigmoid",
     "company": "Sigmoid",
-    "count": 45,
+    "count": 43,
     "error": ""
    },
    {
@@ -500,21 +500,21 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 145,
+    "count": 143,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "thoughtworks",
-    "company": "Thoughtworks",
-    "count": 31,
-    "error": ""
+    "company": "",
+    "count": 0,
+    "error": "board not found (check the company slug)"
    },
    {
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 115,
+    "count": 114,
     "error": ""
    },
    {
@@ -584,7 +584,7 @@
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 12,
+    "count": 11,
     "error": ""
    },
    {
@@ -675,7 +675,7 @@
     "source": "lever",
     "slug": "mindtickle",
     "company": "Mindtickle",
-    "count": 19,
+    "count": 20,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 190,
+    "count": 189,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 446,
+    "count": 448,
     "error": ""
    },
    {
@@ -801,14 +801,14 @@
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 121,
+    "count": 120,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1840,
+    "count": 1845,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 547,
+    "count": 545,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 279,
+    "count": 281,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 560,
+    "count": 561,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 619,
+    "count": 617,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 419,
+    "count": 434,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 1001,
+    "count": 994,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 434,
+    "count": 431,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 328,
+    "count": 332,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 357,
+    "count": 354,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 169,
+    "count": 172,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15529,
-   "location not wanted": 567,
-   "excluded title word (e.g. senior/manager)": 723,
-   "older than max_age_days": 77,
-   "asks for more experience than max_years_experience": 21
+   "role keywords not matched": 15510,
+   "location not wanted": 563,
+   "excluded title word (e.g. senior/manager)": 725,
+   "asks for more experience than max_years_experience": 22,
+   "older than max_age_days": 78
   },
   "notes": [],
   "keywords": [
@@ -1511,7 +1511,7 @@
    ],
    "flags": [],
    "min_years": null,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-23T14:46:36+00:00",
    "llm_score": 90,
    "llm_reason": "ServiceNow is a major product company hiring for a Software Engineer role, making the pure tech resume the best fit.",
@@ -1571,7 +1571,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 72,
+   "score": 70,
    "reasons": [
     "title: full stack",
     "location: india",
@@ -1589,7 +1589,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
    "track_scores": {
-    "software": 60
+    "software": 55
    }
   },
   {
@@ -1661,40 +1661,6 @@
    }
   },
   {
-   "uid": "smartrecruiters:thenielsencompany:3743990017030906",
-   "source": "smartrecruiters",
-   "company": "The Nielsen Company",
-   "title": "Data Analyst I",
-   "url": "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990017030906",
-   "apply_url": "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990017030906",
-   "location": "Bengaluru, , India",
-   "remote": false,
-   "posted": "2026-11-23T14:36:33.895000+00:00",
-   "department": "Data Science, Business Intelligence & Analytics",
-   "employment_type": "Full-time",
-   "seniority": "Not Applicable",
-   "score": 68,
-   "reasons": [
-    "title: data analyst",
-    "location: india",
-    "posted in last 3 days"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": true,
-   "first_seen": "2026-11-23T14:46:36+00:00",
-   "llm_score": 75,
-   "llm_reason": "The Nielsen Company is a data analytics firm well-suited for a mechanical engineering graduate with strong SQL and analytics internship experience.",
-   "snippet": "",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "Himanshu_Gautam_Trinity.pdf",
-   "resume_reason": "AI pick: The Nielsen Company is a data analytics firm well-suited for a mechanical engineering graduate with strong SQL and analytics internship experience.",
-   "track_scores": {
-    "analyst": 60
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000161732674",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1751,7 +1717,7 @@
    ],
    "flags": [],
    "min_years": 1,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-23T14:46:36+00:00",
    "llm_score": 55,
    "llm_reason": "The role requires 1-2 years of experience and heavy data analytics/fraud focus, whereas the candidate is a fresher with a full-stack focus, though their SQL internship and data background provide some overlap.",
@@ -1762,40 +1728,6 @@
    "resume_reason": "AI pick: The role requires 1-2 years of experience and heavy data analytics/fraud focus, whereas the candidate is a fresher with a full-stack focus, though their SQL internship and data background provide some overlap.",
    "track_scores": {
     "software": 58
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000159306949",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "Supply chain IT operations Support",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159306949",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000159306949",
-   "location": "bangalore, , India",
-   "remote": false,
-   "posted": "2026-11-03T07:12:16.964000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 50,
-   "reasons": [
-    "title: supply chain",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-11-03T11:59:04+00:00",
-   "llm_score": 45,
-   "llm_reason": "The job targets IT operations support rather than supply chain planning and analytics.",
-   "snippet": "",
-   "track": "supply_chain",
-   "track_label": "Supply Chain & Operations",
-   "resume": "Supply_chain.pdf",
-   "resume_reason": "AI pick: The job targets IT operations support rather than supply chain planning and analytics.",
-   "track_scores": {
-    "supply_chain": 55
    }
   },
   {
@@ -1819,7 +1751,7 @@
    ],
    "flags": [],
    "min_years": null,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-23T14:46:36+00:00",
    "llm_score": 25,
    "llm_reason": "The job requires Go and Kubernetes, which do not match the candidate's TypeScript and React full-stack stack.",
@@ -1901,6 +1833,40 @@
    }
   },
   {
+   "uid": "greenhouse:guidepoint:8959578002",
+   "source": "greenhouse",
+   "company": "Guidepoint",
+   "title": "US Credit Research Analyst",
+   "url": "https://job-boards.greenhouse.io/guidepoint/jobs/8959578002",
+   "apply_url": "https://job-boards.greenhouse.io/guidepoint/jobs/8959578002",
+   "location": "Mumbai, Maharashtra, India; Pune, Maharashtra, India",
+   "remote": null,
+   "posted": "2026-11-24T03:47:41+00:00",
+   "department": "Insights ",
+   "employment_type": "",
+   "seniority": "",
+   "score": 38,
+   "reasons": [
+    "title: research analyst",
+    "location: india",
+    "posted in last 3 days"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-24T14:55:50+00:00",
+   "llm_score": 15,
+   "llm_reason": "The job requires 4+ years of deep fundamental analyst experience in private equity or credit research, making it unsuitable for a fresher.",
+   "snippet": "Overview\nThe Insights product is an offering for Guidepoint's Institutional investment and corporate clients, now in its 9 th  year, that offers teleconferences, surveys, in-person events, along with a plethora of AI-facilitated data and content. The teleconferences live in a transcript library portal, which covers a wide of industries/topics that enables our clients to make informed decisions. Al",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "INTERN_ADDED_NON_TECH.pdf",
+   "resume_reason": "AI pick: The job requires 4+ years of deep fundamental analyst experience in private equity or credit research, making it unsuitable for a fresher.",
+   "track_scores": {
+    "analyst": 60
+   }
+  },
+  {
    "uid": "smartrecruiters:boschgroup:744000160603388",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1966,6 +1932,41 @@
    "resume_reason": "AI pick: The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
    "track_scores": {
     "software": 53
+   }
+  },
+  {
+   "uid": "lever:mindtickle:2f32712f-bc84-4485-b2fb-99e167f54e21",
+   "source": "lever",
+   "company": "Mindtickle",
+   "title": "SDE-III",
+   "url": "https://jobs.lever.co/mindtickle/2f32712f-bc84-4485-b2fb-99e167f54e21",
+   "apply_url": "https://jobs.lever.co/mindtickle/2f32712f-bc84-4485-b2fb-99e167f54e21/apply",
+   "location": "Pune, Maharashtra; Bengaluru, Karnataka",
+   "remote": false,
+   "posted": "2026-11-24T04:58:29.151000+00:00",
+   "department": "Engineering",
+   "employment_type": "Full-Time",
+   "seniority": "",
+   "score": 32,
+   "reasons": [
+    "title: sde",
+    "location: bengaluru",
+    "posted in last 3 days",
+    "skills: react"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-24T14:55:50+00:00",
+   "llm_score": 0,
+   "llm_reason": "The job requires senior-level industry experience (SDE-III), but the candidate is a fresher graduating in 2027.",
+   "snippet": "Who we are\nMindtickle is the market-leading revenue productivity platform that combines on-the-job learning and deal execution to drive more revenue per rep. We help revenue teams at world-class companies unleash their potential by providing a unified platform for conversation intelligence, training, coaching, and analytics. Recognized as a market leader by top industry analysts and ranked by G2 a",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The job requires senior-level industry experience (SDE-III), but the candidate is a fresher graduating in 2027.",
+   "track_scores": {
+    "software": 63
    }
   },
   {
