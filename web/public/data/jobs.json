@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-25T00:49:23+00:00",
+  "generated": "2026-11-25T14:29:38+00:00",
   "first_run": false,
-  "total_fetched": 16922,
+  "total_fetched": 16908,
   "boards_ok": 139,
   "boards": [
    {
@@ -80,14 +80,14 @@
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 89,
+    "count": 87,
     "error": ""
    },
    {
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 8,
+    "count": 20,
     "error": ""
    },
    {
@@ -143,7 +143,7 @@
     "source": "greenhouse",
     "slug": "coinbase",
     "company": "Coinbase",
-    "count": 248,
+    "count": 246,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 195,
+    "count": 194,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 208,
+    "count": 211,
     "error": ""
    },
    {
@@ -206,7 +206,7 @@
     "source": "greenhouse",
     "slug": "fourkites",
     "company": "FourKites",
-    "count": 11,
+    "count": 10,
     "error": ""
    },
    {
@@ -241,14 +241,14 @@
     "source": "greenhouse",
     "slug": "groww",
     "company": "Groww",
-    "count": 7,
+    "count": 8,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 104,
+    "count": 105,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 151,
+    "count": 152,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 66,
+    "count": 63,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 373,
+    "count": 369,
     "error": ""
    },
    {
@@ -381,7 +381,7 @@
     "source": "greenhouse",
     "slug": "point72",
     "company": "Point72 ",
-    "count": 202,
+    "count": 199,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 15,
+    "count": 16,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 23,
+    "count": 24,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 225,
+    "count": 228,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 144,
+    "count": 147,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 115,
+    "count": 112,
     "error": ""
    },
    {
@@ -542,7 +542,7 @@
     "source": "greenhouse",
     "slug": "wehrtyou",
     "company": "Hudson River Trading",
-    "count": 85,
+    "count": 86,
     "error": ""
    },
    {
@@ -612,7 +612,7 @@
     "source": "lever",
     "slug": "fampay",
     "company": "Fampay",
-    "count": 13,
+    "count": 12,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 189,
+    "count": 192,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 33,
+    "count": 37,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 444,
+    "count": 446,
     "error": ""
    },
    {
@@ -801,14 +801,14 @@
     "source": "smartrecruiters",
     "slug": "Freshworks",
     "company": "Freshworks",
-    "count": 121,
+    "count": 120,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1838,
+    "count": 1831,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 549,
+    "count": 543,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 562,
+    "count": 563,
     "error": ""
    },
    {
@@ -983,7 +983,7 @@
     "source": "smartrecruiters",
     "slug": "ixigo",
     "company": "ixigo",
-    "count": 7,
+    "count": 8,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 617,
+    "count": 608,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 440,
+    "count": 446,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 991,
+    "count": 973,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 434,
+    "count": 430,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 97,
+    "count": 99,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 333,
+    "count": 340,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 354,
+    "count": 355,
     "error": ""
    },
    {
@@ -1270,7 +1270,7 @@
     "source": "workable",
     "slug": "exponent-energy",
     "company": "Exponent Energy",
-    "count": 69,
+    "count": 65,
     "error": ""
    },
    {
@@ -1312,7 +1312,7 @@
     "source": "workable",
     "slug": "tiger-analytics",
     "company": "Tiger Analytics Inc.",
-    "count": 173,
+    "count": 174,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15517,
-   "location not wanted": 565,
-   "excluded title word (e.g. senior/manager)": 724,
-   "older than max_age_days": 78,
-   "asks for more experience than max_years_experience": 24
+   "role keywords not matched": 15500,
+   "location not wanted": 568,
+   "excluded title word (e.g. senior/manager)": 726,
+   "asks for more experience than max_years_experience": 24,
+   "older than max_age_days": 77
   },
   "notes": [],
   "keywords": [
@@ -1503,7 +1503,7 @@
    "department": "",
    "employment_type": "Full-time",
    "seniority": "Associate",
-   "score": 72,
+   "score": 70,
    "reasons": [
     "title: demand planner",
     "location: india",
@@ -1521,7 +1521,7 @@
    "resume": "Supply_chain.pdf",
    "resume_reason": "AI pick: The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
    "track_scores": {
-    "supply_chain": 60
+    "supply_chain": 55
    }
   },
   {
@@ -1933,40 +1933,6 @@
    "resume_reason": "AI pick: The job requires senior-level industry experience (SDE-III), but the candidate is a fresher graduating in 2027.",
    "track_scores": {
     "software": 63
-   }
-  },
-  {
-   "uid": "lever:fampay:a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c",
-   "source": "lever",
-   "company": "Fampay",
-   "title": "People Operations Associate",
-   "url": "https://jobs.lever.co/fampay/a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c",
-   "apply_url": "https://jobs.lever.co/fampay/a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c/apply",
-   "location": "Bengaluru",
-   "remote": false,
-   "posted": "2026-11-04T08:09:40.338000+00:00",
-   "department": "People",
-   "employment_type": "Full Time",
-   "seniority": "",
-   "score": 30,
-   "reasons": [
-    "title: operations associate",
-    "location: bengaluru",
-    "skills: excel, advanced excel"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-11-04T12:13:33+00:00",
-   "llm_score": 5,
-   "llm_reason": "The role is strictly focused on HR/People Operations and payroll compliance, which does not align with the candidate's supply chain planning and analytics profile.",
-   "snippet": "About Fam (previously FamPay)\n\nFam is India’s first payments app for everyone above 11. FamApp helps make online and offline payments through UPI and FamCard. We are on a mission to raise a new, financially aware generation, and drive 250 million+ young users in India to kickstart their financial journey super early in their life.\n\nWe’re reimagining how the next generation experiences fintech—goin",
-   "track": "supply_chain",
-   "track_label": "Supply Chain & Operations",
-   "resume": "Supply_chain.pdf",
-   "resume_reason": "AI pick: The role is strictly focused on HR/People Operations and payroll compliance, which does not align with the candidate's supply chain planning and analytics profile.",
-   "track_scores": {
-    "supply_chain": 56
    }
   }
  ]
