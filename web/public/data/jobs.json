@@ -1,16 +1,16 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-26T00:27:25+00:00",
+  "generated": "2026-11-26T13:57:50+00:00",
   "first_run": false,
-  "total_fetched": 16888,
+  "total_fetched": 16866,
   "boards_ok": 139,
   "boards": [
    {
     "source": "ashby",
     "slug": "atlan",
     "company": "Atlan",
-    "count": 7,
+    "count": 8,
     "error": ""
    },
    {
@@ -45,7 +45,7 @@
     "source": "ashby",
     "slug": "perplexity",
     "company": "Perplexity",
-    "count": 151,
+    "count": 150,
     "error": ""
    },
    {
@@ -73,21 +73,21 @@
     "source": "ashby",
     "slug": "signoz",
     "company": "Signoz",
-    "count": 13,
+    "count": 14,
     "error": ""
    },
    {
     "source": "ashby",
     "slug": "tekion",
     "company": "Tekion",
-    "count": 87,
+    "count": 86,
     "error": ""
    },
    {
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 25,
+    "count": 26,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 69,
+    "count": 70,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 44,
+    "count": 45,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 193,
+    "count": 190,
     "error": ""
    },
    {
@@ -185,14 +185,14 @@
     "source": "greenhouse",
     "slug": "dunnhumby",
     "company": "dunnhumby",
-    "count": 56,
+    "count": 54,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 211,
+    "count": 212,
     "error": ""
    },
    {
@@ -206,7 +206,7 @@
     "source": "greenhouse",
     "slug": "fourkites",
     "company": "FourKites",
-    "count": 10,
+    "count": 11,
     "error": ""
    },
    {
@@ -241,14 +241,14 @@
     "source": "greenhouse",
     "slug": "groww",
     "company": "Groww",
-    "count": 8,
+    "count": 9,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "guidepoint",
     "company": "Guidepoint",
-    "count": 106,
+    "count": 105,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 151,
+    "count": 149,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 63,
+    "count": 64,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 366,
+    "count": 361,
     "error": ""
    },
    {
@@ -395,7 +395,7 @@
     "source": "greenhouse",
     "slug": "project44",
     "company": "project44",
-    "count": 16,
+    "count": 15,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 24,
+    "count": 25,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 220,
+    "count": 222,
     "error": ""
    },
    {
@@ -472,7 +472,7 @@
     "source": "greenhouse",
     "slug": "squarepointcapital",
     "company": "Squarepoint Capital",
-    "count": 87,
+    "count": 88,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 149,
+    "count": 148,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 110,
+    "count": 113,
     "error": ""
    },
    {
@@ -549,7 +549,7 @@
     "source": "greenhouse",
     "slug": "worldquant",
     "company": "WorldQuant",
-    "count": 79,
+    "count": 78,
     "error": ""
    },
    {
@@ -577,14 +577,14 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 38,
+    "count": 40,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "cred",
     "company": "Cred",
-    "count": 11,
+    "count": 10,
     "error": ""
    },
    {
@@ -612,7 +612,7 @@
     "source": "lever",
     "slug": "fampay",
     "company": "Fampay",
-    "count": 12,
+    "count": 13,
     "error": ""
    },
    {
@@ -668,21 +668,21 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 48,
+    "count": 50,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "mindtickle",
     "company": "Mindtickle",
-    "count": 20,
+    "count": 17,
     "error": ""
    },
    {
     "source": "lever",
     "slug": "netomi",
     "company": "Netomi",
-    "count": 18,
+    "count": 17,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 192,
+    "count": 195,
     "error": ""
    },
    {
@@ -759,7 +759,7 @@
     "source": "lever",
     "slug": "zeta",
     "company": "Zeta",
-    "count": 37,
+    "count": 38,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 443,
+    "count": 437,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1821,
+    "count": 1810,
     "error": ""
    },
    {
@@ -878,14 +878,14 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 543,
+    "count": 546,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "deloitte6",
     "company": "Deloitte",
-    "count": 280,
+    "count": 279,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 555,
+    "count": 553,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 619,
+    "count": 618,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 435,
+    "count": 437,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 972,
+    "count": 973,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 430,
+    "count": 428,
     "error": ""
    },
    {
@@ -1158,7 +1158,7 @@
     "source": "smartrecruiters",
     "slug": "thenielsencompany",
     "company": "The Nielsen Company",
-    "count": 100,
+    "count": 99,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 340,
+    "count": 336,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 357,
+    "count": 356,
     "error": ""
    },
    {
@@ -1270,7 +1270,7 @@
     "source": "workable",
     "slug": "exponent-energy",
     "company": "Exponent Energy",
-    "count": 66,
+    "count": 65,
     "error": ""
    },
    {
@@ -1345,11 +1345,11 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15478,
-   "location not wanted": 563,
+   "role keywords not matched": 15456,
+   "older than max_age_days": 75,
+   "location not wanted": 561,
    "excluded title word (e.g. senior/manager)": 732,
-   "asks for more experience than max_years_experience": 24,
-   "older than max_age_days": 78
+   "asks for more experience than max_years_experience": 26
   },
   "notes": [],
   "keywords": [
@@ -1491,6 +1491,41 @@
  },
  "jobs": [
   {
+   "uid": "ashby:atlan:dbb8cec5-f9b8-46af-bbbe-9638c5646638",
+   "source": "ashby",
+   "company": "Atlan",
+   "title": "AI Native Builder - Frontend",
+   "url": "https://jobs.ashbyhq.com/atlan/dbb8cec5-f9b8-46af-bbbe-9638c5646638",
+   "apply_url": "https://jobs.ashbyhq.com/atlan/dbb8cec5-f9b8-46af-bbbe-9638c5646638/application",
+   "location": "India",
+   "remote": true,
+   "posted": "2026-11-26T08:06:11.586000+00:00",
+   "department": "Engineering",
+   "employment_type": "Full time",
+   "seniority": "",
+   "score": 80,
+   "reasons": [
+    "title: frontend",
+    "location: india",
+    "posted in last 3 days",
+    "skills: typescript, react, llm"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-26T13:57:50+00:00",
+   "llm_score": 90,
+   "llm_reason": "Strong React and TypeScript frontend skills paired with hands-on AI/LLM project experience make this a great product startup fit.",
+   "snippet": "WHO WE ARE\n\nAtlan is building the context layer for enterprise AI. Enterprises are pouring money into AI and most of it dies in production because the AI does not understand the business context around the data. That is the problem Atlan solves.\n\nGartner has named context the defining issue in enterprise AI, and calls context graphs the essential infrastructure for AI agents, naming Atlan one of t",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: Strong React and TypeScript frontend skills paired with hands-on AI/LLM project experience make this a great product startup fit.",
+   "track_scores": {
+    "software": 69
+   }
+  },
+  {
    "uid": "smartrecruiters:boschgroup:744000162221730",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1627,6 +1662,42 @@
    }
   },
   {
+   "uid": "lever:fampay:cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+   "source": "lever",
+   "company": "Fampay",
+   "title": "Backend Engineering Intern",
+   "url": "https://jobs.lever.co/fampay/cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+   "apply_url": "https://jobs.lever.co/fampay/cf014ef0-218a-4041-a238-ff91c7b9a5bc/apply",
+   "location": "Bengaluru",
+   "remote": false,
+   "posted": "2026-11-26T08:54:58.286000+00:00",
+   "department": "Engineering",
+   "employment_type": "Intern",
+   "seniority": "",
+   "score": 62,
+   "reasons": [
+    "title: backend",
+    "location: bengaluru",
+    "posted in last 3 days"
+   ],
+   "flags": [
+    "may require a CS/IT degree"
+   ],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-26T13:57:50+00:00",
+   "llm_score": 75,
+   "llm_reason": "Strong full-stack and backend project background fits the startup internship, though CS degree preference and Python/Go requirements are gaps.",
+   "snippet": "About this Role\n\nWe've got your back if you've got ours!\n\nWe take our internship program very seriously and hope to get our future team members from among our interns. You can take up as challenging a work as you are capable of. Our backend team is very strong, and you will get to learn a lot while helping us advance our backend systems.\n\nWe are looking for interns of the 1st order, those who get ",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: Strong full-stack and backend project background fits the startup internship, though CS degree preference and Python/Go requirements are gaps.",
+   "track_scores": {
+    "software": 50
+   }
+  },
+  {
    "uid": "smartrecruiters:boschgroup:744000161732674",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1662,38 +1733,41 @@
    }
   },
   {
-   "uid": "lever:cred:913a6616-78c9-4ca3-8c92-67ddea8a80df",
-   "source": "lever",
-   "company": "Cred",
-   "title": "fraud analytics engineer",
-   "url": "https://jobs.lever.co/cred/913a6616-78c9-4ca3-8c92-67ddea8a80df",
-   "apply_url": "https://jobs.lever.co/cred/913a6616-78c9-4ca3-8c92-67ddea8a80df/apply",
-   "location": "bengaluru",
-   "remote": false,
-   "posted": "2026-11-05T08:36:05.818000+00:00",
-   "department": "lending",
-   "employment_type": "full time",
+   "uid": "greenhouse:razorpaysoftwareprivatelimited:4757678005",
+   "source": "greenhouse",
+   "company": "Razorpay Software Private Limited",
+   "title": "Associate, Business Operations",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4757678005",
+   "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4757678005",
+   "location": "Bengaluru",
+   "remote": null,
+   "posted": "2026-11-26T06:04:36+00:00",
+   "department": "Banking Alliances",
+   "employment_type": "",
    "seniority": "",
-   "score": 56,
+   "score": 44,
    "reasons": [
-    "title: analytics engineer",
+    "title: business operations",
     "location: bengaluru",
-    "asks ≤1 yrs",
-    "skills: sql"
+    "posted in last 3 days",
+    "no experience required",
+    "mentions freshers"
    ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-11-23T14:46:36+00:00",
-   "llm_score": 55,
-   "llm_reason": "The role requires 1-2 years of experience and heavy data analytics/fraud focus, whereas the candidate is a fresher with a full-stack focus, though their SQL internship and data background provide some overlap.",
-   "snippet": "what is CRED?\n \nCRED is an exclusive community for India’s most trustworthy and creditworthy individuals, where the members are rewarded for good financial behavior. CRED was born out of a need to bring back the focus on a long lost virtue, one of trust, the idea being to create a community centered around this virtue. a community that constantly strives to become more virtuous in this regard till",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "Tredence_New_Tech_1.pdf",
-   "resume_reason": "AI pick: The role requires 1-2 years of experience and heavy data analytics/fraud focus, whereas the candidate is a fresher with a full-stack focus, though their SQL internship and data background provide some overlap.",
+   "flags": [
+    "asks for WhatsApp/Telegram contact"
+   ],
+   "min_years": 0,
+   "is_new": true,
+   "first_seen": "2026-11-26T13:57:50+00:00",
+   "llm_score": 45,
+   "llm_reason": "The role is for a Customer Support Executive in fintech, which is a lower fit for an analytical and strategy-focused B.Tech graduate targeting business analyst or consulting roles.",
+   "snippet": "Razorpay is one of India’s leading full-stack financial technology companies, powering the way businesses move, manage, and grow money. Founded in 2014 by Harshil Mathur and Shashank Kumar with a simple vision - to simplify payments for Indian businesses - we’ve since grown into a fintech powerhouse driving India’s digital payment revolution.\nRazorpay powers millions of businesses with a smarter, ",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "icic_1.pdf",
+   "resume_reason": "AI pick: The role is for a Customer Support Executive in fintech, which is a lower fit for an analytical and strategy-focused B.Tech graduate targeting business analyst or consulting roles.",
    "track_scores": {
-    "software": 58
+    "analyst": 43
    }
   },
   {
@@ -1709,11 +1783,10 @@
    "department": "Engineering, Infrastructure and Operations",
    "employment_type": "Full-time",
    "seniority": "Not Applicable",
-   "score": 42,
+   "score": 40,
    "reasons": [
     "title: software engineer",
-    "location: india",
-    "posted in last 3 days"
+    "location: india"
    ],
    "flags": [],
    "min_years": null,
@@ -1727,75 +1800,7 @@
    "resume": "HIMANSHU_FINAL_TECH.pdf",
    "resume_reason": "AI pick: The job requires Go and Kubernetes, which do not match the candidate's TypeScript and React full-stack stack.",
    "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000162443139",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "VM Brakes - ASW Algorithm Software Developer [Indian OEM]-",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162443139",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000162443139",
-   "location": "pune, , India",
-   "remote": false,
-   "posted": "2026-11-19T06:19:12.866000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: software developer",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-11-19T13:20:00+00:00",
-   "llm_score": 20,
-   "llm_reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HCLTech_Resume.pdf",
-   "resume_reason": "AI pick: The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
-   "track_scores": {
-    "software": 60
-   }
-  },
-  {
-   "uid": "smartrecruiters:boschgroup:744000162442879",
-   "source": "smartrecruiters",
-   "company": "Bosch Group",
-   "title": "VM Brakes - ASW Algorithm Software Developer [Indian OEM]-",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162442879",
-   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000162442879",
-   "location": "pune, , India",
-   "remote": false,
-   "posted": "2026-11-19T06:18:04.363000+00:00",
-   "department": "",
-   "employment_type": "Full-time",
-   "seniority": "Associate",
-   "score": 40,
-   "reasons": [
-    "title: software developer",
-    "location: india",
-    "asks ≤1 yrs"
-   ],
-   "flags": [],
-   "min_years": 1,
-   "is_new": false,
-   "first_seen": "2026-11-19T13:20:00+00:00",
-   "llm_score": 20,
-   "llm_reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
-   "snippet": "",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HCLTech_Resume.pdf",
-   "resume_reason": "AI pick: The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
-   "track_scores": {
-    "software": 60
+    "software": 55
    }
   },
   {
@@ -1830,6 +1835,74 @@
    "resume_reason": "AI pick: The job requires 4+ years of deep fundamental analyst experience in private equity or credit research, making it unsuitable for a fresher.",
    "track_scores": {
     "analyst": 60
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000162443139",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "VM Brakes - ASW Algorithm Software Developer [Indian OEM]-",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162443139",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000162443139",
+   "location": "pune, , India",
+   "remote": false,
+   "posted": "2026-11-19T06:19:12.866000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 38,
+   "reasons": [
+    "title: software developer",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-11-19T13:20:00+00:00",
+   "llm_score": 20,
+   "llm_reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HCLTech_Resume.pdf",
+   "resume_reason": "AI pick: The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
+   "track_scores": {
+    "software": 55
+   }
+  },
+  {
+   "uid": "smartrecruiters:boschgroup:744000162442879",
+   "source": "smartrecruiters",
+   "company": "Bosch Group",
+   "title": "VM Brakes - ASW Algorithm Software Developer [Indian OEM]-",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162442879",
+   "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000162442879",
+   "location": "pune, , India",
+   "remote": false,
+   "posted": "2026-11-19T06:18:04.363000+00:00",
+   "department": "",
+   "employment_type": "Full-time",
+   "seniority": "Associate",
+   "score": 38,
+   "reasons": [
+    "title: software developer",
+    "location: india",
+    "asks ≤1 yrs"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": false,
+   "first_seen": "2026-11-19T13:20:00+00:00",
+   "llm_score": 20,
+   "llm_reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
+   "snippet": "",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HCLTech_Resume.pdf",
+   "resume_reason": "AI pick: The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
+   "track_scores": {
+    "software": 55
    }
   },
   {
@@ -1933,6 +2006,45 @@
    "resume_reason": "AI pick: The job requires senior-level industry experience (SDE-III), but the candidate is a fresher graduating in 2027.",
    "track_scores": {
     "software": 63
+   }
+  },
+  {
+   "uid": "greenhouse:rubrik:8413157",
+   "source": "greenhouse",
+   "company": "Rubrik Job Board",
+   "title": "Software Engineer (UI) - Winter Intern",
+   "url": "https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157",
+   "apply_url": "https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157",
+   "location": "Bangalore",
+   "remote": null,
+   "posted": "2026-11-26T08:53:02+00:00",
+   "department": "Engineering",
+   "employment_type": "",
+   "seniority": "",
+   "score": 30,
+   "reasons": [
+    "title: software engineer",
+    "location: bangalore",
+    "posted in last 3 days",
+    "open to 2027 batch",
+    "skills: javascript, typescript, react, html, css"
+   ],
+   "flags": [
+    "asks for CGPA 8+ (resume shows 7.64)",
+    "may require a CS/IT degree"
+   ],
+   "min_years": null,
+   "is_new": true,
+   "first_seen": "2026-11-26T13:57:50+00:00",
+   "llm_score": 0,
+   "llm_reason": "The candidate is a Mechanical Engineering student, whereas the role requires Computer Science or related fields.",
+   "snippet": "About Company\nRubrik (NYSE: RBRK) is on a mission to secure the world’s data. With Zero Trust Data Security™, we help organizations achieve business resilience against cyberattacks, malicious insiders, and operational disruptions. Rubrik Security Cloud, powered by advanced AI and machine learning, secures data across enterprise, cloud, and SaaS applications - combining cyber resilience with genera",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The candidate is a Mechanical Engineering student, whereas the role requires Computer Science or related fields.",
+   "track_scores": {
+    "software": 60
    }
   }
  ]
