@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-27T00:38:15+00:00",
+  "generated": "2026-11-27T13:56:09+00:00",
   "first_run": false,
-  "total_fetched": 16860,
+  "total_fetched": 16821,
   "boards_ok": 139,
   "boards": [
    {
@@ -87,7 +87,7 @@
     "source": "ashby",
     "slug": "thoughtworks",
     "company": "Thoughtworks",
-    "count": 28,
+    "count": 31,
     "error": ""
    },
    {
@@ -101,7 +101,7 @@
     "source": "greenhouse",
     "slug": "alphasights",
     "company": "AlphaSights",
-    "count": 70,
+    "count": 69,
     "error": ""
    },
    {
@@ -115,7 +115,7 @@
     "source": "greenhouse",
     "slug": "arcesiumllc",
     "company": "Arcesium LLC",
-    "count": 45,
+    "count": 44,
     "error": ""
    },
    {
@@ -157,7 +157,7 @@
     "source": "greenhouse",
     "slug": "deliveroo",
     "company": "Deliveroo ",
-    "count": 192,
+    "count": 195,
     "error": ""
    },
    {
@@ -192,7 +192,7 @@
     "source": "greenhouse",
     "slug": "flexport",
     "company": "Flexport",
-    "count": 212,
+    "count": 211,
     "error": ""
    },
    {
@@ -269,14 +269,14 @@
     "source": "greenhouse",
     "slug": "imc",
     "company": "IMC",
-    "count": 149,
+    "count": 151,
     "error": ""
    },
    {
     "source": "greenhouse",
     "slug": "inmobi",
     "company": "InMobi ",
-    "count": 64,
+    "count": 63,
     "error": ""
    },
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 360,
+    "count": 363,
     "error": ""
    },
    {
@@ -409,7 +409,7 @@
     "source": "greenhouse",
     "slug": "razorpaysoftwareprivatelimited",
     "company": "Razorpay Software Private Limited",
-    "count": 25,
+    "count": 23,
     "error": ""
    },
    {
@@ -423,7 +423,7 @@
     "source": "greenhouse",
     "slug": "rubrik",
     "company": "Rubrik Job Board",
-    "count": 223,
+    "count": 221,
     "error": ""
    },
    {
@@ -451,7 +451,7 @@
     "source": "greenhouse",
     "slug": "slice",
     "company": "Slice",
-    "count": 23,
+    "count": 20,
     "error": ""
    },
    {
@@ -500,7 +500,7 @@
     "source": "greenhouse",
     "slug": "thirdbridge",
     "company": "Third Bridge",
-    "count": 149,
+    "count": 151,
     "error": ""
    },
    {
@@ -514,7 +514,7 @@
     "source": "greenhouse",
     "slug": "twilio",
     "company": "Twilio",
-    "count": 113,
+    "count": 114,
     "error": ""
    },
    {
@@ -577,7 +577,7 @@
     "source": "lever",
     "slug": "coupa",
     "company": "Coupa",
-    "count": 40,
+    "count": 42,
     "error": ""
    },
    {
@@ -668,7 +668,7 @@
     "source": "lever",
     "slug": "meesho",
     "company": "Meesho",
-    "count": 60,
+    "count": 63,
     "error": ""
    },
    {
@@ -696,7 +696,7 @@
     "source": "lever",
     "slug": "paytm",
     "company": "Paytm",
-    "count": 197,
+    "count": 198,
     "error": ""
    },
    {
@@ -787,7 +787,7 @@
     "source": "smartrecruiters",
     "slug": "AveryDennison",
     "company": "Avery Dennison",
-    "count": 433,
+    "count": 428,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1794,
+    "count": 1758,
     "error": ""
    },
    {
@@ -878,7 +878,7 @@
     "source": "smartrecruiters",
     "slug": "continental",
     "company": "Continental",
-    "count": 544,
+    "count": 543,
     "error": ""
    },
    {
@@ -920,7 +920,7 @@
     "source": "smartrecruiters",
     "slug": "expeditors",
     "company": "Expeditors",
-    "count": 551,
+    "count": 546,
     "error": ""
    },
    {
@@ -1046,14 +1046,14 @@
     "source": "smartrecruiters",
     "slug": "nagarro1",
     "company": "Nagarro",
-    "count": 628,
+    "count": 631,
     "error": ""
    },
    {
     "source": "smartrecruiters",
     "slug": "nielseniq",
     "company": "NielsenIQ",
-    "count": 429,
+    "count": 422,
     "error": ""
    },
    {
@@ -1109,7 +1109,7 @@
     "source": "smartrecruiters",
     "slug": "servicenow",
     "company": "ServiceNow",
-    "count": 972,
+    "count": 969,
     "error": ""
    },
    {
@@ -1130,7 +1130,7 @@
     "source": "smartrecruiters",
     "slug": "sutherland",
     "company": "Sutherland",
-    "count": 428,
+    "count": 429,
     "error": ""
    },
    {
@@ -1186,7 +1186,7 @@
     "source": "smartrecruiters",
     "slug": "westerndigital",
     "company": "Western Digital",
-    "count": 337,
+    "count": 334,
     "error": ""
    },
    {
@@ -1207,7 +1207,7 @@
     "source": "smartrecruiters",
     "slug": "wnsglobalservices144",
     "company": "WNS Global Services",
-    "count": 356,
+    "count": 364,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15453,
+   "role keywords not matched": 15409,
    "older than max_age_days": 76,
-   "location not wanted": 559,
-   "excluded title word (e.g. senior/manager)": 732,
+   "location not wanted": 562,
+   "excluded title word (e.g. senior/manager)": 733,
    "asks for more experience than max_years_experience": 24
   },
   "notes": [],
@@ -1490,6 +1490,41 @@
   }
  },
  "jobs": [
+  {
+   "uid": "lever:meesho:73db1822-f3de-4f9f-a2b3-944ea0b03702",
+   "source": "lever",
+   "company": "Meesho",
+   "title": "Software Engineer I - Backend  (Kirana Club)",
+   "url": "https://jobs.lever.co/meesho/73db1822-f3de-4f9f-a2b3-944ea0b03702",
+   "apply_url": "https://jobs.lever.co/meesho/73db1822-f3de-4f9f-a2b3-944ea0b03702/apply",
+   "location": "Bangalore, Karnataka",
+   "remote": false,
+   "posted": "2026-11-18T11:54:54.336000+00:00",
+   "department": "All teams",
+   "employment_type": "Full Time Employee",
+   "seniority": "",
+   "score": 81,
+   "reasons": [
+    "title: software engineer, backend",
+    "location: bangalore",
+    "asks ≤1 yrs",
+    "skills: typescript, react, next.js, sql"
+   ],
+   "flags": [],
+   "min_years": 1,
+   "is_new": true,
+   "first_seen": "2026-11-27T13:56:09+00:00",
+   "llm_score": 85,
+   "llm_reason": "The role perfectly aligns with the candidate's full-stack project experience and AI-integration skills, though the candidate is slightly under the 1-year experience requirement.",
+   "snippet": "About the Team\nWe're a small engineering team, so scope is wide and ownership is real. You'll ship to production in your first week, and every\nweek after that.\nEvery engineering role here is back-end-leaning fullstack. Most of your time goes into services, data models and APIs, but you\nown your work all the way to the screen — and the screen should look like someone cared. If frontend hasn't been ",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The role perfectly aligns with the candidate's full-stack project experience and AI-integration skills, though the candidate is slightly under the 1-year experience requirement.",
+   "track_scores": {
+    "software": 77
+   }
+  },
   {
    "uid": "ashby:atlan:dbb8cec5-f9b8-46af-bbbe-9638c5646638",
    "source": "ashby",
@@ -1804,40 +1839,6 @@
    }
   },
   {
-   "uid": "greenhouse:guidepoint:8959578002",
-   "source": "greenhouse",
-   "company": "Guidepoint",
-   "title": "US Credit Research Analyst",
-   "url": "https://job-boards.greenhouse.io/guidepoint/jobs/8959578002",
-   "apply_url": "https://job-boards.greenhouse.io/guidepoint/jobs/8959578002",
-   "location": "Mumbai, Maharashtra, India; Pune, Maharashtra, India",
-   "remote": null,
-   "posted": "2026-11-24T03:47:41+00:00",
-   "department": "Insights ",
-   "employment_type": "",
-   "seniority": "",
-   "score": 38,
-   "reasons": [
-    "title: research analyst",
-    "location: india",
-    "posted in last 3 days"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-11-24T14:55:50+00:00",
-   "llm_score": 15,
-   "llm_reason": "The job requires 4+ years of deep fundamental analyst experience in private equity or credit research, making it unsuitable for a fresher.",
-   "snippet": "Overview\nThe Insights product is an offering for Guidepoint's Institutional investment and corporate clients, now in its 9 th  year, that offers teleconferences, surveys, in-person events, along with a plethora of AI-facilitated data and content. The teleconferences live in a transcript library portal, which covers a wide of industries/topics that enables our clients to make informed decisions. Al",
-   "track": "analyst",
-   "track_label": "Analyst & Consulting",
-   "resume": "INTERN_ADDED_NON_TECH.pdf",
-   "resume_reason": "AI pick: The job requires 4+ years of deep fundamental analyst experience in private equity or credit research, making it unsuitable for a fresher.",
-   "track_scores": {
-    "analyst": 60
-   }
-  },
-  {
    "uid": "smartrecruiters:boschgroup:744000162443139",
    "source": "smartrecruiters",
    "company": "Bosch Group",
@@ -1940,6 +1941,39 @@
    }
   },
   {
+   "uid": "greenhouse:guidepoint:8959578002",
+   "source": "greenhouse",
+   "company": "Guidepoint",
+   "title": "US Credit Research Analyst",
+   "url": "https://job-boards.greenhouse.io/guidepoint/jobs/8959578002",
+   "apply_url": "https://job-boards.greenhouse.io/guidepoint/jobs/8959578002",
+   "location": "Mumbai, Maharashtra, India; Pune, Maharashtra, India",
+   "remote": null,
+   "posted": "2026-11-24T03:47:41+00:00",
+   "department": "Insights ",
+   "employment_type": "",
+   "seniority": "",
+   "score": 35,
+   "reasons": [
+    "title: research analyst",
+    "location: india"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": false,
+   "first_seen": "2026-11-24T14:55:50+00:00",
+   "llm_score": 15,
+   "llm_reason": "The job requires 4+ years of deep fundamental analyst experience in private equity or credit research, making it unsuitable for a fresher.",
+   "snippet": "Overview\nThe Insights product is an offering for Guidepoint's Institutional investment and corporate clients, now in its 9 th  year, that offers teleconferences, surveys, in-person events, along with a plethora of AI-facilitated data and content. The teleconferences live in a transcript library portal, which covers a wide of industries/topics that enables our clients to make informed decisions. Al",
+   "track": "analyst",
+   "track_label": "Analyst & Consulting",
+   "resume": "INTERN_ADDED_NON_TECH.pdf",
+   "resume_reason": "AI pick: The job requires 4+ years of deep fundamental analyst experience in private equity or credit research, making it unsuitable for a fresher.",
+   "track_scores": {
+    "analyst": 55
+   }
+  },
+  {
    "uid": "greenhouse:rubrik:8349847",
    "source": "greenhouse",
    "company": "Rubrik Job Board",
@@ -1971,41 +2005,6 @@
    "resume_reason": "AI pick: The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
    "track_scores": {
     "software": 53
-   }
-  },
-  {
-   "uid": "lever:mindtickle:2f32712f-bc84-4485-b2fb-99e167f54e21",
-   "source": "lever",
-   "company": "Mindtickle",
-   "title": "SDE-III",
-   "url": "https://jobs.lever.co/mindtickle/2f32712f-bc84-4485-b2fb-99e167f54e21",
-   "apply_url": "https://jobs.lever.co/mindtickle/2f32712f-bc84-4485-b2fb-99e167f54e21/apply",
-   "location": "Pune, Maharashtra; Bengaluru, Karnataka",
-   "remote": false,
-   "posted": "2026-11-24T04:58:29.151000+00:00",
-   "department": "Engineering",
-   "employment_type": "Full-Time",
-   "seniority": "",
-   "score": 32,
-   "reasons": [
-    "title: sde",
-    "location: bengaluru",
-    "posted in last 3 days",
-    "skills: react"
-   ],
-   "flags": [],
-   "min_years": null,
-   "is_new": false,
-   "first_seen": "2026-11-24T14:55:50+00:00",
-   "llm_score": 0,
-   "llm_reason": "The job requires senior-level industry experience (SDE-III), but the candidate is a fresher graduating in 2027.",
-   "snippet": "Who we are\nMindtickle is the market-leading revenue productivity platform that combines on-the-job learning and deal execution to drive more revenue per rep. We help revenue teams at world-class companies unleash their potential by providing a unified platform for conversation intelligence, training, coaching, and analytics. Recognized as a market leader by top industry analysts and ranked by G2 a",
-   "track": "software",
-   "track_label": "Software / Full-stack",
-   "resume": "HIMANSHU_FINAL_TECH.pdf",
-   "resume_reason": "AI pick: The job requires senior-level industry experience (SDE-III), but the candidate is a fresher graduating in 2027.",
-   "track_scores": {
-    "software": 63
    }
   },
   {
@@ -2045,6 +2044,40 @@
    "resume_reason": "AI pick: The candidate is a Mechanical Engineering student, whereas the role requires Computer Science or related fields.",
    "track_scores": {
     "software": 60
+   }
+  },
+  {
+   "uid": "lever:mindtickle:2f32712f-bc84-4485-b2fb-99e167f54e21",
+   "source": "lever",
+   "company": "Mindtickle",
+   "title": "SDE-III",
+   "url": "https://jobs.lever.co/mindtickle/2f32712f-bc84-4485-b2fb-99e167f54e21",
+   "apply_url": "https://jobs.lever.co/mindtickle/2f32712f-bc84-4485-b2fb-99e167f54e21/apply",
+   "location": "Pune, Maharashtra; Bengaluru, Karnataka",
+   "remote": false,
+   "posted": "2026-11-24T04:58:29.151000+00:00",
+   "department": "Engineering",
+   "employment_type": "Full-Time",
+   "seniority": "",
+   "score": 29,
+   "reasons": [
+    "title: sde",
+    "location: bengaluru",
+    "skills: react"
+   ],
+   "flags": [],
+   "min_years": null,
+   "is_new": false,
+   "first_seen": "2026-11-24T14:55:50+00:00",
+   "llm_score": 0,
+   "llm_reason": "The job requires senior-level industry experience (SDE-III), but the candidate is a fresher graduating in 2027.",
+   "snippet": "Who we are\nMindtickle is the market-leading revenue productivity platform that combines on-the-job learning and deal execution to drive more revenue per rep. We help revenue teams at world-class companies unleash their potential by providing a unified platform for conversation intelligence, training, coaching, and analytics. Recognized as a market leader by top industry analysts and ranked by G2 a",
+   "track": "software",
+   "track_label": "Software / Full-stack",
+   "resume": "HIMANSHU_FINAL_TECH.pdf",
+   "resume_reason": "AI pick: The job requires senior-level industry experience (SDE-III), but the candidate is a fresher graduating in 2027.",
+   "track_scores": {
+    "software": 58
    }
   }
  ]
