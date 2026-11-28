@@ -1,7 +1,7 @@
 {
  "ashby:atlan:dbb8cec5-f9b8-46af-bbbe-9638c5646638": {
   "first_seen": "2026-11-26T13:57:50+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "Strong React and TypeScript frontend skills paired with hands-on AI/LLM project experience make this a great product startup fit.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -55,7 +55,7 @@
  },
  "greenhouse:guidepoint:8959578002": {
   "first_seen": "2026-11-24T14:55:50+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The job requires 4+ years of deep fundamental analyst experience in private equity or credit research, making it unsuitable for a fresher.",
    "resume": "INTERN_ADDED_NON_TECH.pdf",
@@ -199,7 +199,7 @@
  },
  "greenhouse:razorpaysoftwareprivatelimited:4757678005": {
   "first_seen": "2026-11-26T13:57:50+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The role is for a Customer Support Executive in fintech, which is a lower fit for an analytical and strategy-focused B.Tech graduate targeting business analyst or consulting roles.",
    "resume": "icic_1.pdf",
@@ -271,7 +271,7 @@
  },
  "greenhouse:rubrik:8349847": {
   "first_seen": "2026-11-17T02:57:52+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The candidate lacks the required Golang, PKI, and identity protocol expertise, making this a poor fit for a specialized security-focused role.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -289,7 +289,7 @@
  },
  "greenhouse:rubrik:8413157": {
   "first_seen": "2026-11-26T13:57:50+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The candidate is a Mechanical Engineering student, whereas the role requires Computer Science or related fields.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -415,7 +415,7 @@
  },
  "lever:fampay:cf014ef0-218a-4041-a238-ff91c7b9a5bc": {
   "first_seen": "2026-11-26T13:57:50+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "Strong full-stack and backend project background fits the startup internship, though CS degree preference and Python/Go requirements are gaps.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -433,7 +433,7 @@
  },
  "lever:meesho:73db1822-f3de-4f9f-a2b3-944ea0b03702": {
   "first_seen": "2026-11-27T13:56:09+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The role perfectly aligns with the candidate's full-stack project experience and AI-integration skills, though the candidate is slightly under the 1-year experience requirement.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -451,7 +451,7 @@
  },
  "lever:mindtickle:2f32712f-bc84-4485-b2fb-99e167f54e21": {
   "first_seen": "2026-11-24T14:55:50+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The job requires senior-level industry experience (SDE-III), but the candidate is a fresher graduating in 2027.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -937,7 +937,7 @@
  },
  "smartrecruiters:boschgroup:744000160600719": {
   "first_seen": "2026-11-09T18:52:01+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "Bosch is a large-scale product company that values both robust full-stack capabilities and the technical depth shown in the project-focused resume.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -955,7 +955,7 @@
  },
  "smartrecruiters:boschgroup:744000160603388": {
   "first_seen": "2026-11-09T18:52:01+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The candidate's profile is focused on full-stack web development, whereas this role requires specialized Linux infrastructure and Ansible automation skills.",
    "resume": "HCLTech_Resume.pdf",
@@ -973,7 +973,7 @@
  },
  "smartrecruiters:boschgroup:744000160794268": {
   "first_seen": "2026-11-10T12:43:22+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "Bosch is a large-scale product company that values the robust backend architecture and full-stack expertise highlighted in the technical resume.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -991,7 +991,7 @@
  },
  "smartrecruiters:boschgroup:744000161732674": {
   "first_seen": "2026-11-16T06:39:16+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The role aligns with the candidate's warehouse and inventory analytics experience, though it is a functional 'Key-user' role rather than a pure planning/analytics role.",
    "resume": "Supply_chain.pdf",
@@ -1009,7 +1009,7 @@
  },
  "smartrecruiters:boschgroup:744000162221730": {
   "first_seen": "2026-11-18T07:37:06+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The candidate's specific experience with demand forecasting models and inventory segmentation aligns perfectly with the core responsibilities of a Demand Planner role.",
    "resume": "Supply_chain.pdf",
@@ -1027,7 +1027,7 @@
  },
  "smartrecruiters:boschgroup:744000162442879": {
   "first_seen": "2026-11-19T13:20:00+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
    "resume": "HCLTech_Resume.pdf",
@@ -1045,7 +1045,7 @@
  },
  "smartrecruiters:boschgroup:744000162443139": {
   "first_seen": "2026-11-19T13:20:00+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The role is for an embedded/automotive algorithm developer, which does not align with the candidate's full-stack web development profile.",
    "resume": "HCLTech_Resume.pdf",
@@ -1351,7 +1351,7 @@
  },
  "smartrecruiters:servicenow:744000163146999": {
   "first_seen": "2026-11-23T14:46:36+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The job requires Go and Kubernetes, which do not match the candidate's TypeScript and React full-stack stack.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
@@ -1423,7 +1423,7 @@
  },
  "smartrecruiters:sutherland:744000161998729": {
   "first_seen": "2026-11-17T13:31:59+00:00",
-  "last_seen": "2026-11-27T13:56:09+00:00",
+  "last_seen": "2026-11-28T00:05:12+00:00",
   "llm": {
    "reason": "The role aligns perfectly with the candidate's full-stack expertise, and the product-focused resume highlights the necessary technical depth for a developer position.",
    "resume": "HIMANSHU_FINAL_TECH.pdf",
