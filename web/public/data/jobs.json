@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Job Radar",
-  "generated": "2026-11-28T07:56:43+00:00",
+  "generated": "2026-11-28T16:55:43+00:00",
   "first_run": false,
-  "total_fetched": 16804,
+  "total_fetched": 16799,
   "boards_ok": 139,
   "boards": [
    {
@@ -353,7 +353,7 @@
     "source": "greenhouse",
     "slug": "okta",
     "company": "Okta",
-    "count": 360,
+    "count": 359,
     "error": ""
    },
    {
@@ -808,7 +808,7 @@
     "source": "smartrecruiters",
     "slug": "HMGroup",
     "company": "H&M Group",
-    "count": 1735,
+    "count": 1731,
     "error": ""
    },
    {
@@ -1345,10 +1345,10 @@
    }
   ],
   "drops": {
-   "role keywords not matched": 15393,
+   "role keywords not matched": 15387,
    "older than max_age_days": 76,
-   "excluded title word (e.g. senior/manager)": 731,
    "location not wanted": 564,
+   "excluded title word (e.g. senior/manager)": 732,
    "asks for more experience than max_years_experience": 23
   },
   "notes": [],
@@ -1512,7 +1512,7 @@
    ],
    "flags": [],
    "min_years": 1,
-   "is_new": true,
+   "is_new": false,
    "first_seen": "2026-11-27T13:56:09+00:00",
    "llm_score": 85,
    "llm_reason": "The role perfectly aligns with the candidate's full-stack project experience and AI-integration skills, though the candidate is slightly under the 1-year experience requirement.",
